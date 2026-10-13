@@ -1,0 +1,143 @@
+{
+  "_comment": "Cross-language synonym groups. If an article matches any term in a group, all terms in that group are added to its searchable text, so an English query can surface a Tamil guide and vice versa. Contributors: add plain-language equivalents here.",
+  "groups": [
+    [
+      "traffic",
+      "traffic rules",
+      "challan",
+      "driving licence",
+      "license",
+      "vehicle",
+      "போக்குவரத்து",
+      "சாலான்",
+      "ஓட்டுநர் உரிமம்",
+      "வாகனம்"
+    ],
+    [
+      "cybercrime",
+      "online fraud",
+      "scam",
+      "scammed",
+      "UPI",
+      "OTP",
+      "phishing",
+      "hacked",
+      "இணையக் குற்றம்",
+      "மோசடி",
+      "ஆன்லைன்",
+      "ஏமாற்று"
+    ],
+    [
+      "police",
+      "arrest",
+      "arrested",
+      "station",
+      "FIR",
+      "bail",
+      "custody",
+      "காவல்துறை",
+      "கைது",
+      "ஜாமீன்",
+      "காவல்"
+    ],
+    [
+      "consumer",
+      "refund",
+      "defective",
+      "complaint",
+      "warranty",
+      "e-commerce",
+      "நுகர்வோர்",
+      "புகார்",
+      "பணம் திரும்ப",
+      "உத்தரவாதம்"
+    ],
+    [
+      "salary",
+      "wages",
+      "employer",
+      "labour",
+      "PF",
+      "unpaid",
+      "சம்பளம்",
+      "ஊதியம்",
+      "முதலாளி",
+      "தொழிலாளர்"
+    ],
+    [
+      "rent",
+      "tenant",
+      "landlord",
+      "deposit",
+      "eviction",
+      "lease",
+      "வாடகை",
+      "வாடகைதாரர்",
+      "வீட்டு உரிமையாளர்",
+      "வெளியேற்றம்"
+    ],
+    [
+      "bank",
+      "banking",
+      "fraud",
+      "transaction",
+      "card",
+      "account",
+      "வங்கி",
+      "மோசடி",
+      "பரிவர்த்தனை",
+      "கணக்கு"
+    ],
+    [
+      "family",
+      "marriage",
+      "maintenance",
+      "divorce",
+      "custody",
+      "domestic violence",
+      "குடும்பம்",
+      "திருமணம்",
+      "ஜீவனாம்சம்",
+      "விவாகரத்து",
+      "குடும்ப வன்முறை"
+    ],
+    [
+      "rights",
+      "fundamental rights",
+      "constitution",
+      "article 21",
+      "equality",
+      "உரிமை",
+      "உரிமைகள்",
+      "அரசியலமைப்பு",
+      "சமத்துவம்"
+    ],
+    [
+      "emergency",
+      "helpline",
+      "112",
+      "181",
+      "1098",
+      "ambulance",
+      "police",
+      "அவசரம்",
+      "உதவி எண்",
+      "ஆம்புலன்ஸ்"
+    ],
+    [
+      "legal aid",
+      "free lawyer",
+      "NALSA",
+      "DLSA",
+      "இலவச சட்ட உதவி",
+      "வழக்கறிஞர்"
+    ],
+    [
+      "notice",
+      "eviction notice",
+      "quit notice",
+      "நோட்டீஸ்",
+      "அறிவிப்பு"
+    ]
+  ]
+}

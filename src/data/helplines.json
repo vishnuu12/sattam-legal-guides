@@ -1,0 +1,55 @@
+{
+  "numbers": [
+    {
+      "num": "112",
+      "urgent": true,
+      "en": "All emergencies - police, fire and ambulance",
+      "ta": "அனைத்து அவசரங்கள் - காவல்துறை, தீயணைப்பு மற்றும் ஆம்புலன்ஸ்"
+    },
+    {
+      "num": "100",
+      "en": "Police",
+      "ta": "காவல்துறை"
+    },
+    {
+      "num": "101",
+      "en": "Fire",
+      "ta": "தீயணைப்பு"
+    },
+    {
+      "num": "108",
+      "en": "Ambulance / medical emergency",
+      "ta": "ஆம்புலன்ஸ் / மருத்துவ அவசரம்"
+    },
+    {
+      "num": "181",
+      "en": "Women's helpline",
+      "ta": "மகளிர் உதவி எண்"
+    },
+    {
+      "num": "1098",
+      "en": "Childline - children in need of care and protection",
+      "ta": "Childline - பராமரிப்பும் பாதுகாப்பும் தேவைப்படும் குழந்தைகள்"
+    },
+    {
+      "num": "14567",
+      "en": "Senior citizens helpline",
+      "ta": "மூத்த குடிமக்கள் உதவி எண்"
+    },
+    {
+      "num": "1930",
+      "en": "Cybercrime / financial fraud",
+      "ta": "இணையக் குற்றம் / நிதி மோசடி"
+    },
+    {
+      "num": "1915",
+      "en": "Consumer helpline",
+      "ta": "நுகர்வோர் உதவி எண்"
+    },
+    {
+      "num": "15100",
+      "en": "Free legal aid (NALSA)",
+      "ta": "இலவச சட்ட உதவி (NALSA)"
+    }
+  ]
+}

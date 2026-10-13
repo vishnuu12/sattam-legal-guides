@@ -1,0 +1,344 @@
+{
+  "en": {
+    "lang": "en",
+    "langName": "English",
+    "brand": {
+      "name": "Sattam",
+      "tagline": "Simple law guides for everyday life in India"
+    },
+    "nav": {
+      "home": "Home",
+      "guides": "All Guides",
+      "categories": "Topics",
+      "emergency": "Emergency Help",
+      "about": "About",
+      "menu": "Menu",
+      "skipToContent": "Skip to main content",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu"
+    },
+    "languageSwitcher": {
+      "label": "Language",
+      "switchTo": "Switch to Tamil",
+      "english": "English",
+      "tamil": "தமிழ்",
+      "current": "Current language"
+    },
+    "hero": {
+      "title": "Know Your Rights. Live With Confidence.",
+      "subtitle": "Everyday laws explained in simple language, so you know what to do and where to turn.",
+      "eyebrow": "Free • In English & Tamil • Plain language"
+    },
+    "search": {
+      "placeholder": "Search a legal question...",
+      "label": "Search legal guides",
+      "button": "Search",
+      "clear": "Clear search",
+      "resultsTitle": "Search results",
+      "resultCount": "{n} result(s)",
+      "resultCountOne": "1 result",
+      "loading": "Searching...",
+      "noResults": "No guides matched your search.",
+      "noResultsHelp": "Try simpler words, a different spelling, or browse a topic below.",
+      "filters": "Filters",
+      "filterLanguage": "Language",
+      "filterCategory": "Topic",
+      "allLanguages": "All languages",
+      "allCategories": "All topics",
+      "inLanguage": "In {lang}",
+      "showing": "Showing",
+      "reset": "Reset filters",
+      "suggestions": "Popular searches"
+    },
+    "actions": {
+      "exploreGuides": "Explore Legal Guides",
+      "knowYourRights": "Know Your Rights",
+      "readGuide": "Read guide",
+      "viewAll": "View all",
+      "backHome": "Back to home",
+      "backToTop": "Back to top",
+      "callNow": "Call now",
+      "report": "Report it"
+    },
+    "home": {
+      "topicsTitle": "Browse by topic",
+      "topicsSubtitle": "Pick the situation closest to yours.",
+      "dailyTitle": "Today's legal knowledge",
+      "dailySubtitle": "One verified point a day, with the source to check it yourself.",
+      "dailySourceLabel": "Source",
+      "dailyVerified": "Linked to an official source",
+      "popularTitle": "Popular questions",
+      "popularSubtitle": "The things people search for most.",
+      "situationsTitle": "Everyday Situations",
+      "situationsSubtitle": "Real-life moments where the law is on your side.",
+      "trustTitle": "Why you can rely on this",
+      "trustOneTitle": "Plain language",
+      "trustOneText": "No confusing legal jargon. We explain the meaning, not just the words.",
+      "trustTwoTitle": "Both languages, equally",
+      "trustTwoText": "Tamil is a first-class language here, not an afterthought.",
+      "trustThreeTitle": "Sources you can check",
+      "trustThreeText": "Every guide links to the official law or government page.",
+      "trustFourTitle": "Honest review labels",
+      "trustFourText": "We show clearly whether a guide has been legally and linguistically reviewed."
+    },
+    "callouts": {
+      "didYouKnow": "Did You Know?",
+      "rights": "Your Legal Rights",
+      "caution": "Important Caution",
+      "action": "What You Can Do",
+      "remember": "Remember This",
+      "sources": "Official Sources",
+      "misconceptions": "Common Misconceptions"
+    },
+    "article": {
+      "readingTime": "{n} min read",
+      "lastUpdated": "Last updated",
+      "category": "Topic",
+      "tags": "Tags",
+      "quickSummary": "Quick summary",
+      "practicalSteps": "Practical steps",
+      "exceptions": "Legal exceptions",
+      "faqs": "Frequently asked questions",
+      "sources": "Official sources",
+      "related": "Related guides",
+      "onThisPage": "On this page",
+      "reviewStatus": "Review status",
+      "translationStatus": "Translation",
+      "legalStatus": "Legal review",
+      "lastLegalReview": "Last legal review",
+      "backToCategory": "Back to topic"
+    },
+    "status": {
+      "reviewed": "Reviewed",
+      "pending": "Review pending",
+      "in_review": "In review",
+      "machine": "Machine translation",
+      "human": "Human translation",
+      "draft": "Draft",
+      "published": "Published",
+      "fallbackNotice": "This page is showing the {lang} version because a full {missing} translation is not available yet.",
+      "fallbackBadge": "Fallback content",
+      "unverifiedNotice": "This guide has not yet completed legal review. Use it as general information, and confirm details with an official source or a lawyer.",
+      "translationPendingNotice": "The Tamil translation of this guide is still being reviewed.",
+      "reviewedNotice": "This guide has been reviewed for legal accuracy and language quality."
+    },
+    "disclaimer": {
+      "short": "General legal information, not legal advice.",
+      "full": "Sattam provides general legal information for education only. It is not legal advice and does not create a lawyer-client relationship. Laws change and vary by state. For your specific situation, consult a qualified lawyer or your nearest free legal aid centre."
+    },
+    "footer": {
+      "about": "About Sattam",
+      "aboutText": "Sattam is a free public legal-education project. We explain everyday Indian laws in simple English and Tamil so anyone can understand their rights.",
+      "quickLinks": "Quick links",
+      "topics": "Topics",
+      "legal": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms of use",
+      "contribute": "Contribute",
+      "contributeText": "Found a mistake or want to help translate? Contributions are welcome.",
+      "license": "Content shared under {license}. Code under MIT.",
+      "builtWith": "A static site, built to be fast and accessible."
+    },
+    "emergency": {
+      "bannerTitle": "In an emergency, call 112",
+      "bannerText": "One number for police, fire and ambulance across India.",
+      "title": "Emergency numbers & helplines",
+      "subtitle": "Save these numbers. They are free and work from any phone in India.",
+      "national": "National helplines",
+      "number": "Number",
+      "service": "Service",
+      "freeAid": "Free legal aid",
+      "freeAidText": "Every district has a Legal Services Authority that gives free legal aid to those who qualify."
+    },
+    "empty": {
+      "noResultsTitle": "Nothing here yet",
+      "noResultsText": "No guides matched. Try another word, or explore a topic.",
+      "noGuidesTitle": "Guides are on the way",
+      "noGuidesText": "This topic is being written. Check back soon.",
+      "noTranslationTitle": "Tamil version coming soon",
+      "noTranslationText": "This guide is being translated. You are reading the English version for now."
+    },
+    "a11y": {
+      "externalLink": "Opens in a new tab",
+      "languageBadge": "Language",
+      "currentPage": "Current page",
+      "resultsUpdated": "Search results updated"
+    },
+    "meta": {
+      "homeTitle": "Sattam — Know Your Rights. Live With Confidence.",
+      "homeDescription": "Free, plain-language legal guides for everyday life in India, in English and Tamil.",
+      "siteName": "Sattam"
+    }
+  },
+  "ta": {
+    "lang": "ta",
+    "langName": "தமிழ்",
+    "brand": {
+      "name": "சட்டம்",
+      "tagline": "இந்தியாவின் அன்றாட வாழ்க்கைக்கான எளிய சட்ட வழிகாட்டிகள்"
+    },
+    "nav": {
+      "home": "முதற்பக்கம்",
+      "guides": "அனைத்து வழிகாட்டிகள்",
+      "categories": "தலைப்புகள்",
+      "emergency": "அவசர உதவி",
+      "about": "எங்களைப் பற்றி",
+      "menu": "பட்டியல்",
+      "skipToContent": "முதன்மை உள்ளடக்கத்திற்குச் செல்லவும்",
+      "openMenu": "பட்டியலைத் திறக்கவும்",
+      "closeMenu": "பட்டியலை மூடவும்"
+    },
+    "languageSwitcher": {
+      "label": "மொழி",
+      "switchTo": "ஆங்கிலத்திற்கு மாறவும்",
+      "english": "English",
+      "tamil": "தமிழ்",
+      "current": "தற்போதைய மொழி"
+    },
+    "hero": {
+      "title": "உங்கள் உரிமைகளை அறியுங்கள். நம்பிக்கையுடன் வாழுங்கள்.",
+      "subtitle": "அன்றாட வாழ்க்கையில் நமக்குத் தேவையான சட்டங்களை எளிய தமிழிலும் ஆங்கிலத்திலும் தெரிந்துகொள்ளுங்கள்.",
+      "eyebrow": "இலவசம் • தமிழ் & ஆங்கிலம் • எளிய மொழி"
+    },
+    "search": {
+      "placeholder": "சட்டம் தொடர்பான உங்கள் கேள்வியைத் தேடுங்கள்...",
+      "label": "சட்ட வழிகாட்டிகளைத் தேடுங்கள்",
+      "button": "தேடு",
+      "clear": "தேடலை அழிக்கவும்",
+      "resultsTitle": "தேடல் முடிவுகள்",
+      "resultCount": "{n} முடிவுகள்",
+      "resultCountOne": "1 முடிவு",
+      "loading": "தேடுகிறது...",
+      "noResults": "உங்கள் தேடலுக்கு எந்த வழிகாட்டியும் பொருந்தவில்லை.",
+      "noResultsHelp": "எளிய வார்த்தைகள் அல்லது வேறு எழுத்துப்பிழையுடன் முயற்சி செய்யுங்கள், அல்லது கீழே ஒரு தலைப்பைத் தேர்ந்தெடுங்கள்.",
+      "filters": "வடிகட்டிகள்",
+      "filterLanguage": "மொழி",
+      "filterCategory": "தலைப்பு",
+      "allLanguages": "அனைத்து மொழிகளும்",
+      "allCategories": "அனைத்து தலைப்புகளும்",
+      "inLanguage": "{lang} மொழியில்",
+      "showing": "காட்டப்படுகிறது",
+      "reset": "வடிகட்டிகளை மீட்டமை",
+      "suggestions": "பிரபலமான தேடல்கள்"
+    },
+    "actions": {
+      "exploreGuides": "சட்ட வழிகாட்டிகளைப் பாருங்கள்",
+      "knowYourRights": "உங்கள் உரிமைகளை அறிந்துகொள்ளுங்கள்",
+      "readGuide": "வழிகாட்டியைப் படிக்கவும்",
+      "viewAll": "அனைத்தையும் பார்க்கவும்",
+      "backHome": "முதற்பக்கத்திற்குத் திரும்பு",
+      "backToTop": "மேலே செல்லவும்",
+      "callNow": "இப்போது அழையுங்கள்",
+      "report": "புகார் அளியுங்கள்"
+    },
+    "home": {
+      "topicsTitle": "தலைப்பு வாரியாகப் பாருங்கள்",
+      "topicsSubtitle": "உங்கள் நிலைமைக்கு மிக நெருக்கமானதைத் தேர்ந்தெடுங்கள்.",
+      "dailyTitle": "இன்றைய சட்ட அறிவு",
+      "dailySubtitle": "ஒவ்வொரு நாளும் ஒரு உறுதிப்படுத்தப்பட்ட தகவல், அதை நீங்களே சரிபார்க்க மூலத்துடன்.",
+      "dailySourceLabel": "மூலம்",
+      "dailyVerified": "அதிகாரப்பூர்வ மூலத்துடன் இணைக்கப்பட்டது",
+      "popularTitle": "பிரபலமான கேள்விகள்",
+      "popularSubtitle": "மக்கள் அதிகம் தேடும் விஷயங்கள்.",
+      "situationsTitle": "அன்றாட வாழ்க்கையில் சந்திக்கும் சூழல்கள்",
+      "situationsSubtitle": "சட்டம் உங்கள் பக்கம் இருக்கும் உண்மையான வாழ்க்கைத் தருணங்கள்.",
+      "trustTitle": "இதை நீங்கள் நம்பலாம் என்பதற்கான காரணம்",
+      "trustOneTitle": "எளிய மொழி",
+      "trustOneText": "குழப்பமான சட்டச் சொற்கள் இல்லை. வார்த்தைகளை மட்டுமல்ல, அதன் பொருளையும் விளக்குகிறோம்.",
+      "trustTwoTitle": "இரு மொழிகளும் சமமாக",
+      "trustTwoText": "இங்கே தமிழ் ஒரு முதன்மை மொழி; பின்னால் சேர்க்கப்பட்டது அல்ல.",
+      "trustThreeTitle": "நீங்களே சரிபார்க்கக்கூடிய மூலங்கள்",
+      "trustThreeText": "ஒவ்வொரு வழிகாட்டியும் அதிகாரப்பூர்வ சட்டம் அல்லது அரசு பக்கத்துடன் இணைக்கப்பட்டுள்ளது.",
+      "trustFourTitle": "நேர்மையான மதிப்பாய்வு குறிச்சொற்கள்",
+      "trustFourText": "ஒரு வழிகாட்டி சட்டப்படியும் மொழியியல்படியும் மதிப்பாய்வு செய்யப்பட்டதா என்பதை தெளிவாகக் காட்டுகிறோம்."
+    },
+    "callouts": {
+      "didYouKnow": "உங்களுக்குத் தெரியுமா?",
+      "rights": "உங்கள் சட்ட உரிமைகள்",
+      "caution": "முக்கிய எச்சரிக்கை",
+      "action": "நீங்கள் செய்யக்கூடியவை",
+      "remember": "நினைவில் கொள்ளுங்கள்",
+      "sources": "அதிகாரப்பூர்வ ஆதாரங்கள்",
+      "misconceptions": "பொதுவான தவறான புரிதல்கள்"
+    },
+    "article": {
+      "readingTime": "{n} நிமிட வாசிப்பு",
+      "lastUpdated": "கடைசியாகப் புதுப்பிக்கப்பட்டது",
+      "category": "தலைப்பு",
+      "tags": "குறிச்சொற்கள்",
+      "quickSummary": "சுருக்கமான சாரம்",
+      "practicalSteps": "செயல்முறை படிகள்",
+      "exceptions": "சட்ட விதிவிலக்குகள்",
+      "faqs": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+      "sources": "அதிகாரப்பூர்வ ஆதாரங்கள்",
+      "related": "தொடர்புடைய வழிகாட்டிகள்",
+      "onThisPage": "இந்தப் பக்கத்தில்",
+      "reviewStatus": "மதிப்பாய்வு நிலை",
+      "translationStatus": "மொழிபெயர்ப்பு",
+      "legalStatus": "சட்ட மதிப்பாய்வு",
+      "lastLegalReview": "கடைசி சட்ட மதிப்பாய்வு",
+      "backToCategory": "தலைப்பிற்குத் திரும்பு"
+    },
+    "status": {
+      "reviewed": "மதிப்பாய்வு செய்யப்பட்டது",
+      "pending": "மதிப்பாய்வு நிலுவையில்",
+      "in_review": "மதிப்பாய்வில்",
+      "machine": "இயந்திர மொழிபெயர்ப்பு",
+      "human": "மனித மொழிபெயர்ப்பு",
+      "draft": "வரைவு",
+      "published": "வெளியிடப்பட்டது",
+      "fallbackNotice": "முழுமையான {missing} மொழிபெயர்ப்பு இன்னும் தயாராகாததால், இந்தப் பக்கம் {lang} பதிப்பைக் காட்டுகிறது.",
+      "fallbackBadge": "மாற்று உள்ளடக்கம்",
+      "unverifiedNotice": "இந்த வழிகாட்டி இன்னும் சட்ட மதிப்பாய்வை முடிக்கவில்லை. இதை பொதுவான தகவலாகப் பயன்படுத்துங்கள்; விவரங்களை அதிகாரப்பூர்வ ஆதாரம் அல்லது ஒரு வழக்கறிஞரிடம் உறுதிப்படுத்துங்கள்.",
+      "translationPendingNotice": "இந்த வழிகாட்டியின் தமிழ் மொழிபெயர்ப்பு இன்னும் மதிப்பாய்வு செய்யப்படுகிறது.",
+      "reviewedNotice": "இந்த வழிகாட்டி சட்டத் துல்லியம் மற்றும் மொழித் தரத்திற்காக மதிப்பாய்வு செய்யப்பட்டுள்ளது."
+    },
+    "disclaimer": {
+      "short": "பொதுவான சட்டத் தகவல்; சட்ட ஆலோசனை அல்ல.",
+      "full": "சட்டம் கல்விக்காக மட்டுமே பொதுவான சட்டத் தகவலை வழங்குகிறது. இது சட்ட ஆலோசனை அல்ல; வழக்கறிஞர்-வாடிக்கையாளர் உறவை உருவாக்காது. சட்டங்கள் மாறலாம்; மாநிலத்திற்கு மாநிலம் வேறுபடலாம். உங்கள் குறிப்பிட்ட நிலைமைக்கு, தகுதியான வழக்கறிஞரையோ அல்லது அருகிலுள்ள இலவச சட்ட உதவி மையத்தையோ அணுகுங்கள்."
+    },
+    "footer": {
+      "about": "சட்டம் பற்றி",
+      "aboutText": "சட்டம் ஒரு இலவச பொது சட்டக் கல்வித் திட்டம். இந்தியாவின் அன்றாட சட்டங்களை எளிய ஆங்கிலத்திலும் தமிழிலும் விளக்கி, எவரும் தங்கள் உரிமைகளைப் புரிந்துகொள்ள உதவுகிறோம்.",
+      "quickLinks": "விரைவு இணைப்புகள்",
+      "topics": "தலைப்புகள்",
+      "legal": "சட்டம்",
+      "privacy": "தனியுரிமை",
+      "terms": "பயன்பாட்டு விதிமுறைகள்",
+      "contribute": "பங்களியுங்கள்",
+      "contributeText": "தவறு கண்டீர்களா அல்லது மொழிபெயர்க்க உதவ விரும்புகிறீர்களா? பங்களிப்புகள் வரவேற்கப்படுகின்றன.",
+      "license": "உள்ளடக்கம் {license} கீழ் பகிரப்படுகிறது. Code MIT கீழ்.",
+      "builtWith": "வேகமாகவும் அணுகக்கூடியதாகவும் கட்டப்பட்ட ஒரு static site."
+    },
+    "emergency": {
+      "bannerTitle": "அவசர நிலையில் 112-ஐ அழையுங்கள்",
+      "bannerText": "இந்தியா முழுவதும் காவல்துறை, தீயணைப்பு, ஆம்புலன்ஸ் — அனைத்துக்கும் ஒரே எண்.",
+      "title": "அவசர எண்கள் மற்றும் உதவி எண்கள்",
+      "subtitle": "இந்த எண்களைச் சேமியுங்கள். இவை இலவசம்; இந்தியாவில் எந்த மொபைலிலிருந்தும் அழைக்கலாம்.",
+      "national": "தேசிய உதவி எண்கள்",
+      "number": "எண்",
+      "service": "சேவை",
+      "freeAid": "இலவச சட்ட உதவி",
+      "freeAidText": "ஒவ்வொரு மாவட்டத்திலும் ஒரு சட்ட சேவைகள் ஆணையம் உள்ளது; தகுதியுள்ளவர்களுக்கு இலவச சட்ட உதவி வழங்குகிறது."
+    },
+    "empty": {
+      "noResultsTitle": "இங்கே இன்னும் எதுவும் இல்லை",
+      "noResultsText": "எந்த வழிகாட்டியும் பொருந்தவில்லை. வேறு ஒரு வார்த்தையை முயற்சி செய்யுங்கள் அல்லது ஒரு தலைப்பைப் பாருங்கள்.",
+      "noGuidesTitle": "வழிகாட்டிகள் விரைவில் வருகின்றன",
+      "noGuidesText": "இந்தத் தலைப்பு எழுதப்பட்டு வருகிறது. விரைவில் மீண்டும் பாருங்கள்.",
+      "noTranslationTitle": "தமிழ் பதிப்பு விரைவில்",
+      "noTranslationText": "இந்த வழிகாட்டி மொழிபெயர்க்கப்பட்டு வருகிறது. தற்போது ஆங்கில பதிப்பைப் படிக்கிறீர்கள்."
+    },
+    "a11y": {
+      "externalLink": "புதிய தாவலில் திறக்கும்",
+      "languageBadge": "மொழி",
+      "currentPage": "தற்போதைய பக்கம்",
+      "resultsUpdated": "தேடல் முடிவுகள் புதுப்பிக்கப்பட்டன"
+    },
+    "meta": {
+      "homeTitle": "சட்டம் — உங்கள் உரிமைகளை அறியுங்கள். நம்பிக்கையுடன் வாழுங்கள்.",
+      "homeDescription": "இந்தியாவின் அன்றாட வாழ்க்கைக்கான இலவச, எளிய மொழி சட்ட வழிகாட்டிகள் — ஆங்கிலம் மற்றும் தமிழில்.",
+      "siteName": "சட்டம்"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "slug": "traffic-rules",
+      "emoji": "🚗",
+      "en": "A traffic officer stops you on the road",
+      "ta": "சாலையில் போக்குவரத்து அதிகாரி உங்களை நிறுத்துகிறார்"
+    },
+    {
+      "slug": "cybercrime",
+      "emoji": "📱",
+      "en": "A message says you have won a prize",
+      "ta": "நீங்கள் ஒரு பரிசு வென்றதாக ஒரு செய்தி வருகிறது"
+    },
+    {
+      "slug": "consumer-rights",
+      "emoji": "🛒",
+      "en": "An online order arrives damaged",
+      "ta": "ஆன்லைன் ஆர்டர் சேதமாக வந்து சேர்கிறது"
+    },
+    {
+      "slug": "employment-rights",
+      "emoji": "💼",
+      "en": "Your salary is two months late",
+      "ta": "உங்கள் சம்பளம் இரண்டு மாதம் தாமதமாகிறது"
+    },
+    {
+      "slug": "housing-rental",
+      "emoji": "🏠",
+      "en": "Your landlord will not return your deposit",
+      "ta": "வீட்டு உரிமையாளர் உங்கள் முன்பணத்தைத் திருப்பித் தர மறுக்கிறார்"
+    },
+    {
+      "slug": "banking-safety",
+      "emoji": "💳",
+      "en": "Money leaves your account without your OTP",
+      "ta": "உங்கள் OTP இல்லாமல் கணக்கிலிருந்து பணம் போகிறது"
+    }
+  ]
+}
