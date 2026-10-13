@@ -3,8 +3,8 @@
   "slug": "housing-rental",
   "lang": "en",
   "category": "housing-rental",
-  "title": "Rent Agreements, Deposits and Eviction",
-  "summary": "What a good rent agreement contains, how deposits work, and the rules on notice and eviction.",
+  "title": "Rent Agreement, Deposit and Eviction",
+  "summary": "What a good rent agreement should have, how the deposit works, and the rules on notice and eviction.",
   "tags": [
     "rent",
     "tenant",
@@ -29,7 +29,7 @@
   "body": [
     {
       "type": "p",
-      "text": "A rent agreement is a contract, and both the tenant and the landlord have rights. A clear written agreement prevents most disputes."
+      "text": "A rent agreement is a contract. The tenant and the landlord both have rights. A clear written agreement stops most fights."
     },
     {
       "type": "h2",
@@ -38,11 +38,11 @@
     {
       "type": "list",
       "items": [
-        "Rent amount, due date and mode of payment.",
-        "Security deposit amount and when it is returned.",
-        "Notice period for leaving, or for asking a tenant to leave.",
+        "The rent amount, the date it is due, and how to pay it.",
+        "The security deposit amount and when you get it back.",
+        "The notice period for leaving, or for asking a tenant to leave.",
         "Who pays maintenance, electricity and water.",
-        "Rules on repairs and sub-letting."
+        "Rules on repairs and sub-letting (renting the place to someone else)."
       ]
     },
     {
@@ -52,10 +52,10 @@
     {
       "type": "list",
       "items": [
-        "Right to live peacefully without unlawful eviction.",
-        "Right to get the security deposit back as agreed.",
-        "Right to essential services such as water and electricity.",
-        "Right to proper notice before being asked to leave."
+        "The right to live in peace and not be thrown out unlawfully.",
+        "The right to get your security deposit back as agreed.",
+        "The right to basic services like water and electricity.",
+        "The right to proper notice before you are asked to leave."
       ]
     },
     {
@@ -65,9 +65,9 @@
     {
       "type": "list",
       "items": [
-        "Right to receive rent on time.",
-        "Right to get the property back at the end of the term.",
-        "Right to a fair deposit for possible damage."
+        "The right to get rent on time.",
+        "The right to get the property back when the term ends.",
+        "The right to a fair deposit for possible damage."
       ]
     },
     {
@@ -77,10 +77,10 @@
     {
       "type": "list",
       "items": [
-        "A landlord must give proper written notice before asking a tenant to leave; the period is set by the agreement or the rent law.",
-        "Eviction usually needs a valid ground, such as non-payment of rent or the landlord's genuine need.",
+        "Before asking a tenant to leave, the landlord must give proper written notice. The time is fixed by the agreement or the rent law.",
+        "To evict (make a tenant leave), there must usually be a real reason, such as rent not being paid or the landlord truly needing the house.",
         "A tenant must also give notice before leaving, as agreed.",
-        "A landlord cannot lock a tenant out, cut off water or electricity, or remove belongings to force an exit. That is unlawful and can be challenged in court."
+        "A landlord cannot lock a tenant out, cut off water or electricity, or remove their things to force them out. This is against the law and can be challenged in court."
       ]
     },
     {
@@ -90,49 +90,49 @@
     {
       "type": "list",
       "items": [
-        "The security deposit should be returned as agreed, minus genuine unpaid dues or damage beyond normal wear.",
-        "Repairs are usually split: structural repairs by the landlord, small day-to-day repairs by the tenant."
+        "The security deposit should be returned as agreed. Money can be cut only for real unpaid dues or for damage beyond normal wear and tear.",
+        "Repairs are usually shared. Big structural repairs are the landlord's. Small daily repairs are the tenant's."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "The Model Tenancy Act, 2021 sets a common framework: a written agreement, a cap on security deposits (generally two months' rent for residential premises) and a Rent Authority for disputes."
+      "text": "The Model Tenancy Act, 2021 gives a common set of rules: a written agreement, a limit on the security deposit (usually two months' rent for homes) and a Rent Authority to settle disputes."
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "No one may take the law into their own hands. Locking a tenant out or cutting utilities to force an exit is unlawful."
+      "text": "No one can take the law into their own hands. Locking a tenant out or cutting water and power to force them out is against the law."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "Always keep a signed copy of the agreement and receipts for rent and deposit."
+      "text": "Always keep a signed copy of the agreement and receipts for the rent and the deposit."
     }
   ],
   "practicalSteps": [
     "Put everything in a written, signed agreement.",
-    "Pay rent by bank transfer so there is a record.",
-    "Keep receipts for the deposit and for any major repairs.",
-    "For disputes, approach the Rent Authority or a civil court rather than taking the law into your own hands."
+    "Pay rent by bank transfer, so there is a record.",
+    "Keep receipts for the deposit and for any big repairs.",
+    "If there is a dispute, go to the Rent Authority or a civil court. Do not take the law into your own hands."
   ],
   "exceptions": [
-    "Rent laws differ from state to state, and older tenancies may follow older Rent Control Acts.",
-    "The Model Tenancy Act applies only where a state has adopted it."
+    "Rent laws are different in each state. Older tenancies may follow older Rent Control Acts.",
+    "The Model Tenancy Act applies only in states that have adopted it."
   ],
   "faqs": [
     {
       "q": "Can my landlord increase the rent anytime?",
-      "a": "Only as allowed by your agreement or the applicable rent law, usually with proper notice."
+      "a": "Only as your agreement or the rent law allows, and usually with proper notice."
     },
     {
       "q": "Can the landlord keep my deposit for normal wear and tear?",
-      "a": "No. A deposit can be adjusted only for unpaid dues or actual damage beyond normal use, as set out in the agreement."
+      "a": "No. The deposit can be cut only for unpaid dues or for real damage beyond normal use, as the agreement says."
     }
   ],
   "sources": [
     {
-      "label": "Model Tenancy Act, 2021 - Ministry of Housing and Urban Affairs",
+      "label": "Model Tenancy Act, 2021 (Ministry of Housing and Urban Affairs)",
       "url": "https://mohua.gov.in/"
     },
     {
@@ -147,7 +147,7 @@
   "misconceptions": [
     {
       "myth": "The landlord can evict me any time.",
-      "fact": "Eviction must follow the agreement and the law, usually with written notice and, if disputed, an order from a court or Rent Authority."
+      "fact": "Eviction must follow the agreement and the law. Usually there must be written notice. If there is a dispute, an order from a court or the Rent Authority is needed."
     }
   ]
 }

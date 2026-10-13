@@ -3,8 +3,8 @@
   "slug": "banking-safety",
   "lang": "en",
   "category": "banking-safety",
-  "title": "Banking, Loans and Financial Safety",
-  "summary": "UPI and OTP fraud, loans and interest, CIBIL, recovery agents, credit cards and income tax basics.",
+  "title": "Banking, Loans and Keeping Your Money Safe",
+  "summary": "UPI and OTP fraud, loans and interest, CIBIL, recovery agents, credit cards and the basics of income tax.",
   "tags": [
     "UPI",
     "bank fraud",
@@ -31,33 +31,33 @@
   "body": [
     {
       "type": "p",
-      "text": "Most banking fraud does not need hacking. It only needs you to trust a caller, click a link, or share an OTP. Knowing a few rules keeps your money safe."
+      "text": "Most bank fraud does not need hacking. It only needs you to trust a caller, click a link, or share an OTP. A few simple rules keep your money safe."
     },
     {
       "type": "h2",
-      "text": "Protect your money: UPI and OTP"
+      "text": "Keep your money safe: UPI and OTP"
     },
     {
       "type": "list",
       "items": [
         "Never share your OTP, PIN, CVV or password with anyone. No bank or official will ever ask for them.",
-        "A request to 'receive money' never needs your PIN. Entering a PIN sends money out.",
+        "To 'receive money', you never need to enter your PIN. Entering a PIN sends money out.",
         "Do not scan a QR code to receive money.",
-        "Do not install screen-sharing or remote-access apps for a 'bank officer'.",
-        "Check your statement regularly."
+        "Do not install screen-sharing or remote-access apps (apps that let someone else see or control your phone) for a 'bank officer'.",
+        "Check your account statement often."
       ]
     },
     {
       "type": "h2",
-      "text": "If money leaves your account without consent"
+      "text": "If money leaves your account without your permission"
     },
     {
       "type": "list",
       "items": [
-        "Inform your bank immediately and ask them to freeze the account and dispute the transaction.",
-        "Call the cyber helpline 1930 and report on cybercrime.gov.in.",
-        "Give the bank a written complaint and get an acknowledgement.",
-        "If it is unresolved, complain to the RBI Ombudsman."
+        "Tell your bank at once. Ask them to freeze the account and dispute the transaction (challenge the payment).",
+        "Call the cyber helpline 1930. Also report it on cybercrime.gov.in.",
+        "Give the bank a written complaint. Get a receipt or acknowledgement.",
+        "If it is not solved, complain to the RBI Ombudsman (an official who settles bank complaints)."
       ]
     },
     {
@@ -67,9 +67,9 @@
     {
       "type": "list",
       "items": [
-        "Read the loan agreement: interest rate, EMI, processing fee, prepayment penalty and foreclosure terms.",
-        "Interest can be fixed or floating; a floating rate changes with the market.",
-        "A guarantor is legally liable to pay if the borrower defaults. Never sign as a guarantor casually."
+        "Read the loan agreement. Look at the interest rate, EMI (the monthly payment), processing fee, prepayment penalty and foreclosure terms (rules for closing the loan early).",
+        "Interest can be fixed or floating. A fixed rate stays the same. A floating rate changes with the market.",
+        "A guarantor (a person who promises to pay if the borrower does not) must pay if the borrower stops paying. Never sign as a guarantor without thinking it through."
       ]
     },
     {
@@ -79,8 +79,8 @@
     {
       "type": "list",
       "items": [
-        "Your CIBIL score reflects your repayment history and affects whether you get a loan, and at what rate.",
-        "Check your credit report regularly for errors and for loans opened in your name fraudulently."
+        "Your CIBIL score shows how well you have repaid loans in the past. It decides whether you get a loan, and at what interest rate.",
+        "Check your credit report often. Look for mistakes and for loans taken in your name by fraud."
       ]
     },
     {
@@ -90,9 +90,9 @@
     {
       "type": "list",
       "items": [
-        "Recovery agents may contact you to recover a loan, but they cannot threaten, abuse or harass you or your family.",
-        "They must not use force, and must not contact you at unreasonable hours.",
-        "If you are harassed, complain to your bank and to the RBI Ombudsman."
+        "Recovery agents (people hired to collect a loan) may contact you. But they cannot threaten, abuse or harass you or your family.",
+        "They must not use force. They must not contact you at odd hours.",
+        "If they harass you, complain to your bank and to the RBI Ombudsman."
       ]
     },
     {
@@ -102,8 +102,8 @@
     {
       "type": "list",
       "items": [
-        "Check your statement for hidden charges, annual fees and interest on unpaid balances.",
-        "Use only RBI-regulated digital lending apps. Unregulated apps can be predatory and misuse your data."
+        "Check your statement for hidden charges, yearly fees and interest on money you have not paid.",
+        "Use only digital lending apps that the RBI controls. Apps that are not controlled can cheat you and misuse your data."
       ]
     },
     {
@@ -113,46 +113,46 @@
     {
       "type": "list",
       "items": [
-        "Form 16 (from your employer), AIS and Form 26AS show your income and the TDS already deducted.",
-        "If your income is above the basic exemption limit, you generally must file an income tax return.",
-        "File on the official portal incometax.gov.in. Never pay a 'tax agent' to a personal account."
+        "Form 16 (from your employer), AIS and Form 26AS show your income and the TDS (tax already cut from your pay).",
+        "If your income is above the basic exemption limit (the amount on which you pay no tax), you usually must file an income tax return.",
+        "File on the official portal incometax.gov.in. Never pay money to a 'tax agent' into a personal account."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Missed calls and messages that create urgency ('your account will be blocked') are a common trick. Slow down and verify through the official app or branch."
+      "text": "Missed calls and messages that make you panic ('your account will be blocked') are a common trick. Slow down. Check through the official app or the bank branch."
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "RBI rules limit your liability for unauthorised electronic transactions, but only if you report quickly. Delay can increase your own loss."
+      "text": "RBI rules limit how much you must pay for transactions you did not authorise. But this works only if you report quickly. If you delay, you may lose more."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "Keep the SMS, email and complaint reference numbers. They are proof of when you reported."
+      "text": "Keep the SMS, email and complaint reference numbers. They prove when you reported the problem."
     }
   ],
   "practicalSteps": [
     "Never share OTP, PIN, CVV or passwords.",
-    "Report a fraudulent transaction to your bank within the shortest possible time.",
+    "Report a fraudulent transaction to your bank as fast as you can.",
     "Also report to 1930 and cybercrime.gov.in.",
-    "Read the loan agreement before signing, and never become a guarantor without understanding the risk.",
-    "Escalate to the RBI Ombudsman if the bank does not resolve your complaint within 30 days."
+    "Read the loan agreement before you sign. Never become a guarantor without understanding the risk.",
+    "If the bank does not solve your complaint within 30 days, go to the RBI Ombudsman."
   ],
   "exceptions": [
-    "If the fraud happened because you shared your credentials or were grossly negligent, your liability may be higher.",
-    "Some delays in reporting can shift more liability to you under RBI rules."
+    "If the fraud happened because you shared your details, or were very careless, you may have to pay more.",
+    "If you report late, RBI rules may make you pay more of the loss."
   ],
   "faqs": [
     {
       "q": "Will the bank refund my money?",
-      "a": "If you report quickly and were not negligent, RBI rules support limited or zero liability. The bank must resolve your complaint within a set time."
+      "a": "If you report quickly and were not careless, RBI rules say you pay little or nothing. The bank must solve your complaint within a fixed time."
     },
     {
       "q": "Can a recovery agent call me at any time?",
-      "a": "No. Agents must follow RBI rules on conduct and timing. Threats or harassment can be reported to your bank and the RBI Ombudsman."
+      "a": "No. Agents must follow RBI rules about how and when they can call. If they threaten or harass you, complain to your bank and the RBI Ombudsman."
     }
   ],
   "sources": [
@@ -172,7 +172,7 @@
   "misconceptions": [
     {
       "myth": "If the bank's app shows the transaction, I cannot dispute it.",
-      "fact": "You can and should dispute any transaction you did not authorise, in writing, to the bank."
+      "fact": "You can and should dispute any transaction you did not authorise. Do it in writing to the bank."
     }
   ]
 }

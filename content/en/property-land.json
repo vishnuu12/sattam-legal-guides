@@ -4,7 +4,7 @@
   "lang": "en",
   "category": "property-land",
   "title": "Buying Property Safely: Documents, Ownership and Wills",
-  "summary": "What to check before buying land or a house, and how ownership, inheritance and wills work.",
+  "summary": "What to check before you buy land or a house. Also, how ownership, inheritance and wills work.",
   "tags": [
     "property",
     "land",
@@ -29,40 +29,40 @@
   "body": [
     {
       "type": "p",
-      "text": "Land and houses are the largest purchase most families make. A little checking before you pay saves years of dispute later."
+      "text": "Land and houses cost the most money for most families. Check a little before you pay. This saves years of fighting later."
     },
     {
       "type": "h2",
-      "text": "Documents to check before you buy"
+      "text": "Papers to check before you buy"
     },
     {
       "type": "list",
       "items": [
-        "Mother deed and the chain of title, showing how ownership passed over the years.",
-        "The latest encumbrance certificate (EC) from the sub-registrar, to see loans or claims on the property.",
+        "Mother deed and the chain of title. These show how the property changed hands over the years.",
+        "The latest encumbrance certificate (EC) from the sub-registrar office. It shows loans or claims on the property.",
         "Patta / khata and property tax receipts in the seller's name.",
-        "Approved plan and layout approval, and whether the land is agricultural or residential.",
-        "Project approvals and RERA registration if you are buying from a builder."
+        "The approved plan and layout approval. Also check if the land is farm land or house land.",
+        "If you buy from a builder, check the project approvals and RERA registration."
       ]
     },
     {
       "type": "h2",
-      "text": "The buying process"
+      "text": "How to buy, step by step"
     },
     {
       "type": "list",
       "items": [
-        "Verify the seller's identity and that all legal heirs are on board.",
-        "Have a lawyer search the title for at least 30 years.",
-        "Sign a written agreement, pay through bank transfer, and keep receipts.",
-        "Register the sale deed at the sub-registrar's office and pay the stamp duty.",
-        "Update mutation and property tax records in your name."
+        "Check who the seller is. Also check that all legal heirs agree.",
+        "Ask a lawyer to do a title search for at least 30 years.",
+        "Sign a written agreement. Pay by bank transfer. Keep the receipts.",
+        "Register the sale deed at the sub-registrar office. Pay the stamp duty (a government tax on the sale).",
+        "Change the mutation (land records) and property tax records to your name."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Never pay a large advance on the strength of a photocopy or a power of attorney you have not verified. An unregistered agreement can leave you without an enforceable title."
+      "text": "Never pay a big advance just because you saw a photocopy. Never pay on a power of attorney (a paper that lets one person act for another) you have not checked. An agreement that is not registered may not be accepted in court."
     },
     {
       "type": "h2",
@@ -71,41 +71,41 @@
     {
       "type": "list",
       "items": [
-        "If a person dies without a will (intestate), property passes to legal heirs under their personal law.",
-        "A will lets a person decide who gets what; it should be signed and witnessed.",
-        "A probate or succession certificate may be needed to transfer some assets.",
-        "A nomination in a bank account or insurance policy is not the same as inheritance."
+        "If a person dies without a will (intestate), the property goes to the legal heirs under their personal law.",
+        "A will lets a person decide who gets what. It must be signed and seen by witnesses.",
+        "Sometimes you need a probate or succession certificate to move some assets to the heirs' names.",
+        "A nomination (a name added to claim the money) in a bank account or insurance policy is not the same as inheritance."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "Registration of a sale deed is compulsory for immovable property above the value set by law. An unregistered deed may not be accepted as proof of ownership."
+      "text": "For immovable property (land and buildings) above a value set by law, you must register the sale deed. A deed that is not registered may not be accepted as proof of ownership."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "Keep every original document in a safe place, and keep certified copies separately."
+      "text": "Keep every original paper in a safe place. Keep certified copies in a different place."
     }
   ],
   "practicalSteps": [
-    "Get an encumbrance certificate and a title search done before you pay.",
-    "Match the property description and measurements in the documents with the actual site.",
-    "Pay through banking channels and insist on written receipts.",
-    "Register the deed and collect the original document after registration."
+    "Get an encumbrance certificate and a title search before you pay.",
+    "Check that the property details and measurements in the papers match the real site.",
+    "Pay through the bank. Always ask for written receipts.",
+    "Register the deed. Collect the original paper after registration."
   ],
   "exceptions": [
-    "Buying agricultural land can carry state-specific restrictions on who may purchase it.",
-    "Inheritance rules differ by religion under the relevant personal law."
+    "For farm land, each state has its own rules on who can buy it.",
+    "Inheritance rules are different for different religions, under their personal law."
   ],
   "faqs": [
     {
-      "q": "Is a power-of-attorney sale safe?",
-      "a": "It is risky. Courts have held that a sale through an unregistered power of attorney may not transfer valid title. Insist on a registered deed."
+      "q": "Is it safe to buy through a power of attorney?",
+      "a": "It is risky. Courts have said a sale through an unregistered power of attorney may not give you valid ownership. Ask for a registered deed."
     },
     {
       "q": "Do I need probate?",
-      "a": "It depends on the asset, the will and the state. For high-value or disputed estates, probate is often required."
+      "a": "It depends on the asset, the will and the state. For high-value or disputed property, probate is often needed."
     }
   ],
   "sources": [
@@ -125,7 +125,7 @@
   "misconceptions": [
     {
       "myth": "A notarised agreement is enough to own property.",
-      "fact": "For immovable property, a registered sale deed is generally required; notarisation alone does not transfer ownership."
+      "fact": "For land and buildings, you usually need a registered sale deed. Notarisation alone does not give you ownership."
     }
   ]
 }

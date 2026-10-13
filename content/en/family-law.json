@@ -4,7 +4,7 @@
   "lang": "en",
   "category": "family-law",
   "title": "Marriage, Divorce, Maintenance and Protection",
-  "summary": "Maintenance, divorce, custody, and protection from domestic violence, explained simply.",
+  "summary": "Maintenance (monthly money to support a family member), divorce, child custody and safety from violence at home, in simple words.",
   "tags": [
     "family law",
     "marriage",
@@ -29,18 +29,18 @@
   "body": [
     {
       "type": "p",
-      "text": "Family disputes are painful, and the law tries to protect the weaker member, especially children and dependent spouses or parents. Understanding the basics helps you act calmly."
+      "text": "Family fights are painful. The law tries to protect the weaker person. This means children, and a husband or wife or parent who depends on others. If you know the basics, you can act without fear."
     },
     {
       "type": "h2",
-      "text": "Maintenance: the basics"
+      "text": "Maintenance (monthly money support): the basics"
     },
     {
       "type": "list",
       "items": [
-        "A person who cannot maintain themselves can seek a monthly allowance from a spouse or, in some cases, from children or parents.",
-        "It applies across religions under the BNSS provision on maintenance.",
-        "The court looks at the needs of the claimant and the means of the person paying."
+        "A person who cannot support themselves can ask for a monthly money amount. They can ask their husband or wife. Sometimes they can ask their children or parents.",
+        "This rule is in the BNSS (a new criminal law). It applies to all religions.",
+        "The court looks at what the person asking needs, and what the person paying can afford."
       ]
     },
     {
@@ -50,68 +50,68 @@
     {
       "type": "list",
       "items": [
-        "A marriage is registered under the applicable marriage law; registration makes proof much easier.",
-        "Divorce can be by mutual consent, or on specific grounds under the personal law that applies to you.",
-        "Either spouse can seek maintenance, though it is most often claimed by a dependent wife, children or parents."
+        "A marriage is registered under the marriage law that applies to you. Registration makes it much easier to prove.",
+        "Divorce can happen if both agree (mutual consent). Or it can happen for special reasons, under the personal law that applies to you.",
+        "Either husband or wife can ask for maintenance. But usually it is asked by a wife, children or parents who depend on others."
       ]
     },
     {
       "type": "h2",
-      "text": "Custody of children"
+      "text": "Custody of children (who the child lives with)"
     },
     {
       "type": "list",
       "items": [
-        "Courts decide custody based on the welfare of the child, not on who earns more.",
-        "Both parents usually retain rights to visit and to be involved in the child's life."
+        "The court decides custody based on what is good for the child. It does not decide by who earns more.",
+        "Usually both parents keep the right to visit the child and to be part of the child's life."
       ]
     },
     {
       "type": "h2",
-      "text": "Protection from domestic violence"
+      "text": "Protection from violence at home"
     },
     {
       "type": "list",
       "items": [
-        "Physical, emotional, sexual and economic abuse are all covered by the Protection of Women from Domestic Violence Act, 2005.",
-        "A woman can seek a protection order, a residence order and monetary relief.",
-        "Help is available through Protection Officers and the women's helpline 181."
+        "Hitting, mental hurt, sexual abuse and taking away money are all covered by the Protection of Women from Domestic Violence Act, 2005.",
+        "A woman can ask the court for a protection order (an order to keep her safe), a residence order (the right to stay in the house) and money relief.",
+        "You can get help from Protection Officers and the women's helpline 181."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "The provision on maintenance (Section 144 of the BNSS, earlier Section 125 CrPC) is a quick remedy meant to stop destitution, and it covers wives, children and parents."
+      "text": "The rule on maintenance (Section 144 of the BNSS, earlier Section 125 CrPC) is a fast remedy. It is meant to stop a person from becoming very poor. It covers wives, children and parents."
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "If you or someone at home is in immediate danger, call 112 first. Safety comes before any legal step."
+      "text": "If you or someone at home is in danger right now, call 112 first. Safety comes before any legal step."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "Keep a diary of incidents, medical records and any messages. Documentation helps a court act faster."
+      "text": "Write down what happens in a diary. Keep medical records and any messages. Good records help the court act faster."
     }
   ],
   "practicalSteps": [
-    "For immediate danger, call 112; for counselling and shelter, call 181.",
-    "Contact the District Legal Services Authority for free legal aid.",
-    "File a maintenance application before the Magistrate where you live.",
-    "Keep records of income, expenses and any threats or abuse."
+    "If there is danger right now, call 112. For advice and a safe place to stay, call 181.",
+    "For free legal help, contact the District Legal Services Authority.",
+    "File the maintenance application before the Magistrate (a judge) where you live.",
+    "Keep records of income, expenses, and any threats or bad treatment."
   ],
   "exceptions": [
-    "Maintenance can be refused if the claimant is able to maintain themselves or has remarried, among other grounds.",
-    "Personal laws of different communities have their own separate provisions as well."
+    "Maintenance can be refused if the person asking can support themselves, or has married again, or for some other reasons.",
+    "Different communities also have their own separate rules in their personal laws."
   ],
   "faqs": [
     {
-      "q": "Can a man claim maintenance?",
-      "a": "The BNSS provision applies to any person who cannot maintain themselves, though it is most often used by women, children and parents."
+      "q": "Can a man ask for maintenance?",
+      "a": "The BNSS rule applies to any person who cannot support themselves. But usually women, children and parents use it."
     },
     {
-      "q": "Does a wife need to prove cruelty to get maintenance?",
-      "a": "No. Maintenance focuses on the inability to maintain oneself, not on proving cruelty. Cruelty is relevant to other reliefs such as divorce."
+      "q": "Does a wife need to prove bad treatment to get maintenance?",
+      "a": "No. Maintenance is about not being able to support yourself. It is not about proving bad treatment. Bad treatment matters for other things, like divorce."
     }
   ],
   "sources": [
@@ -131,7 +131,7 @@
   "misconceptions": [
     {
       "myth": "Maintenance is only for wives.",
-      "fact": "It can be claimed by children and parents too, and by any person unable to maintain themselves."
+      "fact": "Children and parents can ask too. Any person who cannot support themselves can ask."
     }
   ]
 }
