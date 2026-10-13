@@ -52,14 +52,24 @@ export const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ESC[c]);
 export const otherLang = (lang) => (lang === 'en' ? 'ta' : 'en');
 export const langName = (lang) => (lang === 'ta' ? 'Tamil' : 'English');
 
+// Optional deploy base path, e.g. "/sattam-legal-guides" for a GitHub Pages
+// project site. An empty string means the site is served from the domain root
+// (Netlify, Vercel, Cloudflare Pages, or a custom domain).
+export let BASE = '';
+export function setBase(b) {
+  BASE = b ? '/' + String(b).replace(/^\/+|\/+$/g, '') : '';
+}
+
+const withBase = (rest) => `${BASE}${rest}`;
+
 export const paths = {
-  home: (lang) => `/${lang}/`,
-  guides: (lang) => `/${lang}/guides/`,
-  category: (lang, slug) => `/${lang}/category/${slug}/`,
-  article: (lang, slug) => `/${lang}/${slug}/`,
-  emergency: (lang) => `/${lang}/emergency/`,
-  about: (lang) => `/${lang}/about/`,
-  disclaimer: (lang) => `/${lang}/disclaimer/`,
+  home: (lang) => withBase(`/${lang}/`),
+  guides: (lang) => withBase(`/${lang}/guides/`),
+  category: (lang, slug) => withBase(`/${lang}/category/${slug}/`),
+  article: (lang, slug) => withBase(`/${lang}/${slug}/`),
+  emergency: (lang) => withBase(`/${lang}/emergency/`),
+  about: (lang) => withBase(`/${lang}/about/`),
+  disclaimer: (lang) => withBase(`/${lang}/disclaimer/`),
 };
 
 // Build the searchable text for one article, expanding with cross-language synonyms.

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, LANGS, loadAll, readJSON, writeFile, paths, otherLang, buildSearchText } from './lib.mjs';
+import { ROOT, LANGS, loadAll, readJSON, writeFile, paths, otherLang, buildSearchText, setBase, BASE } from './lib.mjs';
 import * as R from './render.mjs';
 
 const DIST = path.join(ROOT, 'dist');
@@ -16,7 +16,10 @@ function main() {
   clean();
 
   const { taxonomy, ui, synonyms, helplines } = all;
-  const siteUrl = taxonomy.siteUrl;
+  // Deploy config can be overridden by env (used by the GitHub Pages workflow).
+  const siteUrl = process.env.SITE_URL || taxonomy.siteUrl;
+  taxonomy.siteUrl = siteUrl;
+  setBase(process.env.BASE_PATH || taxonomy.basePath || '');
 
   const orderedIds = [
     ...taxonomy.categories.map((c) => c.slug),
@@ -134,7 +137,7 @@ function main() {
 
   // ---------- root + 404 ----------
   const rootCtx = ctxFor('en');
-  writeFile(path.join(DIST, 'index.html'), R.rootPage(rootCtx, { alt: alt('/', '/') }));
+  writeFile(path.join(DIST, 'index.html'), R.rootPage(rootCtx, { alt: alt(`${BASE}/en/`, `${BASE}/ta/`) }));
   writeFile(path.join(DIST, '404.html'), R.notFoundPage(rootCtx, { alt: alt(paths.home('en'), paths.home('ta')) }));
 
   // ---------- sitemap + robots ----------
@@ -151,7 +154,7 @@ ${sitemap
   .join('\n')}
 </urlset>`;
   writeFile(path.join(DIST, 'sitemap.xml'), sitemapXml);
-  writeFile(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`);
+  writeFile(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}${BASE}/sitemap.xml\n`);
 
   const pages = sitemap.length;
   console.log(`\u2713 Built ${pages} URLs \u00D7 2 languages into dist/`);

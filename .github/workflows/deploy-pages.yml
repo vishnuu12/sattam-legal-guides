@@ -22,6 +22,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Configure deploy base path
+        run: |
+          echo "BASE_PATH=/${{ github.event.repository.name }}" >> "$GITHUB_ENV"
+          echo "SITE_URL=https://${{ github.repository_owner }}.github.io" >> "$GITHUB_ENV"
       - name: Validate + build
         run: npm run check
       - uses: actions/configure-pages@v5

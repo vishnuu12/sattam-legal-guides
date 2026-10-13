@@ -205,10 +205,17 @@ The build is a plain static folder, so it deploys anywhere.
 - **Netlify / Cloudflare Pages / Vercel:** build command `npm run check`, publish directory `dist`.
   (`netlify.toml` is included.)
 - **GitHub Pages:** the included workflow builds and publishes `dist/` on every push to `main`.
+  A project site is served from a sub-path, so the workflow sets `BASE_PATH` to `/<repo-name>`
+  and `SITE_URL` to `https://<owner>.github.io` automatically. Enable Pages once with
+  *Settings → Pages → Source: GitHub Actions*.
+- **Custom domain:** set `BASE_PATH` to empty (or leave `basePath` empty in `content/taxonomy.json`)
+  and point `siteUrl` at your domain.
 - **Any web server:** run `npm run build` and serve `dist/`.
 
 Before going live, set your real domain in `content/taxonomy.json` → `siteUrl` (used for
-canonical links, `hreflang` and the sitemap).
+canonical links, `hreflang` and the sitemap). If the site is served from a sub-path rather
+than a domain root, set `basePath` (or the `BASE_PATH` env var) to that sub-path — all
+internal links, assets and the search index respect it.
 
 ## License
 

@@ -98,7 +98,10 @@
     if (params.get('lang')) langEl.value = params.get('lang');
     if (params.get('category')) catEl.value = params.get('category');
 
-    fetch('/assets/search-index.json')
+    var baseEl = document.querySelector('meta[name="site-base"]');
+    var base = baseEl ? baseEl.getAttribute('content') || '' : '';
+
+    fetch(base + '/assets/search-index.json')
       .then(function (r) { return r.json(); })
       .then(function (data) { index = data; render(); })
       .catch(function () { index = []; render(); });

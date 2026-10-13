@@ -1,5 +1,6 @@
 {
   "siteUrl": "https://sattam.example.org",
+  "basePath": "",
   "categories": [
     {
       "slug": "know-your-rights",

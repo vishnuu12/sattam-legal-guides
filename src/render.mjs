@@ -1,4 +1,4 @@
-import { esc, t, otherLang, langName, paths } from './lib.mjs';
+import { esc, t, otherLang, langName, paths, BASE } from './lib.mjs';
 
 const FAVICON =
   'data:image/svg+xml,' +
@@ -155,7 +155,8 @@ export function doc(ctx, page) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/assets/styles.css">
+<meta name="site-base" content="${BASE}">
+<link rel="stylesheet" href="${BASE}/assets/styles.css">
 </head>
 <body class="${page.bodyClass || ''}" data-lang="${lang}">
 ${headerHtml(ctx, alt)}
@@ -163,7 +164,7 @@ ${headerHtml(ctx, alt)}
 ${page.content}
 </main>
 ${footerHtml(ctx)}
-<script src="/assets/app.js" defer></script>
+<script src="${BASE}/assets/app.js" defer></script>
 ${page.jsonld ? `<script type="application/ld+json">${JSON.stringify(page.jsonld)}</script>` : ''}
 </body>
 </html>`;
@@ -609,15 +610,15 @@ export function rootPage(ctx, { alt }) {
     <h1 class="chooser-title">Sattam · சட்டம்</h1>
     <p class="chooser-sub">Choose your language / உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</p>
     <div class="chooser-actions">
-      <a class="btn btn--primary" href="/en/" data-setlang="en">\uD83C\uDDEC\uD83C\uDDE7 English</a>
-      <a class="btn btn--primary" href="/ta/" data-setlang="ta">\uD83C\uDDEE\uD83C\uDDF3 \u0BA4\u0BAE\u0BBF\u0BB4\u0BCD</a>
+      <a class="btn btn--primary" href="${BASE}/en/" data-setlang="en">\uD83C\uDDEC\uD83C\uDDE7 English</a>
+      <a class="btn btn--primary" href="${BASE}/ta/" data-setlang="ta">\uD83C\uDDEE\uD83C\uDDF3 \u0BA4\u0BAE\u0BBF\u0BB4\u0BCD</a>
     </div>
     <p class="chooser-note">${esc(t(ui, 'en', 'hero.subtitle'))}</p>
   </div>`;
   return doc(ctx, {
     title: 'Sattam \u2014 Legal guides in English & Tamil',
     description: 'Choose English or Tamil.',
-    canonical: '/',
+    canonical: `${BASE}/`,
     alt,
     bodyClass: 'page-chooser',
     content,
