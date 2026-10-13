@@ -1,0 +1,144 @@
+{
+  "id": "checklist-1-rights-police",
+  "slug": "checklist-1-rights-police",
+  "lang": "en",
+  "category": "rights-checklist",
+  "title": "Checklist: Your Rights and Dealing With Police",
+  "summary": "All your constitutional rights and police-related rights, in the simplest words.",
+  "tags": [
+    "checklist",
+    "fundamental rights",
+    "police",
+    "arrest",
+    "FIR",
+    "bail"
+  ],
+  "readingMinutes": 12,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Constitution of India, Part III",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "Bharatiya Sakshya Adhiniyam, 2023"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "This is the first part of your complete rights checklist. Read one point at a time. You do not have to remember the law's name - just know what you can do."
+    },
+    {
+      "type": "h2",
+      "text": "Part 1: Your basic rights (from the Constitution)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1. Everyone is equal before the law. The government cannot treat you unfairly for no reason. (Article 14)",
+        "2. No discrimination. The government cannot treat you badly because of your religion, race, caste, sex or birthplace. (Article 15)",
+        "3. Equal chance in government jobs. Everyone gets a fair chance; reserved posts are allowed by the Constitution. (Article 16)",
+        "4. Freedom of speech. You can speak and write freely - but not to threaten, spread hate or defame anyone. (Article 19(1)(a))",
+        "5. Freedom to gather peacefully. You can hold peaceful meetings and processions, with reasonable limits. (Article 19(1)(b))",
+        "6. Freedom to form groups. You can join or start unions, clubs and associations. (Article 19(1)(c))",
+        "7. Freedom to move around. You can travel anywhere in India. (Article 19(1)(d))",
+        "8. Freedom to settle anywhere. You can choose where to live in India. (Article 19(1)(e))",
+        "9. Freedom to do business. You can choose any lawful job, trade or business. (Article 19(1)(g))",
+        "10. Right to life and personal liberty. You have a right to live with dignity, privacy and safety. (Article 21)",
+        "11. Right to education. Every child aged 6 to 14 has a right to free and compulsory education. (Article 21A)",
+        "12. Protection in criminal cases. You cannot be punished for something that was not a crime when it happened; you cannot be punished twice for the same offence; you cannot be forced to confess. (Article 20)",
+        "13. Protection when arrested. You must be told why, allowed a lawyer, and taken to a judge within 24 hours. (Article 22)",
+        "14. Freedom of religion. You can follow, practise and peacefully spread your religion. (Articles 25-28)",
+        "15. Cultural and educational rights. Minority groups can protect their language, culture and their own schools. (Articles 29-30)",
+        "16. Right to go to court. If any right is broken, you can go to the Supreme Court (Article 32) or a High Court (Article 226).",
+        "17. No human trafficking or forced labour. Nobody can make you work by force or traffic you. (Article 23)",
+        "18. No child labour. Children below 14 cannot work in factories, mines or other hazardous jobs. (Article 24)"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "Most of these rights are for every person living in India. A few, like Articles 15, 16, 19 and 29, are only for citizens."
+    },
+    {
+      "type": "h2",
+      "text": "Part 2: Dealing with the police"
+    },
+    {
+      "type": "list",
+      "items": [
+        "19. FIR. This is the written report of a serious (cognisable) crime, recorded at the police station. You can get a free copy.",
+        "20. Zero FIR. You can report a serious crime at ANY police station, even one outside its area. They must record it and pass it on.",
+        "21. Complaint, FIR and case. A complaint is the information you give; an FIR is the formal record; a case is what a court decides.",
+        "22. Arrest without warrant. Police can arrest without a warrant only in the situations the law allows - not just because of any allegation.",
+        "23. Grounds of arrest. You have a right to be told why you are being arrested.",
+        "24. Right to a lawyer. You can call and be defended by a lawyer of your choice.",
+        "25. 24-hour rule. You must be produced before a judge within 24 hours of arrest (leaving out travel time).",
+        "26. Bail. In a bailable offence you can be released on bail as a right. In a non-bailable offence, the court decides.",
+        "27. No self-incrimination. You cannot be forced to be a witness against yourself. (Article 20(3))",
+        "28. Innocent until proven guilty. You are presumed innocent until the court finds you guilty.",
+        "29. Free legal aid. If you cannot afford a lawyer, you can get free legal help. Call 15100.",
+        "30. Search and seizure. Police must follow the legal procedure. You can ask for the reason and for independent witnesses.",
+        "31. Summons and notices. Never ignore a lawful notice or court summons. Find out what it means and what you must do.",
+        "32. Witness rights and duties. A witness must tell the truth, and is protected from being intimidated.",
+        "33. Private defence. You may defend yourself or another person from an attack, but only as much force as is truly needed.",
+        "34. Defamation. False statements that damage someone's reputation can have legal consequences. Honest criticism is allowed.",
+        "35. Assault, threats and stalking. Physical violence, intimidation and stalking are offences.",
+        "36. Digital evidence. Save original messages, call records and receipts. Never alter or fake evidence."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "From 1 July 2024, new criminal laws replaced the old ones: BNS (offences), BNSS (procedure, arrest, bail) and BSA (evidence)."
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Never sign anything you have not read, and never pay money to 'settle' a police matter informally. Get everything in writing."
+    }
+  ],
+  "practicalSteps": [
+    "Save 112 (emergency) and 15100 (free legal aid) on your phone.",
+    "If arrested, ask for the reason, tell a family member, and ask for a lawyer.",
+    "Always keep a copy of any FIR, notice or complaint you file.",
+    "If police refuse to register your FIR, go to the Superintendent of Police or the Magistrate."
+  ],
+  "exceptions": [
+    "Fundamental Rights are not all absolute. Reasonable restrictions apply, and some rights are only for citizens.",
+    "Some special laws (like preventive detention) allow detention without a normal charge, but with safeguards."
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to know the law's name to use my right?",
+      "a": "No. Knowing what you can do is enough. The section numbers are only to help you or your lawyer look it up."
+    },
+    {
+      "q": "What if I cannot afford a lawyer?",
+      "a": "Free legal aid is available for those who qualify. Call the NALSA helpline 15100 or visit your District Legal Services Authority."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Constitution of India - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    },
+    {
+      "label": "Supreme Court of India - Constitution",
+      "url": "https://www.sci.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "The police can keep me as long as they want before a court hearing.",
+      "fact": "No. You must be produced before a judge within 24 hours of arrest."
+    }
+  ]
+}

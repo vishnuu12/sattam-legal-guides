@@ -1,0 +1,178 @@
+{
+  "id": "checklist-3-work-money-family",
+  "slug": "checklist-3-work-money-family",
+  "lang": "en",
+  "category": "rights-checklist",
+  "title": "Checklist: Work, Money, Home and Family",
+  "summary": "Employment, loans and tax, property and family rights - every point in simple words.",
+  "tags": [
+    "checklist",
+    "employment",
+    "banking",
+    "tax",
+    "property",
+    "family"
+  ],
+  "readingMinutes": 12,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Code on Wages, 2019",
+    "Sexual Harassment of Women at Workplace Act, 2013",
+    "Income-tax Act, 1961",
+    "Transfer of Property Act, 1882",
+    "Protection of Women from Domestic Violence Act, 2005",
+    "POCSO Act, 2012"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Part three of your checklist: your job, your money, your home and your family. These are the biggest things in most people's lives."
+    },
+    {
+      "type": "h2",
+      "text": "Part 6: Your job"
+    },
+    {
+      "type": "list",
+      "items": [
+        "77. Appointment letter. Read your job title, salary, work location, probation and conditions before you join.",
+        "78. Salary. Know your agreed salary, payment dates and lawful deductions.",
+        "79. Payslips and tax papers. Keep payslips, Form 16 and salary-credit bank statements.",
+        "80. Notice period. Understand the notice clause, any buy-out option, and how dues are settled.",
+        "81. Resignation. Follow the proper procedure and keep proof that you submitted it and it was acknowledged.",
+        "82. Termination. Know which contract terms and legal protections apply to your job.",
+        "83. Working hours and overtime. Check the rules on working time, overtime and rest.",
+        "84. Leave and holidays. Know your leave entitlements and the company policy.",
+        "85. Provident fund (PF). Know your EPF eligibility, contributions, UAN and transfer or withdrawal rules.",
+        "86. Gratuity. Understand when you are eligible and how it is calculated.",
+        "87. Maternity benefits. Know the maternity protections and eligibility rules.",
+        "88. Workplace sexual harassment. The POSH Act protects you; every workplace should have an Internal Committee.",
+        "89. Discrimination and retaliation. Know the protections that apply to your situation.",
+        "90. Employment documents. Keep your offer letter, contract, performance records and full-and-final settlement.",
+        "91. Work from home. Your work-from-home terms depend on the law, your contract and the circumstances.",
+        "92. Grievances. Know the right route: HR, the labour department, conciliation or a court."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 7: Money, loans and taxes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "93. Loan agreements. Understand the interest rate, processing fees, penalties, repayment schedule and foreclosure terms.",
+        "94. Loan defaults. Know what happens if you miss payments, and how collection works.",
+        "95. Recovery agents. They cannot threaten, abuse or invade your privacy to collect a loan.",
+        "96. Guarantor. A guarantor can be made to pay if the borrower defaults. Never sign casually.",
+        "97. Credit reports. Check your credit report for mistakes and dispute them with the lender.",
+        "98. Bank complaints. Use the bank's grievance process, then the RBI's complaint mechanism.",
+        "99. Unauthorised transactions. Tell your bank fast. How quickly you report affects your liability.",
+        "100. Credit cards. Understand interest, minimum payments, fees and billing disputes.",
+        "101. Income tax. Learn about taxable income, deductions, TDS and when you must file a return.",
+        "102. GST and bills. Know when GST applies and how to check an invoice.",
+        "103. Insurance. Read the exclusions, waiting periods and claim conditions.",
+        "104. Investments. Understand the risk, and beware of 'guaranteed returns'.",
+        "105. Nominees and inheritance. A nominee is not the same as an owner or heir.",
+        "106. Financial scams. Be careful of guaranteed returns and requests to pay into a personal account."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 8: Property, rent and housing"
+    },
+    {
+      "type": "list",
+      "items": [
+        "107. Property title. Verify ownership and the title documents before buying land or a house.",
+        "108. Encumbrances. Check for loans or claims on the property. No single certificate proves everything.",
+        "109. Registration and stamp duty. Understand the registration process and charges.",
+        "110. Rental agreements. Read the rent, deposit, maintenance, notice, termination and renewal clauses.",
+        "111. Security deposits. Know your rights on deductions and refunds.",
+        "112. Eviction. Follow the legal process. No one can just throw a tenant out.",
+        "113. Utilities and maintenance. Know who pays for electricity, water, common areas and repairs.",
+        "114. Inheritance. Learn the succession rules, wills and the value of ownership documents.",
+        "115. Neighbour disputes. There are remedies for encroachment, damage, nuisance and access problems.",
+        "116. Construction permissions. Check local approvals, building rules and land-use limits.",
+        "117. Land records. Learn how to check revenue and registration records in Tamil Nadu, and their limits."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 9: Family, women and children"
+    },
+    {
+      "type": "list",
+      "items": [
+        "118. Marriage. Understand the marriage law that applies, the conditions, registration and spouses' rights.",
+        "119. Divorce. Learn the grounds, the procedure and the consequences.",
+        "120. Maintenance. A spouse, child or parent may be entitled to maintenance if they cannot support themselves.",
+        "121. Domestic violence. The Domestic Violence Act, 2005 protects women from physical, emotional, sexual and economic abuse.",
+        "122. Sexual harassment. Know the criminal-law protections and workplace complaint procedure.",
+        "123. Stalking and intimidation. Know when behaviour becomes a crime, and how to report it.",
+        "124. Dowry. Giving, taking or demanding dowry is prohibited by law.",
+        "125. Child sexual abuse. The POCSO Act protects children; reporting is mandatory for many people.",
+        "126. Child marriage. The Prohibition of Child Marriage Act bans marriage below the legal age.",
+        "127. Child labour. There are restrictions and protections against children working in harmful jobs.",
+        "128. Adoption and guardianship. Follow the legal process, not informal arrangements.",
+        "129. Inheritance. Learn which personal law or succession rule applies to your family.",
+        "130. Senior citizens. The law protects older persons' maintenance and welfare."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Family matters involve sensitive facts and different personal laws. The exact position depends on your situation - check the law and get proper advice."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep every document: appointment letters, payslips, loan papers, rent agreements and property records. Papers win cases."
+    }
+  ],
+  "practicalSteps": [
+    "Keep a folder (physical or on cloud) of all job, loan, rent and property papers.",
+    "Read every contract before signing, and ask for a copy.",
+    "For unpaid salary, complain to the Labour Commissioner; for PF, to the EPFO.",
+    "For family or domestic-violence help, call 181; for emergencies, call 112."
+  ],
+  "exceptions": [
+    "Not every employee has the same rights - it depends on the job, wage level, establishment and state.",
+    "Inheritance and marriage rules differ by religion under the personal law that applies to you."
+  ],
+  "faqs": [
+    {
+      "q": "Can my landlord throw me out at once?",
+      "a": "No. Eviction must follow the agreement and the law, with proper written notice and, if disputed, a court or Rent Authority order."
+    },
+    {
+      "q": "Is a nominee the same as an heir?",
+      "a": "No. A nominee can receive the money, but ownership and inheritance are decided by succession law."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Code on Wages, 2019 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Ministry of Labour and Employment",
+      "url": "https://labour.gov.in/"
+    },
+    {
+      "label": "National Commission for Women",
+      "url": "https://ncw.nic.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "A nominee becomes the owner of the money or property.",
+      "fact": "A nominee only receives it. Who truly owns it is decided by succession law and any will."
+    }
+  ]
+}

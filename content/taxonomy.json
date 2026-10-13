@@ -27,6 +27,18 @@
       }
     },
     {
+      "slug": "rights-checklist",
+      "emoji": "📋",
+      "en": {
+        "name": "Complete Rights Checklist",
+        "blurb": "All 165 everyday points in simple words, grouped so you can find yours fast."
+      },
+      "ta": {
+        "name": "முழு உரிமைகள் சரிபார்ப்புப் பட்டியல்",
+        "blurb": "அன்றாடம் தேவைப்படும் 165 விஷயங்களும் எளிய வார்த்தைகளில், விரைவாகக் கண்டுபிடிக்கும் வகையில் தொகுக்கப்பட்டுள்ளது."
+      }
+    },
+    {
       "slug": "police-procedures",
       "emoji": "🚔",
       "en": {

@@ -1,0 +1,157 @@
+{
+  "id": "checklist-2-road-cyber-consumer",
+  "slug": "checklist-2-road-cyber-consumer",
+  "lang": "en",
+  "category": "rights-checklist",
+  "title": "Checklist: Roads, Internet and Shopping",
+  "summary": "Traffic rules, cyber safety and consumer rights - every point in simple words.",
+  "tags": [
+    "checklist",
+    "traffic",
+    "cybercrime",
+    "consumer",
+    "online safety"
+  ],
+  "readingMinutes": 11,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Motor Vehicles Act, 1988",
+    "Information Technology Act, 2000",
+    "Consumer Protection Act, 2019",
+    "Digital Personal Data Protection Act, 2023"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Part two of your checklist: the road, the internet and shopping. These are the rules you use almost every day."
+    },
+    {
+      "type": "h2",
+      "text": "Part 3: On the road"
+    },
+    {
+      "type": "list",
+      "items": [
+        "37. Driving licence. Carry the right licence for the vehicle you drive.",
+        "38. Vehicle papers. RC, insurance and PUC (pollution) certificate. DigiLocker copies are accepted.",
+        "39. Helmet and seat belt. Wear a helmet on a two-wheeler and a seat belt in a car.",
+        "40. Signals. Obey traffic lights, road signs, lane markings and police hand signals.",
+        "41. Speed limit. Stay within the limit for that road and vehicle.",
+        "42. Drunk driving. Driving after drinking is illegal and dangerous, and can lead to arrest.",
+        "43. Mobile phone. Do not use your phone while driving.",
+        "44. Wrong side. Never drive on the wrong side. Follow lane and overtaking rules.",
+        "45. After an accident. Stop, help the injured, call 108 or 112, and inform the police.",
+        "46. Hit and run. Running away after an accident is a serious crime.",
+        "47. Challans. Check the fine on the official e-Challan site. Never pay through a link in an SMS.",
+        "48. Vehicle changes. Unauthorised modifications, wrong number plates and fancy lights are not allowed.",
+        "49. Pedestrians. Use crossings; drivers must give way.",
+        "50. Public transport. Know your safety rights and how to complain."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 4: Internet and phone safety"
+    },
+    {
+      "type": "list",
+      "items": [
+        "51. Online money fraud. Call 1930 and report on cybercrime.gov.in at once. Also tell your bank.",
+        "52. Identity theft. If someone misuses your Aadhaar, PAN, SIM or bank details, report it immediately.",
+        "53. OTP and UPI. Never share your OTP, PIN or password. A UPI PIN sends money - it never receives money.",
+        "54. Phishing. Be careful of fake bank links, courier messages, job offers and fake customer-care numbers.",
+        "55. Cyberstalking and threats. Online stalking and intimidation are offences.",
+        "56. Private images. Sharing someone's private photos without consent is a crime.",
+        "57. Online defamation. False and harmful posts can have legal consequences. Honest complaints are allowed.",
+        "58. Social media. Threats, hate content and impersonation are not allowed.",
+        "59. Copyright. Do not copy or sell others' images, music, films or software without permission.",
+        "60. Your personal data. You have rights over how your personal information is collected and used.",
+        "61. Account hacking. Report unauthorised access. Do not hack back.",
+        "62. Loan apps. Check that the lender is RBI-registered before taking an online loan.",
+        "63. Deepfakes and fake identities. Manipulated videos and fake profiles can be reported.",
+        "64. Work confidentiality. Do not leak your employer's data, customer information or passwords."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 5: Shopping and services"
+    },
+    {
+      "type": "list",
+      "items": [
+        "65. Right to safety. You are protected from dangerous goods and services.",
+        "66. Right to information. You can know the price, quality, quantity and ingredients.",
+        "67. Right to choose. No one can force you to buy something.",
+        "68. Right to be heard. You can raise a complaint and expect a reply.",
+        "69. Right to redressal. You can get a refund, replacement or repair.",
+        "70. Right to consumer education. You can learn your rights and how to complain.",
+        "71. Warranty. Read what the warranty covers and what it excludes.",
+        "72. Online shopping. Know the rules for cancellation, refund, returns and late delivery.",
+        "73. Misleading ads. False claims in advertisements are not allowed.",
+        "74. Bills and receipts. Keep proof of purchase, payment and messages.",
+        "75. Hidden charges. Check extra fees, service charges and cancellation charges before you pay.",
+        "76. Complaints. Call 1915 or file on the e-Daakhil portal if the seller does not fix it."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "For any traffic fine, you can check and pay on echallan.parivahan.gov.in. A link in an SMS is never the safe way to pay."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "In a financial fraud, the first hour matters most. Call 1930 immediately - it gives the best chance of freezing your money."
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Never approve a UPI 'collect request' to receive money, and never scan a QR code to receive money. Both send money out."
+    }
+  ],
+  "practicalSteps": [
+    "Save 1930, 1915 and the e-Challan website on your phone.",
+    "Keep digital copies of RC, licence, insurance and PUC in DigiLocker.",
+    "Save screenshots and transaction IDs before deleting any chat.",
+    "Read the return and refund policy before buying online."
+  ],
+  "exceptions": [
+    "Some documents can be shown later at the police station or online within a set time in certain states.",
+    "Products bought for resale or business use are usually not covered by consumer law."
+  ],
+  "faqs": [
+    {
+      "q": "Is a photo of my documents enough at a traffic check?",
+      "a": "Yes. DigiLocker or mParivahan digital copies are legally accepted."
+    },
+    {
+      "q": "Do I need a lawyer for a consumer complaint?",
+      "a": "No. Consumer commissions are meant to be simple, and you can argue your own case."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Motor Vehicles Act, 1988 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Cyber Crime Reporting Portal",
+      "url": "https://cybercrime.gov.in/"
+    },
+    {
+      "label": "National Consumer Helpline",
+      "url": "https://consumerhelpline.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "A UPI PIN is needed to receive money.",
+      "fact": "No. A PIN sends money out. To receive money, you only share your UPI ID or number - never a PIN."
+    }
+  ]
+}
