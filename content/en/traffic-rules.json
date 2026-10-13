@@ -3,16 +3,18 @@
   "slug": "traffic-rules",
   "lang": "en",
   "category": "traffic-rules",
-  "title": "Your Rights During a Traffic Stop",
-  "summary": "What the police can ask for on the road, what a challan means, and how to pay or contest it.",
+  "title": "Traffic Rules, Accidents and Challans",
+  "summary": "Documents to carry, road rules, what to do after an accident, and how to verify and pay a genuine challan.",
   "tags": [
     "traffic",
     "challan",
     "driving licence",
     "motor vehicles act",
-    "e-challan"
+    "e-challan",
+    "accident",
+    "helmet"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 7,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -38,9 +40,7 @@
       "type": "list",
       "items": [
         "A valid driving licence for the class of vehicle you drive.",
-        "Registration certificate (RC).",
-        "Insurance certificate.",
-        "Pollution under control (PUC) certificate.",
+        "Registration certificate (RC), insurance and pollution under control (PUC) certificate.",
         "For commercial vehicles, a permit and a fitness certificate."
       ]
     },
@@ -51,14 +51,43 @@
     },
     {
       "type": "h2",
-      "text": "During a traffic stop"
+      "text": "Rules that matter every day"
     },
     {
       "type": "list",
       "items": [
-        "The officer should be in uniform and, on request, show their identity.",
-        "You can ask which rule was broken and ask to see the challan.",
-        "You are entitled to a receipt for any fine you pay."
+        "Obey signals and road signs: stop at red, go on green, and never block a junction.",
+        "Respect the speed limit for the road, and slow down near schools, hospitals and pedestrian crossings.",
+        "Never drive on the wrong side or overtake from the left.",
+        "Do not use a mobile phone while driving. Use a hands-free device only where it is safe and legal.",
+        "Wear a helmet on a two-wheeler, and wear a seat belt in a car, including in the rear."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "After an accident"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Stop, switch on hazard lights and help anyone who is injured. Call 108 or 112.",
+        "Inform the police if there is injury, death or serious damage. Leaving the scene is a serious offence.",
+        "Exchange names, phone numbers, vehicle numbers and insurer details with the other driver.",
+        "Note the time, place and, if possible, take photos and note CCTV nearby.",
+        "Inform your insurance company within the time stated in your policy, and get a copy of the accident report."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Challans: verify before you pay"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Check the challan on the official e-Challan portal using the challan number or your vehicle number.",
+        "Never pay through a link in an SMS. Genuine payments happen only on the official portal or at the police station.",
+        "You can pay online, or contest the challan before the designated court if you believe it is wrong.",
+        "Always keep the receipt until the matter is closed."
       ]
     },
     {
@@ -67,19 +96,16 @@
       "text": "Never hand over your original documents and walk away. Show them, but do not surrender originals unless there is a legal reason and you get a receipt."
     },
     {
-      "type": "h2",
-      "text": "Paying or contesting a challan"
-    },
-    {
-      "type": "p",
-      "text": "An e-challan can be paid online. If you believe the challan is wrong, you can contest it before the designated court instead of paying."
+      "type": "callout",
+      "kind": "remember",
+      "text": "A police officer cannot seize your vehicle or keys for a routine document check. Seizure is allowed only for specific offences, with a receipt."
     }
   ],
   "practicalSteps": [
     "Keep digital copies of RC, licence, insurance and PUC in DigiLocker.",
     "Note the challan number, date, place and the officer's details.",
-    "Pay online at the official e-challan portal, or contest it in court within the time allowed.",
-    "Keep the payment receipt until the matter is closed."
+    "Verify and pay online at the official e-Challan portal, or contest it in court within the time allowed.",
+    "After any accident, save 108/112, inform your insurer, and keep photos and the accident report."
   ],
   "exceptions": [
     "Some documents may be produced later at the police station or online within a set time in certain states.",

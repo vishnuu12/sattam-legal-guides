@@ -1,0 +1,142 @@
+{
+  "id": "identity-documents",
+  "slug": "identity-documents",
+  "lang": "en",
+  "category": "identity-documents",
+  "title": "Aadhaar, PAN, Passport and RTI: Your Rights",
+  "summary": "When a document is legally required, how to fix errors, report misuse, and use the Right to Information.",
+  "tags": [
+    "aadhaar",
+    "PAN",
+    "voter ID",
+    "passport",
+    "RTI",
+    "fake officials"
+  ],
+  "readingMinutes": 7,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Aadhaar Act, 2016",
+    "Right to Information Act, 2005",
+    "Passports Act, 1967",
+    "Representation of the People Act, 1950"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Identity documents prove who you are and unlock services. Knowing when one is legally required, and how to fix problems, protects you from fraud and from being pushed around."
+    },
+    {
+      "type": "h2",
+      "text": "Your key documents"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aadhaar: a 12-digit identity number. It is proof of identity, not of citizenship.",
+        "PAN: needed for income tax and for many financial transactions above set limits.",
+        "Voter ID (EPIC): proves your enrolment as a voter in your constituency.",
+        "Passport: proof of identity and citizenship, mainly for travel.",
+        "Driving licence: proof that you may drive a particular class of vehicle."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "When a document is legally required, and when it is not"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aadhaar is generally required for PAN, many subsidies and KYC, but it is not a universal requirement for every service.",
+        "No one can demand your Aadhaar for a service that the law does not link to Aadhaar. Ask for the rule in writing.",
+        "A photocopy is usually enough for many private purposes. Do not hand over originals casually."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Correcting records and reporting misuse"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Corrections to Aadhaar, PAN or the voter roll can be requested through the official portal or office.",
+        "If your identity is misused, report it to the police and to the issuing authority.",
+        "For financial misuse, call 1930 and report on cybercrime.gov.in the same day.",
+        "You can check your Aadhaar authentication history and lock your biometrics online."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Right to Information (RTI)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Any citizen can ask a public authority for information by filing an RTI application.",
+        "The authority must usually reply within 30 days.",
+        "If refused or ignored, you can file a first appeal, and then a second appeal to the Information Commission."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Beware of fake officials and look-alike websites. Genuine government portals use .gov.in or .nic.in. Never pay a 'processing fee' to a personal account or UPI ID."
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "You can lock your Aadhaar biometrics online so they cannot be used for authentication until you unlock them."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep only the copies you need, and never post photos of your Aadhaar, PAN or passport on social media."
+    }
+  ],
+  "practicalSteps": [
+    "Download or update documents only from official portals such as uidai.gov.in, incometax.gov.in, nvsp.in and passportindia.gov.in.",
+    "Use masked Aadhaar (showing only the last 4 digits) wherever it is accepted.",
+    "If a document is misused, file a police complaint and an online report the same day.",
+    "For a government-service problem, file an RTI or a grievance on the department's portal."
+  ],
+  "exceptions": [
+    "Some services are linked to Aadhaar by law; those requirements are lawful even though others are not.",
+    "RTI does not cover certain exempt matters, such as national security and personal privacy."
+  ],
+  "faqs": [
+    {
+      "q": "Can a shop or hotel demand my Aadhaar?",
+      "a": "Only if the law links that service to Aadhaar. Otherwise you can refuse and offer another accepted ID."
+    },
+    {
+      "q": "How do I know a government website is real?",
+      "a": "Check the domain: official sites use .gov.in or .nic.in and a valid https certificate. Type the address yourself instead of clicking links."
+    }
+  ],
+  "sources": [
+    {
+      "label": "UIDAI (Aadhaar)",
+      "url": "https://uidai.gov.in/"
+    },
+    {
+      "label": "Income Tax Department (PAN)",
+      "url": "https://www.incometax.gov.in/"
+    },
+    {
+      "label": "Right to Information Act, 2005 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Aadhaar proves I am an Indian citizen.",
+      "fact": "Aadhaar is proof of identity, not of citizenship. Citizenship is shown by other documents such as a passport."
+    }
+  ]
+}

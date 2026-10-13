@@ -4,7 +4,7 @@
   "lang": "en",
   "category": "know-your-rights",
   "title": "What Are Your Fundamental Rights?",
-  "summary": "Six rights the Constitution gives every person in India, and what they actually mean in daily life.",
+  "summary": "The rights the Constitution gives every person in India, and what they actually mean in daily life.",
   "tags": [
     "fundamental rights",
     "constitution",
@@ -12,7 +12,7 @@
     "equality",
     "free legal aid"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 7,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -58,6 +58,30 @@
       "text": "If a shop refuses you service only because of your religion or caste, that is an equality issue. If the police detain you without telling you why, that is a freedom issue. If your employer holds back your wages for months, courts have linked fair wages to the right to life."
     },
     {
+      "type": "h2",
+      "text": "Rights come with duties and limits"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Freedom of speech does not protect threats, hate speech or defamation.",
+        "Most rights carry reasonable restrictions in the public interest.",
+        "Every right has a corresponding duty: to respect others' rights and to follow the law."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where to get help"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Your District Legal Services Authority (DLSA) provides free legal aid to those who qualify.",
+        "The NALSA helpline 15100 can guide you.",
+        "For a government action that violates a Fundamental Right, Article 32 lets you approach the Supreme Court directly, or Article 226 a High Court."
+      ]
+    },
+    {
       "type": "callout",
       "kind": "caution",
       "text": "Rights come with limits. Freedom of speech does not protect threats, hate speech or defamation."
@@ -65,7 +89,7 @@
     {
       "type": "callout",
       "kind": "remember",
-      "text": "If a government action violates a Fundamental Right, Article 32 lets you approach the Supreme Court directly, or Article 226 a High Court."
+      "text": "When in doubt, ask for the reason in writing and keep a copy of everything."
     }
   ],
   "practicalSteps": [

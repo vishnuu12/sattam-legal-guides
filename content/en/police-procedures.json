@@ -3,17 +3,19 @@
   "slug": "police-procedures",
   "lang": "en",
   "category": "police-procedures",
-  "title": "What To Do If the Police Stop or Arrest You",
-  "summary": "Your rights during a police stop, questioning or arrest, and the small steps that protect you.",
+  "title": "Police Powers, FIR and Your Rights",
+  "summary": "What to do if the police stop, search, question or arrest you, and how an FIR differs from a complaint.",
   "tags": [
     "police",
     "arrest",
+    "FIR",
+    "complaint",
     "rights",
     "BNSS",
     "article 22",
     "bail"
   ],
-  "readingMinutes": 7,
+  "readingMinutes": 8,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -33,7 +35,7 @@
     },
     {
       "type": "h2",
-      "text": "If you are only stopped or questioned"
+      "text": "If you are stopped or questioned"
     },
     {
       "type": "list",
@@ -42,6 +44,32 @@
         "You may ask the officer for their name and police station.",
         "You are not required to answer questions that could incriminate you.",
         "For a vehicle check, you must show your licence and documents."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Search and detention"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A search generally needs a warrant or a clear legal basis, except in specific situations such as with your consent, during a lawful arrest, or under a specific legal provision.",
+        "For a search of your home, ask for the legal basis and for independent witnesses to be present.",
+        "A woman may be searched only by a woman officer, with decency observed.",
+        "Police cannot detain you indefinitely. If you are held, ask on what legal basis, and remember the 24-hour rule below."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "FIR versus a police complaint"
+    },
+    {
+      "type": "list",
+      "items": [
+        "An FIR (First Information Report) is the first formal record of a cognisable offence, registered at the police station.",
+        "A complaint can also be made for non-cognisable offences, and can be filed before a Magistrate.",
+        "You are entitled to a free copy of the FIR.",
+        "If the police refuse to register your FIR, you can approach the Superintendent of Police, file a complaint before the Magistrate under the BNSS, or use your state police online portal."
       ]
     },
     {
@@ -77,7 +105,7 @@
   "practicalSteps": [
     "Note the time, place and the officers' names or badge numbers.",
     "Tell one trusted person where you are and who took you.",
-    "Ask for the grounds of arrest in writing.",
+    "Ask for the grounds of arrest, and for a copy of the FIR, in writing.",
     "Do not sign any blank or unread paper.",
     "Ask for a lawyer, or call the NALSA helpline 15100 for free legal aid."
   ],
@@ -91,8 +119,8 @@
       "a": "A search generally needs a warrant or a clear legal basis, except in specific situations such as with your consent, during a lawful arrest, or under a specific legal provision. Ask for the legal basis."
     },
     {
-      "q": "What if the police refuse to register my complaint?",
-      "a": "You can send your complaint to the Superintendent of Police, file a complaint before the Magistrate under the BNSS, or use your state police online complaint portal."
+      "q": "What if the police refuse to register my FIR?",
+      "a": "Send your complaint to the Superintendent of Police, file a complaint before the Magistrate under the BNSS, or use your state police online complaint portal. Keep a copy of everything you send."
     }
   ],
   "sources": [

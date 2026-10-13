@@ -1,0 +1,131 @@
+{
+  "id": "property-land",
+  "slug": "property-land",
+  "lang": "en",
+  "category": "property-land",
+  "title": "Buying Property Safely: Documents, Ownership and Wills",
+  "summary": "What to check before buying land or a house, and how ownership, inheritance and wills work.",
+  "tags": [
+    "property",
+    "land",
+    "sale deed",
+    "inheritance",
+    "will",
+    "registration"
+  ],
+  "readingMinutes": 7,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Transfer of Property Act, 1882",
+    "Registration Act, 1908",
+    "Indian Succession Act, 1925"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Land and houses are the largest purchase most families make. A little checking before you pay saves years of dispute later."
+    },
+    {
+      "type": "h2",
+      "text": "Documents to check before you buy"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mother deed and the chain of title, showing how ownership passed over the years.",
+        "The latest encumbrance certificate (EC) from the sub-registrar, to see loans or claims on the property.",
+        "Patta / khata and property tax receipts in the seller's name.",
+        "Approved plan and layout approval, and whether the land is agricultural or residential.",
+        "Project approvals and RERA registration if you are buying from a builder."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The buying process"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Verify the seller's identity and that all legal heirs are on board.",
+        "Have a lawyer search the title for at least 30 years.",
+        "Sign a written agreement, pay through bank transfer, and keep receipts.",
+        "Register the sale deed at the sub-registrar's office and pay the stamp duty.",
+        "Update mutation and property tax records in your name."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Never pay a large advance on the strength of a photocopy or a power of attorney you have not verified. An unregistered agreement can leave you without an enforceable title."
+    },
+    {
+      "type": "h2",
+      "text": "Ownership, inheritance and wills"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If a person dies without a will (intestate), property passes to legal heirs under their personal law.",
+        "A will lets a person decide who gets what; it should be signed and witnessed.",
+        "A probate or succession certificate may be needed to transfer some assets.",
+        "A nomination in a bank account or insurance policy is not the same as inheritance."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "Registration of a sale deed is compulsory for immovable property above the value set by law. An unregistered deed may not be accepted as proof of ownership."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep every original document in a safe place, and keep certified copies separately."
+    }
+  ],
+  "practicalSteps": [
+    "Get an encumbrance certificate and a title search done before you pay.",
+    "Match the property description and measurements in the documents with the actual site.",
+    "Pay through banking channels and insist on written receipts.",
+    "Register the deed and collect the original document after registration."
+  ],
+  "exceptions": [
+    "Buying agricultural land can carry state-specific restrictions on who may purchase it.",
+    "Inheritance rules differ by religion under the relevant personal law."
+  ],
+  "faqs": [
+    {
+      "q": "Is a power-of-attorney sale safe?",
+      "a": "It is risky. Courts have held that a sale through an unregistered power of attorney may not transfer valid title. Insist on a registered deed."
+    },
+    {
+      "q": "Do I need probate?",
+      "a": "It depends on the asset, the will and the state. For high-value or disputed estates, probate is often required."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Transfer of Property Act, 1882 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Registration Act, 1908 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "RERA - Ministry of Housing and Urban Affairs",
+      "url": "https://mohua.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "A notarised agreement is enough to own property.",
+      "fact": "For immovable property, a registered sale deed is generally required; notarisation alone does not transfer ownership."
+    }
+  ]
+}
