@@ -3,16 +3,17 @@
   "slug": "consumer-rights",
   "lang": "en",
   "category": "consumer-rights",
-  "title": "How to File a Consumer Complaint",
-  "summary": "If a product or service fails you, the Consumer Protection Act, 2019 gives you a clear path to a refund or replacement.",
+  "title": "Consumer Rights and Everyday Disputes",
+  "summary": "Fake products, misleading ads, refunds, hidden charges and how to file a consumer complaint.",
   "tags": [
     "consumer rights",
     "refund",
-    "e-commerce",
+    "misleading advertisement",
+    "warranty",
     "consumer court",
     "1915"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 7,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -27,7 +28,7 @@
   "body": [
     {
       "type": "p",
-      "text": "If you buy a product or a service and it is defective, late, unsafe or not what was promised, you have rights. The Consumer Protection Act, 2019 protects buyers in shops, online and over the phone."
+      "text": "If you buy a product or a service and it is defective, fake, late or not what was promised, you have rights. The Consumer Protection Act, 2019 protects buyers in shops, online and over the phone."
     },
     {
       "type": "h2",
@@ -44,25 +45,46 @@
       ]
     },
     {
-      "type": "callout",
-      "kind": "did-you-know",
-      "text": "For e-commerce, the E-Commerce Rules, 2020 require sellers to display return, refund and warranty policies clearly before you buy."
+      "type": "h2",
+      "text": "Defective or fake products, and misleading ads"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For a defective product, you can seek a replacement, repair or refund.",
+        "Selling fake goods or making misleading advertisements is an 'unfair trade practice' under the Act.",
+        "An advertisement must not make false claims about quality, quantity or results."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bills, hidden charges and online purchases"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A restaurant or shop must not add charges that were not disclosed. Ask for an itemised bill.",
+        "For online purchases, the seller must display return, refund and warranty terms before you buy.",
+        "Keep the bill, order ID, warranty card and all chats or emails."
+      ]
     },
     {
       "type": "h2",
       "text": "How to complain, step by step"
     },
     {
-      "type": "p",
-      "text": "First complain to the seller in writing. If they do not fix it, you can approach a Consumer Commission."
-    },
-    {
       "type": "list",
       "items": [
+        "First complain to the seller in writing. If they do not fix it, approach a Consumer Commission.",
         "District Commission: claims up to 50 lakh rupees.",
         "State Commission: claims between 50 lakh and 2 crore rupees.",
         "National Commission: claims above 2 crore rupees."
       ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "For e-commerce, the E-Commerce Rules, 2020 require sellers to display return, refund and warranty policies clearly before you buy."
     },
     {
       "type": "callout",

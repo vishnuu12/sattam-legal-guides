@@ -3,16 +3,19 @@
   "slug": "cybercrime",
   "lang": "en",
   "category": "cybercrime",
-  "title": "What To Do If You Are Scammed Online",
-  "summary": "The first 24 hours matter most. Here is how to report online fraud and try to get your money back.",
+  "title": "Online Fraud, Scams and Cyber Safety",
+  "summary": "UPI and OTP scams, fake jobs, loan apps, social-media safety, and how to report online fraud fast.",
   "tags": [
     "cybercrime",
     "online fraud",
     "UPI scam",
     "1930",
-    "IT act"
+    "IT act",
+    "loan app",
+    "fake job",
+    "cyberstalking"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 8,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -21,8 +24,8 @@
   "legalReviewer": null,
   "lastLegalReview": null,
   "sectionRefs": [
-    "Information Technology Act, 2000 (Sections 66C, 66D)",
-    "Bharatiya Nyaya Sanhita, 2023 (cheating provisions)",
+    "Information Technology Act, 2000 (Sections 66C, 66D, 67)",
+    "Bharatiya Nyaya Sanhita, 2023 (cheating, stalking, criminal intimidation)",
     "Cyber Crime Reporting Portal"
   ],
   "body": [
@@ -32,7 +35,46 @@
     },
     {
       "type": "h2",
-      "text": "The first steps, in order"
+      "text": "Common scams to recognise"
+    },
+    {
+      "type": "list",
+      "items": [
+        "UPI / OTP fraud: a caller claims to be from your bank, or sends a 'collect request' you are told to approve. Remember: approving a collect request SENDS money out, it does not bring money in.",
+        "Fake job offers: an 'employer' asks for a registration, training or security fee. Genuine employers never ask you to pay to get a job.",
+        "Loan apps: instant-loan apps that demand access to your contacts and photos, then harass you. Use only RBI-regulated lenders.",
+        "Prize or lottery scams: a message says you have won and asks for a fee or your bank details.",
+        "Fake customer-care numbers: numbers from search results that do not belong to the official company."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Staying safe on social media"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Keep your profile private and limit what strangers can see.",
+        "Never share OTPs, live location or identity documents in chats.",
+        "Be careful with 'friends' who quickly ask for money or intimate photos.",
+        "Switch on two-factor authentication for WhatsApp, Instagram and your email."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Cyberstalking, threats and private images"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Stalking, threats, impersonation and sharing private images without consent are offences under the IT Act and the criminal law.",
+        "Do not delete the evidence. Take screenshots and save profile links and message timestamps.",
+        "Report on cybercrime.gov.in. A woman in distress can also call 181."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "First steps after a financial fraud"
     },
     {
       "type": "list",
@@ -54,18 +96,6 @@
       "text": "The 'golden hour' is the short window right after a fraud. Reporting within it gives the best chance of freezing the money before it moves on."
     },
     {
-      "type": "h2",
-      "text": "Keep the evidence"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Screenshots of the chat, profile or payment page.",
-        "Transaction IDs, UPI reference numbers and bank SMS.",
-        "Phone numbers, email IDs, links and account numbers involved."
-      ]
-    },
-    {
       "type": "callout",
       "kind": "remember",
       "text": "You can file an online complaint even if you are not sure it is a crime. Reporting helps you and protects others."
@@ -75,6 +105,7 @@
     "Act within the first hour if possible.",
     "Dial 1930 and file a complaint on cybercrime.gov.in.",
     "Give your bank the transaction reference in writing and ask for a written acknowledgement.",
+    "Save screenshots, transaction IDs, phone numbers and links before deleting anything.",
     "If the money is not restored, escalate to the RBI Ombudsman for your bank."
   ],
   "exceptions": [

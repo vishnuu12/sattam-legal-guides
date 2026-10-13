@@ -3,16 +3,18 @@
   "slug": "emergency-resources",
   "lang": "en",
   "category": "emergency-resources",
-  "title": "Emergency Numbers and Helplines in India",
-  "summary": "Save these numbers. They are free, and they work from any phone in India.",
+  "title": "Emergency Numbers and Official Websites to Save",
+  "summary": "The helplines and official portals to keep on your phone, and where to get free legal aid.",
   "tags": [
     "emergency",
     "helpline",
     "112",
-    "181",
-    "1098"
+    "1930",
+    "15100",
+    "1915",
+    "official websites"
   ],
-  "readingMinutes": 4,
+  "readingMinutes": 5,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -27,7 +29,7 @@
   "body": [
     {
       "type": "p",
-      "text": "In an emergency, one number reaches police, fire and ambulance across India. Save it, and the helplines below, on your phone today."
+      "text": "In an emergency, one number reaches police, fire and ambulance across India. Save it, and the helplines and official websites below, on your phone today."
     },
     {
       "type": "h2",
@@ -58,6 +60,19 @@
       ]
     },
     {
+      "type": "h2",
+      "text": "Official websites to save"
+    },
+    {
+      "type": "list",
+      "items": [
+        "cybercrime.gov.in - report online financial fraud.",
+        "nalsa.gov.in - free legal aid and eligibility.",
+        "consumerhelpline.gov.in - consumer grievances.",
+        "echallan.parivahan.gov.in - verify and pay traffic fines."
+      ]
+    },
+    {
       "type": "callout",
       "kind": "did-you-know",
       "text": "112 is a single emergency number introduced across India. On many smartphones it can also be reached by pressing the power button five times."
@@ -76,8 +91,8 @@
   "practicalSteps": [
     "Save 112 and the relevant helplines in your phone today.",
     "Teach children and elders how to dial 112.",
-    "For free legal help, contact your District Legal Services Authority.",
-    "Keep your address handy in both English and Tamil for emergency calls."
+    "Type official website addresses yourself instead of clicking links in messages.",
+    "For free legal help, contact your District Legal Services Authority."
   ],
   "exceptions": [
     "Some states have additional local helplines; check your state's official website.",
@@ -95,16 +110,20 @@
   ],
   "sources": [
     {
-      "label": "Emergency Response Support System (112)",
-      "url": "https://112.gov.in/"
+      "label": "National Cyber Crime Reporting Portal",
+      "url": "https://cybercrime.gov.in/"
     },
     {
       "label": "National Legal Services Authority (NALSA)",
       "url": "https://nalsa.gov.in/"
     },
     {
-      "label": "Ministry of Women and Child Development",
-      "url": "https://www.wcd.nic.in/"
+      "label": "National Consumer Helpline",
+      "url": "https://consumerhelpline.gov.in/"
+    },
+    {
+      "label": "e-Challan (Parivahan)",
+      "url": "https://echallan.parivahan.gov.in/"
     }
   ],
   "misconceptions": [

@@ -3,16 +3,17 @@
   "slug": "family-law",
   "lang": "en",
   "category": "family-law",
-  "title": "Understanding Maintenance and Family Rights",
-  "summary": "What maintenance means, who can claim it, and how protection laws help families in difficulty.",
+  "title": "Marriage, Divorce, Maintenance and Protection",
+  "summary": "Maintenance, divorce, custody, and protection from domestic violence, explained simply.",
   "tags": [
     "family law",
-    "maintenance",
-    "domestic violence",
     "marriage",
-    "custody"
+    "divorce",
+    "maintenance",
+    "custody",
+    "domestic violence"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 8,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -43,9 +44,27 @@
       ]
     },
     {
-      "type": "callout",
-      "kind": "did-you-know",
-      "text": "The provision on maintenance (Section 144 of the BNSS, earlier Section 125 CrPC) is a quick remedy meant to stop destitution, and it covers wives, children and parents."
+      "type": "h2",
+      "text": "Marriage and divorce"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A marriage is registered under the applicable marriage law; registration makes proof much easier.",
+        "Divorce can be by mutual consent, or on specific grounds under the personal law that applies to you.",
+        "Either spouse can seek maintenance, though it is most often claimed by a dependent wife, children or parents."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Custody of children"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Courts decide custody based on the welfare of the child, not on who earns more.",
+        "Both parents usually retain rights to visit and to be involved in the child's life."
+      ]
     },
     {
       "type": "h2",
@@ -58,6 +77,11 @@
         "A woman can seek a protection order, a residence order and monetary relief.",
         "Help is available through Protection Officers and the women's helpline 181."
       ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "The provision on maintenance (Section 144 of the BNSS, earlier Section 125 CrPC) is a quick remedy meant to stop destitution, and it covers wives, children and parents."
     },
     {
       "type": "callout",

@@ -3,16 +3,18 @@
   "slug": "banking-safety",
   "lang": "en",
   "category": "banking-safety",
-  "title": "How to Stay Safe from UPI and Banking Fraud",
-  "summary": "Simple habits that stop most fraud, and the exact steps if money leaves your account without your consent.",
+  "title": "Banking, Loans and Financial Safety",
+  "summary": "UPI and OTP fraud, loans and interest, CIBIL, recovery agents, credit cards and income tax basics.",
   "tags": [
     "UPI",
     "bank fraud",
-    "OTP",
-    "RBI ombudsman",
-    "financial safety"
+    "loan",
+    "CIBIL",
+    "recovery agent",
+    "credit card",
+    "income tax"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 8,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -21,9 +23,10 @@
   "legalReviewer": null,
   "lastLegalReview": null,
   "sectionRefs": [
-    "Reserve Bank of India - Limited Liability for unauthorised electronic transactions",
+    "Reserve Bank of India - Fair Practices Code and recovery agent rules",
     "Integrated Ombudsman Scheme, 2021",
-    "Information Technology Act, 2000"
+    "Information Technology Act, 2000",
+    "Income-tax Act, 1961"
   ],
   "body": [
     {
@@ -32,7 +35,7 @@
     },
     {
       "type": "h2",
-      "text": "Rules that protect you"
+      "text": "Protect your money: UPI and OTP"
     },
     {
       "type": "list",
@@ -43,11 +46,6 @@
         "Do not install screen-sharing or remote-access apps for a 'bank officer'.",
         "Check your statement regularly."
       ]
-    },
-    {
-      "type": "callout",
-      "kind": "caution",
-      "text": "Missed calls and messages that create urgency ('your account will be blocked') are a common trick. Slow down and verify through the official app or branch."
     },
     {
       "type": "h2",
@@ -61,6 +59,69 @@
         "Give the bank a written complaint and get an acknowledgement.",
         "If it is unresolved, complain to the RBI Ombudsman."
       ]
+    },
+    {
+      "type": "h2",
+      "text": "Loans, interest and guarantors"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Read the loan agreement: interest rate, EMI, processing fee, prepayment penalty and foreclosure terms.",
+        "Interest can be fixed or floating; a floating rate changes with the market.",
+        "A guarantor is legally liable to pay if the borrower defaults. Never sign as a guarantor casually."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "CIBIL and your credit score"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Your CIBIL score reflects your repayment history and affects whether you get a loan, and at what rate.",
+        "Check your credit report regularly for errors and for loans opened in your name fraudulently."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What recovery agents can and cannot do"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recovery agents may contact you to recover a loan, but they cannot threaten, abuse or harass you or your family.",
+        "They must not use force, and must not contact you at unreasonable hours.",
+        "If you are harassed, complain to your bank and to the RBI Ombudsman."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Credit cards and digital lending"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Check your statement for hidden charges, annual fees and interest on unpaid balances.",
+        "Use only RBI-regulated digital lending apps. Unregulated apps can be predatory and misuse your data."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Income tax basics"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Form 16 (from your employer), AIS and Form 26AS show your income and the TDS already deducted.",
+        "If your income is above the basic exemption limit, you generally must file an income tax return.",
+        "File on the official portal incometax.gov.in. Never pay a 'tax agent' to a personal account."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Missed calls and messages that create urgency ('your account will be blocked') are a common trick. Slow down and verify through the official app or branch."
     },
     {
       "type": "callout",
@@ -77,7 +138,8 @@
     "Never share OTP, PIN, CVV or passwords.",
     "Report a fraudulent transaction to your bank within the shortest possible time.",
     "Also report to 1930 and cybercrime.gov.in.",
-    "Escalate to the RBI Ombudsman if the bank does not resolve it within 30 days."
+    "Read the loan agreement before signing, and never become a guarantor without understanding the risk.",
+    "Escalate to the RBI Ombudsman if the bank does not resolve your complaint within 30 days."
   ],
   "exceptions": [
     "If the fraud happened because you shared your credentials or were grossly negligent, your liability may be higher.",
@@ -89,8 +151,8 @@
       "a": "If you report quickly and were not negligent, RBI rules support limited or zero liability. The bank must resolve your complaint within a set time."
     },
     {
-      "q": "Should I close the account?",
-      "a": "Do not close it before the dispute is settled. Freeze or secure it instead, and keep all records."
+      "q": "Can a recovery agent call me at any time?",
+      "a": "No. Agents must follow RBI rules on conduct and timing. Threats or harassment can be reported to your bank and the RBI Ombudsman."
     }
   ],
   "sources": [
@@ -99,8 +161,8 @@
       "url": "https://www.rbi.org.in/"
     },
     {
-      "label": "RBI Sachet portal",
-      "url": "https://sachet.rbi.org.in/"
+      "label": "Income Tax Department (e-filing)",
+      "url": "https://www.incometax.gov.in/"
     },
     {
       "label": "National Cyber Crime Reporting Portal",

@@ -3,16 +3,18 @@
   "slug": "employment-rights",
   "lang": "en",
   "category": "employment-rights",
-  "title": "Your Rights If Your Salary Is Not Paid",
-  "summary": "Wages are a legal right, not a favour. Here is what to do when an employer delays or refuses to pay.",
+  "title": "Employment Rights: Salary, Contracts and Harassment",
+  "summary": "Appointment letters, notice periods, unpaid salary, workplace harassment, PF and gratuity.",
   "tags": [
     "salary",
     "wages",
     "labour",
     "PF",
-    "labour commissioner"
+    "gratuity",
+    "notice period",
+    "harassment"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 8,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -23,41 +25,72 @@
   "sectionRefs": [
     "Payment of Wages Act, 1936",
     "Code on Wages, 2019",
-    "Industrial Disputes Act, 1947 (Section 33C)"
+    "Industrial Disputes Act, 1947 (Section 33C)",
+    "Sexual Harassment of Women at Workplace Act, 2013"
   ],
   "body": [
     {
       "type": "p",
-      "text": "If you have worked, you must be paid, on time and in full. Indian law sets clear rules on when wages are due and what you can do when they are withheld."
+      "text": "If you have worked, you must be paid, on time and in full. Indian law also protects you on contracts, notice, leave and harassment. Knowing the basics helps you act instead of worry."
     },
     {
       "type": "h2",
-      "text": "What the law expects"
+      "text": "Your appointment letter and contract"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Read the appointment letter: salary, working hours, notice period, leave and termination clauses.",
+        "Keep a signed copy. If something is promised verbally, ask for it in writing.",
+        "Deductions must have a legal basis. Arbitrary cuts can be challenged before the labour authorities."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Salary, payslips and settlement"
     },
     {
       "type": "list",
       "items": [
         "Wages must be paid by the agreed date; for many workers, within 7 to 10 days of the wage period.",
-        "Deductions are allowed only for specific legal reasons, not arbitrary ones.",
+        "Keep your payslips and bank statements; they are your proof of what was due and paid.",
         "An employer cannot withhold your full and final settlement without a lawful reason."
       ]
     },
     {
-      "type": "callout",
-      "kind": "did-you-know",
-      "text": "The Code on Wages, 2019 brings payment of wages, minimum wages, bonus and equal pay into one law for most workers."
-    },
-    {
       "type": "h2",
-      "text": "If your salary is delayed or denied"
+      "text": "Notice, resignation and termination"
     },
     {
       "type": "list",
       "items": [
-        "Ask for the reason in writing.",
-        "Send a written demand for the unpaid amount.",
-        "Approach the Labour Commissioner for your area.",
-        "File an application for recovery of the money due."
+        "A notice period is what your contract or the law requires; both sides should honour it.",
+        "You can resign. The employer must still pay you for the days you worked.",
+        "Termination must follow the contract and the law. Being sacked in revenge for raising a complaint can be challenged."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Leave and workplace harassment"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Leave is governed by your contract and the applicable labour law.",
+        "Sexual harassment at the workplace is prohibited. Workplaces above a threshold must have an Internal Committee.",
+        "You can complain to the Internal Committee, or to the Local Committee for smaller workplaces."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "PF, gratuity and other benefits"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Provident Fund (PF) contributions by the employer are mandatory for covered establishments.",
+        "Gratuity is generally payable after five years of continuous service in covered cases.",
+        "ESI and other benefits apply where the establishment is covered."
       ]
     },
     {
@@ -68,14 +101,20 @@
     {
       "type": "callout",
       "kind": "remember",
-      "text": "Keep your appointment letter, payslips, bank statements and any written promises. These are your proof."
+      "text": "Keep your appointment letter, payslips, attendance records, bank statements and any written promises. These are your proof."
+    },
+    {
+      "type": "callout",
+      "kind": "action",
+      "text": "For unpaid salary, you can file a complaint with the Labour Commissioner or apply for recovery of the money due. For PF, complain to the EPFO."
     }
   ],
   "practicalSteps": [
     "Collect your appointment letter, payslips, attendance records and bank statements.",
     "Send a polite written demand and keep a copy.",
     "File a complaint with the Labour Commissioner or the labour court.",
-    "For PF issues, complain to the EPFO; for unpaid salary, an application can be filed for recovery of the money due."
+    "For PF issues, complain to the EPFO; for harassment, approach the Internal or Local Committee.",
+    "For unpaid salary, an application can be filed for recovery of the money due."
   ],
   "exceptions": [
     "Some categories of workers and very small establishments have different thresholds under the law.",

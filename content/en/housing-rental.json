@@ -3,16 +3,17 @@
   "slug": "housing-rental",
   "lang": "en",
   "category": "housing-rental",
-  "title": "Rights of Tenants and Landlords",
-  "summary": "Rent agreements, deposits, notice periods and the fair rules both sides should follow.",
+  "title": "Rent Agreements, Deposits and Eviction",
+  "summary": "What a good rent agreement contains, how deposits work, and the rules on notice and eviction.",
   "tags": [
     "rent",
     "tenant",
     "landlord",
     "security deposit",
+    "eviction notice",
     "rent agreement"
   ],
-  "readingMinutes": 6,
+  "readingMinutes": 7,
   "lastUpdated": "2026-10-13",
   "publishedDate": "2026-10-13",
   "translationStatus": "draft",
@@ -39,15 +40,10 @@
       "items": [
         "Rent amount, due date and mode of payment.",
         "Security deposit amount and when it is returned.",
-        "Notice period for leaving or asking a tenant to leave.",
+        "Notice period for leaving, or for asking a tenant to leave.",
         "Who pays maintenance, electricity and water.",
         "Rules on repairs and sub-letting."
       ]
-    },
-    {
-      "type": "callout",
-      "kind": "did-you-know",
-      "text": "The Model Tenancy Act, 2021 sets a common framework: a written agreement, a cap on security deposits (generally two months' rent for residential premises) and a Rent Authority for disputes."
     },
     {
       "type": "h2",
@@ -75,9 +71,38 @@
       ]
     },
     {
+      "type": "h2",
+      "text": "Notice and eviction"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A landlord must give proper written notice before asking a tenant to leave; the period is set by the agreement or the rent law.",
+        "Eviction usually needs a valid ground, such as non-payment of rent or the landlord's genuine need.",
+        "A tenant must also give notice before leaving, as agreed.",
+        "A landlord cannot lock a tenant out, cut off water or electricity, or remove belongings to force an exit. That is unlawful and can be challenged in court."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Deposits and repairs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The security deposit should be returned as agreed, minus genuine unpaid dues or damage beyond normal wear.",
+        "Repairs are usually split: structural repairs by the landlord, small day-to-day repairs by the tenant."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "The Model Tenancy Act, 2021 sets a common framework: a written agreement, a cap on security deposits (generally two months' rent for residential premises) and a Rent Authority for disputes."
+    },
+    {
       "type": "callout",
       "kind": "caution",
-      "text": "A landlord cannot lock a tenant out, cut off water or electricity, or throw out belongings to force a tenant to leave. That is unlawful and can be challenged in court."
+      "text": "No one may take the law into their own hands. Locking a tenant out or cutting utilities to force an exit is unlawful."
     },
     {
       "type": "callout",
