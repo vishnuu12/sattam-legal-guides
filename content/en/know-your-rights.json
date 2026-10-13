@@ -4,7 +4,7 @@
   "lang": "en",
   "category": "know-your-rights",
   "title": "What Are Your Fundamental Rights?",
-  "summary": "The rights the Constitution gives every person in India, and what they actually mean in daily life.",
+  "summary": "The rights the Constitution gives every person in India, and what they really mean in daily life.",
   "tags": [
     "fundamental rights",
     "constitution",
@@ -27,7 +27,7 @@
   "body": [
     {
       "type": "p",
-      "text": "The Constitution of India gives every person some basic rights that no one - not the police, not your employer, not the government - can simply take away. These are called Fundamental Rights."
+      "text": "The Constitution gives every person in India some basic rights. No one can just take them away. Not the police, not your boss, not the government. These rights are called Fundamental Rights."
     },
     {
       "type": "h2",
@@ -36,26 +36,26 @@
     {
       "type": "list",
       "items": [
-        "Right to Equality (Articles 14-18): equal treatment before the law.",
-        "Right to Freedom (Articles 19-22): speech, movement, and protection during arrest.",
-        "Right against Exploitation (Articles 23-24): no forced labour and no child labour.",
-        "Right to Freedom of Religion (Articles 25-28).",
-        "Cultural and Educational Rights (Articles 29-30).",
-        "Right to Constitutional Remedies (Article 32): go to court when a right is violated."
+        "Right to Equality (Articles 14-18): the law must treat everyone the same.",
+        "Right to Freedom (Articles 19-22): you can speak, move around, and you get protection when you are arrested.",
+        "Right against Exploitation (Articles 23-24): no one can force you to work, and children cannot be made to work.",
+        "Right to Freedom of Religion (Articles 25-28): you are free to follow your religion.",
+        "Cultural and Educational Rights (Articles 29-30): your culture and your right to study are protected.",
+        "Right to Constitutional Remedies (Article 32): if someone breaks your right, you can go to court."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "Article 21, the right to life and personal liberty, has been read by the Supreme Court to include dignity, privacy, health and a clean environment."
+      "text": "Article 21 is about the right to life and personal freedom. The Supreme Court has said it also covers dignity (respect), privacy (your private life), health, and a clean environment."
     },
     {
       "type": "h2",
-      "text": "How these rights protect you day to day"
+      "text": "How these rights help you every day"
     },
     {
       "type": "p",
-      "text": "If a shop refuses you service only because of your religion or caste, that is an equality issue. If the police detain you without telling you why, that is a freedom issue. If your employer holds back your wages for months, courts have linked fair wages to the right to life."
+      "text": "If a shop refuses to serve you just because of your religion or caste, that is a problem of equality. If the police hold you and do not tell you why, that is a problem of freedom. If your employer does not pay your salary for many months, courts have linked fair pay to the right to life."
     },
     {
       "type": "h2",
@@ -64,9 +64,9 @@
     {
       "type": "list",
       "items": [
-        "Freedom of speech does not protect threats, hate speech or defamation.",
-        "Most rights carry reasonable restrictions in the public interest.",
-        "Every right has a corresponding duty: to respect others' rights and to follow the law."
+        "Freedom of speech does not protect threats, hate speech, or defamation (saying false things to spoil someone's name).",
+        "Most rights have reasonable limits for the good of everyone.",
+        "Every right comes with a duty: respect other people's rights and follow the law."
       ]
     },
     {
@@ -76,36 +76,36 @@
     {
       "type": "list",
       "items": [
-        "Your District Legal Services Authority (DLSA) provides free legal aid to those who qualify.",
-        "The NALSA helpline 15100 can guide you.",
-        "For a government action that violates a Fundamental Right, Article 32 lets you approach the Supreme Court directly, or Article 226 a High Court."
+        "Your District Legal Services Authority (DLSA) gives free legal help to people who qualify.",
+        "You can call the NALSA helpline 15100 for guidance.",
+        "If a government action breaks a Fundamental Right, Article 32 lets you go straight to the Supreme Court, or Article 226 lets you go to a High Court."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Rights come with limits. Freedom of speech does not protect threats, hate speech or defamation."
+      "text": "Rights have limits. Freedom of speech does not protect threats, hate speech, or defamation (saying false things to spoil someone's name)."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "When in doubt, ask for the reason in writing and keep a copy of everything."
+      "text": "If you are not sure, ask for the reason in writing. Keep a copy of everything."
     }
   ],
   "practicalSteps": [
-    "Write down what happened, with dates, places and names.",
-    "Keep copies of any documents, messages or receipts.",
-    "Ask for the reason in writing whenever a right is restricted.",
+    "Write down what happened. Note the date, place, and names.",
+    "Keep copies of all documents, messages, and receipts.",
+    "If any right is limited, ask for the reason in writing.",
     "For free help, contact your District Legal Services Authority (DLSA) or call the NALSA helpline 15100."
   ],
   "exceptions": [
-    "Some rights can be restricted during a declared emergency (Articles 352-360), but Articles 20 and 21 cannot be suspended.",
-    "Reasonable restrictions are allowed in the public interest, such as for public order or decency."
+    "Some rights can be limited during a declared emergency (Articles 352-360). But Articles 20 and 21 can never be stopped.",
+    "Reasonable limits are allowed for the good of everyone, for example to keep public order or decency."
   ],
   "faqs": [
     {
-      "q": "Can a private company violate my Fundamental Rights?",
-      "a": "Fundamental Rights mainly apply against the State. Against private parties you usually rely on ordinary laws such as contract, labour and consumer law. A few rights, like Articles 15(2), 17, 23 and 24, do apply to private persons."
+      "q": "Can a private company break my Fundamental Rights?",
+      "a": "Fundamental Rights are mostly against the State (the government). Against private people or companies, you usually use ordinary laws like contract law, labour law, and consumer law. A few rights, like Articles 15(2), 17, 23 and 24, do apply to private persons too."
     },
     {
       "q": "Is free legal aid really free?",
@@ -129,7 +129,7 @@
   "misconceptions": [
     {
       "myth": "Fundamental Rights are only for citizens.",
-      "fact": "Most apply to every person in India. A few, such as Articles 15, 16, 19 and 29, apply only to citizens."
+      "fact": "Most of them apply to every person in India. A few, like Articles 15, 16, 19 and 29, apply only to citizens."
     }
   ]
 }

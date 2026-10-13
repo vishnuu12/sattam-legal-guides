@@ -4,7 +4,7 @@
   "lang": "en",
   "category": "police-procedures",
   "title": "Police Powers, FIR and Your Rights",
-  "summary": "What to do if the police stop, search, question or arrest you, and how an FIR differs from a complaint.",
+  "summary": "What to do if the police stop, search, question, or arrest you. And how an FIR is different from a complaint.",
   "tags": [
     "police",
     "arrest",
@@ -31,45 +31,45 @@
   "body": [
     {
       "type": "p",
-      "text": "Being stopped or arrested by the police is frightening. Knowing a few clear rules keeps the situation calm and protects you. These rules come from the Constitution and the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), which replaced the old CrPC."
+      "text": "It is scary when the police stop you or arrest you. If you know a few clear rules, you can stay calm and protect yourself. These rules come from the Constitution and the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS). The BNSS replaced the old CrPC."
     },
     {
       "type": "h2",
-      "text": "If you are stopped or questioned"
+      "text": "If the police stop you or ask you questions"
     },
     {
       "type": "list",
       "items": [
-        "Stay calm and polite. Do not argue or run.",
-        "You may ask the officer for their name and police station.",
-        "You are not required to answer questions that could incriminate you.",
-        "For a vehicle check, you must show your licence and documents."
+        "Stay calm and polite. Do not argue and do not run.",
+        "You can ask the officer for their name and their police station.",
+        "You do not have to answer questions that could be used against you (incriminate you).",
+        "During a vehicle check, you must show your licence and documents."
       ]
     },
     {
       "type": "h2",
-      "text": "Search and detention"
+      "text": "Search and being held"
     },
     {
       "type": "list",
       "items": [
-        "A search generally needs a warrant or a clear legal basis, except in specific situations such as with your consent, during a lawful arrest, or under a specific legal provision.",
-        "For a search of your home, ask for the legal basis and for independent witnesses to be present.",
-        "A woman may be searched only by a woman officer, with decency observed.",
-        "Police cannot detain you indefinitely. If you are held, ask on what legal basis, and remember the 24-hour rule below."
+        "A search usually needs a warrant (a written court order) or a clear legal reason. There are some exceptions, like when you agree, during a lawful arrest, or under a specific law.",
+        "If the police search your home, ask for the legal reason. Also ask for independent witnesses to be present.",
+        "A woman can be searched only by a woman officer, and with respect.",
+        "The police cannot hold you forever. If you are held, ask on what legal basis. Remember the 24-hour rule below."
       ]
     },
     {
       "type": "h2",
-      "text": "FIR versus a police complaint"
+      "text": "FIR and a police complaint - what is the difference"
     },
     {
       "type": "list",
       "items": [
-        "An FIR (First Information Report) is the first formal record of a cognisable offence, registered at the police station.",
-        "A complaint can also be made for non-cognisable offences, and can be filed before a Magistrate.",
-        "You are entitled to a free copy of the FIR.",
-        "If the police refuse to register your FIR, you can approach the Superintendent of Police, file a complaint before the Magistrate under the BNSS, or use your state police online portal."
+        "An FIR (First Information Report) is the first formal record of a cognisable offence (a serious crime the police must act on). It is registered at the police station.",
+        "For a non-cognisable offence (a less serious crime), you can make a complaint. You can also file it before a Magistrate.",
+        "You have the right to a free copy of the FIR.",
+        "If the police refuse to register your FIR, you can go to the Superintendent of Police. You can also file a complaint before the Magistrate under the BNSS, or use your state police online portal."
       ]
     },
     {
@@ -79,22 +79,22 @@
     {
       "type": "list",
       "items": [
-        "You have the right to know the reason for your arrest (Article 22(1)).",
-        "You have the right to inform a family member or friend.",
-        "You must be produced before a magistrate within 24 hours (Article 22(2)).",
-        "You have the right to a lawyer of your choice, and to free legal aid if you cannot afford one.",
-        "You cannot be forced to confess. Statements made under threat are not valid (Article 20(3))."
+        "You have the right to know why you are being arrested (Article 22(1)).",
+        "You have the right to tell a family member or a friend.",
+        "You must be brought before a magistrate within 24 hours (Article 22(2)).",
+        "You have the right to a lawyer of your choice. If you cannot afford one, you have the right to free legal aid.",
+        "No one can force you to confess. A statement given under threat is not valid (Article 20(3))."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "A woman cannot normally be arrested after sunset and before sunrise, except in exceptional cases with a magistrate's permission and a woman officer present."
+      "text": "Normally, a woman cannot be arrested after sunset and before sunrise. There are rare exceptions, with a magistrate's permission and a woman officer present."
     },
     {
       "type": "callout",
       "kind": "rights",
-      "text": "You are entitled to a medical examination and to have your arrest recorded in a memo signed by a witness."
+      "text": "You have the right to a medical examination. You also have the right to have your arrest written in a memo signed by a witness."
     },
     {
       "type": "callout",
@@ -103,24 +103,24 @@
     }
   ],
   "practicalSteps": [
-    "Note the time, place and the officers' names or badge numbers.",
-    "Tell one trusted person where you are and who took you.",
-    "Ask for the grounds of arrest, and for a copy of the FIR, in writing.",
-    "Do not sign any blank or unread paper.",
+    "Note the time, the place, and the officers' names or badge numbers.",
+    "Tell one person you trust where you are and who took you.",
+    "Ask for the reason for the arrest, and for a copy of the FIR, in writing.",
+    "Do not sign any blank paper or any paper you have not read.",
     "Ask for a lawyer, or call the NALSA helpline 15100 for free legal aid."
   ],
   "exceptions": [
-    "Preventive detention laws allow detention without a normal charge, but with safeguards and periodic review.",
-    "In some serious offences an arrest may be made without a warrant, but the 24-hour rule still applies."
+    "Preventive detention laws allow the police to hold a person without a normal charge. But there are safeguards and regular reviews.",
+    "For some serious offences, an arrest can be made without a warrant. But the 24-hour rule still applies."
   ],
   "faqs": [
     {
       "q": "Can the police search my phone or home without a warrant?",
-      "a": "A search generally needs a warrant or a clear legal basis, except in specific situations such as with your consent, during a lawful arrest, or under a specific legal provision. Ask for the legal basis."
+      "a": "A search usually needs a warrant or a clear legal reason. There are exceptions, like when you agree, during a lawful arrest, or under a specific law. Ask for the legal reason."
     },
     {
       "q": "What if the police refuse to register my FIR?",
-      "a": "Send your complaint to the Superintendent of Police, file a complaint before the Magistrate under the BNSS, or use your state police online complaint portal. Keep a copy of everything you send."
+      "a": "Send your complaint to the Superintendent of Police. Or file a complaint before the Magistrate under the BNSS. Or use your state police online complaint portal. Keep a copy of everything you send."
     }
   ],
   "sources": [
@@ -140,7 +140,7 @@
   "misconceptions": [
     {
       "myth": "The police can keep me as long as they want before a court hearing.",
-      "fact": "No. Article 22(2) requires you to be produced before a magistrate within 24 hours of arrest."
+      "fact": "No. Under Article 22(2), you must be brought before a magistrate within 24 hours of your arrest."
     }
   ]
 }

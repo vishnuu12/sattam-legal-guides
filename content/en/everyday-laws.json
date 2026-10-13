@@ -3,8 +3,8 @@
   "slug": "everyday-laws",
   "lang": "en",
   "category": "everyday-laws",
-  "title": "Everyday Laws Every Person Should Know",
-  "summary": "Ten legal principles and golden rules that keep you safe in ordinary life.",
+  "title": "Everyday Laws Everyone Should Know",
+  "summary": "Ten legal rules and golden rules that keep you safe in daily life.",
   "tags": [
     "everyday laws",
     "constitution",
@@ -29,25 +29,25 @@
   "body": [
     {
       "type": "p",
-      "text": "You do not need to be a lawyer to stay out of trouble. A handful of legal principles cover most of what happens in ordinary life."
+      "text": "You do not need to be a lawyer to stay out of trouble. A few basic legal ideas cover most of what happens in daily life."
     },
     {
       "type": "h2",
-      "text": "Ten principles that protect you"
+      "text": "Ten rules that protect you"
     },
     {
       "type": "list",
       "items": [
-        "Constitution: every person has Fundamental Rights - equality before the law, freedom of speech, and protection of life and personal liberty. Courts can strike down government action that violates them.",
-        "Criminal law: an offence is a wrong punishable by law; a complaint is your written information to the police; an FIR is the formal first record of a cognisable offence; an arrest is custody; a court case decides guilt. Knowing which is which prevents panic.",
-        "Evidence: what you keep decides what you can prove. Preserve messages, emails, receipts, photos and CCTV details, and collect them lawfully.",
-        "Public behaviour: excessive noise, public nuisance, trespassing, assault and damaging property can all attract penalties, even when they feel minor.",
-        "Privacy: guard your Aadhaar, PAN, bank details and personal photos. Careless sharing can lead to fraud or blackmail.",
-        "Women's safety: the law protects against stalking, harassment, domestic violence and workplace sexual harassment.",
-        "Child protection: child labour is restricted, and children have special protection against sexual offences under the POCSO Act.",
-        "Taxes: know your income tax basics - Form 16, AIS, TDS, and when you must file a return.",
-        "Agreements: before signing, read the payment terms, penalties and termination clauses. What you sign binds you.",
-        "Civic duties: follow waste-disposal rules, protect public property and obey local regulations. These are legal duties, not just etiquette."
+        "Constitution: every person has Fundamental Rights - equality before the law, freedom of speech, and protection of life and personal freedom. If the government breaks these, courts can cancel its action.",
+        "Criminal law: an offence is a wrong that the law punishes; a complaint is the written information you give the police; an FIR is the first formal record of a cognisable offence (a serious crime the police must act on); an arrest means being taken into custody; a court case decides if someone is guilty. If you know which is which, you will not panic.",
+        "Evidence: what you keep decides what you can prove. Save messages, emails, receipts, photos, and CCTV details. Collect them in a lawful way.",
+        "Public behaviour: too much noise, public nuisance, trespassing (entering a place without permission), assault, and damaging property can all lead to punishment, even if they seem small.",
+        "Privacy: protect your Aadhaar, PAN, bank details, and personal photos. If you share them carelessly, you may face fraud or blackmail.",
+        "Women's safety: the law protects against stalking, harassment, domestic violence, and sexual harassment at work.",
+        "Child protection: child labour is restricted. Children also have special protection against sexual offences under the POCSO Act.",
+        "Taxes: learn your income tax basics - Form 16, AIS, TDS, and when you must file a return.",
+        "Agreements: before you sign, read the payment terms, penalties, and termination (ending) clauses. What you sign binds you.",
+        "Civic duties: follow waste-disposal rules, protect public property, and obey local rules. These are legal duties, not just good manners."
       ]
     },
     {
@@ -57,45 +57,45 @@
     {
       "type": "list",
       "items": [
-        "Never sign a document you have not read or understood.",
-        "Never share an OTP, UPI PIN or banking password with anyone.",
-        "Keep copies of employment contracts, loan agreements, receipts and important correspondence.",
-        "If police or another authority contacts you, stay calm, cooperate lawfully, and ask for clarification if you do not understand the procedure.",
-        "If someone threatens you, do not escalate the situation; preserve evidence and seek appropriate help.",
-        "Never ignore a court summons, legal notice or official deadline without understanding its consequences.",
-        "Verify legal claims on official government websites instead of trusting viral social-media videos.",
-        "For a serious legal problem, get advice from a qualified lawyer rather than relying only on general online information."
+        "Never sign a paper you have not read or understood.",
+        "Never share an OTP, UPI PIN, or bank password with anyone.",
+        "Keep copies of job contracts, loan agreements, receipts, and important letters.",
+        "If the police or another authority contacts you, stay calm. Cooperate in a lawful way. If you do not understand what is happening, ask them to explain.",
+        "If someone threatens you, do not make the situation worse. Save the evidence and get the right help.",
+        "Never ignore a court summons, legal notice, or official deadline without knowing what it can lead to.",
+        "Check legal claims on official government websites. Do not trust viral social-media videos.",
+        "For a serious legal problem, ask a qualified lawyer. Do not depend only on general information from the internet."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Not every right is absolute. Many rights carry reasonable restrictions, and the exact rule can depend on your state and the facts of your case."
+      "text": "Not every right is unlimited. Many rights have reasonable limits. The exact rule can depend on your state and on the facts of your case."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "When in doubt, keep the paper and ask for it in writing. A written record is far stronger than a memory."
+      "text": "If you are not sure, keep the paper and ask for it in writing. A written record is much stronger than memory."
     }
   ],
   "practicalSteps": [
     "Save 112, 1930, 1915 and 15100 in your phone today.",
-    "Keep a folder (physical or on cloud) of your key documents and receipts.",
-    "Before signing anything, ask for a copy and time to read it.",
-    "Note dates, names and reference numbers whenever something happens."
+    "Keep a folder (on paper or online) of your important documents and receipts.",
+    "Before you sign anything, ask for a copy and time to read it.",
+    "Whenever something happens, note the date, names, and reference numbers."
   ],
   "exceptions": [
-    "Fundamental Rights apply mainly against the State, though a few also apply to private persons.",
-    "A declared emergency can restrict some rights, but Articles 20 and 21 cannot be suspended."
+    "Fundamental Rights mostly apply against the State (the government). A few also apply to private persons.",
+    "A declared emergency can limit some rights. But Articles 20 and 21 cannot be stopped."
   ],
   "faqs": [
     {
-      "q": "Does ignorance of the law excuse me?",
-      "a": "Generally no. Ignorance is rarely a defence, which is exactly why these basics matter."
+      "q": "If I do not know the law, am I excused?",
+      "a": "Usually no. Not knowing the law is rarely a defence. That is exactly why these basics matter."
     },
     {
-      "q": "How do I check whether a legal claim is true?",
-      "a": "Use official sources - India Code, the department website and the specific Act - not forwarded messages or short videos."
+      "q": "How do I check if a legal claim is true?",
+      "a": "Use official sources - India Code, the department website, and the specific Act. Not forwarded messages or short videos."
     }
   ],
   "sources": [
@@ -115,7 +115,7 @@
   "misconceptions": [
     {
       "myth": "Rights have no limits.",
-      "fact": "Most rights carry reasonable restrictions, and their exact scope depends on the law and the facts."
+      "fact": "Most rights have reasonable limits. The exact limit depends on the law and the facts."
     }
   ]
 }

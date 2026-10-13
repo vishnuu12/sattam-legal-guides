@@ -1,0 +1,216 @@
+{
+  "id": "checklist-4-government-daily",
+  "slug": "checklist-4-government-daily",
+  "lang": "en",
+  "category": "rights-checklist",
+  "title": "Checklist: Government, Daily Life and Laws by Name",
+  "summary": "Government services, everyday behaviour, environment, the main laws, and your daily safety checklist.",
+  "tags": [
+    "checklist",
+    "RTI",
+    "government",
+    "environment",
+    "laws",
+    "daily checklist"
+  ],
+  "readingMinutes": 12,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Right to Information Act, 2005",
+    "Aadhaar Act, 2016",
+    "Environment (Protection) Act, 1986",
+    "Food Safety and Standards Act, 2006",
+    "Constitution of India, Article 51A"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "The final part of your checklist: government services, everyday behaviour, the environment, and the main laws you should recognise by name."
+    },
+    {
+      "type": "h2",
+      "text": "Part 10: Government services and your rights"
+    },
+    {
+      "type": "list",
+      "items": [
+        "131. RTI (Right to Information). Any citizen can ask a government office for information; they must usually reply in 30 days.",
+        "132. Voting rights. Learn voter registration, eligibility and how to vote lawfully.",
+        "133. Passport. Know the application, renewal and travel-document rules.",
+        "134. Aadhaar. Understand enrolment, correction, and the limits on when it can be demanded.",
+        "135. PAN. Know when PAN is required for tax and financial work, and how to report misuse.",
+        "136. Public grievances. Learn how to complain to a department and track the reply.",
+        "137. Government schemes. Check eligibility, how to apply, the benefits and the appeal route.",
+        "138. Certificates. Learn how to get birth, death, income and community certificates.",
+        "139. Public services. Know the procedure for utilities, municipal services and local complaints.",
+        "140. Legal aid. Approach your District Legal Services Authority for free help if you qualify.",
+        "141. Court orders. Learn how to verify an order, comply with it, and challenge it properly.",
+        "142. RTI appeals. If an RTI is refused or ignored, learn the first and second appeal steps."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 11: Public behaviour and everyday offences"
+    },
+    {
+      "type": "list",
+      "items": [
+        "143. Public nuisance. Do not block, endanger or seriously disturb others.",
+        "144. Noise rules. Follow the rules on loudspeakers and loud sound, especially at night.",
+        "145. Trespassing. Do not enter or stay on someone else's property without permission.",
+        "146. Assault and fighting. Physical aggression is a crime, even if it started as an argument.",
+        "147. Self-defence. Use only as much force as needed; hitting back after the danger has passed is not self-defence.",
+        "148. Threats and extortion. Threatening someone, or demanding money by threat, is an offence.",
+        "149. Damage to property. Deliberately damaging someone's property has criminal and civil consequences.",
+        "150. Alcohol and public conduct. Follow your state's rules on alcohol and public behaviour.",
+        "151. Public smoking. Learn where smoking is banned.",
+        "152. Drugs. Possession, use, supply and trafficking of drugs are serious offences.",
+        "153. Public photography. Respect privacy and rules when filming people or restricted places.",
+        "154. Peaceful protests. You have a right to peaceful assembly, with reasonable conditions.",
+        "155. Police directions. Follow lawful directions; if you believe an action is unlawful, use the proper complaint route."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 12: Environment, health and community"
+    },
+    {
+      "type": "list",
+      "items": [
+        "156. Waste disposal. Follow local rules on littering, segregation and dumping.",
+        "157. Water and electricity. Illegal connections and meter tampering are offences.",
+        "158. Environment. There are rules against pollution, dumping and cutting trees unlawfully.",
+        "159. Animal welfare. Cruelty to animals is punishable; owners have duties too.",
+        "160. Food safety. You have protections against unsafe food, and a way to complain.",
+        "161. Public health. Follow lawful public-health directions.",
+        "162. Building and fire safety. Know the fire-safety and emergency-exit rules for buildings.",
+        "163. Community responsibilities. Respect others' rights, public property and local rules.",
+        "164. Fundamental Duties. Article 51A lists citizens' duties - respecting the Constitution, protecting public property and promoting harmony.",
+        "165. Civic participation. Raise local problems with your panchayat, municipality or the right authority."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 13: The main laws, by name"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Constitution of India - fundamental rights, government powers and duties.",
+        "Bharatiya Nyaya Sanhita, 2023 (BNS) - criminal offences and punishments.",
+        "Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) - criminal procedure, arrest, investigation and bail.",
+        "Bharatiya Sakshya Adhiniyam, 2023 (BSA) - evidence in legal proceedings.",
+        "Motor Vehicles Act, 1988 - vehicles and road traffic.",
+        "Consumer Protection Act, 2019 - consumer rights and remedies.",
+        "Information Technology Act, 2000 - electronic records and cyber offences.",
+        "Digital Personal Data Protection Act, 2023 - protection of personal data.",
+        "Right to Information Act, 2005 - access to information from public authorities.",
+        "Legal Services Authorities Act, 1987 - legal aid.",
+        "Protection of Women from Domestic Violence Act, 2005 - domestic-violence protections.",
+        "Sexual Harassment of Women at Workplace Act, 2013 (POSH) - workplace harassment.",
+        "POCSO Act, 2012 - protection of children from sexual offences.",
+        "Dowry Prohibition Act, 1961 - dowry.",
+        "Prohibition of Child Marriage Act, 2006 - child marriage.",
+        "Income-tax Act, 1961 - income tax.",
+        "Transfer of Property Act, 1882 - property transfers.",
+        "Registration Act, 1908 - registration of documents.",
+        "Indian Contract Act, 1872 - contracts.",
+        "Hindu Succession Act, 1956 and Special Marriage Act, 1954 - succession and civil marriage.",
+        "Environment (Protection) Act, 1986 - environmental protection.",
+        "Food Safety and Standards Act, 2006 - food safety.",
+        "Negotiable Instruments Act, 1881 - cheques and promissory notes.",
+        "Maintenance and Welfare of Parents and Senior Citizens Act, 2007 - care of parents and seniors."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 14: Your daily safety checklist"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Carry the vehicle documents you need for your journey.",
+        "Follow traffic signals, speed limits and helmet or seat-belt rules.",
+        "Never share OTPs, UPI PINs or passwords.",
+        "Read loan agreements, contracts and important documents before signing.",
+        "Keep receipts, salary records, agreements and important messages.",
+        "Verify official calls, notices, challans and payment requests.",
+        "Report online financial fraud immediately.",
+        "Never ignore a court summons or lawful official notice.",
+        "Respect privacy, and never threaten, assault or harass anyone.",
+        "Know how to reach legal aid and emergency services."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 15: Official websites to bookmark"
+    },
+    {
+      "type": "list",
+      "items": [
+        "indiacode.nic.in - read the actual Acts.",
+        "sci.gov.in - the Constitution and the Supreme Court.",
+        "mha.gov.in - criminal-law information.",
+        "nalsa.gov.in - free legal aid.",
+        "rbi.org.in - banking rules and complaints.",
+        "tn.gov.in - Tamil Nadu government services."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Do not try to learn all 165 points at once. Start with Parts 1 and 2 (rights and police), then traffic, cyber and money."
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "For any specific dispute, check the current law and take advice from a qualified lawyer. General information is a starting point, not a final answer."
+    }
+  ],
+  "practicalSteps": [
+    "Bookmark the official websites and type the address yourself.",
+    "Keep your certificates, ID documents and receipts in one safe folder.",
+    "Raise local problems with your panchayat, municipality or ward office.",
+    "For any serious problem, get advice from a lawyer or free legal aid."
+  ],
+  "exceptions": [
+    "RTI does not cover certain exempt matters, such as national security and personal privacy.",
+    "Some laws have been amended or replaced; always check the version that applies today."
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to memorise all these laws?",
+      "a": "No. Just know what each law is about. When you need it, look up the section or ask a lawyer."
+    },
+    {
+      "q": "Is the information here enough to win a case?",
+      "a": "No. It helps you understand your position. For a real dispute, get a lawyer's advice."
+    }
+  ],
+  "sources": [
+    {
+      "label": "India Code (all Central Acts)",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Supreme Court of India",
+      "url": "https://www.sci.gov.in/"
+    },
+    {
+      "label": "Tamil Nadu Government",
+      "url": "https://www.tn.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "I must know every law to stay safe.",
+      "fact": "No. Knowing a few key rights and habits covers most of daily life. Look up the rest when you need it."
+    }
+  ]
+}
