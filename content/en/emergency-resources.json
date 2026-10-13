@@ -4,7 +4,7 @@
   "lang": "en",
   "category": "emergency-resources",
   "title": "Emergency Numbers and Official Websites to Save",
-  "summary": "The helplines and official portals to keep on your phone, and where to get free legal aid.",
+  "summary": "The helpline numbers and official websites to save on your phone, and where to get free legal help.",
   "tags": [
     "emergency",
     "helpline",
@@ -29,7 +29,7 @@
   "body": [
     {
       "type": "p",
-      "text": "In an emergency, one number reaches police, fire and ambulance across India. Save it, and the helplines and official websites below, on your phone today."
+      "text": "In an emergency, one number reaches the police, fire service and ambulance anywhere in India. Save that number today. Also save the helplines and official websites below."
     },
     {
       "type": "h2",
@@ -38,7 +38,7 @@
     {
       "type": "list",
       "items": [
-        "112: police, fire and ambulance (all-in-one emergency number)."
+        "112: police, fire and ambulance (one number for all emergencies)."
       ]
     },
     {
@@ -51,12 +51,12 @@
         "100: Police",
         "101: Fire",
         "108: Ambulance / medical emergency",
-        "181: Women's helpline",
-        "1098: Childline (children in need of care and protection)",
-        "14567: Senior citizens helpline",
-        "1930: Cybercrime / financial fraud",
-        "1915: Consumer helpline",
-        "15100: Free legal aid (NALSA)"
+        "181: Helpline for women",
+        "1098: Childline (for children who need care and protection)",
+        "14567: Helpline for older people",
+        "1930: Cybercrime / money fraud",
+        "1915: Helpline for shoppers (consumer)",
+        "15100: Free legal help (NALSA)"
       ]
     },
     {
@@ -66,46 +66,46 @@
     {
       "type": "list",
       "items": [
-        "cybercrime.gov.in - report online financial fraud.",
-        "nalsa.gov.in - free legal aid and eligibility.",
-        "consumerhelpline.gov.in - consumer grievances.",
-        "echallan.parivahan.gov.in - verify and pay traffic fines."
+        "cybercrime.gov.in - report money fraud online.",
+        "nalsa.gov.in - free legal help and who can get it.",
+        "consumerhelpline.gov.in - complaints as a shopper.",
+        "echallan.parivahan.gov.in - check and pay traffic fines."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "112 is a single emergency number introduced across India. On many smartphones it can also be reached by pressing the power button five times."
+      "text": "112 is one emergency number for all of India. On many smartphones, you can also call it by pressing the power button five times."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "Helpline calls are free, and you do not have to give your name if you are not comfortable."
+      "text": "Calls to these helplines are free. If you are not comfortable, you do not have to tell your name."
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "These numbers are for real emergencies. Misusing them wastes time that someone else may need."
+      "text": "These numbers are only for real emergencies. Using them wrongly wastes time that someone else may need."
     }
   ],
   "practicalSteps": [
-    "Save 112 and the relevant helplines in your phone today.",
+    "Save 112 and the helplines you need on your phone today.",
     "Teach children and elders how to dial 112.",
-    "Type official website addresses yourself instead of clicking links in messages.",
+    "Type the official website address yourself. Do not click links in messages.",
     "For free legal help, contact your District Legal Services Authority."
   ],
   "exceptions": [
-    "Some states have additional local helplines; check your state's official website.",
-    "Response times can vary by location, so give a clear address and a landmark."
+    "Some states have extra local helplines. Check your state's official website.",
+    "How fast help arrives can differ by place. So give a clear address and a landmark (a known spot nearby)."
   ],
   "faqs": [
     {
       "q": "Do these numbers work without balance?",
-      "a": "Emergency number 112 works even without balance or a SIM in many cases. Helplines are free to call."
+      "a": "The emergency number 112 works in many cases even without balance or a SIM. The helplines are free to call."
     },
     {
       "q": "Can I call 112 for a non-emergency?",
-      "a": "No. 112 is for emergencies only. For complaints, use the relevant helpline or your police station."
+      "a": "No. 112 is only for emergencies. For complaints, use the right helpline or your police station."
     }
   ],
   "sources": [
