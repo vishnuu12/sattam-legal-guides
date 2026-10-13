@@ -1,0 +1,26 @@
+{
+  "name": "sattam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sattam - a bilingual (English + Tamil) public legal-education website. Everyday laws explained in simple language.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "node src/validate.mjs",
+    "build": "node src/build.mjs",
+    "check": "node src/validate.mjs && node src/build.mjs",
+    "new": "node scripts/new-article.mjs",
+    "serve": "node scripts/serve.mjs",
+    "clean": "node -e \"import('node:fs').then(fs=>fs.rmSync('dist',{recursive:true,force:true}))\""
+  },
+  "keywords": [
+    "legal-education",
+    "india",
+    "tamil",
+    "bilingual",
+    "static-site"
+  ],
+  "license": "MIT"
+}
