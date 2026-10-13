@@ -1,0 +1,111 @@
+{
+  "id": "know-your-rights",
+  "slug": "know-your-rights",
+  "lang": "en",
+  "category": "know-your-rights",
+  "title": "What Are Your Fundamental Rights?",
+  "summary": "Six rights the Constitution gives every person in India, and what they actually mean in daily life.",
+  "tags": [
+    "fundamental rights",
+    "constitution",
+    "article 21",
+    "equality",
+    "free legal aid"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Constitution of India, Part III (Articles 12-35)",
+    "Legal Services Authorities Act, 1987"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "The Constitution of India gives every person some basic rights that no one - not the police, not your employer, not the government - can simply take away. These are called Fundamental Rights."
+    },
+    {
+      "type": "h2",
+      "text": "The rights you should know"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Right to Equality (Articles 14-18): equal treatment before the law.",
+        "Right to Freedom (Articles 19-22): speech, movement, and protection during arrest.",
+        "Right against Exploitation (Articles 23-24): no forced labour and no child labour.",
+        "Right to Freedom of Religion (Articles 25-28).",
+        "Cultural and Educational Rights (Articles 29-30).",
+        "Right to Constitutional Remedies (Article 32): go to court when a right is violated."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "Article 21, the right to life and personal liberty, has been read by the Supreme Court to include dignity, privacy, health and a clean environment."
+    },
+    {
+      "type": "h2",
+      "text": "How these rights protect you day to day"
+    },
+    {
+      "type": "p",
+      "text": "If a shop refuses you service only because of your religion or caste, that is an equality issue. If the police detain you without telling you why, that is a freedom issue. If your employer holds back your wages for months, courts have linked fair wages to the right to life."
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Rights come with limits. Freedom of speech does not protect threats, hate speech or defamation."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "If a government action violates a Fundamental Right, Article 32 lets you approach the Supreme Court directly, or Article 226 a High Court."
+    }
+  ],
+  "practicalSteps": [
+    "Write down what happened, with dates, places and names.",
+    "Keep copies of any documents, messages or receipts.",
+    "Ask for the reason in writing whenever a right is restricted.",
+    "For free help, contact your District Legal Services Authority (DLSA) or call the NALSA helpline 15100."
+  ],
+  "exceptions": [
+    "Some rights can be restricted during a declared emergency (Articles 352-360), but Articles 20 and 21 cannot be suspended.",
+    "Reasonable restrictions are allowed in the public interest, such as for public order or decency."
+  ],
+  "faqs": [
+    {
+      "q": "Can a private company violate my Fundamental Rights?",
+      "a": "Fundamental Rights mainly apply against the State. Against private parties you usually rely on ordinary laws such as contract, labour and consumer law. A few rights, like Articles 15(2), 17, 23 and 24, do apply to private persons."
+    },
+    {
+      "q": "Is free legal aid really free?",
+      "a": "Yes, for people who qualify by income and category. Under the Legal Services Authorities Act, 1987, every district has a Legal Services Authority."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Constitution of India - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    },
+    {
+      "label": "Ministry of Law and Justice",
+      "url": "https://lawmin.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Fundamental Rights are only for citizens.",
+      "fact": "Most apply to every person in India. A few, such as Articles 15, 16, 19 and 29, apply only to citizens."
+    }
+  ]
+}

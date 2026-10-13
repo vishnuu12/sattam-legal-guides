@@ -1,0 +1,125 @@
+{
+  "siteUrl": "https://sattam.example.org",
+  "categories": [
+    {
+      "slug": "know-your-rights",
+      "emoji": "⚖️",
+      "en": {
+        "name": "Know Your Rights",
+        "blurb": "The basic rights every person in India has, explained in plain words."
+      },
+      "ta": {
+        "name": "உங்கள் உரிமைகளை அறிந்துகொள்ளுங்கள்",
+        "blurb": "இந்தியாவில் ஒவ்வொரு நபருக்கும் உள்ள அடிப்படை உரிமைகளை எளிய வார்த்தைகளில் தெரிந்துகொள்ளுங்கள்."
+      }
+    },
+    {
+      "slug": "police-procedures",
+      "emoji": "🚔",
+      "en": {
+        "name": "Police & Legal Procedures",
+        "blurb": "What the police can and cannot do, and what you can do when you are stopped or arrested."
+      },
+      "ta": {
+        "name": "காவல்துறை மற்றும் சட்ட நடைமுறைகள்",
+        "blurb": "காவல்துறை என்ன செய்யலாம், என்ன செய்யக் கூடாது; நிறுத்தும்போதும் கைது செய்யும்போதும் நீங்கள் என்ன செய்யலாம்."
+      }
+    },
+    {
+      "slug": "traffic-rules",
+      "emoji": "🚗",
+      "en": {
+        "name": "Traffic Rules",
+        "blurb": "Licences, challans, documents and your rights on the road."
+      },
+      "ta": {
+        "name": "போக்குவரத்து விதிகள்",
+        "blurb": "ஓட்டுநர் உரிமம், சாலான் (challan), ஆவணங்கள் மற்றும் சாலையில் உங்கள் உரிமைகள்."
+      }
+    },
+    {
+      "slug": "cybercrime",
+      "emoji": "📱",
+      "en": {
+        "name": "Cybercrime & Online Safety",
+        "blurb": "What to do if you are scammed, hacked or harassed online."
+      },
+      "ta": {
+        "name": "இணையக் குற்றங்கள் மற்றும் இணையப் பாதுகாப்பு",
+        "blurb": "ஆன்லைனில் மோசடி, ஹேக்கிங் அல்லது தொல்லை நடந்தால் என்ன செய்ய வேண்டும்."
+      }
+    },
+    {
+      "slug": "consumer-rights",
+      "emoji": "🛒",
+      "en": {
+        "name": "Consumer Rights",
+        "blurb": "Refunds, defective products, poor service and how to file a complaint."
+      },
+      "ta": {
+        "name": "நுகர்வோர் உரிமைகள்",
+        "blurb": "பணம் திரும்பப் பெறுதல், குறைபாடுள்ள பொருட்கள், மோசமான சேவை மற்றும் புகார் அளிக்கும் முறை."
+      }
+    },
+    {
+      "slug": "employment-rights",
+      "emoji": "💼",
+      "en": {
+        "name": "Employment Rights",
+        "blurb": "Salary, notice period, PF and what to do when an employer breaks the rules."
+      },
+      "ta": {
+        "name": "வேலைவாய்ப்பு உரிமைகள்",
+        "blurb": "சம்பளம், நோட்டீஸ் காலம், PF மற்றும் முதலாளி விதிகளை மீறும்போது என்ன செய்ய வேண்டும்."
+      }
+    },
+    {
+      "slug": "housing-rental",
+      "emoji": "🏠",
+      "en": {
+        "name": "Housing & Rental Rules",
+        "blurb": "Rent agreements, deposits, notice and the rights of tenants and landlords."
+      },
+      "ta": {
+        "name": "வீடு மற்றும் வாடகை விதிகள்",
+        "blurb": "வாடகை ஒப்பந்தம், முன்பணம் (deposit), நோட்டீஸ் மற்றும் வாடகைதாரர், வீட்டு உரிமையாளர் உரிமைகள்."
+      }
+    },
+    {
+      "slug": "banking-safety",
+      "emoji": "💳",
+      "en": {
+        "name": "Banking & Financial Safety",
+        "blurb": "UPI fraud, unauthorised transactions and how to get your money back."
+      },
+      "ta": {
+        "name": "வங்கி மற்றும் நிதிப் பாதுகாப்பு",
+        "blurb": "UPI மோசடி, அனுமதியற்ற பரிவர்த்தனைகள் மற்றும் பணத்தை மீட்டெடுக்கும் முறை."
+      }
+    },
+    {
+      "slug": "family-law",
+      "emoji": "👨‍👩‍👧",
+      "en": {
+        "name": "Family Law",
+        "blurb": "Marriage, maintenance, custody and protection from domestic violence."
+      },
+      "ta": {
+        "name": "குடும்பச் சட்டங்கள்",
+        "blurb": "திருமணம், ஜீவனாம்சம், பிள்ளை பராமரிப்பு மற்றும் குடும்ப வன்முறையிலிருந்து பாதுகாப்பு."
+      }
+    },
+    {
+      "slug": "emergency-resources",
+      "emoji": "🆘",
+      "en": {
+        "name": "Emergency Resources",
+        "blurb": "Helpline numbers, free legal aid and where to get help fast."
+      },
+      "ta": {
+        "name": "அவசர உதவிக்கான வளங்கள்",
+        "blurb": "உதவி எண்கள், இலவச சட்ட உதவி மற்றும் விரைவாக உதவி பெறும் இடங்கள்."
+      }
+    }
+  ]
+}

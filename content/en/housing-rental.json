@@ -1,0 +1,128 @@
+{
+  "id": "housing-rental",
+  "slug": "housing-rental",
+  "lang": "en",
+  "category": "housing-rental",
+  "title": "Rights of Tenants and Landlords",
+  "summary": "Rent agreements, deposits, notice periods and the fair rules both sides should follow.",
+  "tags": [
+    "rent",
+    "tenant",
+    "landlord",
+    "security deposit",
+    "rent agreement"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Model Tenancy Act, 2021",
+    "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+    "Transfer of Property Act, 1882 (Section 106)"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A rent agreement is a contract, and both the tenant and the landlord have rights. A clear written agreement prevents most disputes."
+    },
+    {
+      "type": "h2",
+      "text": "What a good rent agreement should contain"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Rent amount, due date and mode of payment.",
+        "Security deposit amount and when it is returned.",
+        "Notice period for leaving or asking a tenant to leave.",
+        "Who pays maintenance, electricity and water.",
+        "Rules on repairs and sub-letting."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "The Model Tenancy Act, 2021 sets a common framework: a written agreement, a cap on security deposits (generally two months' rent for residential premises) and a Rent Authority for disputes."
+    },
+    {
+      "type": "h2",
+      "text": "Your rights as a tenant"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Right to live peacefully without unlawful eviction.",
+        "Right to get the security deposit back as agreed.",
+        "Right to essential services such as water and electricity.",
+        "Right to proper notice before being asked to leave."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Your rights as a landlord"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Right to receive rent on time.",
+        "Right to get the property back at the end of the term.",
+        "Right to a fair deposit for possible damage."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "A landlord cannot lock a tenant out, cut off water or electricity, or throw out belongings to force a tenant to leave. That is unlawful and can be challenged in court."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Always keep a signed copy of the agreement and receipts for rent and deposit."
+    }
+  ],
+  "practicalSteps": [
+    "Put everything in a written, signed agreement.",
+    "Pay rent by bank transfer so there is a record.",
+    "Keep receipts for the deposit and for any major repairs.",
+    "For disputes, approach the Rent Authority or a civil court rather than taking the law into your own hands."
+  ],
+  "exceptions": [
+    "Rent laws differ from state to state, and older tenancies may follow older Rent Control Acts.",
+    "The Model Tenancy Act applies only where a state has adopted it."
+  ],
+  "faqs": [
+    {
+      "q": "Can my landlord increase the rent anytime?",
+      "a": "Only as allowed by your agreement or the applicable rent law, usually with proper notice."
+    },
+    {
+      "q": "Can the landlord keep my deposit for normal wear and tear?",
+      "a": "No. A deposit can be adjusted only for unpaid dues or actual damage beyond normal use, as set out in the agreement."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Model Tenancy Act, 2021 - Ministry of Housing and Urban Affairs",
+      "url": "https://mohua.gov.in/"
+    },
+    {
+      "label": "India Code (state rent laws)",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Department of Legal Affairs",
+      "url": "https://legalaffairs.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "The landlord can evict me any time.",
+      "fact": "Eviction must follow the agreement and the law, usually with written notice and, if disputed, an order from a court or Rent Authority."
+    }
+  ]
+}

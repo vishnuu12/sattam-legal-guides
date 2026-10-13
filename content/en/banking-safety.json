@@ -1,0 +1,116 @@
+{
+  "id": "banking-safety",
+  "slug": "banking-safety",
+  "lang": "en",
+  "category": "banking-safety",
+  "title": "How to Stay Safe from UPI and Banking Fraud",
+  "summary": "Simple habits that stop most fraud, and the exact steps if money leaves your account without your consent.",
+  "tags": [
+    "UPI",
+    "bank fraud",
+    "OTP",
+    "RBI ombudsman",
+    "financial safety"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Reserve Bank of India - Limited Liability for unauthorised electronic transactions",
+    "Integrated Ombudsman Scheme, 2021",
+    "Information Technology Act, 2000"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Most banking fraud does not need hacking. It only needs you to trust a caller, click a link, or share an OTP. Knowing a few rules keeps your money safe."
+    },
+    {
+      "type": "h2",
+      "text": "Rules that protect you"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Never share your OTP, PIN, CVV or password with anyone. No bank or official will ever ask for them.",
+        "A request to 'receive money' never needs your PIN. Entering a PIN sends money out.",
+        "Do not scan a QR code to receive money.",
+        "Do not install screen-sharing or remote-access apps for a 'bank officer'.",
+        "Check your statement regularly."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Missed calls and messages that create urgency ('your account will be blocked') are a common trick. Slow down and verify through the official app or branch."
+    },
+    {
+      "type": "h2",
+      "text": "If money leaves your account without consent"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Inform your bank immediately and ask them to freeze the account and dispute the transaction.",
+        "Call the cyber helpline 1930 and report on cybercrime.gov.in.",
+        "Give the bank a written complaint and get an acknowledgement.",
+        "If it is unresolved, complain to the RBI Ombudsman."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "RBI rules limit your liability for unauthorised electronic transactions, but only if you report quickly. Delay can increase your own loss."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep the SMS, email and complaint reference numbers. They are proof of when you reported."
+    }
+  ],
+  "practicalSteps": [
+    "Never share OTP, PIN, CVV or passwords.",
+    "Report a fraudulent transaction to your bank within the shortest possible time.",
+    "Also report to 1930 and cybercrime.gov.in.",
+    "Escalate to the RBI Ombudsman if the bank does not resolve it within 30 days."
+  ],
+  "exceptions": [
+    "If the fraud happened because you shared your credentials or were grossly negligent, your liability may be higher.",
+    "Some delays in reporting can shift more liability to you under RBI rules."
+  ],
+  "faqs": [
+    {
+      "q": "Will the bank refund my money?",
+      "a": "If you report quickly and were not negligent, RBI rules support limited or zero liability. The bank must resolve your complaint within a set time."
+    },
+    {
+      "q": "Should I close the account?",
+      "a": "Do not close it before the dispute is settled. Freeze or secure it instead, and keep all records."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Reserve Bank of India",
+      "url": "https://www.rbi.org.in/"
+    },
+    {
+      "label": "RBI Sachet portal",
+      "url": "https://sachet.rbi.org.in/"
+    },
+    {
+      "label": "National Cyber Crime Reporting Portal",
+      "url": "https://cybercrime.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "If the bank's app shows the transaction, I cannot dispute it.",
+      "fact": "You can and should dispute any transaction you did not authorise, in writing, to the bank."
+    }
+  ]
+}

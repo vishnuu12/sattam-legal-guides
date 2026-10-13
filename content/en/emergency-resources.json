@@ -1,0 +1,116 @@
+{
+  "id": "emergency-resources",
+  "slug": "emergency-resources",
+  "lang": "en",
+  "category": "emergency-resources",
+  "title": "Emergency Numbers and Helplines in India",
+  "summary": "Save these numbers. They are free, and they work from any phone in India.",
+  "tags": [
+    "emergency",
+    "helpline",
+    "112",
+    "181",
+    "1098"
+  ],
+  "readingMinutes": 4,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Emergency Response Support System (112)",
+    "National Legal Services Authority (NALSA)"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "In an emergency, one number reaches police, fire and ambulance across India. Save it, and the helplines below, on your phone today."
+    },
+    {
+      "type": "h2",
+      "text": "One number for emergencies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "112: police, fire and ambulance (all-in-one emergency number)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "National helplines"
+    },
+    {
+      "type": "list",
+      "items": [
+        "100: Police",
+        "101: Fire",
+        "108: Ambulance / medical emergency",
+        "181: Women's helpline",
+        "1098: Childline (children in need of care and protection)",
+        "14567: Senior citizens helpline",
+        "1930: Cybercrime / financial fraud",
+        "1915: Consumer helpline",
+        "15100: Free legal aid (NALSA)"
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "112 is a single emergency number introduced across India. On many smartphones it can also be reached by pressing the power button five times."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Helpline calls are free, and you do not have to give your name if you are not comfortable."
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "These numbers are for real emergencies. Misusing them wastes time that someone else may need."
+    }
+  ],
+  "practicalSteps": [
+    "Save 112 and the relevant helplines in your phone today.",
+    "Teach children and elders how to dial 112.",
+    "For free legal help, contact your District Legal Services Authority.",
+    "Keep your address handy in both English and Tamil for emergency calls."
+  ],
+  "exceptions": [
+    "Some states have additional local helplines; check your state's official website.",
+    "Response times can vary by location, so give a clear address and a landmark."
+  ],
+  "faqs": [
+    {
+      "q": "Do these numbers work without balance?",
+      "a": "Emergency number 112 works even without balance or a SIM in many cases. Helplines are free to call."
+    },
+    {
+      "q": "Can I call 112 for a non-emergency?",
+      "a": "No. 112 is for emergencies only. For complaints, use the relevant helpline or your police station."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Emergency Response Support System (112)",
+      "url": "https://112.gov.in/"
+    },
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    },
+    {
+      "label": "Ministry of Women and Child Development",
+      "url": "https://www.wcd.nic.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "I need the local police station number to get help fast.",
+      "fact": "Dialling 112 connects you to emergency services anywhere in India."
+    }
+  ]
+}

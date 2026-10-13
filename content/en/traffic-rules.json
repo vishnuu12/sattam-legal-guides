@@ -1,0 +1,118 @@
+{
+  "id": "traffic-rules",
+  "slug": "traffic-rules",
+  "lang": "en",
+  "category": "traffic-rules",
+  "title": "Your Rights During a Traffic Stop",
+  "summary": "What the police can ask for on the road, what a challan means, and how to pay or contest it.",
+  "tags": [
+    "traffic",
+    "challan",
+    "driving licence",
+    "motor vehicles act",
+    "e-challan"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Motor Vehicles Act, 1988",
+    "Motor Vehicles (Amendment) Act, 2019",
+    "Central Motor Vehicles Rules, 1989"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "On the road, both drivers and traffic police have clear duties. Knowing them prevents arguments and avoids paying a fine you did not owe."
+    },
+    {
+      "type": "h2",
+      "text": "What you must carry"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A valid driving licence for the class of vehicle you drive.",
+        "Registration certificate (RC).",
+        "Insurance certificate.",
+        "Pollution under control (PUC) certificate.",
+        "For commercial vehicles, a permit and a fitness certificate."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "Digital copies in DigiLocker or the mParivahan app are legally accepted as valid documents at a traffic check."
+    },
+    {
+      "type": "h2",
+      "text": "During a traffic stop"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The officer should be in uniform and, on request, show their identity.",
+        "You can ask which rule was broken and ask to see the challan.",
+        "You are entitled to a receipt for any fine you pay."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Never hand over your original documents and walk away. Show them, but do not surrender originals unless there is a legal reason and you get a receipt."
+    },
+    {
+      "type": "h2",
+      "text": "Paying or contesting a challan"
+    },
+    {
+      "type": "p",
+      "text": "An e-challan can be paid online. If you believe the challan is wrong, you can contest it before the designated court instead of paying."
+    }
+  ],
+  "practicalSteps": [
+    "Keep digital copies of RC, licence, insurance and PUC in DigiLocker.",
+    "Note the challan number, date, place and the officer's details.",
+    "Pay online at the official e-challan portal, or contest it in court within the time allowed.",
+    "Keep the payment receipt until the matter is closed."
+  ],
+  "exceptions": [
+    "Some documents may be produced later at the police station or online within a set time in certain states.",
+    "Helmet and seat-belt rules have limited exemptions, such as for certain medical conditions with proof."
+  ],
+  "faqs": [
+    {
+      "q": "Can the police take away my vehicle keys?",
+      "a": "There is no general power to seize keys or your vehicle for a routine document check. Seizure is allowed only for specific offences listed in the law, and you should get a receipt."
+    },
+    {
+      "q": "Is a photocopy of my documents enough?",
+      "a": "Digital copies through DigiLocker or mParivahan are accepted. Otherwise carry originals or certified copies."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Motor Vehicles Act, 1988 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Parivahan Sewa (Ministry of Road Transport and Highways)",
+      "url": "https://parivahan.gov.in/"
+    },
+    {
+      "label": "e-Challan portal",
+      "url": "https://echallan.parivahan.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Traffic police can always confiscate my licence on the spot.",
+      "fact": "For many document offences the law lets you produce the documents later; outright confiscation is limited to specific situations."
+    }
+  ]
+}

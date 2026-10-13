@@ -1,0 +1,118 @@
+{
+  "id": "police-procedures",
+  "slug": "police-procedures",
+  "lang": "en",
+  "category": "police-procedures",
+  "title": "What To Do If the Police Stop or Arrest You",
+  "summary": "Your rights during a police stop, questioning or arrest, and the small steps that protect you.",
+  "tags": [
+    "police",
+    "arrest",
+    "rights",
+    "BNSS",
+    "article 22",
+    "bail"
+  ],
+  "readingMinutes": 7,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)",
+    "Constitution of India, Articles 20, 21, 22",
+    "D.K. Basu v. State of West Bengal (1997)"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Being stopped or arrested by the police is frightening. Knowing a few clear rules keeps the situation calm and protects you. These rules come from the Constitution and the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), which replaced the old CrPC."
+    },
+    {
+      "type": "h2",
+      "text": "If you are only stopped or questioned"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Stay calm and polite. Do not argue or run.",
+        "You may ask the officer for their name and police station.",
+        "You are not required to answer questions that could incriminate you.",
+        "For a vehicle check, you must show your licence and documents."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "If you are arrested"
+    },
+    {
+      "type": "list",
+      "items": [
+        "You have the right to know the reason for your arrest (Article 22(1)).",
+        "You have the right to inform a family member or friend.",
+        "You must be produced before a magistrate within 24 hours (Article 22(2)).",
+        "You have the right to a lawyer of your choice, and to free legal aid if you cannot afford one.",
+        "You cannot be forced to confess. Statements made under threat are not valid (Article 20(3))."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "A woman cannot normally be arrested after sunset and before sunrise, except in exceptional cases with a magistrate's permission and a woman officer present."
+    },
+    {
+      "type": "callout",
+      "kind": "rights",
+      "text": "You are entitled to a medical examination and to have your arrest recorded in a memo signed by a witness."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "For a bailable offence, you have the right to be released on bail. The police should tell you this."
+    }
+  ],
+  "practicalSteps": [
+    "Note the time, place and the officers' names or badge numbers.",
+    "Tell one trusted person where you are and who took you.",
+    "Ask for the grounds of arrest in writing.",
+    "Do not sign any blank or unread paper.",
+    "Ask for a lawyer, or call the NALSA helpline 15100 for free legal aid."
+  ],
+  "exceptions": [
+    "Preventive detention laws allow detention without a normal charge, but with safeguards and periodic review.",
+    "In some serious offences an arrest may be made without a warrant, but the 24-hour rule still applies."
+  ],
+  "faqs": [
+    {
+      "q": "Can the police search my phone or home without a warrant?",
+      "a": "A search generally needs a warrant or a clear legal basis, except in specific situations such as with your consent, during a lawful arrest, or under a specific legal provision. Ask for the legal basis."
+    },
+    {
+      "q": "What if the police refuse to register my complaint?",
+      "a": "You can send your complaint to the Superintendent of Police, file a complaint before the Magistrate under the BNSS, or use your state police online complaint portal."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Constitution of India - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "The police can keep me as long as they want before a court hearing.",
+      "fact": "No. Article 22(2) requires you to be produced before a magistrate within 24 hours of arrest."
+    }
+  ]
+}

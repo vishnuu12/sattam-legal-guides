@@ -1,0 +1,114 @@
+{
+  "id": "cybercrime",
+  "slug": "cybercrime",
+  "lang": "en",
+  "category": "cybercrime",
+  "title": "What To Do If You Are Scammed Online",
+  "summary": "The first 24 hours matter most. Here is how to report online fraud and try to get your money back.",
+  "tags": [
+    "cybercrime",
+    "online fraud",
+    "UPI scam",
+    "1930",
+    "IT act"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Information Technology Act, 2000 (Sections 66C, 66D)",
+    "Bharatiya Nyaya Sanhita, 2023 (cheating provisions)",
+    "Cyber Crime Reporting Portal"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Online fraud moves fast. Money is often routed through several accounts within minutes, so what you do in the first hour really matters."
+    },
+    {
+      "type": "h2",
+      "text": "The first steps, in order"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Call the national cyber helpline 1930 immediately.",
+        "Report on the official portal cybercrime.gov.in.",
+        "Inform your bank and ask them to freeze the transaction or the account.",
+        "Change your passwords and switch on two-factor authentication."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Do not contact the scammer again, and never pay any 'release fee' or 'processing charge' to recover money. That is a second scam."
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "The 'golden hour' is the short window right after a fraud. Reporting within it gives the best chance of freezing the money before it moves on."
+    },
+    {
+      "type": "h2",
+      "text": "Keep the evidence"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Screenshots of the chat, profile or payment page.",
+        "Transaction IDs, UPI reference numbers and bank SMS.",
+        "Phone numbers, email IDs, links and account numbers involved."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "You can file an online complaint even if you are not sure it is a crime. Reporting helps you and protects others."
+    }
+  ],
+  "practicalSteps": [
+    "Act within the first hour if possible.",
+    "Dial 1930 and file a complaint on cybercrime.gov.in.",
+    "Give your bank the transaction reference in writing and ask for a written acknowledgement.",
+    "If the money is not restored, escalate to the RBI Ombudsman for your bank."
+  ],
+  "exceptions": [
+    "If the loss is small and the bank refuses to act, a consumer or civil route may be faster than a criminal case.",
+    "Some states run their own cyber cells in addition to the national portal."
+  ],
+  "faqs": [
+    {
+      "q": "Can I get my money back?",
+      "a": "Sometimes. If the fraud is reported quickly and the money is still traceable in a bank account, it can be frozen and returned. The longer you wait, the harder it becomes."
+    },
+    {
+      "q": "Will my complaint be kept private?",
+      "a": "Yes. The official portal allows anonymous reporting for some categories, and your details are used to investigate the case."
+    }
+  ],
+  "sources": [
+    {
+      "label": "National Cyber Crime Reporting Portal",
+      "url": "https://cybercrime.gov.in/"
+    },
+    {
+      "label": "Ministry of Electronics and IT (IT Act, 2000)",
+      "url": "https://www.meity.gov.in/"
+    },
+    {
+      "label": "RBI - Reporting unauthorised transactions",
+      "url": "https://www.rbi.org.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "I can just ask the scammer to return my money.",
+      "fact": "Scammers rarely return money and often ask for more. Stop contact and report to 1930."
+    }
+  ]
+}

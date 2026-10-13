@@ -1,0 +1,114 @@
+{
+  "id": "employment-rights",
+  "slug": "employment-rights",
+  "lang": "en",
+  "category": "employment-rights",
+  "title": "Your Rights If Your Salary Is Not Paid",
+  "summary": "Wages are a legal right, not a favour. Here is what to do when an employer delays or refuses to pay.",
+  "tags": [
+    "salary",
+    "wages",
+    "labour",
+    "PF",
+    "labour commissioner"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Payment of Wages Act, 1936",
+    "Code on Wages, 2019",
+    "Industrial Disputes Act, 1947 (Section 33C)"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "If you have worked, you must be paid, on time and in full. Indian law sets clear rules on when wages are due and what you can do when they are withheld."
+    },
+    {
+      "type": "h2",
+      "text": "What the law expects"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Wages must be paid by the agreed date; for many workers, within 7 to 10 days of the wage period.",
+        "Deductions are allowed only for specific legal reasons, not arbitrary ones.",
+        "An employer cannot withhold your full and final settlement without a lawful reason."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "The Code on Wages, 2019 brings payment of wages, minimum wages, bonus and equal pay into one law for most workers."
+    },
+    {
+      "type": "h2",
+      "text": "If your salary is delayed or denied"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ask for the reason in writing.",
+        "Send a written demand for the unpaid amount.",
+        "Approach the Labour Commissioner for your area.",
+        "File an application for recovery of the money due."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Never sign a resignation or settlement letter you do not understand. Signing may reduce your claim."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep your appointment letter, payslips, bank statements and any written promises. These are your proof."
+    }
+  ],
+  "practicalSteps": [
+    "Collect your appointment letter, payslips, attendance records and bank statements.",
+    "Send a polite written demand and keep a copy.",
+    "File a complaint with the Labour Commissioner or the labour court.",
+    "For PF issues, complain to the EPFO; for unpaid salary, an application can be filed for recovery of the money due."
+  ],
+  "exceptions": [
+    "Some categories of workers and very small establishments have different thresholds under the law.",
+    "Certain higher-earning employees may not be covered by parts of the wage laws, but contract terms and general law still apply."
+  ],
+  "faqs": [
+    {
+      "q": "Can my employer cut my salary as punishment?",
+      "a": "Only lawful deductions are allowed. Punitive deductions without a legal basis can be challenged before the labour authorities."
+    },
+    {
+      "q": "What about my PF and gratuity?",
+      "a": "Employer contributions to PF are mandatory for covered establishments. Gratuity is payable after five years of continuous service in covered cases."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Code on Wages, 2019 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "Ministry of Labour and Employment",
+      "url": "https://labour.gov.in/"
+    },
+    {
+      "label": "Employees' Provident Fund Organisation (EPFO)",
+      "url": "https://www.epfindia.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "If I complain, I will surely lose my job.",
+      "fact": "Retaliation is unlawful, and complaints can be made to the labour authorities. Legal aid services and labour unions can support you."
+    }
+  ]
+}

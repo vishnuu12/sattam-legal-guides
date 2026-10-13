@@ -1,0 +1,113 @@
+{
+  "id": "family-law",
+  "slug": "family-law",
+  "lang": "en",
+  "category": "family-law",
+  "title": "Understanding Maintenance and Family Rights",
+  "summary": "What maintenance means, who can claim it, and how protection laws help families in difficulty.",
+  "tags": [
+    "family law",
+    "maintenance",
+    "domestic violence",
+    "marriage",
+    "custody"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 (Section 144, formerly CrPC 125)",
+    "Protection of Women from Domestic Violence Act, 2005",
+    "Hindu Marriage Act, 1955"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Family disputes are painful, and the law tries to protect the weaker member, especially children and dependent spouses or parents. Understanding the basics helps you act calmly."
+    },
+    {
+      "type": "h2",
+      "text": "Maintenance: the basics"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A person who cannot maintain themselves can seek a monthly allowance from a spouse or, in some cases, from children or parents.",
+        "It applies across religions under the BNSS provision on maintenance.",
+        "The court looks at the needs of the claimant and the means of the person paying."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "The provision on maintenance (Section 144 of the BNSS, earlier Section 125 CrPC) is a quick remedy meant to stop destitution, and it covers wives, children and parents."
+    },
+    {
+      "type": "h2",
+      "text": "Protection from domestic violence"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Physical, emotional, sexual and economic abuse are all covered by the Protection of Women from Domestic Violence Act, 2005.",
+        "A woman can seek a protection order, a residence order and monetary relief.",
+        "Help is available through Protection Officers and the women's helpline 181."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "If you or someone at home is in immediate danger, call 112 first. Safety comes before any legal step."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep a diary of incidents, medical records and any messages. Documentation helps a court act faster."
+    }
+  ],
+  "practicalSteps": [
+    "For immediate danger, call 112; for counselling and shelter, call 181.",
+    "Contact the District Legal Services Authority for free legal aid.",
+    "File a maintenance application before the Magistrate where you live.",
+    "Keep records of income, expenses and any threats or abuse."
+  ],
+  "exceptions": [
+    "Maintenance can be refused if the claimant is able to maintain themselves or has remarried, among other grounds.",
+    "Personal laws of different communities have their own separate provisions as well."
+  ],
+  "faqs": [
+    {
+      "q": "Can a man claim maintenance?",
+      "a": "The BNSS provision applies to any person who cannot maintain themselves, though it is most often used by women, children and parents."
+    },
+    {
+      "q": "Does a wife need to prove cruelty to get maintenance?",
+      "a": "No. Maintenance focuses on the inability to maintain oneself, not on proving cruelty. Cruelty is relevant to other reliefs such as divorce."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Protection of Women from Domestic Violence Act, 2005 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Commission for Women",
+      "url": "https://ncw.nic.in/"
+    },
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Maintenance is only for wives.",
+      "fact": "It can be claimed by children and parents too, and by any person unable to maintain themselves."
+    }
+  ]
+}

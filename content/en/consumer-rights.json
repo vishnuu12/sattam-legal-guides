@@ -1,0 +1,119 @@
+{
+  "id": "consumer-rights",
+  "slug": "consumer-rights",
+  "lang": "en",
+  "category": "consumer-rights",
+  "title": "How to File a Consumer Complaint",
+  "summary": "If a product or service fails you, the Consumer Protection Act, 2019 gives you a clear path to a refund or replacement.",
+  "tags": [
+    "consumer rights",
+    "refund",
+    "e-commerce",
+    "consumer court",
+    "1915"
+  ],
+  "readingMinutes": 6,
+  "lastUpdated": "2026-10-13",
+  "publishedDate": "2026-10-13",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Consumer Protection Act, 2019",
+    "Consumer Protection (E-Commerce) Rules, 2020"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "If you buy a product or a service and it is defective, late, unsafe or not what was promised, you have rights. The Consumer Protection Act, 2019 protects buyers in shops, online and over the phone."
+    },
+    {
+      "type": "h2",
+      "text": "Your main rights as a consumer"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Right to safety.",
+        "Right to be informed about quality, quantity and price.",
+        "Right to choose.",
+        "Right to be heard and to seek redressal.",
+        "Right to seek compensation for unfair trade practices."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "did-you-know",
+      "text": "For e-commerce, the E-Commerce Rules, 2020 require sellers to display return, refund and warranty policies clearly before you buy."
+    },
+    {
+      "type": "h2",
+      "text": "How to complain, step by step"
+    },
+    {
+      "type": "p",
+      "text": "First complain to the seller in writing. If they do not fix it, you can approach a Consumer Commission."
+    },
+    {
+      "type": "list",
+      "items": [
+        "District Commission: claims up to 50 lakh rupees.",
+        "State Commission: claims between 50 lakh and 2 crore rupees.",
+        "National Commission: claims above 2 crore rupees."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "You usually have two years from the date of the problem to file a complaint."
+    },
+    {
+      "type": "callout",
+      "kind": "action",
+      "text": "You can file online through the e-Daakhil portal, and get guidance by calling the National Consumer Helpline 1915."
+    }
+  ],
+  "practicalSteps": [
+    "Keep the bill, order ID, warranty card and all chats or emails.",
+    "Send a written complaint to the seller and note the date.",
+    "Call 1915 or register on consumerhelpline.gov.in for guidance.",
+    "File on the e-Daakhil portal if the seller does not resolve it."
+  ],
+  "exceptions": [
+    "Products bought for resale or commercial use are generally not covered.",
+    "Free services given without any payment may fall outside the Act.",
+    "Some disputes must first go to a sector regulator, such as telecom or insurance."
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a lawyer?",
+      "a": "Not necessarily. Consumer Commissions are designed to be simple, and you can argue your own case. Free help is available through consumer helplines and legal aid."
+    },
+    {
+      "q": "Can I complain about a service, not just a product?",
+      "a": "Yes. The Act covers services such as banking, insurance, telecom, housing and repairs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Consumer Protection Act, 2019 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Consumer Helpline",
+      "url": "https://consumerhelpline.gov.in/"
+    },
+    {
+      "label": "e-Daakhil (online consumer complaint portal)",
+      "url": "https://edaakhil.nic.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Online sellers are not responsible because they are just a platform.",
+      "fact": "The E-Commerce Rules, 2020 place duties on both the seller and the marketplace platform."
+    }
+  ]
+}
