@@ -51,5 +51,27 @@
       "en": "Free legal aid (NALSA)",
       "ta": "இலவச சட்ட உதவி (NALSA)"
     }
+  ],
+  "portals": [
+    {
+      "en": "National Cyber Crime Portal",
+      "ta": "தேசிய இணையக் குற்ற போர்ட்டல்",
+      "url": "https://cybercrime.gov.in/"
+    },
+    {
+      "en": "NALSA - free legal aid",
+      "ta": "NALSA - இலவச சட்ட உதவி",
+      "url": "https://nalsa.gov.in/"
+    },
+    {
+      "en": "National Consumer Helpline",
+      "ta": "தேசிய நுகர்வோர் உதவி",
+      "url": "https://consumerhelpline.gov.in/"
+    },
+    {
+      "en": "e-Challan (Parivahan)",
+      "ta": "e-Challan (Parivahan)",
+      "url": "https://echallan.parivahan.gov.in/"
+    }
   ]
 }

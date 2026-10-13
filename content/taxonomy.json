@@ -15,15 +15,27 @@
       }
     },
     {
+      "slug": "everyday-laws",
+      "emoji": "📘",
+      "en": {
+        "name": "Everyday Laws",
+        "blurb": "Ten legal principles and golden rules that protect you in daily life."
+      },
+      "ta": {
+        "name": "அன்றாட சட்டங்கள்",
+        "blurb": "அன்றாட வாழ்க்கையில் உங்களைப் பாதுகாக்கும் பத்து சட்டக் கோட்பாடுகள் மற்றும் தங்க விதிகள்."
+      }
+    },
+    {
       "slug": "police-procedures",
       "emoji": "🚔",
       "en": {
         "name": "Police & Legal Procedures",
-        "blurb": "What the police can and cannot do, and what you can do when you are stopped or arrested."
+        "blurb": "What the police can and cannot do, FIRs, search, questioning and arrest."
       },
       "ta": {
         "name": "காவல்துறை மற்றும் சட்ட நடைமுறைகள்",
-        "blurb": "காவல்துறை என்ன செய்யலாம், என்ன செய்யக் கூடாது; நிறுத்தும்போதும் கைது செய்யும்போதும் நீங்கள் என்ன செய்யலாம்."
+        "blurb": "காவல்துறை என்ன செய்யலாம், என்ன செய்யக் கூடாது; FIR, சோதனை, விசாரணை மற்றும் கைது."
       }
     },
     {
@@ -31,11 +43,11 @@
       "emoji": "🚗",
       "en": {
         "name": "Traffic Rules",
-        "blurb": "Licences, challans, documents and your rights on the road."
+        "blurb": "Licences, challans, signals, accidents and your rights on the road."
       },
       "ta": {
         "name": "போக்குவரத்து விதிகள்",
-        "blurb": "ஓட்டுநர் உரிமம், சாலான் (challan), ஆவணங்கள் மற்றும் சாலையில் உங்கள் உரிமைகள்."
+        "blurb": "ஓட்டுநர் உரிமம், சாலான் (challan), சிக்னல், விபத்து மற்றும் சாலையில் உங்கள் உரிமைகள்."
       }
     },
     {
@@ -43,11 +55,11 @@
       "emoji": "📱",
       "en": {
         "name": "Cybercrime & Online Safety",
-        "blurb": "What to do if you are scammed, hacked or harassed online."
+        "blurb": "UPI and OTP scams, fake jobs, loan apps, social media and reporting fraud."
       },
       "ta": {
         "name": "இணையக் குற்றங்கள் மற்றும் இணையப் பாதுகாப்பு",
-        "blurb": "ஆன்லைனில் மோசடி, ஹேக்கிங் அல்லது தொல்லை நடந்தால் என்ன செய்ய வேண்டும்."
+        "blurb": "UPI மற்றும் OTP மோசடி, போலி வேலை, கடன் app, சமூக வலைதளம் மற்றும் மோசடியைப் புகார் அளித்தல்."
       }
     },
     {
@@ -55,11 +67,11 @@
       "emoji": "🛒",
       "en": {
         "name": "Consumer Rights",
-        "blurb": "Refunds, defective products, poor service and how to file a complaint."
+        "blurb": "Fake products, misleading ads, refunds, hidden charges and complaints."
       },
       "ta": {
         "name": "நுகர்வோர் உரிமைகள்",
-        "blurb": "பணம் திரும்பப் பெறுதல், குறைபாடுள்ள பொருட்கள், மோசமான சேவை மற்றும் புகார் அளிக்கும் முறை."
+        "blurb": "போலி பொருட்கள், தவறான விளம்பரம், பணம் திரும்பப் பெறுதல், மறைமுகக் கட்டணங்கள் மற்றும் புகார்."
       }
     },
     {
@@ -67,11 +79,23 @@
       "emoji": "💼",
       "en": {
         "name": "Employment Rights",
-        "blurb": "Salary, notice period, PF and what to do when an employer breaks the rules."
+        "blurb": "Contracts, notice period, salary, harassment, PF and gratuity."
       },
       "ta": {
         "name": "வேலைவாய்ப்பு உரிமைகள்",
-        "blurb": "சம்பளம், நோட்டீஸ் காலம், PF மற்றும் முதலாளி விதிகளை மீறும்போது என்ன செய்ய வேண்டும்."
+        "blurb": "ஒப்பந்தம், நோட்டீஸ் காலம், சம்பளம், பணியிடத் தொல்லை, PF மற்றும் gratuity."
+      }
+    },
+    {
+      "slug": "banking-safety",
+      "emoji": "💳",
+      "en": {
+        "name": "Banking & Financial Safety",
+        "blurb": "Loans, CIBIL, recovery agents, UPI fraud and income tax basics."
+      },
+      "ta": {
+        "name": "வங்கி மற்றும் நிதிப் பாதுகாப்பு",
+        "blurb": "கடன், CIBIL, வசூல் முகவர்கள், UPI மோசடி மற்றும் வருமான வரி அடிப்படைகள்."
       }
     },
     {
@@ -87,15 +111,15 @@
       }
     },
     {
-      "slug": "banking-safety",
-      "emoji": "💳",
+      "slug": "property-land",
+      "emoji": "🏡",
       "en": {
-        "name": "Banking & Financial Safety",
-        "blurb": "UPI fraud, unauthorised transactions and how to get your money back."
+        "name": "Property & Land",
+        "blurb": "Buying land or a house, checking documents, inheritance and wills."
       },
       "ta": {
-        "name": "வங்கி மற்றும் நிதிப் பாதுகாப்பு",
-        "blurb": "UPI மோசடி, அனுமதியற்ற பரிவர்த்தனைகள் மற்றும் பணத்தை மீட்டெடுக்கும் முறை."
+        "name": "சொத்து மற்றும் நிலம்",
+        "blurb": "நிலம் அல்லது வீடு வாங்குதல், ஆவணங்களைச் சரிபார்த்தல், வாரிசு உரிமை மற்றும் உயில்."
       }
     },
     {
@@ -103,11 +127,23 @@
       "emoji": "👨‍👩‍👧",
       "en": {
         "name": "Family Law",
-        "blurb": "Marriage, maintenance, custody and protection from domestic violence."
+        "blurb": "Marriage, divorce, maintenance, custody and protection from domestic violence."
       },
       "ta": {
         "name": "குடும்பச் சட்டங்கள்",
-        "blurb": "திருமணம், ஜீவனாம்சம், பிள்ளை பராமரிப்பு மற்றும் குடும்ப வன்முறையிலிருந்து பாதுகாப்பு."
+        "blurb": "திருமணம், விவாகரத்து, ஜீவனாம்சம், பிள்ளை பராமரிப்பு மற்றும் குடும்ப வன்முறையிலிருந்து பாதுகாப்பு."
+      }
+    },
+    {
+      "slug": "identity-documents",
+      "emoji": "🪪",
+      "en": {
+        "name": "Identity & Government Services",
+        "blurb": "Aadhaar, PAN, voter ID, passports, RTI and spotting fake officials."
+      },
+      "ta": {
+        "name": "அடையாள ஆவணங்கள் மற்றும் அரசு சேவைகள்",
+        "blurb": "ஆதார், PAN, வாக்காளர் அடையாளம், passport, RTI மற்றும் போலி அதிகாரிகளை அடையாளம் காணுதல்."
       }
     },
     {
@@ -115,11 +151,11 @@
       "emoji": "🆘",
       "en": {
         "name": "Emergency Resources",
-        "blurb": "Helpline numbers, free legal aid and where to get help fast."
+        "blurb": "Helpline numbers, official websites and where to get help fast."
       },
       "ta": {
         "name": "அவசர உதவிக்கான வளங்கள்",
-        "blurb": "உதவி எண்கள், இலவச சட்ட உதவி மற்றும் விரைவாக உதவி பெறும் இடங்கள்."
+        "blurb": "உதவி எண்கள், அதிகாரப்பூர்வ இணையதளங்கள் மற்றும் விரைவாக உதவி பெறும் இடங்கள்."
       }
     }
   ]

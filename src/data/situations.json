@@ -25,16 +25,34 @@
       "ta": "உங்கள் சம்பளம் இரண்டு மாதம் தாமதமாகிறது"
     },
     {
+      "slug": "banking-safety",
+      "emoji": "💳",
+      "en": "Money leaves your account without your OTP",
+      "ta": "உங்கள் OTP இல்லாமல் கணக்கிலிருந்து பணம் போகிறது"
+    },
+    {
       "slug": "housing-rental",
       "emoji": "🏠",
       "en": "Your landlord will not return your deposit",
       "ta": "வீட்டு உரிமையாளர் உங்கள் முன்பணத்தைத் திருப்பித் தர மறுக்கிறார்"
     },
     {
-      "slug": "banking-safety",
-      "emoji": "💳",
-      "en": "Money leaves your account without your OTP",
-      "ta": "உங்கள் OTP இல்லாமல் கணக்கிலிருந்து பணம் போகிறது"
+      "slug": "property-land",
+      "emoji": "🏡",
+      "en": "You are about to buy a plot or a house",
+      "ta": "நீங்கள் ஒரு மனை அல்லது வீட்டை வாங்கப் போகிறீர்கள்"
+    },
+    {
+      "slug": "identity-documents",
+      "emoji": "🪪",
+      "en": "Someone misuses your Aadhaar or PAN",
+      "ta": "யாரோ உங்கள் ஆதார் அல்லது PAN-ஐ தவறாகப் பயன்படுத்துகிறார்"
+    },
+    {
+      "slug": "everyday-laws",
+      "emoji": "📘",
+      "en": "You are asked to sign a document you have not read",
+      "ta": "நீங்கள் படிக்காத ஒரு ஆவணத்தில் கையெழுத்திடச் சொல்லப்படுகிறது"
     }
   ]
 }

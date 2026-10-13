@@ -543,6 +543,10 @@ export function emergencyPage(ctx, { alt }) {
       <tbody>${rows}</tbody>
     </table>
     <section class="article-section">
+      <h2>\uD83D\uDD17 ${esc(t(ui, lang, 'emergency.portals'))}</h2>
+      <ul class="source-list">${(helplines.portals || []).map((p) => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p[lang] || p.en)} <span class="ext" aria-hidden="true">\u2197</span><span class="sr-only"> (${esc(t(ui, lang, 'a11y.externalLink'))})</span></a></li>`).join('')}</ul>
+    </section>
+    <section class="article-section">
       <h2>\u2696\uFE0F ${esc(t(ui, lang, 'emergency.freeAid'))}</h2>
       <p>${esc(t(ui, lang, 'emergency.freeAidText'))}</p>
       <p><a class="btn btn--primary" href="https://nalsa.gov.in/" target="_blank" rel="noopener noreferrer">NALSA \u2197</a></p>
