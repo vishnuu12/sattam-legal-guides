@@ -3,8 +3,8 @@
   "slug": "traffic-rules",
   "lang": "en",
   "category": "traffic-rules",
-  "title": "Traffic Rules, Accidents and Challans",
-  "summary": "Documents to carry, road rules, what to do after an accident, and how to verify and pay a genuine challan.",
+  "title": "Traffic Rules, Accidents and Challans (Traffic Fines)",
+  "summary": "Which papers to keep with you, the road rules, what to do after an accident, and how to check and pay a real challan (a traffic fine ticket).",
   "tags": [
     "traffic",
     "challan",
@@ -30,37 +30,37 @@
   "body": [
     {
       "type": "p",
-      "text": "On the road, both drivers and traffic police have clear duties. Knowing them prevents arguments and avoids paying a fine you did not owe."
+      "text": "On the road, drivers and traffic police both have clear duties. If you know them, you can avoid arguments. You can also avoid paying a fine you do not owe."
     },
     {
       "type": "h2",
-      "text": "What you must carry"
+      "text": "Papers you must keep with you"
     },
     {
       "type": "list",
       "items": [
-        "A valid driving licence for the class of vehicle you drive.",
-        "Registration certificate (RC), insurance and pollution under control (PUC) certificate.",
-        "For commercial vehicles, a permit and a fitness certificate."
+        "A valid driving licence (a licence that has not expired) for the type of vehicle you drive.",
+        "Registration certificate (RC) (the paper that shows the vehicle is registered in your name), insurance, and pollution under control (PUC) certificate (proof that your vehicle's smoke is within the allowed limit).",
+        "If it is a commercial vehicle (one used to earn money, like a taxi or a goods vehicle), a permit and a fitness certificate."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "Digital copies in DigiLocker or the mParivahan app are legally accepted as valid documents at a traffic check."
+      "text": "Digital copies (copies on your phone) in DigiLocker or the mParivahan app are accepted by law as valid papers during a traffic check."
     },
     {
       "type": "h2",
-      "text": "Rules that matter every day"
+      "text": "Everyday rules to follow"
     },
     {
       "type": "list",
       "items": [
-        "Obey signals and road signs: stop at red, go on green, and never block a junction.",
-        "Respect the speed limit for the road, and slow down near schools, hospitals and pedestrian crossings.",
-        "Never drive on the wrong side or overtake from the left.",
-        "Do not use a mobile phone while driving. Use a hands-free device only where it is safe and legal.",
-        "Wear a helmet on a two-wheeler, and wear a seat belt in a car, including in the rear."
+        "Follow signals and road signs. Stop at red, go at green, and never block a junction (a place where roads meet).",
+        "Do not cross the speed limit set for the road. Slow down near schools, hospitals and pedestrian crossings.",
+        "Never drive on the wrong side. Never overtake (go past another vehicle) from the left.",
+        "Do not use a mobile phone while driving. Use a hands-free device only where it is safe and allowed by law.",
+        "Wear a helmet (head cover) on a two-wheeler. Wear a seat belt in a car, including in the rear seat."
       ]
     },
     {
@@ -70,55 +70,55 @@
     {
       "type": "list",
       "items": [
-        "Stop, switch on hazard lights and help anyone who is injured. Call 108 or 112.",
-        "Inform the police if there is injury, death or serious damage. Leaving the scene is a serious offence.",
+        "Stop at once. Switch on the hazard lights. Help anyone who is hurt. Call 108 or 112.",
+        "If there is injury, death or serious damage, tell the police. Leaving the spot is a serious offence (a crime).",
         "Exchange names, phone numbers, vehicle numbers and insurer details with the other driver.",
-        "Note the time, place and, if possible, take photos and note CCTV nearby.",
-        "Inform your insurance company within the time stated in your policy, and get a copy of the accident report."
+        "Note the time and place. Take photos if you can. Also check if there is a CCTV (security camera) nearby.",
+        "Tell your insurance company within the time your policy allows, and get a copy of the accident report."
       ]
     },
     {
       "type": "h2",
-      "text": "Challans: verify before you pay"
+      "text": "Challan (traffic fine ticket): check before you pay"
     },
     {
       "type": "list",
       "items": [
-        "Check the challan on the official e-Challan portal using the challan number or your vehicle number.",
-        "Never pay through a link in an SMS. Genuine payments happen only on the official portal or at the police station.",
-        "You can pay online, or contest the challan before the designated court if you believe it is wrong.",
+        "Check the challan on the official e-Challan website using the challan number or your vehicle number.",
+        "Never pay through a link in an SMS. Real payments happen only on the official website or at the police station.",
+        "If you think it is wrong, you can pay online, or argue against it in the court set up for this.",
         "Always keep the receipt until the matter is closed."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Never hand over your original documents and walk away. Show them, but do not surrender originals unless there is a legal reason and you get a receipt."
+      "text": "Never hand over your original documents and walk away. Show them, but do not give up the originals unless there is a legal reason and you get a receipt."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "A police officer cannot seize your vehicle or keys for a routine document check. Seizure is allowed only for specific offences, with a receipt."
+      "text": "A police officer cannot take away your vehicle or keys for a routine paper check. They can take it only for certain offences listed in the law, and then you must get a receipt."
     }
   ],
   "practicalSteps": [
     "Keep digital copies of RC, licence, insurance and PUC in DigiLocker.",
-    "Note the challan number, date, place and the officer's details.",
-    "Verify and pay online at the official e-Challan portal, or contest it in court within the time allowed.",
-    "After any accident, save 108/112, inform your insurer, and keep photos and the accident report."
+    "Note down the challan number, date, place and the officer's details.",
+    "Check and pay on the official e-Challan website, or argue against it in court within the time allowed.",
+    "After any accident, save 108/112, tell your insurer, and keep the photos and the accident report."
   ],
   "exceptions": [
-    "Some documents may be produced later at the police station or online within a set time in certain states.",
-    "Helmet and seat-belt rules have limited exemptions, such as for certain medical conditions with proof."
+    "In some states, some papers can be shown later at the police station or online, within a fixed time.",
+    "The helmet and seat-belt rules have a few exceptions. For example, some medical conditions, if you can show proof."
   ],
   "faqs": [
     {
       "q": "Can the police take away my vehicle keys?",
-      "a": "There is no general power to seize keys or your vehicle for a routine document check. Seizure is allowed only for specific offences listed in the law, and you should get a receipt."
+      "a": "There is no general power to take your keys or your vehicle for a routine paper check. They can take it only for certain offences listed in the law, and then you must get a receipt."
     },
     {
-      "q": "Is a photocopy of my documents enough?",
-      "a": "Digital copies through DigiLocker or mParivahan are accepted. Otherwise carry originals or certified copies."
+      "q": "Is a copy of my documents enough?",
+      "a": "Digital copies through DigiLocker or mParivahan are accepted. Otherwise carry the originals or certified copies."
     }
   ],
   "sources": [
@@ -137,8 +137,8 @@
   ],
   "misconceptions": [
     {
-      "myth": "Traffic police can always confiscate my licence on the spot.",
-      "fact": "For many document offences the law lets you produce the documents later; outright confiscation is limited to specific situations."
+      "myth": "Traffic police can always take my licence on the spot.",
+      "fact": "For many paper offences, the law lets you show the papers later. Taking them away at once is allowed only in certain situations."
     }
   ]
 }

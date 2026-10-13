@@ -3,8 +3,8 @@
   "slug": "cybercrime",
   "lang": "en",
   "category": "cybercrime",
-  "title": "Online Fraud, Scams and Cyber Safety",
-  "summary": "UPI and OTP scams, fake jobs, loan apps, social-media safety, and how to report online fraud fast.",
+  "title": "Online Fraud, Scams and Staying Safe Online",
+  "summary": "UPI and OTP scams (tricks to steal your money), fake jobs, loan apps, how to stay safe on social media, and how to report online fraud fast.",
   "tags": [
     "cybercrime",
     "online fraud",
@@ -31,95 +31,95 @@
   "body": [
     {
       "type": "p",
-      "text": "Online fraud moves fast. Money is often routed through several accounts within minutes, so what you do in the first hour really matters."
+      "text": "Online fraud happens very fast. The stolen money often passes through many bank accounts within minutes. So what you do in the first hour is very important."
     },
     {
       "type": "h2",
-      "text": "Common scams to recognise"
+      "text": "Common scams (tricks) to watch out for"
     },
     {
       "type": "list",
       "items": [
-        "UPI / OTP fraud: a caller claims to be from your bank, or sends a 'collect request' you are told to approve. Remember: approving a collect request SENDS money out, it does not bring money in.",
-        "Fake job offers: an 'employer' asks for a registration, training or security fee. Genuine employers never ask you to pay to get a job.",
-        "Loan apps: instant-loan apps that demand access to your contacts and photos, then harass you. Use only RBI-regulated lenders.",
-        "Prize or lottery scams: a message says you have won and asks for a fee or your bank details.",
-        "Fake customer-care numbers: numbers from search results that do not belong to the official company."
+        "UPI / OTP fraud: someone calls and says they are from your bank. Or they send a 'collect request' (a request to take money from you) and ask you to approve it. Remember: approving a collect request sends money OUT. It does not bring money in.",
+        "Fake job offers: a person says they will give you a job, then asks for money for registration, training or security. Real employers never ask you to pay to get a job.",
+        "Loan apps: some apps give a loan in minutes, but first they demand to see your contacts and photos. Later they trouble you. Use only lenders that the RBI (the country's central bank) controls.",
+        "Prize or lottery scams: a message says you have won a prize. Then it asks for a fee or your bank details.",
+        "Fake customer-care numbers: you search online for a company's helpline. Some numbers in the results are not the company's real number."
       ]
     },
     {
       "type": "h2",
-      "text": "Staying safe on social media"
+      "text": "How to stay safe on social media"
     },
     {
       "type": "list",
       "items": [
-        "Keep your profile private and limit what strangers can see.",
-        "Never share OTPs, live location or identity documents in chats.",
-        "Be careful with 'friends' who quickly ask for money or intimate photos.",
-        "Switch on two-factor authentication for WhatsApp, Instagram and your email."
+        "Keep your profile private (only friends can see it). Let strangers see as little as possible.",
+        "Never share OTPs (the one-time passwords sent to your phone), your live location, or your ID papers in chats.",
+        "Be careful with 'friends' who ask for money or private photos soon after meeting you.",
+        "Turn on two-factor authentication (a second check, like an OTP, when you log in) for WhatsApp, Instagram and your email."
       ]
     },
     {
       "type": "h2",
-      "text": "Cyberstalking, threats and private images"
+      "text": "Online stalking, threats and private photos"
     },
     {
       "type": "list",
       "items": [
-        "Stalking, threats, impersonation and sharing private images without consent are offences under the IT Act and the criminal law.",
-        "Do not delete the evidence. Take screenshots and save profile links and message timestamps.",
-        "Report on cybercrime.gov.in. A woman in distress can also call 181."
+        "Following someone online again and again (stalking), threatening them, pretending to be someone else, and sharing private photos without permission are all crimes. The IT Act and the criminal law punish them.",
+        "Do not delete the proof. Take screenshots. Save profile links and the times of the messages.",
+        "Report it at cybercrime.gov.in. A woman in trouble can also call 181."
       ]
     },
     {
       "type": "h2",
-      "text": "First steps after a financial fraud"
+      "text": "What to do first after a money fraud"
     },
     {
       "type": "list",
       "items": [
-        "Call the national cyber helpline 1930 immediately.",
-        "Report on the official portal cybercrime.gov.in.",
-        "Inform your bank and ask them to freeze the transaction or the account.",
-        "Change your passwords and switch on two-factor authentication."
+        "Call the national cyber helpline 1930 at once.",
+        "Report it on the official website cybercrime.gov.in.",
+        "Tell your bank. Ask them to freeze the payment or the account.",
+        "Change your passwords. Turn on two-factor authentication."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Do not contact the scammer again, and never pay any 'release fee' or 'processing charge' to recover money. That is a second scam."
+      "text": "Do not call the scammer again. Never pay any 'release fee' or 'processing charge' to get your money back. That is a second scam."
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "The 'golden hour' is the short window right after a fraud. Reporting within it gives the best chance of freezing the money before it moves on."
+      "text": "The 'golden hour' is the short time just after a fraud. If you report within it, you have the best chance of freezing the money before it moves."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "You can file an online complaint even if you are not sure it is a crime. Reporting helps you and protects others."
+      "text": "You can file a complaint online even if you are not sure it is a crime. Reporting helps you and protects others."
     }
   ],
   "practicalSteps": [
-    "Act within the first hour if possible.",
-    "Dial 1930 and file a complaint on cybercrime.gov.in.",
-    "Give your bank the transaction reference in writing and ask for a written acknowledgement.",
-    "Save screenshots, transaction IDs, phone numbers and links before deleting anything.",
-    "If the money is not restored, escalate to the RBI Ombudsman for your bank."
+    "Act within the first hour if you can.",
+    "Call 1930 and file a complaint on cybercrime.gov.in.",
+    "Give your bank the transaction number in writing. Ask for a written reply that they received it.",
+    "Before you delete anything, save screenshots, transaction IDs, phone numbers and links.",
+    "If you do not get the money back, complain to the RBI Ombudsman (an officer who handles complaints against banks)."
   ],
   "exceptions": [
-    "If the loss is small and the bank refuses to act, a consumer or civil route may be faster than a criminal case.",
-    "Some states run their own cyber cells in addition to the national portal."
+    "If the loss is small and the bank refuses to act, a consumer or civil case may be faster than a criminal case.",
+    "Besides the national website, some states have their own cyber police teams."
   ],
   "faqs": [
     {
       "q": "Can I get my money back?",
-      "a": "Sometimes. If the fraud is reported quickly and the money is still traceable in a bank account, it can be frozen and returned. The longer you wait, the harder it becomes."
+      "a": "Sometimes. If you report the fraud quickly, and the money is still sitting in a bank account, the bank can freeze it and give it back. The longer you wait, the harder it gets."
     },
     {
       "q": "Will my complaint be kept private?",
-      "a": "Yes. The official portal allows anonymous reporting for some categories, and your details are used to investigate the case."
+      "a": "Yes. For some kinds of cases, the official website lets you report without giving your name. Your details are used to look into the case."
     }
   ],
   "sources": [
@@ -138,8 +138,8 @@
   ],
   "misconceptions": [
     {
-      "myth": "I can just ask the scammer to return my money.",
-      "fact": "Scammers rarely return money and often ask for more. Stop contact and report to 1930."
+      "myth": "I can just ask the scammer to give my money back.",
+      "fact": "Scammers almost never give money back. They often ask for even more. Stop talking to them and report to 1930."
     }
   ]
 }

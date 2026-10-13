@@ -3,8 +3,8 @@
   "slug": "employment-rights",
   "lang": "en",
   "category": "employment-rights",
-  "title": "Employment Rights: Salary, Contracts and Harassment",
-  "summary": "Appointment letters, notice periods, unpaid salary, workplace harassment, PF and gratuity.",
+  "title": "Your Job Rights: Pay, Contract and Harassment",
+  "summary": "Appointment letter, notice period, unpaid salary, harassment at work, PF and gratuity.",
   "tags": [
     "salary",
     "wages",
@@ -31,54 +31,54 @@
   "body": [
     {
       "type": "p",
-      "text": "If you have worked, you must be paid, on time and in full. Indian law also protects you on contracts, notice, leave and harassment. Knowing the basics helps you act instead of worry."
+      "text": "If you work, you must be paid. On time, and in full. The law also protects you on your contract, notice, leave and harassment. If you know the basics, you can act instead of worry."
     },
     {
       "type": "h2",
-      "text": "Your appointment letter and contract"
+      "text": "Your appointment letter and your contract"
     },
     {
       "type": "list",
       "items": [
-        "Read the appointment letter: salary, working hours, notice period, leave and termination clauses.",
-        "Keep a signed copy. If something is promised verbally, ask for it in writing.",
-        "Deductions must have a legal basis. Arbitrary cuts can be challenged before the labour authorities."
+        "Read your appointment letter. It says your salary, work hours, notice period, leave and when the job can end.",
+        "Keep a signed copy. If someone promises you something by word of mouth, ask them to write it down.",
+        "Money can be cut from your pay only if the law allows it. If it is cut for no reason, you can complain to the labour office."
       ]
     },
     {
       "type": "h2",
-      "text": "Salary, payslips and settlement"
+      "text": "Salary, payslips and final settlement"
     },
     {
       "type": "list",
       "items": [
-        "Wages must be paid by the agreed date; for many workers, within 7 to 10 days of the wage period.",
-        "Keep your payslips and bank statements; they are your proof of what was due and paid.",
-        "An employer cannot withhold your full and final settlement without a lawful reason."
+        "Your pay must come on the agreed date. For many workers, within 7 to 10 days after the pay period ends.",
+        "Keep your payslips and bank statements. They show how much was owed and how much was paid.",
+        "Your employer cannot hold back your full and final settlement (the last payment of all your dues) without a lawful reason."
       ]
     },
     {
       "type": "h2",
-      "text": "Notice, resignation and termination"
+      "text": "Notice, resignation and losing the job"
     },
     {
       "type": "list",
       "items": [
-        "A notice period is what your contract or the law requires; both sides should honour it.",
-        "You can resign. The employer must still pay you for the days you worked.",
-        "Termination must follow the contract and the law. Being sacked in revenge for raising a complaint can be challenged."
+        "A notice period is the time your contract or the law says you must give before leaving. Both sides should respect it.",
+        "You can resign. Your employer must still pay you for the days you worked.",
+        "If your job is ended, it must follow the contract and the law. If you are sacked to take revenge for a complaint, you can challenge it."
       ]
     },
     {
       "type": "h2",
-      "text": "Leave and workplace harassment"
+      "text": "Leave and harassment at work"
     },
     {
       "type": "list",
       "items": [
-        "Leave is governed by your contract and the applicable labour law.",
-        "Sexual harassment at the workplace is prohibited. Workplaces above a threshold must have an Internal Committee.",
-        "You can complain to the Internal Committee, or to the Local Committee for smaller workplaces."
+        "Leave is decided by your contract and the labour law that applies to you.",
+        "Sexual harassment at work is not allowed. Workplaces with enough staff must have an Internal Committee (a group that looks into such complaints).",
+        "You can complain to the Internal Committee. In small workplaces, you can complain to the Local Committee."
       ]
     },
     {
@@ -88,15 +88,15 @@
     {
       "type": "list",
       "items": [
-        "Provident Fund (PF) contributions by the employer are mandatory for covered establishments.",
-        "Gratuity is generally payable after five years of continuous service in covered cases.",
-        "ESI and other benefits apply where the establishment is covered."
+        "Provident Fund (PF) is a savings fund for your retirement. In covered workplaces, your employer must pay into it.",
+        "Gratuity (a lump sum your employer pays you) is usually paid after five years of continuous service, in covered cases.",
+        "ESI (medical cover) and other benefits apply where your workplace is covered."
       ]
     },
     {
       "type": "callout",
       "kind": "caution",
-      "text": "Never sign a resignation or settlement letter you do not understand. Signing may reduce your claim."
+      "text": "Never sign a resignation or settlement letter you do not understand. Signing it may reduce what you can claim."
     },
     {
       "type": "callout",
@@ -106,33 +106,33 @@
     {
       "type": "callout",
       "kind": "action",
-      "text": "For unpaid salary, you can file a complaint with the Labour Commissioner or apply for recovery of the money due. For PF, complain to the EPFO."
+      "text": "If your salary is not paid, you can complain to the Labour Commissioner or apply to recover the money owed to you. For PF problems, complain to the EPFO."
     }
   ],
   "practicalSteps": [
     "Collect your appointment letter, payslips, attendance records and bank statements.",
-    "Send a polite written demand and keep a copy.",
+    "Send a polite written request for your money. Keep a copy.",
     "File a complaint with the Labour Commissioner or the labour court.",
-    "For PF issues, complain to the EPFO; for harassment, approach the Internal or Local Committee.",
-    "For unpaid salary, an application can be filed for recovery of the money due."
+    "For PF problems, complain to the EPFO. For harassment, go to the Internal or Local Committee.",
+    "For unpaid salary, you can file an application to recover the money owed to you."
   ],
   "exceptions": [
-    "Some categories of workers and very small establishments have different thresholds under the law.",
-    "Certain higher-earning employees may not be covered by parts of the wage laws, but contract terms and general law still apply."
+    "Some kinds of workers, and very small workplaces, follow different limits under the law.",
+    "Some people who earn more may not be covered by parts of the wage laws. But their contract and the general law still apply."
   ],
   "faqs": [
     {
-      "q": "Can my employer cut my salary as punishment?",
-      "a": "Only lawful deductions are allowed. Punitive deductions without a legal basis can be challenged before the labour authorities."
+      "q": "Can my employer cut my salary as a punishment?",
+      "a": "Money can be cut only when the law allows it. If pay is cut as punishment with no legal reason, you can complain to the labour office."
     },
     {
       "q": "What about my PF and gratuity?",
-      "a": "Employer contributions to PF are mandatory for covered establishments. Gratuity is payable after five years of continuous service in covered cases."
+      "a": "In covered workplaces, your employer must pay into your PF. Gratuity is paid after five years of continuous service in covered cases."
     }
   ],
   "sources": [
     {
-      "label": "Code on Wages, 2019 - India Code",
+      "label": "Code on Wages, 2019 (India Code)",
       "url": "https://www.indiacode.nic.in/"
     },
     {
@@ -147,7 +147,7 @@
   "misconceptions": [
     {
       "myth": "If I complain, I will surely lose my job.",
-      "fact": "Retaliation is unlawful, and complaints can be made to the labour authorities. Legal aid services and labour unions can support you."
+      "fact": "Punishing you for complaining is against the law. You can complain to the labour office. Free legal aid services and workers' unions can help you."
     }
   ]
 }

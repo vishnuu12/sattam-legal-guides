@@ -3,8 +3,8 @@
   "slug": "consumer-rights",
   "lang": "en",
   "category": "consumer-rights",
-  "title": "Consumer Rights and Everyday Disputes",
-  "summary": "Fake products, misleading ads, refunds, hidden charges and how to file a consumer complaint.",
+  "title": "Consumer Rights and Everyday Problems",
+  "summary": "Fake products, misleading ads, refunds, hidden charges, and how to file a complaint as a buyer.",
   "tags": [
     "consumer rights",
     "refund",
@@ -28,44 +28,44 @@
   "body": [
     {
       "type": "p",
-      "text": "If you buy a product or a service and it is defective, fake, late or not what was promised, you have rights. The Consumer Protection Act, 2019 protects buyers in shops, online and over the phone."
+      "text": "When you buy something or pay for a service, and it is broken, fake, late, or not what was promised, you have rights. The Consumer Protection Act, 2019 protects buyers in shops, online, and over the phone."
     },
     {
       "type": "h2",
-      "text": "Your main rights as a consumer"
+      "text": "Your main rights as a buyer"
     },
     {
       "type": "list",
       "items": [
-        "Right to safety.",
-        "Right to be informed about quality, quantity and price.",
-        "Right to choose.",
-        "Right to be heard and to seek redressal.",
-        "Right to seek compensation for unfair trade practices."
+        "The right to be safe.",
+        "The right to know about the quality, quantity and price.",
+        "The right to choose.",
+        "The right to be heard and to get a solution.",
+        "The right to ask for compensation (money back) for unfair trade practices (dishonest ways of selling)."
       ]
     },
     {
       "type": "h2",
-      "text": "Defective or fake products, and misleading ads"
+      "text": "Broken or fake products, and misleading ads (ads that tell lies)"
     },
     {
       "type": "list",
       "items": [
-        "For a defective product, you can seek a replacement, repair or refund.",
-        "Selling fake goods or making misleading advertisements is an 'unfair trade practice' under the Act.",
-        "An advertisement must not make false claims about quality, quantity or results."
+        "If a product is broken or faulty, you can ask for a replacement, a repair, or your money back.",
+        "Selling fake goods, or advertising in a misleading way, is an 'unfair trade practice' (a dishonest selling trick) under this Act.",
+        "An ad must not tell lies about quality, quantity or results."
       ]
     },
     {
       "type": "h2",
-      "text": "Bills, hidden charges and online purchases"
+      "text": "Bills, hidden charges and online shopping"
     },
     {
       "type": "list",
       "items": [
-        "A restaurant or shop must not add charges that were not disclosed. Ask for an itemised bill.",
-        "For online purchases, the seller must display return, refund and warranty terms before you buy.",
-        "Keep the bill, order ID, warranty card and all chats or emails."
+        "A shop or restaurant must not add charges they did not tell you about. Ask for an itemised bill (a bill that lists each item and its price).",
+        "When you buy online, the seller must show the return, refund and warranty (guarantee) terms before you buy.",
+        "Keep the bill, the order ID, the warranty card, and all your chats or emails."
       ]
     },
     {
@@ -75,47 +75,47 @@
     {
       "type": "list",
       "items": [
-        "First complain to the seller in writing. If they do not fix it, approach a Consumer Commission.",
-        "District Commission: claims up to 50 lakh rupees.",
-        "State Commission: claims between 50 lakh and 2 crore rupees.",
-        "National Commission: claims above 2 crore rupees."
+        "First, complain to the seller in writing. If they do not fix it, go to a Consumer Commission (a special court for buyers).",
+        "District Commission (district-level court): claims up to 50 lakh rupees.",
+        "State Commission (state-level court): claims between 50 lakh and 2 crore rupees.",
+        "National Commission (national-level court): claims above 2 crore rupees."
       ]
     },
     {
       "type": "callout",
       "kind": "did-you-know",
-      "text": "For e-commerce, the E-Commerce Rules, 2020 require sellers to display return, refund and warranty policies clearly before you buy."
+      "text": "For online shopping, the E-Commerce Rules, 2020 say sellers must clearly show the return, refund and warranty rules before you buy."
     },
     {
       "type": "callout",
       "kind": "remember",
-      "text": "You usually have two years from the date of the problem to file a complaint."
+      "text": "Usually, you have two years from the date of the problem to file a complaint."
     },
     {
       "type": "callout",
       "kind": "action",
-      "text": "You can file online through the e-Daakhil portal, and get guidance by calling the National Consumer Helpline 1915."
+      "text": "You can file online on the e-Daakhil website. You can also call the National Consumer Helpline 1915 for help."
     }
   ],
   "practicalSteps": [
-    "Keep the bill, order ID, warranty card and all chats or emails.",
-    "Send a written complaint to the seller and note the date.",
-    "Call 1915 or register on consumerhelpline.gov.in for guidance.",
-    "File on the e-Daakhil portal if the seller does not resolve it."
+    "Keep the bill, the order ID, the warranty card, and all your chats or emails.",
+    "Send a written complaint to the seller, and note the date.",
+    "Call 1915 or register on consumerhelpline.gov.in for help.",
+    "If the seller does not solve it, file on the e-Daakhil website."
   ],
   "exceptions": [
-    "Products bought for resale or commercial use are generally not covered.",
-    "Free services given without any payment may fall outside the Act.",
-    "Some disputes must first go to a sector regulator, such as telecom or insurance."
+    "Products bought to resell, or for business use, are usually not covered.",
+    "Free services given without any payment may be outside this Act.",
+    "Some problems must first go to a sector regulator (the office that controls that industry), such as telecom or insurance."
   ],
   "faqs": [
     {
       "q": "Do I need a lawyer?",
-      "a": "Not necessarily. Consumer Commissions are designed to be simple, and you can argue your own case. Free help is available through consumer helplines and legal aid."
+      "a": "Not always. Consumer Commissions are made to be simple. You can speak for yourself. Free help is available through consumer helplines and legal aid (free legal help)."
     },
     {
-      "q": "Can I complain about a service, not just a product?",
-      "a": "Yes. The Act covers services such as banking, insurance, telecom, housing and repairs."
+      "q": "Can I complain about a service, and not only a product?",
+      "a": "Yes. This Act covers services like banking, insurance, telecom, housing and repairs."
     }
   ],
   "sources": [
@@ -134,8 +134,8 @@
   ],
   "misconceptions": [
     {
-      "myth": "Online sellers are not responsible because they are just a platform.",
-      "fact": "The E-Commerce Rules, 2020 place duties on both the seller and the marketplace platform."
+      "myth": "Online sellers are not responsible, because they are only a platform.",
+      "fact": "The E-Commerce Rules, 2020 put duties on both the seller and the platform (the website that hosts the sellers)."
     }
   ]
 }
