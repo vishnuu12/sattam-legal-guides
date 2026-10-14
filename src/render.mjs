@@ -179,6 +179,13 @@ export function doc(ctx, page) {
 <meta property="og:title" content="${esc(page.title)}">
 <meta property="og:description" content="${esc(page.description)}">
 <meta property="og:locale" content="ta_IN">
+<meta property="og:site_name" content="${esc(t(ctx.ui, 'en', 'brand.name'))}">
+<meta property="og:url" content="${siteUrl}${page.canonical}">
+<meta property="og:image" content="${siteUrl}${page.ogImage || (BASE + '/assets/og/og-default.png')}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${siteUrl}${page.ogImage || (BASE + '/assets/og/og-default.png')}">
 <meta name="theme-color" content="#0b3d2e">
 <meta name="site-base" content="${BASE}">
 <link rel="icon" href="${FAVICON}">
@@ -275,6 +282,7 @@ export function articlePage(ctx, { pair: ap, related }) {
     <a class="btn btn-ghost btn-sm" href="https://wa.me/?text=${encodeURIComponent(`${(ta ? ta.title : en.title)} — ${taxonomy.siteUrl}${paths.article(a.slug)}`)}" target="_blank" rel="noopener noreferrer">🟢 ${label(ui, 'share.whatsapp')}</a>
     <button class="btn btn-sm btn-ghost" type="button" data-share="${taxonomy.siteUrl}${paths.article(a.slug)}" data-share-text="${esc(ta ? ta.title : en.title)}">\uD83D\uDCE4 ${label(ui, 'article.share')}</button>
     <button class="btn btn-sm btn-ghost" type="button" data-save>\uD83D\uDCE5 ${label(ui, 'article.saveOffline')}</button>
+    <button class="btn btn-sm btn-ghost" type="button" data-share-image data-ta="${esc(ta ? ta.title : en.title)}" data-en="${esc(en ? en.title : ta.title)}" data-point="${esc(((ta && ta.keyPoints) || [])[0] || '')}" data-url="${taxonomy.siteUrl}${paths.article(a.slug)}">\uD83D\uDCF7 ${label(ui, 'article.shareImage')}</button>
   </div>
   <p class="notice">\u26A0\uFE0F ${label(ui, 'status.unverifiedNotice')}</p>
   <div class="article-grid">
@@ -292,6 +300,7 @@ export function articlePage(ctx, { pair: ap, related }) {
     title: `${a.title} | ${t(ui, 'en', 'brand.name')}`,
     description: (en && en.summary) || a.summary,
     canonical: paths.article(a.slug),
+    ogImage: BASE + '/assets/og/og-' + a.slug + '.png',
     type: 'article',
     bodyClass: 'page-article',
     active: '',

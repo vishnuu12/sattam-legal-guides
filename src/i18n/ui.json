@@ -148,6 +148,7 @@
     },
     "article": {
       "keyPoints": "The most important things",
+      "shareImage": "Share as image",
       "saveOffline": "Save offline",
       "saved": "Saved for offline",
       "share": "Share",
@@ -370,6 +371,7 @@
     },
     "article": {
       "keyPoints": "மிக முக்கியமானவை",
+      "shareImage": "படமாகப் பகிர்",
       "saveOffline": "offline-ல் சேமி",
       "saved": "offline-ல் சேமிக்கப்பட்டது",
       "share": "பகிர்",

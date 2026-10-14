@@ -33,6 +33,12 @@ function main() {
   if (fs.existsSync(iconDir)) {
     for (const ic of fs.readdirSync(iconDir)) fs.copyFileSync(path.join(iconDir, ic), path.join(OUT, ic));
   }
+  // social preview (Open Graph) images
+  const ogDir = path.join(ROOT, 'src/assets/og');
+  if (fs.existsSync(ogDir)) {
+    fs.mkdirSync(path.join(OUT, 'assets/og'), { recursive: true });
+    for (const im of fs.readdirSync(ogDir)) fs.copyFileSync(path.join(ogDir, im), path.join(OUT, 'assets/og', im));
+  }
 
   // ---------- search index (both languages) ----------
   const index = pairs.map((p) => {
