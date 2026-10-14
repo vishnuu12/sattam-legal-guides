@@ -1,0 +1,559 @@
+{
+  "slug": "help",
+  "emoji": "🧭",
+  "title": {
+    "en": "What has happened to you?",
+    "ta": "உங்களுக்கு என்ன ஆச்சு?"
+  },
+  "subtitle": {
+    "en": "Pick what happened, and we will show you exactly what to do first. No legal words needed.",
+    "ta": "உங்களுக்கு என்ன நடந்தது என்பதைத் தேர்ந்தெடுங்கள்; முதலில் என்ன செய்ய வேண்டும் என்று நேரடியாகக் காட்டுவோம். சட்டச் சொற்கள் தேவையில்லை."
+  },
+  "areas": [
+    {
+      "emoji": "🚔",
+      "label": {
+        "en": "Police / a crime",
+        "ta": "காவல்துறை / ஒரு குற்றம்"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "I was arrested or taken to a police station",
+            "ta": "நான் கைது செய்யப்பட்டேன் / காவல் நிலையத்திற்கு அழைத்துச் செல்லப்பட்டேன்"
+          },
+          "steps": {
+            "en": [
+              "Stay calm and do not resist or sign anything you do not understand.",
+              "Ask for the reason for the arrest and note the police officer's name and station.",
+              "Tell a family member immediately; you have the right to inform someone.",
+              "You must be produced before a magistrate within 24 hours. Ask to contact a lawyer (free legal aid: 15100)."
+            ],
+            "ta": [
+              "அமைதியாக இருங்கள்; எதிர்க்க வேண்டாம்; புரியாத எதையும் கையெழுத்திட வேண்டாம்.",
+              "கைதுக்கான காரணத்தைக் கேளுங்கள்; காவல் அதிகாரியின் பெயரையும் நிலையத்தையும் குறித்துக்கொள்ளுங்கள்.",
+              "உடனே குடும்பத்தாரிடம் தெரிவியுங்கள்; ஒருவருக்குத் தெரிவிக்கும் உரிமை உங்களுக்கு உண்டு.",
+              "24 மணி நேரத்திற்குள் நீதிபதி முன் ஆஜர்படுத்த வேண்டும். வழக்கறிஞரைத் தொடர்பு கொள்ளக் கேளுங்கள் (இலவச சட்ட உதவி: 15100)."
+            ]
+          },
+          "guide": "police-procedures",
+          "helpline": "112"
+        },
+        {
+          "label": {
+            "en": "The police refuse to register my FIR",
+            "ta": "காவல்துறை என் FIR-ஐப் பதிவு செய்ய மறுக்கிறது"
+          },
+          "steps": {
+            "en": [
+              "Give the complaint in writing and ask for a receipt or the FIR number.",
+              "If they still refuse, send the same complaint to the Superintendent of Police.",
+              "If that fails, file a complaint before the Magistrate.",
+              "Keep a copy of everything you sent."
+            ],
+            "ta": [
+              "புகாரை எழுத்தில் கொடுத்து, ரசீது அல்லது FIR எண்ணைக் கேளுங்கள்.",
+              "இன்னும் மறுத்தால், அதே புகாரை காவல் கண்காணிப்பாளருக்கு அனுப்புங்கள்.",
+              "அதுவும் தோற்றால், நீதிபதி முன் புகார் அளியுங்கள்.",
+              "நீங்கள் அனுப்பிய எல்லாவற்றின் நகலையும் வைத்திருங்கள்."
+            ]
+          },
+          "guide": "police-procedures",
+          "helpline": "112"
+        },
+        {
+          "label": {
+            "en": "I was attacked, threatened or harassed",
+            "ta": "என்னைத் தாக்கினார்கள் / மிரட்டினார்கள் / தொல்லை கொடுத்தார்கள்"
+          },
+          "steps": {
+            "en": [
+              "Get to safety first. Call 112 if you are in danger.",
+              "Get medical help if you are hurt, and keep the medical record.",
+              "Give a written complaint at the nearest police station.",
+              "Keep photos, messages or witness names as proof."
+            ],
+            "ta": [
+              "முதலில் பாதுகாப்பான இடத்திற்குச் செல்லுங்கள். ஆபத்தில் இருந்தால் 112-ஐ அழையுங்கள்.",
+              "காயம் இருந்தால் மருத்துவ உதவி பெற்று, மருத்துவப் பதிவை வைத்திருங்கள்.",
+              "அருகிலுள்ள காவல் நிலையத்தில் எழுத்துப்பூர்வ புகார் அளியுங்கள்.",
+              "புகைப்படங்கள், செய்திகள் அல்லது சாட்சிகளின் பெயர்களை ஆதாரமாக வைத்திருங்கள்."
+            ]
+          },
+          "guide": "police-procedures",
+          "helpline": "112"
+        },
+        {
+          "label": {
+            "en": "Something was stolen from me",
+            "ta": "என்னிடமிருந்து ஏதோ திருடுபோனது"
+          },
+          "steps": {
+            "en": [
+              "Give a police complaint as soon as possible.",
+              "List what was lost, with bills or photos if you have them.",
+              "Block lost cards and SIM immediately.",
+              "Get the FIR number and a copy for insurance or bank claims."
+            ],
+            "ta": [
+              "விரைவில் காவல் புகார் அளியுங்கள்.",
+              "இழந்த பொருட்களைப் பட்டியலிடுங்கள்; பில் அல்லது புகைப்படம் இருந்தால் இணையுங்கள்.",
+              "தொலைந்த அட்டைகளையும் SIM-ஐயும் உடனே block செய்யுங்கள்.",
+              "காப்பீடு அல்லது வங்கிக் கோரிக்கைக்கு FIR எண்ணையும் நகலையும் வாங்குங்கள்."
+            ]
+          },
+          "guide": "police-procedures",
+          "helpline": "112"
+        }
+      ]
+    },
+    {
+      "emoji": "🛒",
+      "label": {
+        "en": "A purchase or a service",
+        "ta": "ஒரு பொருள் அல்லது சேவை"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "The product is defective or fake",
+            "ta": "பொருள் குறைபாடுடையது அல்லது போலியானது"
+          },
+          "steps": {
+            "en": [
+              "Send a written complaint to the seller asking for a refund, replacement or repair.",
+              "Keep the bill, warranty and any chats as proof.",
+              "If it is not settled in 15 days, file on the e-Daakhil portal or call 1915.",
+              "You can file a consumer complaint within 2 years."
+            ],
+            "ta": [
+              "பணம் திரும்ப, மாற்று அல்லது பழுது கேட்டு விற்பனையாளருக்கு எழுத்துப்பூர்வ புகார் அனுப்புங்கள்.",
+              "பில், உத்தரவாதம் மற்றும் அரட்டைகளை ஆதாரமாக வைத்திருங்கள்.",
+              "15 நாட்களில் தீர்க்கவில்லை என்றால், e-Daakhil போர்ட்டலில் புகார் அளியுங்கள் அல்லது 1915-ஐ அழையுங்கள்.",
+              "2 ஆண்டுகளுக்குள் நுகர்வோர் புகார் அளிக்கலாம்."
+            ]
+          },
+          "guide": "consumer-rights",
+          "helpline": "1915"
+        },
+        {
+          "label": {
+            "en": "A service was poor or not as promised",
+            "ta": "சேவை மோசமாக இருந்தது / வாக்குறுதிக்கு மாறாக இருந்தது"
+          },
+          "steps": {
+            "en": [
+              "Note what you were promised and what you actually got.",
+              "Complain in writing to the company and keep the reference number.",
+              "If unresolved, escalate to the Consumer Commission or call 1915."
+            ],
+            "ta": [
+              "என்ன வாக்குறுதி அளிக்கப்பட்டது, உண்மையில் என்ன கிடைத்தது என்பதைக் குறித்துக்கொள்ளுங்கள்.",
+              "நிறுவனத்திற்கு எழுத்தில் புகார் அளித்து, reference எண்ணை வைத்திருங்கள்.",
+              "தீர்க்கவில்லை என்றால், நுகர்வோர் ஆணையத்திற்கு மேல்முறையீடு செய்யுங்கள் அல்லது 1915-ஐ அழையுங்கள்."
+            ]
+          },
+          "guide": "consumer-rights",
+          "helpline": "1915"
+        },
+        {
+          "label": {
+            "en": "I paid online but the order never came",
+            "ta": "ஆன்லைனில் பணம் கட்டினேன்; ஆனால் ஆர்டர் வரவே இல்லை"
+          },
+          "steps": {
+            "en": [
+              "Raise a complaint in the app or website and save the complaint number.",
+              "Dispute the payment with your bank or card provider.",
+              "Keep screenshots of the order and payment.",
+              "If it is a fraud, also report it at cybercrime.gov.in or call 1930."
+            ],
+            "ta": [
+              "App அல்லது இணையதளத்தில் புகார் அளித்து, புகார் எண்ணைச் சேமியுங்கள்.",
+              "உங்கள் வங்கி அல்லது card வழங்குநரிடம் பணப் பரிவர்த்தனையை எதிர்த்துக் கேளுங்கள்.",
+              "ஆர்டர் மற்றும் பணம் செலுத்தியதற்கான screenshot-களை வைத்திருங்கள்.",
+              "மோசடி என்றால், cybercrime.gov.in-ல் புகார் அளியுங்கள் அல்லது 1930-ஐ அழையுங்கள்."
+            ]
+          },
+          "guide": "consumer-rights",
+          "helpline": "1930"
+        }
+      ]
+    },
+    {
+      "emoji": "💼",
+      "label": {
+        "en": "Work and salary",
+        "ta": "வேலை மற்றும் சம்பளம்"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "My salary has not been paid",
+            "ta": "என் சம்பளம் தரப்படவில்லை"
+          },
+          "steps": {
+            "en": [
+              "Ask your employer in writing for the amount due, and keep a copy.",
+              "Keep your payslips, bank statement and appointment letter.",
+              "If it is not paid, complain to the Labour Commissioner.",
+              "For free legal help, call 15100."
+            ],
+            "ta": [
+              "நிலுவைத் தொகையை எழுத்தில் முதலாளியிடம் கேளுங்கள்; நகலை வைத்திருங்கள்.",
+              "சம்பளச் சீட்டுகள், வங்கிக் கணக்கு அறிக்கை மற்றும் நியமனக் கடிதத்தை வைத்திருங்கள்.",
+              "செலுத்தவில்லை என்றால், தொழிலாளர் ஆணையரிடம் புகார் அளியுங்கள்.",
+              "இலவச சட்ட உதவிக்கு, 15100-ஐ அழையுங்கள்."
+            ]
+          },
+          "guide": "employment-rights",
+          "helpline": "15100"
+        },
+        {
+          "label": {
+            "en": "I was sacked without any reason",
+            "ta": "காரணம் இல்லாமல் வேலையிலிருந்து நீக்கப்பட்டேன்"
+          },
+          "steps": {
+            "en": [
+              "Ask for the reason for termination in writing.",
+              "Keep your appointment letter and any notices.",
+              "Complain to the Labour Commissioner if the termination breaks the law or your contract.",
+              "Get free legal advice from your District Legal Services Authority."
+            ],
+            "ta": [
+              "வேலை நீக்கத்திற்கான காரணத்தை எழுத்தில் கேளுங்கள்.",
+              "நியமனக் கடிதம் மற்றும் எந்த நோட்டீஸையும் வைத்திருங்கள்.",
+              "சட்டத்தையோ ஒப்பந்தத்தையோ மீறினால், தொழிலாளர் ஆணையரிடம் புகார் அளியுங்கள்.",
+              "உங்கள் மாவட்ட சட்ட சேவைகள் ஆணையத்திடம் இலவச சட்ட ஆலோசனை பெறுங்கள்."
+            ]
+          },
+          "guide": "employment-rights",
+          "helpline": "15100"
+        },
+        {
+          "label": {
+            "en": "Problem with PF, gratuity or working hours",
+            "ta": "PF, gratuity அல்லது வேலை நேரம் தொடர்பான பிரச்சினை"
+          },
+          "steps": {
+            "en": [
+              "Check your PF passbook on the EPFO portal and raise a grievance there.",
+              "Keep salary slips that show your PF deductions.",
+              "For gratuity, it is payable within 30 days of it becoming due.",
+              "Complain to the Labour Commissioner if your rights are denied."
+            ],
+            "ta": [
+              "EPFO போர்ட்டலில் உங்கள் PF passbook-ஐப் பார்த்து, அங்கே குறையைப் பதிவு செய்யுங்கள்.",
+              "PF பிடித்தம் காட்டும் சம்பளச் சீட்டுகளை வைத்திருங்கள்.",
+              "Gratuity, அது செலுத்த வேண்டிய நாளிலிருந்து 30 நாட்களுக்குள் தரப்பட வேண்டும்.",
+              "உங்கள் உரிமைகள் மறுக்கப்பட்டால், தொழிலாளர் ஆணையரிடம் புகார் அளியுங்கள்."
+            ]
+          },
+          "guide": "employment-rights",
+          "helpline": "15100"
+        }
+      ]
+    },
+    {
+      "emoji": "🏦",
+      "label": {
+        "en": "Bank, money or a fraud",
+        "ta": "வங்கி, பணம் அல்லது மோசடி"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "Money was taken from my account by fraud",
+            "ta": "மோசடியாக என் கணக்கிலிருந்து பணம் எடுக்கப்பட்டது"
+          },
+          "steps": {
+            "en": [
+              "Call your bank and block the card or account immediately.",
+              "Report it within 3 working days to get zero liability.",
+              "File a complaint at cybercrime.gov.in or call 1930.",
+              "Keep the complaint numbers for both the bank and the police."
+            ],
+            "ta": [
+              "உடனே உங்கள் வங்கியை அழைத்து, card அல்லது கணக்கை block செய்யுங்கள்.",
+              "பூஜ்ய பொறுப்பு பெற 3 வேலை நாட்களுக்குள் புகார் அளியுங்கள்.",
+              "cybercrime.gov.in-ல் புகார் அளியுங்கள் அல்லது 1930-ஐ அழையுங்கள்.",
+              "வங்கி மற்றும் காவல் புகார் எண்களை வைத்திருங்கள்."
+            ]
+          },
+          "guide": "cybercrime",
+          "helpline": "1930"
+        },
+        {
+          "label": {
+            "en": "A wrong transaction or an ATM problem",
+            "ta": "தவறான பரிவர்த்தனை அல்லது ATM பிரச்சினை"
+          },
+          "steps": {
+            "en": [
+              "Complain to the bank in writing and get a complaint number.",
+              "Ask for a chargeback for a failed transaction.",
+              "If the bank does not resolve it in 30 days, complain to the RBI Ombudsman.",
+              "Keep the ATM slip and your statement."
+            ],
+            "ta": [
+              "வங்கிக்கு எழுத்தில் புகார் அளித்து, புகார் எண்ணைப் பெறுங்கள்.",
+              "தோல்வியடைந்த பரிவர்த்தனைக்கு chargeback கேளுங்கள்.",
+              "வங்கி 30 நாட்களில் தீர்க்கவில்லை என்றால், RBI குறைதீர் அதிகாரியிடம் புகார் அளியுங்கள்.",
+              "ATM சீட்டையும் உங்கள் அறிக்கையையும் வைத்திருங்கள்."
+            ]
+          },
+          "guide": "banking-safety",
+          "helpline": "14448"
+        },
+        {
+          "label": {
+            "en": "A loan or recovery agent is threatening me",
+            "ta": "ஒரு கடன் அல்லது வசூல் முகவர் என்னை மிரட்டுகிறார்"
+          },
+          "steps": {
+            "en": [
+              "Do not pay cash without a receipt; pay only to the lender's account.",
+              "Record the calls and keep messages as proof of threats.",
+              "Complain to the bank, the RBI and the police.",
+              "Free legal help: call 15100."
+            ],
+            "ta": [
+              "ரசீது இல்லாமல் பணமாகச் செலுத்த வேண்டாம்; கடன் வழங்குநரின் கணக்கிற்கு மட்டுமே செலுத்துங்கள்.",
+              "அழைப்புகளைப் பதிவு செய்து, மிரட்டலுக்கு ஆதாரமாகச் செய்திகளை வைத்திருங்கள்.",
+              "வங்கி, RBI மற்றும் காவல்துறையிடம் புகார் அளியுங்கள்.",
+              "இலவச சட்ட உதவி: 15100."
+            ]
+          },
+          "guide": "banking-safety",
+          "helpline": "1930"
+        }
+      ]
+    },
+    {
+      "emoji": "🔑",
+      "label": {
+        "en": "Rent and housing",
+        "ta": "வாடகை மற்றும் வீடு"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "My landlord will not return my deposit",
+            "ta": "வீட்டு உரிமையாளர் என் முன்பணத்தைத் தர மறுக்கிறார்"
+          },
+          "steps": {
+            "en": [
+              "Send a written notice asking for the deposit, and keep proof of sending.",
+              "Attach the agreement and the rent receipts.",
+              "If it is not returned, approach the Rent Authority or the civil court.",
+              "Do not stop paying rent on your own without advice."
+            ],
+            "ta": [
+              "முன்பணத்தைக் கேட்டு எழுத்துப்பூர்வ நோட்டீஸ் அனுப்பி, அனுப்பியதற்கான ஆதாரத்தை வைத்திருங்கள்.",
+              "ஒப்பந்தத்தையும் வாடகை ரசீதுகளையும் இணையுங்கள்.",
+              "திருப்பித் தரவில்லை என்றால், Rent Authority அல்லது சிவில் நீதிமன்றத்தை அணுகுங்கள்.",
+              "ஆலோசனை இல்லாமல் வாடகை செலுத்துவதை நிறுத்த வேண்டாம்."
+            ]
+          },
+          "guide": "tn-rent-and-tenancy",
+          "helpline": "15100"
+        },
+        {
+          "label": {
+            "en": "My landlord is forcing me to leave",
+            "ta": "வீட்டு உரிமையாளர் என்னை வெளியேறுமாறு நிர்பந்திக்கிறார்"
+          },
+          "steps": {
+            "en": [
+              "A landlord must give written notice and a valid reason; force is not allowed.",
+              "They cannot lock you out or cut water or electricity.",
+              "Keep a copy of the agreement and your rent receipts.",
+              "Complain to the Rent Authority or the police if you are threatened."
+            ],
+            "ta": [
+              "வீட்டு உரிமையாளர் எழுத்துப்பூர்வ நோட்டீஸும் செல்லுபடியான காரணமும் தர வேண்டும்; பலவந்தம் கூடாது.",
+              "உங்களைப் பூட்டி வைக்கவோ, தண்ணீர் அல்லது மின்சாரத்தைத் துண்டிக்கவோ முடியாது.",
+              "ஒப்பந்தத்தின் நகலையும் வாடகை ரசீதுகளையும் வைத்திருங்கள்.",
+              "மிரட்டல் இருந்தால், Rent Authority அல்லது காவல்துறையிடம் புகார் அளியுங்கள்."
+            ]
+          },
+          "guide": "housing-rental",
+          "helpline": "15100"
+        },
+        {
+          "label": {
+            "en": "The house needs repairs and nothing is being done",
+            "ta": "வீட்டில் பழுது பார்க்க வேண்டும்; ஆனால் எதுவும் செய்யப்படவில்லை"
+          },
+          "steps": {
+            "en": [
+              "Tell the landlord in writing what needs repair.",
+              "Check who is responsible for repairs in your agreement.",
+              "Keep photos and bills of anything you paid for.",
+              "For a dispute, approach the Rent Authority."
+            ],
+            "ta": [
+              "என்ன பழுது பார்க்க வேண்டும் என்பதை முதலாளிக்கு எழுத்தில் தெரிவியுங்கள்.",
+              "ஒப்பந்தத்தில் பழுதுபார்ப்பு யாருடைய பொறுப்பு என்பதைப் பாருங்கள்.",
+              "நீங்கள் செலவு செய்தவற்றின் புகைப்படங்களையும் பில்களையும் வைத்திருங்கள்.",
+              "தகராறு என்றால், Rent Authority-ஐ அணுகுங்கள்."
+            ]
+          },
+          "guide": "housing-rental",
+          "helpline": "15100"
+        }
+      ]
+    },
+    {
+      "emoji": "👨‍👩‍👧",
+      "label": {
+        "en": "Family, women and children",
+        "ta": "குடும்பம், பெண்கள் மற்றும் குழந்தைகள்"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "There is violence at home",
+            "ta": "வீட்டில் வன்முறை நடக்கிறது"
+          },
+          "steps": {
+            "en": [
+              "Get to safety first. Call 112 in danger or 181 for the women's helpline.",
+              "You can get a protection order under the Domestic Violence Act.",
+              "Go to the nearest police station or the Protection Officer of your district.",
+              "Free legal aid and shelter are available - call 15100."
+            ],
+            "ta": [
+              "முதலில் பாதுகாப்பான இடத்திற்குச் செல்லுங்கள். ஆபத்தில் 112, மகளிர் உதவி எண் 181.",
+              "Domestic Violence Act-இன் கீழ் பாதுகாப்பு உத்தரவு பெறலாம்.",
+              "அருகிலுள்ள காவல் நிலையம் அல்லது உங்கள் மாவட்ட Protection Officer-ஐ அணுகுங்கள்.",
+              "இலவச சட்ட உதவியும் தங்குமிடமும் உண்டு - 15100."
+            ]
+          },
+          "guide": "family-law",
+          "helpline": "181"
+        },
+        {
+          "label": {
+            "en": "Divorce or maintenance problem",
+            "ta": "விவாகரத்து அல்லது பராமரிப்புத் தொகை பிரச்சினை"
+          },
+          "steps": {
+            "en": [
+              "You can claim maintenance for yourself and your children.",
+              "Keep proof of income, marriage and expenses.",
+              "Get free legal aid from your District Legal Services Authority (15100).",
+              "Mediation can settle many family disputes faster."
+            ],
+            "ta": [
+              "உங்களுக்கும் உங்கள் குழந்தைகளுக்கும் பராமரிப்புத் தொகை கேட்கலாம்.",
+              "வருமானம், திருமணம் மற்றும் செலவுகளுக்கான ஆதாரங்களை வைத்திருங்கள்.",
+              "உங்கள் மாவட்ட சட்ட சேவைகள் ஆணையத்திடம் இலவச சட்ட உதவி பெறுங்கள் (15100).",
+              "பல குடும்பத் தகராறுகளை mediation விரைவாகத் தீர்க்கும்."
+            ]
+          },
+          "guide": "family-law",
+          "helpline": "15100"
+        },
+        {
+          "label": {
+            "en": "A child is in danger or being ill-treated",
+            "ta": "ஒரு குழந்தை ஆபத்தில் இருக்கிறது / துன்புறுத்தப்படுகிறது"
+          },
+          "steps": {
+            "en": [
+              "Call Childline 1098 immediately.",
+              "You can report to the police or the Child Welfare Committee.",
+              "Do not try to handle a dangerous situation alone.",
+              "Every child has a right to free education up to age 14."
+            ],
+            "ta": [
+              "உடனே Childline 1098-ஐ அழையுங்கள்.",
+              "காவல்துறை அல்லது குழந்தை நலக் குழுவிடம் தெரிவிக்கலாம்.",
+              "ஆபத்தான சூழ்நிலையைத் தனியாகக் கையாள முயற்சிக்க வேண்டாம்.",
+              "14 வயது வரை இலவச கல்வி பெற ஒவ்வொரு குழந்தைக்கும் உரிமை உண்டு."
+            ]
+          },
+          "guide": "family-law",
+          "helpline": "1098"
+        }
+      ]
+    },
+    {
+      "emoji": "📄",
+      "label": {
+        "en": "Documents and government offices",
+        "ta": "ஆவணங்கள் மற்றும் அரசு அலுவலகங்கள்"
+      },
+      "situations": [
+        {
+          "label": {
+            "en": "A certificate is not being issued",
+            "ta": "ஒரு சான்றிதழ் வழங்கப்படவில்லை"
+          },
+          "steps": {
+            "en": [
+              "Apply at your e-Sevai centre or online and keep the acknowledgement number.",
+              "Ask for the reason in writing if it is refused.",
+              "Escalate to the Tahsildar or the Revenue Divisional Officer.",
+              "You can also file an RTI to know the status."
+            ],
+            "ta": [
+              "உங்கள் e-Sevai மையம் அல்லது ஆன்லைனில் விண்ணப்பித்து, ஒப்புகை எண்ணை வைத்திருங்கள்.",
+              "மறுத்தால், காரணத்தை எழுத்தில் கேளுங்கள்.",
+              "Tahsildar அல்லது வருவாய் கோட்ட அதிகாரிக்கு மேல்முறையீடு செய்யுங்கள்.",
+              "நிலையை அறிய RTI-யும் அளிக்கலாம்."
+            ]
+          },
+          "guide": "tn-government-services",
+          "helpline": "1100"
+        },
+        {
+          "label": {
+            "en": "I want information from a government office",
+            "ta": "ஒரு அரசு அலுவலகத்திடம் தகவல் வேண்டும்"
+          },
+          "steps": {
+            "en": [
+              "File an RTI application with the Rs 10 fee to the Public Information Officer.",
+              "Ask for specific records, not opinions.",
+              "You should get a reply within 30 days.",
+              "If not, file a first appeal within 30 days."
+            ],
+            "ta": [
+              "பொது தகவல் அதிகாரிக்கு Rs 10 கட்டணத்துடன் RTI விண்ணப்பம் அளியுங்கள்.",
+              "கருத்துகளை அல்ல, குறிப்பிட்ட பதிவுகளைக் கேளுங்கள்.",
+              "30 நாட்களுக்குள் பதில் வர வேண்டும்.",
+              "வரவில்லை என்றால், 30 நாட்களுக்குள் first appeal அளியுங்கள்."
+            ]
+          },
+          "guide": "identity-documents",
+          "helpline": "1100"
+        },
+        {
+          "label": {
+            "en": "A land or property record problem",
+            "ta": "நிலம் அல்லது சொத்துப் பதிவு பிரச்சினை"
+          },
+          "steps": {
+            "en": [
+              "Check your patta and chitta on the Tamil Nadu e-Services portal.",
+              "Get an encumbrance certificate (EC) from the sub-registrar.",
+              "After a purchase, get the patta transferred to your name.",
+              "For a dispute, keep all original documents safe and consult a lawyer."
+            ],
+            "ta": [
+              "தமிழ்நாடு e-Services போர்ட்டலில் உங்கள் பட்டா மற்றும் சிட்டாவைப் பாருங்கள்.",
+              "சார்-பதிவாளரிடம் வில்லங்கச் சான்றிதழ் (EC) பெறுங்கள்.",
+              "வாங்கிய பின், பட்டாவை உங்கள் பெயருக்கு மாற்றிக்கொள்ளுங்கள்.",
+              "தகராறு என்றால், எல்லா அசல் ஆவணங்களையும் பாதுகாப்பாக வைத்து ஒரு வழக்கறிஞரை அணுகுங்கள்."
+            ]
+          },
+          "guide": "tn-government-services",
+          "helpline": "15100"
+        }
+      ]
+    }
+  ]
+}

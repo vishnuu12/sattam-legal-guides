@@ -11,6 +11,7 @@
       "guides": "All Guides",
       "categories": "Topics",
       "templates": "Templates",
+      "help": "What happened?",
       "glossary": "Glossary",
       "deadlines": "Deadlines",
       "emergency": "Emergency Help",
@@ -56,6 +57,7 @@
     },
     "actions": {
       "exploreGuides": "Explore Legal Guides",
+      "whatHappened": "What has happened to me?",
       "knowYourRights": "Know Your Rights",
       "readGuide": "Read guide",
       "viewAll": "View all",
@@ -138,6 +140,9 @@
       "print": "Print this",
       "backToList": "All templates"
     },
+    "wizard": {
+      "readGuide": "Read the full guide"
+    },
     "read": {
       "listen": "Listen",
       "stop": "Stop"
@@ -207,6 +212,7 @@
       "guides": "அனைத்து வழிகாட்டிகள்",
       "categories": "தலைப்புகள்",
       "templates": "மாதிரி கடிதங்கள்",
+      "help": "என்ன ஆச்சு?",
       "glossary": "சட்டச் சொற்கள்",
       "deadlines": "கால வரம்புகள்",
       "emergency": "அவசர உதவி",
@@ -333,6 +339,9 @@
       "tips": "குறிப்புகள்",
       "print": "இதை அச்சிடுங்கள்",
       "backToList": "எல்லா மாதிரிகளும்"
+    },
+    "wizard": {
+      "readGuide": "முழு வழிகாட்டியைப் படிக்க"
     },
     "read": {
       "listen": "கேட்க",

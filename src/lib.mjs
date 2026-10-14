@@ -38,6 +38,7 @@ export function loadAll() {
     templates: readJSON(path.join(ROOT, 'src/data/templates.json')),
     glossary: readJSON(path.join(ROOT, 'src/data/glossary.json')),
     deadlines: readJSON(path.join(ROOT, 'src/data/deadlines.json')),
+    wizard: readJSON(path.join(ROOT, 'src/data/wizard.json')),
     articles: loadArticles(),
   };
 }
@@ -74,6 +75,7 @@ export const paths = {
   template: (slug) => withBase(`/templates/${slug}/`),
   glossary: () => withBase('/glossary/'),
   deadlines: () => withBase('/deadlines/'),
+  help: () => withBase('/help/'),
 };
 
 // Searchable text for a paired article, in both languages, expanded with synonyms.

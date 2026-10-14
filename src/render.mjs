@@ -97,6 +97,7 @@ function header(ctx, active) {
   const { ui } = ctx;
   const nav = [
     { href: paths.home(), key: 'nav.home' },
+    { href: paths.help(), key: 'nav.help' },
     { href: paths.guides(), key: 'nav.guides' },
     { href: paths.templates(), key: 'nav.templates' },
     { href: paths.glossary(), key: 'nav.glossary' },
@@ -341,6 +342,7 @@ export function homePage(ctx, { pairs, featured, situations, popular }) {
         <button type="submit" class="btn">\uD83D\uDD0D ${esc(t(ui, 'en', 'search.button'))}</button>
       </form>
       <div class="hero-actions">
+        <a class="btn btn-gold" href="${paths.help()}">\uD83E\uDDED ${label(ui, 'actions.whatHappened')}</a>
         <a class="btn" href="${paths.guides()}">\uD83D\uDCD6 ${label(ui, 'actions.exploreGuides')}</a>
         <a class="btn btn-ghost" href="${paths.topic('rights-checklist')}">\uD83D\uDCCB ${label(ui, 'actions.knowYourRights')}</a>
       </div>
@@ -533,6 +535,43 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function wizardPage(ctx, { wizard }) {
+  const { ui } = ctx;
+  const areas = wizard.areas
+    .map((area) => {
+      const sits = area.situations
+        .map((s) => `<details class="wz-sit">
+      <summary>${pair(s.label.ta, s.label.en)}</summary>
+      <div class="wz-body">
+        <ol class="pair-list wz-steps">${(s.steps.ta || [])
+          .map((t, i) => `<li><span class="ta" lang="ta">${esc(t)}</span>${s.steps.en && s.steps.en[i] ? `<span class="en" lang="en">${esc(s.steps.en[i])}</span>` : ''}</li>`)
+          .join('')}</ol>
+        <p class="wz-actions"><a class="btn btn-sm" href="${paths.article(s.guide)}">\uD83D\uDCD6 ${label(ui, 'wizard.readGuide')}</a>${s.helpline ? `<a class="btn btn-sm btn-ghost" href="tel:${esc(s.helpline)}">\u260E\uFE0F ${esc(s.helpline)}</a>` : ''}</p>
+      </div>
+    </details>`)
+        .join('');
+      return `<details class="wz-area">
+    <summary><span class="wz-emj" aria-hidden="true">${area.emoji}</span>${pair(area.label.ta, area.label.en)}</summary>
+    <div class="wz-sits">${sits}</div>
+  </details>`;
+    })
+    .join('');
+  const content = `<div class="wrap page">
+    <h1 class="pair-h1">${wizard.emoji} ${pair(wizard.title.ta, wizard.title.en)}</h1>
+    <div class="pair summary">${pair(wizard.subtitle.ta, wizard.subtitle.en)}</div>
+    <div class="wizard">${areas}</div>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${wizard.title.en} | ${t(ui, 'en', 'brand.name')}`,
+    description: wizard.subtitle.en,
+    canonical: paths.help(),
+    bodyClass: 'page-help',
+    active: 'nav.help',
     content,
   });
 }
