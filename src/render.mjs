@@ -149,6 +149,7 @@ function footer(ctx) {
         <li><a href="${paths.near()}">${label(ui, 'nav.near')}</a></li>
         <li><a href="${paths.carry()}">${label(ui, 'nav.checklists')}</a></li>
         <li><a href="${paths.share()}">${label(ui, 'nav.share')}</a></li>
+        <li><a href="${paths.my()}">\uD83D\uDD16 ${label(ui, 'mypage.title')}</a></li>
         <li><a href="${paths.lite()}">${label(ui, 'nav.lite')}</a></li>
         <li><a href="${paths.trust()}">${label(ui, 'nav.trust')}</a></li>
         <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
@@ -297,6 +298,7 @@ export function articlePage(ctx, { pair: ap, related }) {
   ${safetyBanner}
   ${reviewPanel(ctx, a)}
   <div class="article-tools">
+    <button class="btn btn-sm btn-ghost" type="button" data-bookmark data-slug="${esc(a.slug)}" data-title="${esc(ta ? ta.title : en.title)}" data-title-en="${esc(en ? en.title : ta.title)}" data-url="${paths.article(a.slug)}" data-emoji="${catEmoji}">\uD83D\uDD16 ${label(ui, 'article.bookmark')}</button>
     <button class="btn btn-sm" type="button" data-speak="${esc(readAll)}">\uD83D\uDD0A ${label(ui, 'read.listen')}</button>
     <button class="btn btn-sm btn-ghost" type="button" data-stop>\u23F9 ${label(ui, 'read.stop')}</button>
     <a class="btn btn-ghost btn-sm" href="https://wa.me/?text=${encodeURIComponent(`${(ta ? ta.title : en.title)} — ${taxonomy.siteUrl}${paths.article(a.slug)}`)}" target="_blank" rel="noopener noreferrer">🟢 ${label(ui, 'share.whatsapp')}</a>
@@ -580,6 +582,27 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function myPage(ctx) {
+  const { ui } = ctx;
+  const content = `<div class="wrap page">
+    <h1 class="pair-h1">\uD83D\uDD16 ${pair(t(ui, 'ta', 'mypage.title'), t(ui, 'en', 'mypage.title'))}</h1>
+    <div class="pair summary">${pair(t(ui, 'ta', 'mypage.subtitle'), t(ui, 'en', 'mypage.subtitle'))}</div>
+    <p class="saved-empty" id="savedempty">${pair(t(ui, 'ta', 'mypage.empty'), t(ui, 'en', 'mypage.empty'))}</p>
+    <div class="cards" id="savedlist"></div>
+    <p class="saved-actions" id="savedactions" hidden><button class="btn btn-sm btn-ghost" type="button" data-clear-saved>\uD83D\uDDD1\uFE0F ${label(ui, 'mypage.clear')}</button></p>
+    <noscript><p class="notice">\u26A0\uFE0F ${label(ui, 'mypage.needsJs')}</p></noscript>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${t(ui, 'en', 'mypage.title')} | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'mypage.subtitle'),
+    canonical: paths.my(),
+    bodyClass: 'page-my',
+    active: '',
     content,
   });
 }

@@ -152,6 +152,8 @@
       "keyPoints": "The most important things",
       "shareImage": "Share as image",
       "forwardText": "Copy a message to forward",
+      "bookmark": "Save to my list",
+      "bookmarked": "Saved to my list",
       "forwardPrefix": "Free legal guide",
       "forwardTail": "Free legal guides in Tamil and English. You can listen to them, and they work without internet.",
       "saveOffline": "Save offline",
@@ -162,6 +164,14 @@
     "trust": {
       "howWeCheck": "How we check this",
       "privacy": "Your privacy"
+    },
+    "mypage": {
+      "title": "My saved guides",
+      "subtitle": "Guides you saved on this phone. They stay on your device and are not sent anywhere.",
+      "empty": "You have not saved any guide yet. Open a guide and tap 'Save to my list'.",
+      "clear": "Clear my list",
+      "needsJs": "Saving guides needs JavaScript turned on. The rest of this site works without it.",
+      "count": "saved"
     },
     "sharepage": {
       "title": "Share this site, or print a poster",
@@ -400,6 +410,8 @@
       "keyPoints": "மிக முக்கியமானவை",
       "shareImage": "படமாகப் பகிர்",
       "forwardText": "அனுப்ப ஒரு செய்தியை நகலெடு",
+      "bookmark": "என் பட்டியலில் சேமி",
+      "bookmarked": "என் பட்டியலில் சேமிக்கப்பட்டது",
       "forwardPrefix": "இலவச சட்ட வழிகாட்டி",
       "forwardTail": "இலவச சட்ட வழிகாட்டிகள், தமிழ் மற்றும் ஆங்கிலத்தில். கேட்கவும் முடியும்; internet இல்லாமலும் வேலை செய்யும்.",
       "saveOffline": "offline-ல் சேமி",
@@ -410,6 +422,14 @@
     "trust": {
       "howWeCheck": "இதை எப்படிச் சரிபார்க்கிறோம்",
       "privacy": "உங்கள் தனியுரிமை"
+    },
+    "mypage": {
+      "title": "என் வழிகாட்டிகள்",
+      "subtitle": "இந்த மொபைலில் நீங்கள் சேமித்த வழிகாட்டிகள். அவை உங்கள் சாதனத்திலேயே இருக்கும்; எங்கும் அனுப்பப்படுவதில்லை.",
+      "empty": "நீங்கள் இன்னும் எந்த வழிகாட்டியையும் சேமிக்கவில்லை. ஒரு வழிகாட்டியைத் திறந்து 'என் பட்டியலில் சேமி'-ஐ tap செய்யுங்கள்.",
+      "clear": "என் பட்டியலை அழி",
+      "needsJs": "வழிகாட்டிகளைச் சேமிக்க JavaScript தேவை. மற்ற எல்லாம் அது இல்லாமலும் வேலை செய்யும்.",
+      "count": "சேமிக்கப்பட்டவை"
     },
     "sharepage": {
       "title": "இந்தத் தளத்தைப் பகிருங்கள், அல்லது poster அச்சிடுங்கள்",
