@@ -39,6 +39,12 @@ function main() {
     fs.mkdirSync(path.join(OUT, 'assets/og'), { recursive: true });
     for (const im of fs.readdirSync(ogDir)) fs.copyFileSync(path.join(ogDir, im), path.join(OUT, 'assets/og', im));
   }
+  // printable posters
+  const posterDir = path.join(ROOT, 'src/assets/posters');
+  if (fs.existsSync(posterDir)) {
+    fs.mkdirSync(path.join(OUT, 'assets/posters'), { recursive: true });
+    for (const im of fs.readdirSync(posterDir)) fs.copyFileSync(path.join(posterDir, im), path.join(OUT, 'assets/posters', im));
+  }
 
   // ---------- search index (both languages) ----------
   const index = pairs.map((p) => {
@@ -96,6 +102,7 @@ function main() {
   writeFile(path.join(OUT, 'near-me', 'index.html'), R.nearPage(ctx, { data: all.districts }));
   writeFile(path.join(OUT, 'trust', 'index.html'), R.trustPage(ctx, { data: all.trust }));
   writeFile(path.join(OUT, 'checklists', 'index.html'), R.carryPage(ctx, { data: all.carry }));
+  writeFile(path.join(OUT, 'share', 'index.html'), R.sharePage(ctx));
   writeFile(path.join(OUT, 'glossary', 'index.html'), R.referencePage(ctx, { page: all.glossary }));
   writeFile(path.join(OUT, 'deadlines', 'index.html'), R.referencePage(ctx, { page: all.deadlines }));
 
@@ -116,7 +123,7 @@ function main() {
   writeFile(path.join(OUT, '404.html'), R.notFoundPage(ctx));
 
   // ---------- sitemap + robots ----------
-  const urls = [paths.home(), paths.help(), paths.near(), paths.carry(), paths.trust(), paths.guides(), paths.templates(), paths.glossary(), paths.deadlines(), paths.emergency(), paths.about(),
+  const urls = [paths.home(), paths.help(), paths.near(), paths.carry(), paths.share(), paths.trust(), paths.guides(), paths.templates(), paths.glossary(), paths.deadlines(), paths.emergency(), paths.about(),
     ...templates.map((tp) => paths.template(tp.slug)),
     ...taxonomy.categories.map((c) => paths.topic(c.slug)),
     ...pairs.map((p) => paths.article((p.ta || p.en).slug))];

@@ -82,6 +82,7 @@ export const paths = {
   near: () => withBase('/near-me/'),
   trust: () => withBase('/trust/'),
   carry: () => withBase('/checklists/'),
+  share: () => withBase('/share/'),
 };
 
 // Searchable text for a paired article, in both languages, expanded with synonyms.

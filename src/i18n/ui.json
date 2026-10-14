@@ -14,6 +14,7 @@
       "help": "What happened?",
       "near": "Help near you",
       "checklists": "Checklists",
+      "share": "Share & print",
       "trust": "Trust & privacy",
       "glossary": "Glossary",
       "deadlines": "Deadlines",
@@ -158,6 +159,19 @@
       "howWeCheck": "How we check this",
       "privacy": "Your privacy"
     },
+    "sharepage": {
+      "title": "Share this site, or print a poster",
+      "subtitle": "Print the poster and put it up where people already go. Anyone can scan the code and read the guides for free.",
+      "poster": "Printable poster (A4)",
+      "qr": "The QR code",
+      "qrNote": "The code opens the home page of this site.",
+      "link": "Link to share",
+      "copy": "Copy",
+      "copied": "Copied",
+      "where": "Where to put it",
+      "whereList": "School and college notice boards, ration shops, primary health centres, the panchayat office, the e-Sevai centre, a police station counter, buses and auto stands, and the workplace canteen.",
+      "howToPrint": "Printing: open the poster, choose Print, and pick A4. Black and white is fine."
+    },
     "safety": {
       "quickExit": "Quick exit",
       "leaveNow": "Leave this site now",
@@ -245,6 +259,7 @@
       "help": "என்ன ஆச்சு?",
       "near": "அருகில் உதவி",
       "checklists": "சரிபார்ப்புப் பட்டியல்",
+      "share": "பகிர் & அச்சிடு",
       "trust": "நம்பிக்கை & தனியுரிமை",
       "glossary": "சட்டச் சொற்கள்",
       "deadlines": "கால வரம்புகள்",
@@ -387,6 +402,19 @@
     "trust": {
       "howWeCheck": "இதை எப்படிச் சரிபார்க்கிறோம்",
       "privacy": "உங்கள் தனியுரிமை"
+    },
+    "sharepage": {
+      "title": "இந்தத் தளத்தைப் பகிருங்கள், அல்லது poster அச்சிடுங்கள்",
+      "subtitle": "Poster-ஐ அச்சிட்டு, மக்கள் ஏற்கனவே போகும் இடங்களில் ஒட்டுங்கள். யாரும் code-ஐ scan செய்து வழிகாட்டிகளை இலவசமாகப் படிக்கலாம்.",
+      "poster": "அச்சிடக்கூடிய poster (A4)",
+      "qr": "QR code",
+      "qrNote": "இந்த code இந்தத் தளத்தின் முதற்பக்கத்தைத் திறக்கும்.",
+      "link": "பகிர வேண்டிய இணைப்பு",
+      "copy": "நகலெடு",
+      "copied": "நகலெடுக்கப்பட்டது",
+      "where": "எங்கே ஒட்டலாம்",
+      "whereList": "பள்ளி மற்றும் கல்லூரி அறிவிப்புப் பலகைகள், குடும்ப அட்டைக் கடைகள், ஆரம்ப சுகாதார நிலையங்கள், ஊராட்சி அலுவலகம், e-Sevai மையம், காவல் நிலைய கவுன்டர், பஸ் மற்றும் ஆட்டோ நிலையங்கள், வேலையிட உணவகம்.",
+      "howToPrint": "அச்சிட: poster-ஐத் திறந்து, Print-ஐத் தேர்ந்தெடுத்து, A4-ஐத் தேர்ந்தெடுங்கள். கருப்பு-வெள்ளையில் இருந்தாலும் தெளிவாக இருக்கும்."
     },
     "safety": {
       "quickExit": "விரைவாக வெளியேறு",

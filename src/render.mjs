@@ -148,6 +148,7 @@ function footer(ctx) {
         <li><a href="${paths.deadlines()}">${label(ui, 'nav.deadlines')}</a></li>
         <li><a href="${paths.near()}">${label(ui, 'nav.near')}</a></li>
         <li><a href="${paths.carry()}">${label(ui, 'nav.checklists')}</a></li>
+        <li><a href="${paths.share()}">${label(ui, 'nav.share')}</a></li>
         <li><a href="${paths.trust()}">${label(ui, 'nav.trust')}</a></li>
         <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
         <li><a href="${paths.about()}">${label(ui, 'nav.about')}</a></li>
@@ -570,6 +571,38 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function sharePage(ctx) {
+  const { ui, taxonomy } = ctx;
+  const url = taxonomy.siteUrl + paths.home();
+  const content = `<div class="wrap page">
+    <h1 class="pair-h1">\uD83D\uDCE3 ${pair(t(ui, 'ta', 'sharepage.title'), t(ui, 'en', 'sharepage.title'))}</h1>
+    <div class="pair summary">${pair(t(ui, 'ta', 'sharepage.subtitle'), t(ui, 'en', 'sharepage.subtitle'))}</div>
+    <div class="share-grid">
+      <div class="letter-box">
+        <div class="letter-head"><span class="lh-ta" lang="ta">${esc(t(ui, 'ta', 'sharepage.poster'))}</span><button class="btn btn-sm btn-ghost" type="button" data-print>\uD83D\uDDA8\uFE0F ${esc(t(ui, 'en', 'templates.print'))}</button></div>
+        <img class="poster-img" src="${BASE}/assets/posters/poster-a4.png" alt="Sattam poster" loading="lazy">
+      </div>
+      <div class="letter-box">
+        <div class="letter-head"><span class="lh-ta" lang="ta">${esc(t(ui, 'ta', 'sharepage.qr'))}</span></div>
+        <img class="qr-img" src="${BASE}/assets/posters/qr.png" alt="QR code for this site">
+        <p class="pair-list"><span class="ta" lang="ta">${esc(t(ui, 'ta', 'sharepage.qrNote'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'sharepage.qrNote'))}</span></p>
+        <p class="share-copy"><input class="share-url" type="text" value="${esc(url)}" readonly aria-label="${esc(t(ui, 'en', 'sharepage.link'))}"><button class="btn btn-sm" type="button" data-copy="${esc(url)}">\uD83D\uDCCB ${esc(t(ui, 'en', 'sharepage.copy'))}</button></p>
+        <p class="share-hint">${pair(t(ui, 'ta', 'sharepage.howToPrint'), t(ui, 'en', 'sharepage.howToPrint'))}</p>
+      </div>
+    </div>
+    <section class="blk"><h2 class="pair-h">\uD83D\uDCCD ${label(ui, 'sharepage.where')}</h2>${pPair(t(ui, 'ta', 'sharepage.whereList'), t(ui, 'en', 'sharepage.whereList'))}</section>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${t(ui, 'en', 'sharepage.title')} | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'sharepage.subtitle'),
+    canonical: paths.share(),
+    bodyClass: 'page-share',
+    active: 'nav.share',
     content,
   });
 }
