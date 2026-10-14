@@ -262,6 +262,8 @@ export function articlePage(ctx, { pair: ap, related }) {
     <button class="btn btn-sm" type="button" data-speak="${esc(readAll)}">\uD83D\uDD0A ${label(ui, 'read.listen')}</button>
     <button class="btn btn-sm btn-ghost" type="button" data-stop>\u23F9 ${label(ui, 'read.stop')}</button>
     <a class="btn btn-ghost btn-sm" href="https://wa.me/?text=${encodeURIComponent(`${(ta ? ta.title : en.title)} — ${taxonomy.siteUrl}${paths.article(a.slug)}`)}" target="_blank" rel="noopener noreferrer">🟢 ${label(ui, 'share.whatsapp')}</a>
+    <button class="btn btn-sm btn-ghost" type="button" data-share="${taxonomy.siteUrl}${paths.article(a.slug)}" data-share-text="${esc(ta ? ta.title : en.title)}">\uD83D\uDCE4 ${label(ui, 'article.share')}</button>
+    <button class="btn btn-sm btn-ghost" type="button" data-save>\uD83D\uDCE5 ${label(ui, 'article.saveOffline')}</button>
   </div>
   <p class="notice">\u26A0\uFE0F ${label(ui, 'status.unverifiedNotice')}</p>
   <div class="article-grid">

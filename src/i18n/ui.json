@@ -144,6 +144,12 @@
     "wizard": {
       "readGuide": "Read the full guide"
     },
+    "article": {
+      "saveOffline": "Save offline",
+      "saved": "Saved for offline",
+      "share": "Share",
+      "linkCopied": "Link copied"
+    },
     "near": {
       "stateTitle": "Numbers that work anywhere in Tamil Nadu",
       "districtTitle": "Free legal aid in your district",
@@ -352,6 +358,12 @@
     },
     "wizard": {
       "readGuide": "முழு வழிகாட்டியைப் படிக்க"
+    },
+    "article": {
+      "saveOffline": "offline-ல் சேமி",
+      "saved": "offline-ல் சேமிக்கப்பட்டது",
+      "share": "பகிர்",
+      "linkCopied": "இணைப்பு நகலெடுக்கப்பட்டது"
     },
     "near": {
       "stateTitle": "தமிழ்நாட்டில் எங்கிருந்தும் வேலை செய்யும் உதவி எண்கள்",
