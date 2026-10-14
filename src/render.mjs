@@ -94,6 +94,11 @@ function header(ctx, active) {
       <span class="brand-mark" aria-hidden="true">\u2696\uFE0F</span>
       <span class="brand-text"><span class="ta" lang="ta">${esc(t(ui, 'ta', 'brand.name'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'brand.name'))}</span></span>
     </a>
+    <div class="tools">
+      <button class="tool-btn" type="button" data-font="-1" aria-label="Smaller text" title="Smaller text">A\u2212</button>
+      <button class="tool-btn" type="button" data-font="1" aria-label="Larger text" title="Larger text">A+</button>
+      <button class="tool-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme" title="Light / dark">\uD83C\uDF19</button>
+    </div>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav" aria-label="${esc(t(ui, 'en', 'nav.openMenu'))}">\u2630</button>
     <nav class="nav" id="mnav" aria-label="${esc(t(ui, 'en', 'nav.menu'))}">${navHtml}</nav>
   </div>
@@ -164,6 +169,7 @@ ${header(ctx, page.active)}
 ${page.content}
 </main>
 ${footer(ctx)}
+<a class="fab" href="${paths.emergency()}" aria-label="Emergency help">\uD83C\uDD98</a>
 <script src="${BASE}/assets/app.js" defer></script>
 </body>
 </html>`;
