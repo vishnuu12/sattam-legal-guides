@@ -1,4 +1,4 @@
-import { esc, t, otherLang, langName, paths, BASE } from './lib.mjs';
+import { esc, t, paths, BASE } from './lib.mjs';
 
 const FAVICON =
   'data:image/svg+xml,' +
@@ -7,642 +7,512 @@ const FAVICON =
   );
 
 const CALLOUTS = {
-  'did-you-know': { emoji: '\uD83D\uDCA1', key: 'callouts.didYouKnow', cls: 'callout--info' },
-  rights: { emoji: '\u2696\uFE0F', key: 'callouts.rights', cls: 'callout--rights' },
-  caution: { emoji: '\u26A0\uFE0F', key: 'callouts.caution', cls: 'callout--warn' },
-  action: { emoji: '\u2705', key: 'callouts.action', cls: 'callout--action' },
-  remember: { emoji: '\uD83D\uDCCC', key: 'callouts.remember', cls: 'callout--remember' },
-  sources: { emoji: '\uD83D\uDCDA', key: 'callouts.sources', cls: 'callout--sources' },
-  misconceptions: { emoji: '\uD83D\uDD0E', key: 'callouts.misconceptions', cls: 'callout--myth' },
+  'did-you-know': { emoji: '\uD83D\uDCA1', key: 'callouts.didYouKnow', cls: 'c-info' },
+  rights: { emoji: '\u2696\uFE0F', key: 'callouts.rights', cls: 'c-rights' },
+  caution: { emoji: '\u26A0\uFE0F', key: 'callouts.caution', cls: 'c-warn' },
+  action: { emoji: '\u2705', key: 'callouts.action', cls: 'c-action' },
+  remember: { emoji: '\uD83D\uDCCC', key: 'callouts.remember', cls: 'c-remember' },
+  sources: { emoji: '\uD83D\uDCDA', key: 'callouts.sources', cls: 'c-sources' },
+  misconceptions: { emoji: '\uD83D\uDD0E', key: 'callouts.misconceptions', cls: 'c-myth' },
 };
 
-const STATUS_MAP = {
-  reviewed: { key: 'status.reviewed', cls: 'badge--ok' },
-  pending: { key: 'status.pending', cls: 'badge--warn' },
-  in_review: { key: 'status.in_review', cls: 'badge--warn' },
-  draft: { key: 'status.draft', cls: 'badge--muted' },
-  machine: { key: 'status.machine', cls: 'badge--muted' },
-  human: { key: 'status.human', cls: 'badge--muted' },
-  published: { key: 'status.published', cls: 'badge--ok' },
+// ---- bilingual building blocks (Tamil line first, English line second) ----
+const pair = (ta, en) => {
+  const a = ta ? `<span class="ta" lang="ta">${esc(ta)}</span>` : '';
+  const b = en ? `<span class="en" lang="en">${esc(en)}</span>` : '';
+  return a + b;
 };
+const pPair = (ta, en) =>
+  `<div class="pair">${ta ? `<p class="ta" lang="ta">${esc(ta)}</p>` : ''}${en ? `<p class="en" lang="en">${esc(en)}</p>` : ''}</div>`;
 
-export function badge(value, lang, ui) {
-  const s = STATUS_MAP[value] || STATUS_MAP.pending;
-  return `<span class="badge ${s.cls}">${esc(t(ui, lang, s.key))}</span>`;
+function listPair(taItems, enItems) {
+  const n = Math.max(taItems.length, enItems.length);
+  const items = Array.from({ length: n }, (_, i) => {
+    const ta = taItems[i];
+    const en = enItems[i];
+    return `<li>${ta ? `<span class="ta" lang="ta">${esc(ta)}</span>` : ''}${en ? `<span class="en" lang="en">${esc(en)}</span>` : ''}</li>`;
+  }).join('');
+  return `<ul class="pair-list">${items}</ul>`;
 }
 
-function callout(kind, text, lang, ui) {
+const label = (ui, key, vars) => pair(t(ui, 'ta', key, vars), t(ui, 'en', key, vars));
+
+function callout(ui, kind, taText, enText) {
   const c = CALLOUTS[kind] || CALLOUTS['did-you-know'];
-  return `<aside class="callout ${c.cls}" role="note">
-      <p class="callout__title"><span class="callout__emoji" aria-hidden="true">${c.emoji}</span>${esc(t(ui, lang, c.key))}</p>
-      <p class="callout__text">${esc(text)}</p>
-    </aside>`;
+  return `<aside class="callout ${c.cls}">
+    <p class="callout-h"><span class="emj" aria-hidden="true">${c.emoji}</span>${label(ui, c.key)}</p>
+    ${pPair(taText, enText)}
+  </aside>`;
 }
 
-function renderBody(blocks, lang, ui) {
+function blockPair(ui, taB, enB) {
+  const type = (taB && taB.type) || (enB && enB.type) || 'p';
+  const taText = taB && taB.text;
+  const enText = enB && enB.text;
+  if (type === 'h2') return { html: `<h2 class="pair-h"><span class="ta" lang="ta">${esc(taText || '')}</span><span class="en" lang="en">${esc(enText || '')}</span></h2>`, toc: taText || enText };
+  if (type === 'h3') return { html: `<h3 class="pair-h3">${pair(taText, enText)}</h3>`, toc: null };
+  if (type === 'list') return { html: listPair((taB && taB.items) || [], (enB && enB.items) || []), toc: null };
+  if (type === 'callout') return { html: callout(ui, (taB && taB.kind) || (enB && enB.kind), taText, enText), toc: null };
+  return { html: pPair(taText, enText), toc: null };
+}
+
+function renderBody(ui, taBody, enBody) {
+  const n = Math.max((taBody || []).length, (enBody || []).length);
   const toc = [];
-  let n = 0;
-  const html = (blocks || [])
-    .map((b) => {
-      if (b.type === 'h2') {
-        n += 1;
-        const id = `sec-${n}`;
-        toc.push({ id, text: b.text });
-        return `<h2 id="${id}">${esc(b.text)}</h2>`;
-      }
-      if (b.type === 'h3') return `<h3>${esc(b.text)}</h3>`;
-      if (b.type === 'list') return `<ul class="prose-list">${b.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`;
-      if (b.type === 'callout') return callout(b.kind, b.text, lang, ui);
-      return `<p>${esc(b.text)}</p>`;
-    })
-    .join('\n');
+  let idx = 0;
+  const html = Array.from({ length: n }, (_, i) => {
+    const r = blockPair(ui, (taBody || [])[i], (enBody || [])[i]);
+    if (r.toc) {
+      idx += 1;
+      toc.push({ id: `sec-${idx}`, text: r.toc });
+      return r.html.replace('<h2 ', `<h2 id="sec-${idx}" `);
+    }
+    return r.html;
+  }).join('\n');
   return { html, toc };
 }
 
-function headerHtml(ctx, alt) {
-  const { lang, ui } = ctx;
+// ---- layout ----
+function header(ctx, active) {
+  const { ui } = ctx;
   const nav = [
-    { href: paths.home(lang), label: t(ui, lang, 'nav.home'), key: 'home' },
-    { href: paths.guides(lang), label: t(ui, lang, 'nav.guides'), key: 'guides' },
-    { href: paths.emergency(lang), label: t(ui, lang, 'nav.emergency'), key: 'emergency' },
-    { href: paths.about(lang), label: t(ui, lang, 'nav.about'), key: 'about' },
+    { href: paths.home(), key: 'nav.home' },
+    { href: paths.guides(), key: 'nav.guides' },
+    { href: paths.templates(), key: 'nav.templates' },
+    { href: paths.emergency(), key: 'nav.emergency' },
+    { href: paths.about(), key: 'nav.about' },
   ];
-  const navHtml = nav.map((i) => `<a href="${i.href}">${esc(i.label)}</a>`).join('');
-  const enActive = lang === 'en' ? ' is-active' : '';
-  const taActive = lang === 'ta' ? ' is-active' : '';
-  return `<a class="skip-link" href="#main">${esc(t(ui, lang, 'nav.skipToContent'))}</a>
+  const navHtml = nav
+    .map((i) => `<a href="${i.href}"${active === i.key ? ' class="is-active" aria-current="page"' : ''}>${label(ui, i.key)}</a>`)
+    .join('');
+  return `<a class="skip" href="#main">${label(ui, 'nav.skipToContent')}</a>
 <header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="${paths.home(lang)}">
+  <div class="wrap head">
+    <a class="brand" href="${paths.home()}">
       <span class="brand-mark" aria-hidden="true">\u2696\uFE0F</span>
-      <span class="brand-name">${esc(t(ui, lang, 'brand.name'))}</span>
+      <span class="brand-text"><span class="ta" lang="ta">${esc(t(ui, 'ta', 'brand.name'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'brand.name'))}</span></span>
     </a>
-    <nav class="nav nav--desktop" aria-label="${esc(t(ui, lang, 'nav.menu'))}">${navHtml}</nav>
-    <div class="header-actions">
-      <form class="header-search" role="search" action="${paths.guides(lang)}" method="get">
-        <label class="sr-only" for="hdr-q">${esc(t(ui, lang, 'search.label'))}</label>
-        <input id="hdr-q" type="search" name="q" placeholder="${esc(t(ui, lang, 'search.placeholder'))}" autocomplete="off">
-        <button type="submit" aria-label="${esc(t(ui, lang, 'search.button'))}">\uD83D\uDD0D</button>
-      </form>
-      <div class="lang-switch" role="group" aria-label="${esc(t(ui, lang, 'languageSwitcher.label'))}">
-        <a class="lang-opt${enActive}" href="${alt.en}" hreflang="en" lang="en" data-setlang="en" aria-current="${lang === 'en' ? 'true' : 'false'}">\uD83C\uDDEC\uD83C\uDDE7 English</a>
-        <span class="lang-sep" aria-hidden="true">|</span>
-        <a class="lang-opt${taActive}" href="${alt.ta}" hreflang="ta" lang="ta" data-setlang="ta" aria-current="${lang === 'ta' ? 'true' : 'false'}">\uD83C\uDDEE\uD83C\uDDF3 \u0BA4\u0BAE\u0BBF\u0BB4\u0BCD</a>
-      </div>
-      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="${esc(t(ui, lang, 'nav.openMenu'))}">\u2630</button>
-    </div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav" aria-label="${esc(t(ui, 'en', 'nav.openMenu'))}">\u2630</button>
+    <nav class="nav" id="mnav" aria-label="${esc(t(ui, 'en', 'nav.menu'))}">${navHtml}</nav>
   </div>
-  <nav id="mobile-nav" class="mobile-nav nav" hidden aria-label="${esc(t(ui, lang, 'nav.menu'))}">${navHtml}</nav>
 </header>`;
 }
 
-function footerHtml(ctx) {
-  const { lang, ui } = ctx;
+function footer(ctx) {
+  const { ui, taxonomy } = ctx;
   const year = new Date().getFullYear();
-  const topics = ctx.taxonomy.categories
-    .slice(0, 6)
-    .map((c) => `<li><a href="${paths.category(lang, c.slug)}">${c.emoji} ${esc(c[lang].name)}</a></li>`)
+  const topics = taxonomy.categories
+    .slice(0, 8)
+    .map((c) => `<li><a href="${paths.topic(c.slug)}">${c.emoji} ${pair(c.ta.name, c.en.name)}</a></li>`)
     .join('');
   return `<footer class="site-footer">
-  <div class="wrap footer-grid">
-    <div class="footer-col">
-      <p class="footer-brand">\u2696\uFE0F ${esc(t(ui, lang, 'brand.name'))}</p>
-      <p class="footer-text">${esc(t(ui, lang, 'footer.aboutText'))}</p>
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">\u2696\uFE0F ${pair(t(ui, 'ta', 'brand.name'), t(ui, 'en', 'brand.name'))}</p>
+      ${pPair(t(ui, 'ta', 'footer.aboutText'), t(ui, 'en', 'footer.aboutText'))}
     </div>
-    <div class="footer-col">
-      <h2 class="footer-head">${esc(t(ui, lang, 'footer.quickLinks'))}</h2>
+    <div>
+      <h2 class="foot-h">🔗 ${label(ui, 'footer.quickLinks')}</h2>
       <ul>
-        <li><a href="${paths.guides(lang)}">${esc(t(ui, lang, 'nav.guides'))}</a></li>
-        <li><a href="${paths.emergency(lang)}">${esc(t(ui, lang, 'nav.emergency'))}</a></li>
-        <li><a href="${paths.about(lang)}">${esc(t(ui, lang, 'nav.about'))}</a></li>
-        <li><a href="${paths.disclaimer(lang)}">${esc(t(ui, lang, 'footer.terms'))}</a></li>
+        <li><a href="${paths.guides()}">${label(ui, 'nav.guides')}</a></li>
+        <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
+        <li><a href="${paths.about()}">${label(ui, 'nav.about')}</a></li>
       </ul>
     </div>
-    <div class="footer-col">
-      <h2 class="footer-head">${esc(t(ui, lang, 'footer.topics'))}</h2>
+    <div>
+      <h2 class="foot-h">📚 ${label(ui, 'footer.topics')}</h2>
       <ul>${topics}</ul>
     </div>
   </div>
-  <div class="wrap footer-bottom">
-    <p class="footer-disclaimer">${esc(t(ui, lang, 'disclaimer.full'))}</p>
-    <p class="footer-meta">\u00A9 ${year} ${esc(t(ui, lang, 'brand.name'))} \u00B7 ${esc(t(ui, lang, 'footer.builtWith'))}</p>
+  <div class="wrap foot-bottom">
+    ${pPair(t(ui, 'ta', 'disclaimer.full'), t(ui, 'en', 'disclaimer.full'))}
+    <p class="foot-meta">\u00A9 ${year} ${esc(t(ui, 'en', 'brand.name'))}</p>
   </div>
 </footer>`;
 }
 
 export function doc(ctx, page) {
-  const { lang, ui, taxonomy } = ctx;
+  const { taxonomy } = ctx;
   const siteUrl = taxonomy.siteUrl;
-  const alt = page.alt || { en: paths.home('en'), ta: paths.home('ta') };
   return `<!DOCTYPE html>
-<html lang="${lang}">
+<html lang="ta">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(page.title)}</title>
 <meta name="description" content="${esc(page.description)}">
 <link rel="canonical" href="${siteUrl}${page.canonical}">
-<link rel="alternate" hreflang="en" href="${siteUrl}${alt.en}">
-<link rel="alternate" hreflang="ta" href="${siteUrl}${alt.ta}">
-<link rel="alternate" hreflang="x-default" href="${siteUrl}${alt.en}">
 <meta property="og:type" content="${page.type || 'website'}">
-<meta property="og:site_name" content="${esc(t(ui, lang, 'meta.siteName'))}">
 <meta property="og:title" content="${esc(page.title)}">
 <meta property="og:description" content="${esc(page.description)}">
-<meta property="og:locale" content="${lang === 'ta' ? 'ta_IN' : 'en_IN'}">
+<meta property="og:locale" content="ta_IN">
 <meta name="theme-color" content="#0b3d2e">
+<meta name="site-base" content="${BASE}">
 <link rel="icon" href="${FAVICON}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap">
-<meta name="site-base" content="${BASE}">
-<link rel="stylesheet" href="${BASE}/assets/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Baloo+Thambi+2:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="${BASE}/assets/style.css">
 </head>
-<body class="${page.bodyClass || ''}" data-lang="${lang}">
-${headerHtml(ctx, alt)}
-<main id="main" class="main">
+<body class="${page.bodyClass || ''}">
+${header(ctx, page.active)}
+<main id="main">
 ${page.content}
 </main>
-${footerHtml(ctx)}
+${footer(ctx)}
 <script src="${BASE}/assets/app.js" defer></script>
-${page.jsonld ? `<script type="application/ld+json">${JSON.stringify(page.jsonld)}</script>` : ''}
 </body>
 </html>`;
 }
 
-function articleCard(a, lang, taxonomy, ui, opts = {}) {
-  const cat = taxonomy.categories.find((c) => c.slug === a.category);
-  const emoji = cat ? cat.emoji : '\u2696\uFE0F';
-  const catName = cat ? cat[lang].name : a.category;
-  return `<a class="card" href="${paths.article(lang, a.slug)}">
-    <span class="card__emoji" aria-hidden="true">${emoji}</span>
-    <span class="card__cat">${esc(catName)}</span>
-    <h3 class="card__title">${esc(a.title)}</h3>
-    <p class="card__summary">${esc(a.summary)}</p>
-    <span class="card__meta">${esc(t(ui, lang, 'article.readingTime', { n: a.readingMinutes }))}</span>
-  </a>`;
-}
-
-function reviewPanel(a, lang, ui) {
-  return `<div class="review-panel" aria-label="${esc(t(ui, lang, 'article.reviewStatus'))}">
-    <div class="review-item">
-      <span class="review-label">${esc(t(ui, lang, 'article.translationStatus'))}</span>
-      ${badge(a.translationStatus, lang, ui)}
-    </div>
-    <div class="review-item">
-      <span class="review-label">${esc(t(ui, lang, 'article.legalStatus'))}</span>
-      ${badge(a.legalReviewStatus, lang, ui)}
-    </div>
-    <div class="review-item">
-      <span class="review-label">${esc(t(ui, lang, 'article.lastUpdated'))}</span>
-      <time datetime="${esc(a.lastUpdated)}">${esc(a.lastUpdated)}</time>
-    </div>
+function reviewPanel(ctx, a) {
+  const { ui } = ctx;
+  const badge = `<span class="badge badge-warn">${label(ui, 'status.pending')}</span>`;
+  return `<div class="review">
+    <div><span class="rv-l">${label(ui, 'article.translationStatus')}</span>${badge}</div>
+    <div><span class="rv-l">${label(ui, 'article.legalStatus')}</span>${badge}</div>
+    <div><span class="rv-l">🕒 ${label(ui, 'article.lastUpdated')}</span><time datetime="${esc(a.lastUpdated)}">${esc(a.lastUpdated)}</time></div>
   </div>`;
 }
 
-function notices(a, lang, ui, isFallback) {
-  const out = [];
-  if (isFallback) {
-    out.push(`<p class="notice notice--fallback"><span aria-hidden="true">\uD83C\uDF10</span> ${esc(
-      t(ui, lang, 'status.fallbackNotice', { lang: langName(a.lang), missing: langName(lang) })
-    )}</p>`);
-  }
-  if (a.legalReviewStatus !== 'reviewed') {
-    out.push(`<p class="notice notice--warn"><span aria-hidden="true">\u26A0\uFE0F</span> ${esc(t(ui, lang, 'status.unverifiedNotice'))}</p>`);
-  }
-  if (!isFallback && a.translationStatus !== 'reviewed') {
-    out.push(`<p class="notice notice--info"><span aria-hidden="true">\uD83D\uDD0D</span> ${esc(t(ui, lang, 'status.translationPendingNotice'))}</p>`);
-  }
-  return out.join('\n');
-}
-
-export function articlePage(ctx, { article: a, related, alt, isFallback }) {
-  const { lang, ui, taxonomy } = ctx;
+export function articlePage(ctx, { pair: ap, related }) {
+  const { ui, taxonomy } = ctx;
+  const ta = ap.ta;
+  const en = ap.en;
+  const a = ta || en;
   const cat = taxonomy.categories.find((c) => c.slug === a.category);
-  const { html: bodyHtml, toc } = renderBody(a.body, lang, ui);
   const catEmoji = cat ? cat.emoji : '\u2696\uFE0F';
-  const catName = cat ? cat[lang].name : a.category;
+  const catName = cat ? pair(cat.ta.name, cat.en.name) : a.category;
+
+  const { html: bodyHtml, toc } = renderBody(ui, ta && ta.body, en && en.body);
 
   const tocHtml = toc.length
-    ? `<nav class="toc" aria-label="${esc(t(ui, lang, 'article.onThisPage'))}">
-        <p class="toc__title">${esc(t(ui, lang, 'article.onThisPage'))}</p>
-        <ol>${toc.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol>
-      </nav>`
+    ? `<nav class="toc" aria-label="${esc(t(ui, 'en', 'article.onThisPage'))}"><p class="toc-h">📑 ${label(ui, 'article.onThisPage')}</p><ol>${toc
+        .map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`)
+        .join('')}</ol></nav>`
     : '';
 
-  const steps = (a.practicalSteps || []).length
-    ? `<section class="article-section" aria-labelledby="steps-h">
-        <h2 id="steps-h">\u2705 ${esc(t(ui, lang, 'article.practicalSteps'))}</h2>
-        <ol class="steps">${a.practicalSteps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
-      </section>`
-    : '';
-
-  const exceptions = (a.exceptions || []).length
-    ? `<section class="article-section" aria-labelledby="exc-h">
-        <h2 id="exc-h">\u26A0\uFE0F ${esc(t(ui, lang, 'article.exceptions'))}</h2>
-        <ul class="prose-list">${a.exceptions.map((s) => `<li>${esc(s)}</li>`).join('')}</ul>
-      </section>`
-    : '';
-
-  const misconceptions = (a.misconceptions || []).length
-    ? `<section class="article-section" aria-labelledby="myth-h">
-        <h2 id="myth-h">\uD83D\uDD0E ${esc(t(ui, lang, 'article.faqs') && t(ui, lang, 'callouts.misconceptions'))}</h2>
-        <ul class="myth-list">${a.misconceptions
-          .map((m) => `<li><p class="myth"><span aria-hidden="true">\u274C</span> ${esc(m.myth)}</p><p class="fact"><span aria-hidden="true">\u2705</span> ${esc(m.fact)}</p></li>`)
-          .join('')}</ul>
-      </section>`
-    : '';
-
-  const faqs = (a.faqs || []).length
-    ? `<section class="article-section" aria-labelledby="faq-h">
-        <h2 id="faq-h">\u2753 ${esc(t(ui, lang, 'article.faqs'))}</h2>
-        <div class="faq-list">${a.faqs
-          .map((f) => `<details class="faq"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`)
-          .join('')}</div>
-      </section>`
-    : '';
-
-  const sources = (a.sources || []).length
-    ? `<section class="article-section" aria-labelledby="src-h">
-        <h2 id="src-h">\uD83D\uDCDA ${esc(t(ui, lang, 'article.sources'))}</h2>
-        <ul class="source-list">${a.sources
-          .map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} <span class="ext" aria-hidden="true">\u2197</span><span class="sr-only"> (${esc(t(ui, lang, 'a11y.externalLink'))})</span></a></li>`)
-          .join('')}</ul>
-      </section>`
-    : '';
+  const steps = (ta && ta.practicalSteps) || (en && en.practicalSteps) ? `<section class="blk">
+    <h2 class="pair-h">✅ ${label(ui, 'article.practicalSteps')}</h2>
+    ${listPair((ta && ta.practicalSteps) || [], (en && en.practicalSteps) || [])}</section>` : '';
+  const exc = (ta && ta.exceptions) || (en && en.exceptions) ? `<section class="blk">
+    <h2 class="pair-h">⚠️ ${label(ui, 'article.exceptions')}</h2>
+    ${listPair((ta && ta.exceptions) || [], (en && en.exceptions) || [])}</section>` : '';
+  const myth = (ta && ta.misconceptions) || (en && en.misconceptions) ? `<section class="blk">
+    <h2 class="pair-h">🔎 ${label(ui, 'callouts.misconceptions')}</h2>
+    ${listPair(
+      ((ta && ta.misconceptions) || []).map((m) => `\u274C ${m.myth}  \u2705 ${m.fact}`),
+      ((en && en.misconceptions) || []).map((m) => `\u274C ${m.myth}  \u2705 ${m.fact}`)
+    )}</section>` : '';
+  const faqs = (ta && ta.faqs) || (en && en.faqs) ? `<section class="blk">
+    <h2 class="pair-h">❓ ${label(ui, 'article.faqs')}</h2>
+    <div class="faqs">${zipFaqs(ta && ta.faqs, en && en.faqs)}</div></section>` : '';
+  const sources = (ta && ta.sources) || (en && en.sources) ? `<section class="blk">
+    <h2 class="pair-h">📚 ${label(ui, 'article.sources')}</h2>
+    <ul class="src-list">${((ta && ta.sources) || (en && en.sources) || [])
+      .map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} <span class="ext" aria-hidden="true">\u2197</span></a></li>`)
+      .join('')}</ul></section>` : '';
 
   const relatedHtml = (related || []).length
-    ? `<section class="article-section" aria-labelledby="rel-h">
-        <h2 id="rel-h">\uD83D\uDCD8 ${esc(t(ui, lang, 'article.related'))}</h2>
-        <div class="card-grid">${related.map((r) => articleCard(r, lang, taxonomy, ui)).join('')}</div>
-      </section>`
+    ? `<section class="blk"><h2 class="pair-h">${label(ui, 'article.related')}</h2><div class="cards">${related
+        .map((r) => card(ctx, r))
+        .join('')}</div></section>`
     : '';
 
-  const content = `<article class="article wrap" lang="${a.lang}">
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="${paths.home(lang)}">${esc(t(ui, lang, 'nav.home'))}</a>
-    <span aria-hidden="true">/</span>
-    <a href="${paths.category(lang, a.category)}">${catEmoji} ${esc(catName)}</a>
-  </nav>
-  <header class="article-head">
-    <p class="article-cat"><span aria-hidden="true">${catEmoji}</span> ${esc(catName)}</p>
-    <h1 class="article-title">${esc(a.title)}</h1>
-    <p class="article-summary">${esc(a.summary)}</p>
-    ${reviewPanel(a, lang, ui)}
-  </header>
-  ${notices(a, lang, ui, isFallback)}
-  <div class="article-body">
+  const content = `<article class="wrap article">
+  <nav class="crumb"><a href="${paths.home()}">🏠 ${label(ui, 'nav.home')}</a><span>/</span><a href="${paths.topic(a.category)}">${catEmoji} ${catName}</a></nav>
+  <h1 class="pair-h1">${catEmoji} <span class="ta" lang="ta">${esc(ta ? ta.title : en.title)}</span><span class="en" lang="en">${esc(en ? en.title : ta.title)}</span></h1>
+  <div class="pair summary">${pair(ta && ta.summary, en && en.summary)}</div>
+  ${reviewPanel(ctx, a)}
+  <p class="notice">\u26A0\uFE0F ${label(ui, 'status.unverifiedNotice')}</p>
+  <div class="article-grid">
     ${tocHtml}
     <div class="prose">
       ${bodyHtml}
-      ${steps}
-      ${exceptions}
-      ${misconceptions}
-      ${faqs}
-      ${sources}
-      <p class="article-disclaimer">${esc(t(ui, lang, 'disclaimer.full'))}</p>
+      ${steps}${exc}${myth}${faqs}${sources}
+      <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
     </div>
   </div>
   ${relatedHtml}
 </article>`;
 
   return doc(ctx, {
-    title: `${a.title} \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: a.summary,
-    canonical: paths.article(lang, a.slug),
-    alt,
+    title: `${a.title} | ${t(ui, 'en', 'brand.name')}`,
+    description: (en && en.summary) || a.summary,
+    canonical: paths.article(a.slug),
     type: 'article',
     bodyClass: 'page-article',
+    active: '',
     content,
-    jsonld: {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: a.title,
-      description: a.summary,
-      inLanguage: lang === 'ta' ? 'ta-IN' : 'en-IN',
-      dateModified: a.lastUpdated,
-      publisher: { '@type': 'Organization', name: t(ui, lang, 'brand.name') },
-    },
   });
 }
 
-export function homePage(ctx, { articles, featured, situations, popular, alt }) {
-  const { lang, ui, taxonomy } = ctx;
-  const cards = articles.map((a) => articleCard(a, lang, taxonomy, ui)).join('');
-  const topicTiles = taxonomy.categories
-    .map(
-      (c) => `<a class="tile" href="${paths.category(lang, c.slug)}">
-        <span class="tile__emoji" aria-hidden="true">${c.emoji}</span>
-        <span class="tile__name">${esc(c[lang].name)}</span>
-        <span class="tile__blurb">${esc(c[lang].blurb)}</span>
-      </a>`
-    )
+function zipFaqs(taFaqs, enFaqs) {
+  const ta = taFaqs || [];
+  const en = enFaqs || [];
+  const n = Math.max(ta.length, en.length);
+  return Array.from({ length: n }, (_, i) => {
+    const q = `${ta[i] ? `<span class="ta" lang="ta">${esc(ta[i].q)}</span>` : ''}${en[i] ? `<span class="en" lang="en">${esc(en[i].q)}</span>` : ''}`;
+    const a = `${ta[i] ? `<p class="ta" lang="ta">${esc(ta[i].a)}</p>` : ''}${en[i] ? `<p class="en" lang="en">${esc(en[i].a)}</p>` : ''}`;
+    return `<details class="faq"><summary>${q}</summary>${a}</details>`;
+  }).join('');
+}
+
+export function card(ctx, ap) {
+  const { ui, taxonomy } = ctx;
+  const ta = ap.ta || ap.en;
+  const en = ap.en || ap.ta;
+  const cat = taxonomy.categories.find((c) => c.slug === ta.category);
+  return `<a class="card" href="${paths.article(ta.slug)}">
+    <span class="card-emj" aria-hidden="true">${cat ? cat.emoji : '\u2696\uFE0F'}</span>
+    <span class="card-cat">${cat ? pair(cat.ta.name, cat.en.name) : ''}</span>
+    <span class="card-title">${pair(ta.title, en.title)}</span>
+    <span class="card-sum">${pair(ta.summary, en.summary)}</span>
+  </a>`;
+}
+
+export function homePage(ctx, { pairs, featured, situations, popular }) {
+  const { ui, taxonomy } = ctx;
+  const tiles = taxonomy.categories
+    .map((c) => `<a class="tile" href="${paths.topic(c.slug)}"><span class="tile-emj" aria-hidden="true">${c.emoji}</span><span class="tile-name">${pair(c.ta.name, c.en.name)}</span><span class="tile-blurb">${pair(c.ta.blurb, c.en.blurb)}</span></a>`)
     .join('');
 
   const feat = featured
-    ? `<div class="daily-card">
-        <p class="daily-label"><span aria-hidden="true">\uD83D\uDCA1</span> ${esc(t(ui, lang, 'home.dailyTitle'))}</p>
-        <p class="daily-text">${esc(featured.summary)}</p>
-        <p class="daily-actions">
-          <a class="btn btn--sm" href="${paths.article(lang, featured.slug)}">${esc(t(ui, lang, 'actions.readGuide'))}</a>
-        </p>
-        <p class="daily-src">\uD83D\uDCDA ${esc(t(ui, lang, 'home.dailySourceLabel'))}:
-          <a href="${esc((featured.sources && featured.sources[0] && featured.sources[0].url) || '#')}" target="_blank" rel="noopener noreferrer">${esc(
-            (featured.sources && featured.sources[0] && featured.sources[0].label) || ''
-          )}</a> \u00B7 <span class="daily-verified">\u2714 ${esc(t(ui, lang, 'home.dailyVerified'))}</span>
-        </p>
+    ? `<div class="daily">
+        <p class="daily-h">\uD83D\uDCA1 ${label(ui, 'home.dailyTitle')}</p>
+        ${pPair(featured.ta.summary, featured.en.summary)}
+        <p class="daily-a"><a class="btn" href="${paths.article(featured.ta.slug)}">${label(ui, 'actions.readGuide')}</a></p>
       </div>`
     : '';
 
-  const popularHtml = popular
-    .map((q) => `<li><a href="${paths.article(lang, q.slug)}">\u2753 ${esc(q.q)}</a></li>`)
+  const pop = popular
+    .map((q) => `<li><a href="${paths.article(q.slug)}">${pair(q.ta, q.en)}</a></li>`)
     .join('');
 
-  const situationsHtml = situations
-    .map(
-      (s) => `<a class="situation" href="${paths.article(lang, s.slug)}">
-        <span class="situation__emoji" aria-hidden="true">${s.emoji}</span>
-        <span class="situation__text">${esc(s.text)}</span>
-      </a>`
-    )
-    .join('');
-
-  const trust = [
-    { t: 'home.trustOneTitle', x: 'home.trustOneText', e: '\uD83D\uDD24' },
-    { t: 'home.trustTwoTitle', x: 'home.trustTwoText', e: '\uD83C\uDDEE\uD83C\uDDF3' },
-    { t: 'home.trustThreeTitle', x: 'home.trustThreeText', e: '\uD83D\uDCDA' },
-    { t: 'home.trustFourTitle', x: 'home.trustFourText', e: '\u2705' },
-  ]
-    .map(
-      (c) => `<div class="trust-card">
-        <span class="trust-emoji" aria-hidden="true">${c.e}</span>
-        <h3>${esc(t(ui, lang, c.t))}</h3>
-        <p>${esc(t(ui, lang, c.x))}</p>
-      </div>`
-    )
+  const sit = situations
+    .map((s) => `<a class="sit" href="${paths.article(s.slug)}"><span class="sit-emj" aria-hidden="true">${s.emoji}</span><span class="sit-txt">${pair(s.ta, s.en)}</span></a>`)
     .join('');
 
   const content = `<section class="hero">
-    <div class="wrap hero-inner">
-      <p class="hero-eyebrow">${esc(t(ui, lang, 'hero.eyebrow'))}</p>
-      <h1 class="hero-title">${esc(t(ui, lang, 'hero.title'))}</h1>
-      <p class="hero-subtitle">${esc(t(ui, lang, 'hero.subtitle'))}</p>
-      <form class="hero-search" role="search" action="${paths.guides(lang)}" method="get">
-        <label class="sr-only" for="hero-q">${esc(t(ui, lang, 'search.label'))}</label>
-        <input id="hero-q" type="search" name="q" placeholder="${esc(t(ui, lang, 'search.placeholder'))}" autocomplete="off">
-        <button type="submit" class="btn btn--primary">\uD83D\uDD0D ${esc(t(ui, lang, 'search.button'))}</button>
+    <div class="wrap">
+      <h1 class="hero-title"><span class="ta" lang="ta">${esc(t(ui, 'ta', 'hero.title'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'hero.title'))}</span></h1>
+      <p class="hero-sub ta" lang="ta">${esc(t(ui, 'ta', 'hero.subtitle'))}</p>
+      <p class="hero-sub en" lang="en">${esc(t(ui, 'en', 'hero.subtitle'))}</p>
+      <form class="hero-search" role="search" action="${paths.guides()}" method="get">
+        <label class="sr-only" for="q">${esc(t(ui, 'en', 'search.label'))}</label>
+        <input id="q" type="search" name="q" placeholder="${esc(t(ui, 'en', 'search.placeholder'))}" autocomplete="off">
+        <button type="submit" class="btn">\uD83D\uDD0D ${esc(t(ui, 'en', 'search.button'))}</button>
       </form>
       <div class="hero-actions">
-        <a class="btn btn--primary" href="${paths.guides(lang)}">\uD83D\uDD0D ${esc(t(ui, lang, 'actions.exploreGuides'))}</a>
-        <a class="btn btn--ghost" href="${paths.category(lang, 'know-your-rights')}">\u2696\uFE0F ${esc(t(ui, lang, 'actions.knowYourRights'))}</a>
+        <a class="btn" href="${paths.guides()}">\uD83D\uDCD6 ${label(ui, 'actions.exploreGuides')}</a>
+        <a class="btn btn-ghost" href="${paths.topic('rights-checklist')}">\uD83D\uDCCB ${label(ui, 'actions.knowYourRights')}</a>
       </div>
     </div>
   </section>
 
-  <section class="section wrap">
-    <h2 class="section-title">${esc(t(ui, lang, 'home.topicsTitle'))}</h2>
-    <p class="section-sub">${esc(t(ui, lang, 'home.topicsSubtitle'))}</p>
-    <div class="tile-grid">${topicTiles}</div>
+  <section class="wrap sec">
+    <h2 class="sec-h">📚 ${label(ui, 'home.topicsTitle')}</h2>
+    <div class="tiles">${tiles}</div>
   </section>
 
-  <section class="section wrap">
-    <div class="split">
-      <div>
-        <h2 class="section-title">${esc(t(ui, lang, 'home.dailyTitle'))}</h2>
-        <p class="section-sub">${esc(t(ui, lang, 'home.dailySubtitle'))}</p>
-        ${feat}
-      </div>
-      <div class="panel">
-        <h2 class="section-title">${esc(t(ui, lang, 'home.popularTitle'))}</h2>
-        <p class="section-sub">${esc(t(ui, lang, 'home.popularSubtitle'))}</p>
-        <ul class="popular-list">${popularHtml}</ul>
-      </div>
+  <section class="wrap sec">
+    <div class="two">
+      <div><h2 class="sec-h">💡 ${label(ui, 'home.dailyTitle')}</h2>${feat}</div>
+      <div><h2 class="sec-h">❓ ${label(ui, 'home.popularTitle')}</h2><ul class="pop">${pop}</ul></div>
     </div>
   </section>
 
-  <section class="section wrap">
-    <h2 class="section-title">${esc(t(ui, lang, 'home.situationsTitle'))}</h2>
-    <p class="section-sub">${esc(t(ui, lang, 'home.situationsSubtitle'))}</p>
-    <div class="situation-grid">${situationsHtml}</div>
+  <section class="wrap sec">
+    <h2 class="sec-h">🧭 ${label(ui, 'home.situationsTitle')}</h2>
+    <div class="sits">${sit}</div>
   </section>
 
-  <section class="section wrap">
-    <h2 class="section-title">${esc(t(ui, lang, 'home.trustTitle'))}</h2>
-    <div class="trust-grid">${trust}</div>
-  </section>
-
-  <section class="section wrap">
-    <h2 class="section-title">${esc(t(ui, lang, 'nav.guides'))}</h2>
-    <div class="card-grid">${cards}</div>
+  <section class="wrap sec">
+    <h2 class="sec-h">📖 ${label(ui, 'nav.guides')}</h2>
+    <div class="cards">${pairs.map((p) => card(ctx, p)).join('')}</div>
   </section>`;
 
   return doc(ctx, {
-    title: t(ui, lang, 'meta.homeTitle'),
-    description: t(ui, lang, 'meta.homeDescription'),
-    canonical: paths.home(lang),
-    alt,
+    title: t(ui, 'en', 'meta.homeTitle'),
+    description: t(ui, 'en', 'meta.homeDescription'),
+    canonical: paths.home(),
     bodyClass: 'page-home',
+    active: 'nav.home',
     content,
   });
 }
 
-export function guidesPage(ctx, { articles, alt }) {
-  const { lang, ui, taxonomy } = ctx;
-  const cats = taxonomy.categories
-    .map((c) => `<option value="${c.slug}">${c.emoji} ${esc(c[lang].name)}</option>`)
-    .join('');
+export function guidesPage(ctx, { pairs }) {
+  const { ui, taxonomy } = ctx;
+  const cats = taxonomy.categories.map((c) => `<option value="${c.slug}">${c.emoji} ${esc(c.en.name)} / ${esc(c.ta.name)}</option>`).join('');
   const content = `<div class="wrap page">
-    <h1 class="page-title">\uD83D\uDD0D ${esc(t(ui, lang, 'nav.guides'))}</h1>
+    <h1 class="pair-h1">📖 ${label(ui, 'nav.guides')}</h1>
     <form class="filters" id="filters">
-      <div class="filter-field filter-field--grow">
-        <label for="f-q">${esc(t(ui, lang, 'search.label'))}</label>
-        <input id="f-q" type="search" name="q" placeholder="${esc(t(ui, lang, 'search.placeholder'))}" autocomplete="off">
-      </div>
-      <div class="filter-field">
-        <label for="f-lang">${esc(t(ui, lang, 'search.filterLanguage'))}</label>
-        <select id="f-lang" name="lang">
-          <option value="">${esc(t(ui, lang, 'search.allLanguages'))}</option>
-          <option value="en">\uD83C\uDDEC\uD83C\uDDE7 English</option>
-          <option value="ta">\uD83C\uDDEE\uD83C\uDDF3 \u0BA4\u0BAE\u0BBF\u0BB4\u0BCD</option>
-        </select>
-      </div>
-      <div class="filter-field">
-        <label for="f-cat">${esc(t(ui, lang, 'search.filterCategory'))}</label>
-        <select id="f-cat" name="category">
-          <option value="">${esc(t(ui, lang, 'search.allCategories'))}</option>
-          ${cats}
-        </select>
-      </div>
-      <button type="button" class="btn btn--ghost btn--sm" id="f-reset">${esc(t(ui, lang, 'search.reset'))}</button>
+      <div class="f f-grow"><label for="fq">${label(ui, 'search.label')}</label><input id="fq" type="search" name="q" placeholder="${esc(t(ui, 'en', 'search.placeholder'))}" autocomplete="off"></div>
+      <div class="f"><label for="fc">${label(ui, 'search.filterCategory')}</label><select id="fc" name="category"><option value="">${esc(t(ui, 'en', 'search.allCategories'))}</option>${cats}</select></div>
+      <button type="button" class="btn btn-ghost btn-sm" id="freset">${label(ui, 'search.reset')}</button>
     </form>
-    <p class="results-count" id="results-count" aria-live="polite"></p>
-    <div class="card-grid" id="results">
-      ${articles.map((a) => articleCard(a, lang, taxonomy, ui)).join('')}
-    </div>
-    <div class="empty-state" id="empty" hidden>
-      <p class="empty-emoji" aria-hidden="true">\uD83D\uDD0E</p>
-      <h2>${esc(t(ui, lang, 'empty.noResultsTitle'))}</h2>
-      <p>${esc(t(ui, lang, 'search.noResultsHelp'))}</p>
-    </div>
+    <p class="rc" id="rc" aria-live="polite"></p>
+    <div class="cards" id="results">${pairs.map((p) => card(ctx, p)).join('')}</div>
+    <div class="empty" id="empty" hidden><p class="empty-emj" aria-hidden="true">\uD83D\uDD0E</p><h2>${label(ui, 'empty.noResultsTitle')}</h2><p>${label(ui, 'search.noResultsHelp')}</p></div>
   </div>`;
   return doc(ctx, {
-    title: `${t(ui, lang, 'nav.guides')} \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: t(ui, lang, 'meta.homeDescription'),
-    canonical: paths.guides(lang),
-    alt,
+    title: `${t(ui, 'en', 'nav.guides')} | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'meta.homeDescription'),
+    canonical: paths.guides(),
     bodyClass: 'page-guides',
+    active: 'nav.guides',
     content,
   });
 }
 
-export function categoryPage(ctx, { category, articles, alt }) {
-  const { lang, ui, taxonomy } = ctx;
-  const cards = articles.length
-    ? `<div class="card-grid">${articles.map((a) => articleCard(a, lang, taxonomy, ui)).join('')}</div>`
-    : `<div class="empty-state">
-        <p class="empty-emoji" aria-hidden="true">\uD83D\uDCDD</p>
-        <h2>${esc(t(ui, lang, 'empty.noGuidesTitle'))}</h2>
-        <p>${esc(t(ui, lang, 'empty.noGuidesText'))}</p>
-      </div>`;
+export function topicPage(ctx, { category, pairs }) {
+  const { ui } = ctx;
+  const cards = pairs.length
+    ? `<div class="cards">${pairs.map((p) => card(ctx, p)).join('')}</div>`
+    : `<div class="empty"><p class="empty-emj" aria-hidden="true">\uD83D\uDCDD</p><h2>${label(ui, 'empty.noGuidesTitle')}</h2><p>${label(ui, 'empty.noGuidesText')}</p></div>`;
   const content = `<div class="wrap page">
-    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="${paths.home(lang)}">${esc(t(ui, lang, 'nav.home'))}</a> <span aria-hidden="true">/</span> <a href="${paths.guides(lang)}">${esc(t(ui, lang, 'nav.guides'))}</a></nav>
-    <header class="page-head">
-      <p class="page-emoji" aria-hidden="true">${category.emoji}</p>
-      <h1 class="page-title">${esc(category[lang].name)}</h1>
-      <p class="page-sub">${esc(category[lang].blurb)}</p>
-    </header>
+    <nav class="crumb"><a href="${paths.home()}">🏠 ${label(ui, 'nav.home')}</a><span>/</span><a href="${paths.guides()}">${label(ui, 'nav.guides')}</a></nav>
+    <p class="page-emj" aria-hidden="true">${category.emoji}</p>
+    <h1 class="pair-h1">${pair(category.ta.name, category.en.name)}</h1>
+    <div class="pair summary">${pair(category.ta.blurb, category.en.blurb)}</div>
     ${cards}
   </div>`;
   return doc(ctx, {
-    title: `${category[lang].name} \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: category[lang].blurb,
-    canonical: paths.category(lang, category.slug),
-    alt,
-    bodyClass: 'page-category',
+    title: `${category.en.name} | ${t(ui, 'en', 'brand.name')}`,
+    description: category.en.blurb,
+    canonical: paths.topic(category.slug),
+    bodyClass: 'page-topic',
+    active: 'nav.guides',
     content,
   });
 }
 
-export function emergencyPage(ctx, { alt }) {
-  const { lang, ui, helplines } = ctx;
+export function emergencyPage(ctx) {
+  const { ui, helplines } = ctx;
   const rows = helplines.numbers
-    .map(
-      (n) => `<tr class="${n.urgent ? 'row--urgent' : ''}">
-        <td class="num"><a href="tel:${esc(n.num)}">${esc(n.num)}</a></td>
-        <td>${esc(n[lang] || n.en)}</td>
-      </tr>`
-    )
+    .map((n) => `<tr class="${n.urgent ? 'urgent' : ''}"><td class="num"><a href="tel:${esc(n.num)}">${esc(n.num)}</a></td><td>${pair(n.ta, n.en)}</td></tr>`)
+    .join('');
+  const portals = (helplines.portals || [])
+    .map((p) => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${pair(p.ta, p.en)} <span class="ext" aria-hidden="true">\u2197</span></a></li>`)
     .join('');
   const content = `<div class="wrap page">
-    <p class="emergency-banner" role="note"><span aria-hidden="true">\uD83D\uDEA8</span> <strong>${esc(t(ui, lang, 'emergency.bannerTitle'))}</strong> ${esc(t(ui, lang, 'emergency.bannerText'))}</p>
-    <h1 class="page-title">\uD83C\uDD98 ${esc(t(ui, lang, 'emergency.title'))}</h1>
-    <p class="page-sub">${esc(t(ui, lang, 'emergency.subtitle'))}</p>
-    <table class="helpline-table">
-      <caption class="sr-only">${esc(t(ui, lang, 'emergency.national'))}</caption>
-      <thead><tr><th scope="col">${esc(t(ui, lang, 'emergency.number'))}</th><th scope="col">${esc(t(ui, lang, 'emergency.service'))}</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>
-    <section class="article-section">
-      <h2>\uD83D\uDD17 ${esc(t(ui, lang, 'emergency.portals'))}</h2>
-      <ul class="source-list">${(helplines.portals || []).map((p) => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p[lang] || p.en)} <span class="ext" aria-hidden="true">\u2197</span><span class="sr-only"> (${esc(t(ui, lang, 'a11y.externalLink'))})</span></a></li>`).join('')}</ul>
-    </section>
-    <section class="article-section">
-      <h2>\u2696\uFE0F ${esc(t(ui, lang, 'emergency.freeAid'))}</h2>
-      <p>${esc(t(ui, lang, 'emergency.freeAidText'))}</p>
-      <p><a class="btn btn--primary" href="https://nalsa.gov.in/" target="_blank" rel="noopener noreferrer">NALSA \u2197</a></p>
-    </section>
+    <p class="emergency"><span aria-hidden="true">\uD83D\uDEA8</span> <strong>${label(ui, 'emergency.bannerTitle')}</strong> ${label(ui, 'emergency.bannerText')}</p>
+    <h1 class="pair-h1">${label(ui, 'emergency.title')}</h1>
+    <div class="pair summary">${label(ui, 'emergency.subtitle')}</div>
+    <table class="helpline"><caption class="sr-only">${esc(t(ui, 'en', 'emergency.national'))}</caption>
+      <thead><tr><th>${label(ui, 'emergency.number')}</th><th>${label(ui, 'emergency.service')}</th></tr></thead>
+      <tbody>${rows}</tbody></table>
+    <section class="blk"><h2 class="pair-h">\uD83D\uDD17 ${label(ui, 'emergency.portals')}</h2><ul class="src-list">${portals}</ul></section>
   </div>`;
   return doc(ctx, {
-    title: `${t(ui, lang, 'emergency.title')} \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: t(ui, lang, 'emergency.subtitle'),
-    canonical: paths.emergency(lang),
-    alt,
+    title: `${t(ui, 'en', 'emergency.title')} | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'emergency.subtitle'),
+    canonical: paths.emergency(),
     bodyClass: 'page-emergency',
+    active: 'nav.emergency',
     content,
   });
 }
 
-export function aboutPage(ctx, { alt }) {
-  const { lang, ui } = ctx;
-  const content = `<div class="wrap page prose-page">
-    <h1 class="page-title">\u2139\uFE0F ${esc(t(ui, lang, 'nav.about'))}</h1>
-    <p class="lede">${esc(t(ui, lang, 'footer.aboutText'))}</p>
-    <h2>${esc(t(ui, lang, 'home.trustTitle'))}</h2>
-    <ul class="prose-list">
-      <li><strong>${esc(t(ui, lang, 'home.trustOneTitle'))}</strong> \u2014 ${esc(t(ui, lang, 'home.trustOneText'))}</li>
-      <li><strong>${esc(t(ui, lang, 'home.trustTwoTitle'))}</strong> \u2014 ${esc(t(ui, lang, 'home.trustTwoText'))}</li>
-      <li><strong>${esc(t(ui, lang, 'home.trustThreeTitle'))}</strong> \u2014 ${esc(t(ui, lang, 'home.trustThreeText'))}</li>
-      <li><strong>${esc(t(ui, lang, 'home.trustFourTitle'))}</strong> \u2014 ${esc(t(ui, lang, 'home.trustFourText'))}</li>
-    </ul>
-    <h2>${esc(t(ui, lang, 'footer.contribute'))}</h2>
-    <p>${esc(t(ui, lang, 'footer.contributeText'))}</p>
-    <p class="article-disclaimer">${esc(t(ui, lang, 'disclaimer.full'))}</p>
-  </div>`;
-  return doc(ctx, {
-    title: `${t(ui, lang, 'nav.about')} \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: t(ui, lang, 'footer.aboutText'),
-    canonical: paths.about(lang),
-    alt,
-    bodyClass: 'page-about',
-    content,
-  });
-}
-
-export function disclaimerPage(ctx, { alt }) {
-  const { lang, ui } = ctx;
-  const content = `<div class="wrap page prose-page">
-    <h1 class="page-title">\uD83D\uDCC4 ${esc(t(ui, lang, 'footer.terms'))}</h1>
-    <p class="lede">${esc(t(ui, lang, 'disclaimer.short'))}</p>
-    <p>${esc(t(ui, lang, 'disclaimer.full'))}</p>
-    <h2>${esc(t(ui, lang, 'status.unverifiedNotice'))}</h2>
-    <p>${esc(t(ui, lang, 'status.reviewedNotice'))}</p>
-  </div>`;
-  return doc(ctx, {
-    title: `${t(ui, lang, 'footer.terms')} \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: t(ui, lang, 'disclaimer.short'),
-    canonical: paths.disclaimer(lang),
-    alt,
-    bodyClass: 'page-disclaimer',
-    content,
-  });
-}
-
-export function rootPage(ctx, { alt }) {
+export function aboutPage(ctx) {
   const { ui } = ctx;
-  const content = `<div class="wrap chooser">
-    <p class="chooser-logo" aria-hidden="true">\u2696\uFE0F</p>
-    <h1 class="chooser-title">Sattam · சட்டம்</h1>
-    <p class="chooser-sub">Choose your language / உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</p>
-    <div class="chooser-actions">
-      <a class="btn btn--primary" href="${BASE}/en/" data-setlang="en">\uD83C\uDDEC\uD83C\uDDE7 English</a>
-      <a class="btn btn--primary" href="${BASE}/ta/" data-setlang="ta">\uD83C\uDDEE\uD83C\uDDF3 \u0BA4\u0BAE\u0BBF\u0BB4\u0BCD</a>
-    </div>
-    <p class="chooser-note">${esc(t(ui, 'en', 'hero.subtitle'))}</p>
+  const content = `<div class="wrap page prose">
+    <h1 class="pair-h1">ℹ️ ${label(ui, 'nav.about')}</h1>
+    ${pPair(t(ui, 'ta', 'footer.aboutText'), t(ui, 'en', 'footer.aboutText'))}
+    <h2 class="pair-h">${label(ui, 'home.trustTitle')}</h2>
+    <ul class="pair-list">
+      <li><span class="ta" lang="ta">${esc(t(ui, 'ta', 'home.trustOneText'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'home.trustOneText'))}</span></li>
+      <li><span class="ta" lang="ta">${esc(t(ui, 'ta', 'home.trustTwoText'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'home.trustTwoText'))}</span></li>
+      <li><span class="ta" lang="ta">${esc(t(ui, 'ta', 'home.trustThreeText'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'home.trustThreeText'))}</span></li>
+      <li><span class="ta" lang="ta">${esc(t(ui, 'ta', 'home.trustFourText'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'home.trustFourText'))}</span></li>
+    </ul>
+    <h2 class="pair-h">${label(ui, 'footer.contribute')}</h2>
+    ${pPair(t(ui, 'ta', 'footer.contributeText'), t(ui, 'en', 'footer.contributeText'))}
+    <p class="disclaimer">${label(ui, 'disclaimer.full')}</p>
   </div>`;
   return doc(ctx, {
-    title: 'Sattam \u2014 Legal guides in English & Tamil',
-    description: 'Choose English or Tamil.',
-    canonical: `${BASE}/`,
-    alt,
-    bodyClass: 'page-chooser',
+    title: `${t(ui, 'en', 'nav.about')} | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'footer.aboutText'),
+    canonical: paths.about(),
+    bodyClass: 'page-about',
+    active: 'nav.about',
     content,
   });
 }
 
-export function notFoundPage(ctx, { alt }) {
-  const { lang, ui } = ctx;
-  const content = `<div class="wrap empty-state">
-    <p class="empty-emoji" aria-hidden="true">\uD83E\uDDED</p>
-    <h1>${esc(t(ui, lang, 'empty.noResultsTitle'))}</h1>
-    <p>${esc(t(ui, lang, 'empty.noResultsText'))}</p>
-    <p><a class="btn btn--primary" href="${paths.home(lang)}">${esc(t(ui, lang, 'actions.backHome'))}</a></p>
+function biList(taItems, enItems) {
+  const n = Math.max((taItems || []).length, (enItems || []).length);
+  return `<ul class="pair-list">${Array.from({ length: n }, (_, i) => {
+    const ta = (taItems || [])[i];
+    const en = (enItems || [])[i];
+    return `<li>${ta ? `<span class="ta" lang="ta">${esc(ta)}</span>` : ''}${en ? `<span class="en" lang="en">${esc(en)}</span>` : ''}</li>`;
+  }).join('')}</ul>`;
+}
+
+export function templatesPage(ctx, { templates }) {
+  const { ui } = ctx;
+  const cards = templates
+    .map((tp) => `<a class="card" href="${paths.template(tp.slug)}"><span class="card-emj" aria-hidden="true">${tp.emoji}</span><span class="card-title">${pair(tp.title.ta, tp.title.en)}</span><span class="card-sum">${pair(tp.purpose.ta, tp.purpose.en)}</span></a>`)
+    .join('');
+  const content = `<div class="wrap page">
+    <h1 class="pair-h1">📄 ${label(ui, 'templates.title')}</h1>
+    <div class="pair summary">${label(ui, 'templates.subtitle')}</div>
+    <div class="cards">${cards}</div>
   </div>`;
   return doc(ctx, {
-    title: `404 \u2014 ${t(ui, lang, 'brand.name')}`,
-    description: t(ui, lang, 'empty.noResultsText'),
-    canonical: paths.home(lang),
-    alt,
+    title: `${t(ui, 'en', 'templates.title')} | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'templates.subtitle'),
+    canonical: paths.templates(),
+    bodyClass: 'page-templates',
+    active: 'nav.templates',
+    content,
+  });
+}
+
+export function templatePage(ctx, { tpl }) {
+  const { ui } = ctx;
+  const box = (lang, text, heading) => `<div class="letter-box">
+      <div class="letter-head"><span class="lh-${lang}" lang="${lang}">${esc(heading)}</span><button class="btn btn-sm btn-ghost" type="button" data-print>🖨️ ${esc(t(ui, 'en', 'templates.print'))}</button></div>
+      <pre class="letter letter-${lang}" lang="${lang}">${esc(text)}</pre>
+    </div>`;
+  const content = `<div class="wrap page">
+    <nav class="crumb"><a href="${paths.home()}">🏠 ${label(ui, 'nav.home')}</a><span>/</span><a href="${paths.templates()}">📄 ${label(ui, 'templates.title')}</a></nav>
+    <h1 class="pair-h1">${tpl.emoji} ${pair(tpl.title.ta, tpl.title.en)}</h1>
+    <div class="pair summary">${pair(tpl.purpose.ta, tpl.purpose.en)}</div>
+    <section class="blk"><h2 class="pair-h">👣 ${label(ui, 'templates.when')}</h2>${biList(tpl.when.ta, tpl.when.en)}</section>
+    <section class="blk"><h2 class="pair-h">📄 ${label(ui, 'templates.letter')}</h2>
+      ${box('ta', tpl.letter.ta, t(ui, 'ta', 'templates.tamilVersion'))}
+      ${box('en', tpl.letter.en, t(ui, 'en', 'templates.englishVersion'))}
+    </section>
+    <section class="blk"><h2 class="pair-h">💡 ${label(ui, 'templates.tips')}</h2>${biList(tpl.tips.ta, tpl.tips.en)}</section>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+    <p><a class="btn btn-ghost" href="${paths.templates()}">⬅️ ${label(ui, 'templates.backToList')}</a></p>
+  </div>`;
+  return doc(ctx, {
+    title: `${tpl.title.en} | ${t(ui, 'en', 'brand.name')}`,
+    description: tpl.purpose.en,
+    canonical: paths.template(tpl.slug),
+    bodyClass: 'page-template',
+    active: 'nav.templates',
+    content,
+  });
+}
+
+export function notFoundPage(ctx) {
+  const { ui } = ctx;
+  const content = `<div class="wrap empty">
+    <p class="empty-emj" aria-hidden="true">\uD83E\uDDED</p>
+    <h1>${label(ui, 'empty.noResultsTitle')}</h1>
+    <p>${label(ui, 'empty.noResultsText')}</p>
+    <p><a class="btn" href="${paths.home()}">${label(ui, 'actions.backHome')}</a></p>
+  </div>`;
+  return doc(ctx, {
+    title: `404 | ${t(ui, 'en', 'brand.name')}`,
+    description: t(ui, 'en', 'empty.noResultsText'),
+    canonical: paths.home(),
     bodyClass: 'page-404',
+    active: '',
     content,
   });
 }

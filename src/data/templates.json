@@ -1,0 +1,204 @@
+{
+  "templates": [
+    {
+      "slug": "police-complaint",
+      "emoji": "🚔",
+      "title": {
+        "en": "Written complaint to a police station",
+        "ta": "காவல் நிலையத்திற்கு எழுத்துப்பூர்வ புகார்"
+      },
+      "purpose": {
+        "en": "To report an offence in writing and to get an FIR registered.",
+        "ta": "ஒரு குற்றத்தை எழுத்தில் தெரிவித்து, FIR பதிவு செய்ய."
+      },
+      "when": {
+        "en": [
+          "A theft, cheating, assault or threat has happened.",
+          "The police are refusing to register an FIR orally.",
+          "You want a written record and a copy of the FIR."
+        ],
+        "ta": [
+          "திருட்டு, மோசடி, தாக்குதல் அல்லது மிரட்டல் நடந்துள்ளது.",
+          "வாய்மொழியாகக் கேட்டால் காவல்துறை FIR பதிவு செய்ய மறுக்கிறது.",
+          "எழுத்துப்பூர்வ பதிவும் FIR நகலும் வேண்டும்."
+        ]
+      },
+      "letter": {
+        "en": "To\nThe Inspector of Police,\n[Police station name],\n[City / District]\n\nDate: [DD/MM/YYYY]\n\nSubject: Complaint about [say briefly what the offence is]\n\nRespected Sir/Madam,\n\nI, [your full name], son/daughter of [father's name], residing at [your full address], wish to lodge a complaint about the following:\n\n1. Date, time and place of the incident: [ ... ]\n2. What happened: [ describe in short, in order ]\n3. Person(s) involved, if known: [ names / description / vehicle number ]\n4. Loss or injury caused: [ ... ]\n5. Witnesses, if any: [ names and contact ]\n6. Evidence I am attaching: [ photos / messages / receipts ]\n\nI request you to register my complaint and give me a copy of the FIR.\n\nThanking you,\nYours faithfully,\n[Signature]\n[Your name]\n[Phone number]\n[Address]",
+        "ta": "அனுப்புவது\nகாவல் ஆய்வாளர்,\n[காவல் நிலையத்தின் பெயர்],\n[நகரம் / மாவட்டம்]\n\nதேதி: [DD/MM/YYYY]\n\nபொருள்: [குற்றம் என்ன என்று சுருக்கமாக] பற்றிய புகார்\n\nமதிப்பிற்குரிய ஐயா/அம்மா,\n\nநான், [உங்கள் முழுப் பெயர்], [தந்தையின் பெயர்] அவர்களின் மகன்/மகள், [உங்கள் முழு முகவரி]-இல் வசிக்கிறேன். பின்வருவது பற்றிப் புகார் அளிக்க விரும்புகிறேன்:\n\n1. சம்பவம் நடந்த தேதி, நேரம் மற்றும் இடம்: [ ... ]\n2. என்ன நடந்தது: [ வரிசையாகச் சுருக்கமாக விவரியுங்கள் ]\n3. தொடர்புடைய நபர்(கள்), தெரிந்தால்: [ பெயர் / விவரம் / வாகன எண் ]\n4. ஏற்பட்ட இழப்பு அல்லது காயம்: [ ... ]\n5. சாட்சிகள் இருந்தால்: [ பெயர் மற்றும் தொடர்பு ]\n6. நான் இணைக்கும் ஆதாரங்கள்: [ புகைப்படங்கள் / செய்திகள் / ரசீதுகள் ]\n\nஎன் புகாரைப் பதிவு செய்து, FIR-இன் ஒரு நகலை எனக்குத் தருமாறு கேட்டுக்கொள்கிறேன்.\n\nநன்றி,\nஇப்படிக்கு,\n[கையொப்பம்]\n[உங்கள் பெயர்]\n[தொலைபேசி எண்]\n[முகவரி]"
+      },
+      "tips": {
+        "en": [
+          "Keep two copies; ask the police to stamp one as received.",
+          "Always collect the FIR number and a free copy.",
+          "If they refuse to register, send the same complaint to the Superintendent of Police."
+        ],
+        "ta": [
+          "இரண்டு நகல்கள் வைத்திருங்கள்; ஒன்றைப் பெற்றதாகக் காவல்துறையிடம் கையொப்பம்/முத்திரை பெறுங்கள்.",
+          "FIR எண்ணையும் ஒரு இலவச நகலையும் எப்போதும் வாங்குங்கள்.",
+          "பதிவு செய்ய மறுத்தால், அதே புகாரை காவல் கண்காணிப்பாளருக்கு அனுப்புங்கள்."
+        ]
+      }
+    },
+    {
+      "slug": "consumer-complaint",
+      "emoji": "🛒",
+      "title": {
+        "en": "Complaint letter to a seller or company",
+        "ta": "விற்பனையாளர் அல்லது நிறுவனத்திற்கு புகார் கடிதம்"
+      },
+      "purpose": {
+        "en": "To ask for a refund, replacement or repair in writing before going to a Consumer Commission.",
+        "ta": "நுகர்வோர் ஆணையத்திற்குச் செல்வதற்கு முன், எழுத்தில் பணம் திரும்ப, மாற்றுப் பொருள் அல்லது பழுதுபார்ப்பு கேட்க."
+      },
+      "when": {
+        "en": [
+          "A product is defective or fake.",
+          "A service was poor, late or not as promised.",
+          "There were hidden charges or a misleading advertisement."
+        ],
+        "ta": [
+          "ஒரு பொருள் குறைபாடுடையது அல்லது போலியானது.",
+          "ஒரு சேவை மோசமாக, தாமதமாக அல்லது வாக்குறுதிக்கு மாறாக இருந்தது.",
+          "மறைமுகக் கட்டணங்கள் அல்லது தவறான விளம்பரம் இருந்தது."
+        ]
+      },
+      "letter": {
+        "en": "To\n[Seller / company name]\n[Address]\n\nDate: [DD/MM/YYYY]\n\nSubject: Complaint about [product / service] - bill / order no. [ ... ]\n\nDear Sir/Madam,\n\nI bought [product / service] from you on [date] for Rs [amount], bill / order no. [ ... ].\n\nThe problem: [ describe the defect, the delay or the poor service ]\n\nI already asked you on [date] to [refund / replace / repair], but it has not been done.\n\nI request you to [refund / replace / repair] within 15 days. If it is not settled, I will file a complaint before the Consumer Commission.\n\nYours faithfully,\n[Your name]\n[Phone] [Address]\n\nAttachments: bill copy, warranty card, messages or emails.",
+        "ta": "அனுப்புவது\n[விற்பனையாளர் / நிறுவனத்தின் பெயர்]\n[முகவரி]\n\nதேதி: [DD/MM/YYYY]\n\nபொருள்: [பொருள் / சேவை] பற்றிய புகார் - பில் / ஆர்டர் எண் [ ... ]\n\nமதிப்பிற்குரிய ஐயா/அம்மா,\n\nநான் [தேதி]-இல் [பொருள் / சேவை]-ஐ Rs [தொகை]-க்கு வாங்கினேன்; பில் / ஆர்டர் எண் [ ... ].\n\nபிரச்சினை: [ குறைபாடு, தாமதம் அல்லது மோசமான சேவையை விவரியுங்கள் ]\n\n[தேதி]-இல் [பணம் திரும்ப / மாற்று / பழுது] கேட்டேன்; ஆனால் அது நடக்கவில்லை.\n\n15 நாட்களுக்குள் [பணம் திரும்ப / மாற்று / பழுது] செய்யுமாறு கேட்டுக்கொள்கிறேன். தீர்க்கவில்லை என்றால், நுகர்வோர் ஆணையத்தில் புகார் அளிக்க வேண்டியிருக்கும்.\n\nஇப்படிக்கு,\n[உங்கள் பெயர்]\n[தொலைபேசி] [முகவரி]\n\nஇணைப்புகள்: பில் நகல், உத்தரவாத அட்டை, செய்திகள் அல்லது மின்னஞ்சல்கள்."
+      },
+      "tips": {
+        "en": [
+          "Send it by email or registered post so you have proof.",
+          "Keep the bill, order ID and all chats.",
+          "If it is not settled, file on the e-Daakhil portal or call 1915."
+        ],
+        "ta": [
+          "மின்னஞ்சல் அல்லது registered post மூலம் அனுப்புங்கள் - ஆதாரம் இருக்கும்.",
+          "பில், ஆர்டர் ID மற்றும் எல்லா அரட்டைகளையும் வைத்திருங்கள்.",
+          "தீர்க்கவில்லை என்றால், e-Daakhil போர்ட்டலில் புகார் அளியுங்கள் அல்லது 1915-ஐ அழையுங்கள்."
+        ]
+      }
+    },
+    {
+      "slug": "rti-application",
+      "emoji": "🗂️",
+      "title": {
+        "en": "Right to Information (RTI) application",
+        "ta": "தகவல் அறியும் உரிமை (RTI) விண்ணப்பம்"
+      },
+      "purpose": {
+        "en": "To ask a government office for information; they must usually reply in 30 days.",
+        "ta": "ஒரு அரசு அலுவலகத்திடம் தகவல் கேட்க; பொதுவாக 30 நாட்களில் பதிலளிக்க வேண்டும்."
+      },
+      "when": {
+        "en": [
+          "Your application for a service is stuck and you want the file details.",
+          "You want to know how public money was spent.",
+          "You want the rules or records behind a decision."
+        ],
+        "ta": [
+          "உங்கள் சேவை விண்ணப்பம் நிலுவையில் உள்ளது; கோப்பு விவரங்கள் வேண்டும்.",
+          "பொது நிதி எப்படிச் செலவிடப்பட்டது என்பதை அறிய வேண்டும்.",
+          "ஒரு முடிவுக்குப் பின்னால் உள்ள விதிகள் அல்லது பதிவுகள் வேண்டும்."
+        ]
+      },
+      "letter": {
+        "en": "To\nThe Public Information Officer,\n[Department / office name],\n[Address]\n\nDate: [DD/MM/YYYY]\n\nSubject: Application under the Right to Information Act, 2005\n\nDear Sir/Madam,\n\nI, [your name], a citizen of India, request the following information under the RTI Act, 2005:\n\n1. [ point 1 ]\n2. [ point 2 ]\n\nI am enclosing the application fee of Rs 10 by [IPO / court fee stamp / online payment].\n\nPlease send the information to the address below within 30 days.\n\nYours faithfully,\n[Your name]\n[Address] [Phone]",
+        "ta": "அனுப்புவது\nபொது தகவல் அதிகாரி,\n[துறை / அலுவலகத்தின் பெயர்],\n[முகவரி]\n\nதேதி: [DD/MM/YYYY]\n\nபொருள்: Right to Information Act, 2005-இன் கீழ் விண்ணப்பம்\n\nமதிப்பிற்குரிய ஐயா/அம்மா,\n\nநான், [உங்கள் பெயர்], இந்தியக் குடிமகன், RTI Act, 2005-இன் கீழ் பின்வரும் தகவலைக் கேட்டுக்கொள்கிறேன்:\n\n1. [ விஷயம் 1 ]\n2. [ விஷயம் 2 ]\n\nRs 10 விண்ணப்பக் கட்டணத்தை [IPO / நீதிமன்ற முத்திரை / ஆன்லைன்] மூலம் இணைக்கிறேன்.\n\n30 நாட்களுக்குள் கீழே உள்ள முகவரிக்குத் தகவலை அனுப்புமாறு கேட்டுக்கொள்கிறேன்.\n\nஇப்படிக்கு,\n[உங்கள் பெயர்]\n[முகவரி] [தொலைபேசி]"
+      },
+      "tips": {
+        "en": [
+          "Ask for specific records, not opinions.",
+          "Keep the postal receipt or the online acknowledgement.",
+          "If there is no reply in 30 days, file a first appeal to the First Appellate Authority."
+        ],
+        "ta": [
+          "கருத்துகளை அல்ல, குறிப்பிட்ட பதிவுகளைக் கேளுங்கள்.",
+          "அஞ்சல் ரசீது அல்லது ஆன்லைன் ஒப்புகையை வைத்திருங்கள்.",
+          "30 நாட்களில் பதில் இல்லையெனில், First Appellate Authority-க்கு first appeal அளியுங்கள்."
+        ]
+      }
+    },
+    {
+      "slug": "salary-demand",
+      "emoji": "💼",
+      "title": {
+        "en": "Demand letter for unpaid salary",
+        "ta": "வழங்கப்படாத சம்பளத்திற்கான கோரிக்கைக் கடிதம்"
+      },
+      "purpose": {
+        "en": "To ask your employer in writing to pay your dues before you complain to the Labour Commissioner.",
+        "ta": "தொழிலாளர் ஆணையரிடம் புகார் அளிக்கும் முன், உங்கள் நிலுவைத் தொகையை எழுத்தில் கேட்க."
+      },
+      "when": {
+        "en": [
+          "Your salary has not been paid for one or more months.",
+          "Your full and final settlement is not paid after you leave.",
+          "Deductions were made without any legal reason."
+        ],
+        "ta": [
+          "ஒன்று அல்லது அதற்கு மேற்பட்ட மாதங்களுக்குச் சம்பளம் தரப்படவில்லை.",
+          "வேலையை விட்ட பின் இறுதி தீர்வு தரப்படவில்லை.",
+          "சட்டக் காரணமில்லாமல் பிடித்தம் செய்யப்பட்டது."
+        ]
+      },
+      "letter": {
+        "en": "To\n[Employer / company name]\n[Address]\n\nDate: [DD/MM/YYYY]\n\nSubject: Request for payment of unpaid salary\n\nDear Sir/Madam,\n\nI, [your name], [designation], employee ID [ ... ], have worked with you from [start date] to [end date].\n\nMy salary for [month(s)] amounting to Rs [amount] has not been paid, though it was due on [due date].\n\nI request you to pay the amount within 15 days. If it is not paid, I will be forced to complain to the Labour Commissioner and to apply for recovery of the dues.\n\nYours faithfully,\n[Your name]\n[Phone]",
+        "ta": "அனுப்புவது\n[முதலாளி / நிறுவனத்தின் பெயர்]\n[முகவரி]\n\nதேதி: [DD/MM/YYYY]\n\nபொருள்: வழங்கப்படாத சம்பளத்தைச் செலுத்தக் கோரிக்கை\n\nமதிப்பிற்குரிய ஐயா/அம்மா,\n\nநான், [உங்கள் பெயர்], [பதவி], employee ID [ ... ], [தொடக்க தேதி] முதல் [இறுதி தேதி] வரை உங்களுடன் பணியாற்றினேன்.\n\n[மாதம்/மாதங்கள்] சம்பளமான Rs [தொகை], [தவணை தேதி]-இல் தர வேண்டியிருந்தும், இன்னும் தரப்படவில்லை.\n\n15 நாட்களுக்குள் தொகையைச் செலுத்துமாறு கேட்டுக்கொள்கிறேன். செலுத்தவில்லை என்றால், தொழிலாளர் ஆணையரிடம் புகார் அளிக்கவும், நிலுவைத் தொகையை மீட்டெடுக்க விண்ணப்பிக்கவும் வேண்டியிருக்கும்.\n\nஇப்படிக்கு,\n[உங்கள் பெயர்]\n[தொலைபேசி]"
+      },
+      "tips": {
+        "en": [
+          "Send it by email so there is a record.",
+          "Attach your payslips and bank statement.",
+          "If it is not paid, complain to the Labour Commissioner or apply for recovery of the money due."
+        ],
+        "ta": [
+          "பதிவு இருக்கும் வகையில் மின்னஞ்சல் மூலம் அனுப்புங்கள்.",
+          "சம்பளச் சீட்டுகளையும் வங்கிக் கணக்கு அறிக்கையையும் இணையுங்கள்.",
+          "செலுத்தவில்லை என்றால், தொழிலாளர் ஆணையரிடம் புகார் அளியுங்கள் அல்லது நிலுவைத் தொகையை மீட்டெடுக்க விண்ணப்பியுங்கள்."
+        ]
+      }
+    },
+    {
+      "slug": "rent-notice",
+      "emoji": "🔑",
+      "title": {
+        "en": "Notice to a landlord or tenant (vacate / refund deposit)",
+        "ta": "வீட்டு உரிமையாளர் அல்லது வாடகைதாரருக்கு நோட்டீஸ் (காலி செய்தல் / முன்பணம் திரும்ப)"
+      },
+      "purpose": {
+        "en": "To give proper written notice to vacate, or to ask for the return of your security deposit.",
+        "ta": "காலி செய்ய முறையான எழுத்துப்பூர்வ நோட்டீஸ் தர, அல்லது முன்பணத்தைத் திரும்பக் கேட்க."
+      },
+      "when": {
+        "en": [
+          "You are a tenant and you plan to vacate.",
+          "You vacated and your deposit was not refunded.",
+          "You want a written record before any dispute."
+        ],
+        "ta": [
+          "நீங்கள் வாடகைதாரர்; காலி செய்யப் போகிறீர்கள்.",
+          "காலி செய்தபின் முன்பணம் திரும்பத் தரப்படவில்லை.",
+          "தகராறுக்கு முன் எழுத்துப்பூர்வ பதிவு வேண்டும்."
+        ]
+      },
+      "letter": {
+        "en": "To\n[Landlord / tenant name]\n[Address]\n\nDate: [DD/MM/YYYY]\n\nSubject: [Notice to vacate / Request to refund the security deposit]\n\nDear Sir/Madam,\n\nUnder our rent agreement dated [agreement date] for the premises at [address]:\n\n[Option A - tenant leaving]\nI am giving notice of [15 / 30] days and will vacate the premises on [date]. Please return my security deposit of Rs [amount] within one month of my vacating, as agreed.\n\n[Option B - asking the landlord to refund]\nI vacated the premises on [date] and returned the keys. My security deposit of Rs [amount] has not been refunded. Please refund it within 15 days, failing which I will approach the Rent Authority.\n\nYours faithfully,\n[Your name]\n[Phone]",
+        "ta": "அனுப்புவது\n[வீட்டு உரிமையாளர் / வாடகைதாரர் பெயர்]\n[முகவரி]\n\nதேதி: [DD/MM/YYYY]\n\nபொருள்: [காலி செய்வதற்கான நோட்டீஸ் / முன்பணத்தைத் திரும்பக் கோரிக்கை]\n\nமதிப்பிற்குரிய ஐயா/அம்மா,\n\n[ஒப்பந்த தேதி] தேதியிட்ட, [முகவரி]-இல் உள்ள இடத்திற்கான நமது வாடகை ஒப்பந்தத்தின் கீழ்:\n\n[வழி A - வாடகைதாரர் காலி செய்கிறார்]\n[15 / 30] நாட்கள் நோட்டீஸ் தந்து, [தேதி]-இல் இடத்தைக் காலி செய்கிறேன். ஒப்புக்கொண்டபடி, காலி செய்த ஒரு மாதத்திற்குள் Rs [தொகை] முன்பணத்தைத் திருப்பித் தருமாறு கேட்டுக்கொள்கிறேன்.\n\n[வழி B - வீட்டு உரிமையாளரிடம் திரும்பக் கேட்பது]\n[தேதி]-இல் இடத்தைக் காலி செய்து சாவியைத் திருப்பித் தந்தேன். Rs [தொகை] முன்பணம் திரும்பத் தரப்படவில்லை. 15 நாட்களுக்குள் திருப்பித் தருமாறு கேட்டுக்கொள்கிறேன்; இல்லையெனில் Rent Authority-ஐ அணுகுவேன்.\n\nஇப்படிக்கு,\n[உங்கள் பெயர்]\n[தொலைபேசி]"
+      },
+      "tips": {
+        "en": [
+          "Send it by registered post or email and keep proof.",
+          "Refer to the exact notice period in your agreement.",
+          "A landlord cannot lock you out or cut water or electricity."
+        ],
+        "ta": [
+          "registered post அல்லது மின்னஞ்சல் மூலம் அனுப்பி ஆதாரத்தை வைத்திருங்கள்.",
+          "உங்கள் ஒப்பந்தத்தில் உள்ள சரியான நோட்டீஸ் காலத்தைக் குறிப்பிடுங்கள்.",
+          "வீட்டு உரிமையாளர் உங்களைப் பூட்டி வைக்கவோ, தண்ணீர்/மின்சாரத்தைத் துண்டிக்கவோ முடியாது."
+        ]
+      }
+    }
+  ]
+}

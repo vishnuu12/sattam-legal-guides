@@ -10,6 +10,7 @@
       "home": "Home",
       "guides": "All Guides",
       "categories": "Topics",
+      "templates": "Templates",
       "emergency": "Emergency Help",
       "about": "About",
       "menu": "Menu",
@@ -122,6 +123,18 @@
       "translationPendingNotice": "The Tamil translation of this guide is still being reviewed.",
       "reviewedNotice": "This guide has been reviewed for legal accuracy and language quality."
     },
+    "templates": {
+      "title": "Printable templates",
+      "subtitle": "Ready-to-use letters and notices. Fill in the blanks, print and send.",
+      "purpose": "What it is for",
+      "when": "When to use it",
+      "letter": "The template",
+      "tamilVersion": "Tamil version",
+      "englishVersion": "English version",
+      "tips": "Tips",
+      "print": "Print this",
+      "backToList": "All templates"
+    },
     "disclaimer": {
       "short": "General legal information, not legal advice.",
       "full": "Sattam provides general legal information for education only. It is not legal advice and does not create a lawyer-client relationship. Laws change and vary by state. For your specific situation, consult a qualified lawyer or your nearest free legal aid centre."
@@ -182,6 +195,7 @@
       "home": "முதற்பக்கம்",
       "guides": "அனைத்து வழிகாட்டிகள்",
       "categories": "தலைப்புகள்",
+      "templates": "மாதிரி கடிதங்கள்",
       "emergency": "அவசர உதவி",
       "about": "எங்களைப் பற்றி",
       "menu": "பட்டியல்",
@@ -293,6 +307,18 @@
       "unverifiedNotice": "இந்த வழிகாட்டி இன்னும் சட்ட மதிப்பாய்வை முடிக்கவில்லை. இதை பொதுவான தகவலாகப் பயன்படுத்துங்கள்; விவரங்களை அதிகாரப்பூர்வ ஆதாரம் அல்லது ஒரு வழக்கறிஞரிடம் உறுதிப்படுத்துங்கள்.",
       "translationPendingNotice": "இந்த வழிகாட்டியின் தமிழ் மொழிபெயர்ப்பு இன்னும் மதிப்பாய்வு செய்யப்படுகிறது.",
       "reviewedNotice": "இந்த வழிகாட்டி சட்டத் துல்லியம் மற்றும் மொழித் தரத்திற்காக மதிப்பாய்வு செய்யப்பட்டுள்ளது."
+    },
+    "templates": {
+      "title": "அச்சிடக்கூடிய மாதிரி கடிதங்கள்",
+      "subtitle": "உடனே பயன்படுத்தக்கூடிய கடிதங்கள் மற்றும் நோட்டீஸ்கள். வெற்றிடங்களை நிரப்பி, அச்சிட்டு அனுப்புங்கள்.",
+      "purpose": "இது எதற்கு",
+      "when": "எப்போது பயன்படுத்துவது",
+      "letter": "மாதிரி",
+      "tamilVersion": "தமிழ் பதிப்பு",
+      "englishVersion": "ஆங்கில பதிப்பு",
+      "tips": "குறிப்புகள்",
+      "print": "இதை அச்சிடுங்கள்",
+      "backToList": "எல்லா மாதிரிகளும்"
     },
     "disclaimer": {
       "short": "பொதுவான சட்டத் தகவல்; சட்ட ஆலோசனை அல்ல.",
