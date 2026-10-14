@@ -159,6 +159,18 @@
       }
     },
     {
+      "slug": "tamil-nadu",
+      "emoji": "🗺️",
+      "en": {
+        "name": "Tamil Nadu: State Rules & Offices",
+        "blurb": "State-specific rules, government services and where to get help in Tamil Nadu."
+      },
+      "ta": {
+        "name": "தமிழ்நாடு: மாநில விதிகள் மற்றும் அலுவலகங்கள்",
+        "blurb": "தமிழ்நாட்டிற்கே உரிய விதிகள், அரசு சேவைகள் மற்றும் உதவி பெறும் இடங்கள்."
+      }
+    },
+    {
       "slug": "emergency-resources",
       "emoji": "🆘",
       "en": {

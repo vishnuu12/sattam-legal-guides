@@ -1,0 +1,148 @@
+{
+  "id": "tn-rent-and-tenancy",
+  "slug": "tn-rent-and-tenancy",
+  "lang": "en",
+  "category": "tamil-nadu",
+  "title": "Renting in Tamil Nadu: Your Rights and the Rent Authority",
+  "summary": "How Tamil Nadu's rent law protects tenants and landlords, and how to register a rent agreement.",
+  "tags": [
+    "tamil nadu",
+    "rent",
+    "tenancy",
+    "deposit",
+    "rent authority",
+    "eviction"
+  ],
+  "readingMinutes": 7,
+  "lastUpdated": "2026-10-14",
+  "publishedDate": "2026-10-14",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017",
+    "Model Tenancy Act, 2021",
+    "Transfer of Property Act, 1882 (Section 106)"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "If you rent a house or a shop in Tamil Nadu, both you and the owner have clear rights. A written, registered agreement keeps most problems away."
+    },
+    {
+      "type": "h2",
+      "text": "📘 Which law applies in Tamil Nadu"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tamil Nadu has its own law: the Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017. It provides for a Rent Authority to register tenancy agreements and to decide rent disputes.",
+        "The Model Tenancy Act, 2021 is a central model law. States adopt it in their own way, so the exact rules depend on the State law in force.",
+        "Very old tenancies may still be governed by the older Rent Control law. Check which law applies to your agreement."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "State rent rules and their notification can change. Before you rely on any rule, check the current position on the Tamil Nadu government website or with a lawyer."
+    },
+    {
+      "type": "h2",
+      "text": "🔑 What the rent agreement should say"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Rent, the due date and how it is paid (bank transfer is best, so there is a record).",
+        "The security deposit amount and when it will be returned.",
+        "The notice period for leaving, or for asking a tenant to leave.",
+        "Who pays maintenance, electricity, water and property tax.",
+        "Who does small repairs, and who does structural repairs."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "🔑 Deposit and rent"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The deposit is a security, not extra rent. It should be returned after lawful deductions when you vacate.",
+        "Under the Model Tenancy Act, the deposit is capped at 2 months' rent for residential premises and 6 months for commercial premises.",
+        "Any deduction must be explained, with bills or receipts.",
+        "Rent can be increased only as the agreement or the law allows, usually with proper notice."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "🔑 Notice and eviction"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A tenant must give written notice before leaving, as agreed.",
+        "A landlord must give written notice before asking a tenant to leave, and must have a valid ground such as non-payment of rent or genuine need.",
+        "Eviction must follow the legal process. A landlord cannot lock a tenant out or cut water or electricity to force an exit."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "📌 Where to go if there is a dispute"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Approach the Rent Authority set up under the State rent law, or the civil court, whichever applies.",
+        "Keep the signed agreement, rent receipts and deposit proof ready.",
+        "For free legal help, contact your District Legal Services Authority (helpline 15100)."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Always keep a signed copy of the agreement and receipts for rent and deposit. Papers settle most rent disputes."
+    }
+  ],
+  "practicalSteps": [
+    "Put the rent, deposit, notice period and repair duties in a written, signed agreement.",
+    "Pay rent by bank transfer and keep the receipts.",
+    "Register the agreement with the Rent Authority if the law requires it.",
+    "For a dispute, approach the Rent Authority or the civil court, not self-help."
+  ],
+  "exceptions": [
+    "Different rules can apply to commercial premises, to agricultural land and to very old tenancies.",
+    "The exact State position and its notification should be checked before you rely on it."
+  ],
+  "faqs": [
+    {
+      "q": "Can the landlord keep my deposit for normal wear and tear?",
+      "a": "No. A deposit can be adjusted only for unpaid dues or actual damage beyond normal use, as set out in the agreement."
+    },
+    {
+      "q": "Do I need to register the rent agreement?",
+      "a": "Under the State law a tenancy agreement may need to be registered with the Rent Authority. Ask the Rent Authority or a lawyer about your case."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Government of Tamil Nadu",
+      "url": "https://www.tn.gov.in/"
+    },
+    {
+      "label": "India Code (state rent laws)",
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "A landlord can throw a tenant out at any time.",
+      "fact": "No. Eviction must follow the agreement and the law, with written notice and a valid ground."
+    }
+  ]
+}

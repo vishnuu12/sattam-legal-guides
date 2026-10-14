@@ -1,0 +1,142 @@
+{
+  "id": "tn-help-and-complaints",
+  "slug": "tn-help-and-complaints",
+  "lang": "en",
+  "category": "tamil-nadu",
+  "title": "Tamil Nadu: Where to Complain and Get Free Help",
+  "summary": "Police complaints, free legal aid, Lok Adalat, consumer commissions and helplines in Tamil Nadu.",
+  "tags": [
+    "tamil nadu",
+    "police complaint",
+    "legal aid",
+    "lok adalat",
+    "consumer commission",
+    "helpline"
+  ],
+  "readingMinutes": 7,
+  "lastUpdated": "2026-10-14",
+  "publishedDate": "2026-10-14",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Legal Services Authorities Act, 1987",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)",
+    "Consumer Protection Act, 2019"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "In Tamil Nadu there is a clear route for almost every problem. Here is where to complain and where to get free help."
+    },
+    {
+      "type": "h2",
+      "text": "🚔 Police complaints"
+    },
+    {
+      "type": "list",
+      "items": [
+        "You can give a complaint at any police station. For a serious (cognisable) offence, it is recorded as an FIR, and a free copy must be given to you.",
+        "If the offence happened elsewhere, the police still record a Zero FIR and send it to the right station.",
+        "Many districts also allow an online complaint on the Tamil Nadu Police citizen portal.",
+        "If the police refuse to register your FIR, go to the Superintendent of Police or file a complaint before the Magistrate."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "⚖️ Free legal aid in Tamil Nadu"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Tamil Nadu State Legal Services Authority (TNLSA) and each District Legal Services Authority (DLSA) give free legal aid to those who qualify.",
+        "Free aid is available to women, children, members of SC and ST, disabled persons, victims of disaster or violence, industrial workmen, persons in custody and those below the income limit.",
+        "This includes free help from a lawyer, free court fees and free legal advice.",
+        "Helpline: 15100. You can also walk into your District Legal Services Authority office."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "📌 Lok Adalat"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lok Adalats settle disputes quickly and free of cost, with the help of a judge and lawyers.",
+        "An award passed by a Lok Adalat is final and binding, and no appeal lies against it.",
+        "They are often used for small money claims, motor-accident claims and family matters."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "⚖️ Consumer commissions in Tamil Nadu"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tamil Nadu has a State Consumer Disputes Redressal Commission and District Commissions.",
+        "File online on the e-Daakhil portal, or call the National Consumer Helpline 1915.",
+        "A District Commission handles claims up to Rs 50 lakh."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "🆘 Helplines to save"
+    },
+    {
+      "type": "list",
+      "items": [
+        "112 - all emergencies (police, fire, ambulance).",
+        "181 - women's helpline. 1098 - childline. 14567 - senior citizens.",
+        "1930 - cybercrime and financial fraud. 1915 - consumer. 15100 - free legal aid."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Free legal aid is a right, not a favour. If you cannot afford a lawyer, ask for the District Legal Services Authority."
+    }
+  ],
+  "practicalSteps": [
+    "Save 112, 181, 1098, 1930, 1915 and 15100 on your phone.",
+    "For a police complaint, get the FIR number and a free copy.",
+    "For free legal help, contact your District Legal Services Authority or call 15100.",
+    "For a consumer dispute, try e-Daakhil or call 1915 before going to a commission."
+  ],
+  "exceptions": [
+    "Free legal aid depends on the income limit and the category you fall under.",
+    "A Lok Adalat award cannot be appealed, so agree only when you accept the terms."
+  ],
+  "faqs": [
+    {
+      "q": "Is free legal aid really free?",
+      "a": "Yes, for those who qualify by income and category. It covers a lawyer's help and court fees."
+    },
+    {
+      "q": "Can I complain to the police in another district?",
+      "a": "Yes. You can give the complaint at any police station; they must record it and forward it."
+    }
+  ],
+  "sources": [
+    {
+      "label": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/"
+    },
+    {
+      "label": "Government of Tamil Nadu",
+      "url": "https://www.tn.gov.in/"
+    },
+    {
+      "label": "National Consumer Helpline",
+      "url": "https://consumerhelpline.gov.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Legal aid is only for very poor people.",
+      "fact": "It is available to many categories - women, children, SC/ST, disabled persons, workmen, persons in custody and those below the income limit."
+    }
+  ]
+}

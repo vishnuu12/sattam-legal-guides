@@ -1,0 +1,131 @@
+{
+  "id": "tn-government-services",
+  "slug": "tn-government-services",
+  "lang": "en",
+  "category": "tamil-nadu",
+  "title": "Tamil Nadu Government Services: Certificates and Land Records",
+  "summary": "How to get income, community and nativity certificates, and how to check your land records.",
+  "tags": [
+    "tamil nadu",
+    "e-sevai",
+    "certificate",
+    "patta",
+    "chitta",
+    "land records",
+    "tahsildar"
+  ],
+  "readingMinutes": 7,
+  "lastUpdated": "2026-10-14",
+  "publishedDate": "2026-10-14",
+  "translationStatus": "draft",
+  "legalReviewStatus": "pending",
+  "translationReviewer": null,
+  "legalReviewer": null,
+  "lastLegalReview": null,
+  "sectionRefs": [
+    "Right to Information Act, 2005",
+    "Tamil Nadu Revenue Department procedures"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Most day-to-day government work in Tamil Nadu happens at the Taluk office, the e-Sevai centre or online. Knowing where to go saves a lot of running around."
+    },
+    {
+      "type": "h2",
+      "text": "📌 e-Sevai centres"
+    },
+    {
+      "type": "list",
+      "items": [
+        "e-Sevai centres are one-stop counters (run by TNeGA) where you can apply for many certificates and services in person, for a small fee.",
+        "Many of the same services are also on the Tamil Nadu government website (tn.gov.in).",
+        "Always collect a receipt or acknowledgement number for every application."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "🗂️ Certificates you can apply for"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Income certificate, community certificate and nativity or residence certificate.",
+        "Birth certificate and death certificate (from the local body or the Registrar).",
+        "First graduate certificate and legal heir certificate (through the Tahsildar).",
+        "Most certificates are issued within a fixed number of days, and you can track the application."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "🏡 Land records: patta and chitta"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Patta is the record of ownership of the land; chitta shows the nature of the land. Both are kept by the Revenue Department.",
+        "You can view them online on the Tamil Nadu e-Services portal, and get a copy from the Taluk office.",
+        "An encumbrance certificate (EC), which shows loans or claims on a property, comes from the sub-registrar's office.",
+        "After buying land, get the patta transferred to your name (mutation)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "📌 If an application is delayed or refused"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ask for the reason in writing.",
+        "Escalate to the Tahsildar, the Revenue Divisional Officer (RDO) or the department.",
+        "For information about a public authority, file an RTI application; it must usually be answered in 30 days."
+      ]
+    },
+    {
+      "type": "callout",
+      "kind": "caution",
+      "text": "Use only the official website (a .gov.in or .nic.in address) and never pay a 'fee' to a personal account or UPI ID for a government service."
+    },
+    {
+      "type": "callout",
+      "kind": "remember",
+      "text": "Keep a copy of every application, receipt and acknowledgement number. It is your proof of what you applied for and when."
+    }
+  ],
+  "practicalSteps": [
+    "Decide whether the service is available at your e-Sevai centre or online.",
+    "Carry the documents listed for that service (ID proof, address proof, photographs).",
+    "Collect and keep the acknowledgement number, and track the application.",
+    "If it is delayed, escalate in writing and, if needed, file an RTI."
+  ],
+  "exceptions": [
+    "Some certificates need local enquiry or verification by the Village Administrative Officer, which can take extra time.",
+    "Fees and the number of days can differ from service to service."
+  ],
+  "faqs": [
+    {
+      "q": "Where do I check my land records online?",
+      "a": "On the Tamil Nadu government e-Services portal. For an encumbrance certificate, use the registration department's service."
+    },
+    {
+      "q": "What if an official demands a bribe?",
+      "a": "Do not pay. Ask for the written procedure and the fee, and report the demand to the department or the anti-corruption helpline."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Government of Tamil Nadu",
+      "url": "https://www.tn.gov.in/"
+    },
+    {
+      "label": "Right to Information Act, 2005 - India Code",
+      "url": "https://www.indiacode.nic.in/"
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "I must go to Chennai for every certificate.",
+      "fact": "No. Most certificates and land records are handled at your Taluk office, e-Sevai centre or online."
+    }
+  ]
+}
