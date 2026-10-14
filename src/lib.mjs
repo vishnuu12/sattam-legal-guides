@@ -41,6 +41,7 @@ export function loadAll() {
     wizard: readJSON(path.join(ROOT, 'src/data/wizard.json')),
     districts: readJSON(path.join(ROOT, 'src/data/districts.json')),
     trust: readJSON(path.join(ROOT, 'src/data/trust.json')),
+    carry: readJSON(path.join(ROOT, 'src/data/carry.json')),
     articles: loadArticles(),
   };
 }
@@ -80,6 +81,7 @@ export const paths = {
   help: () => withBase('/help/'),
   near: () => withBase('/near-me/'),
   trust: () => withBase('/trust/'),
+  carry: () => withBase('/checklists/'),
 };
 
 // Searchable text for a paired article, in both languages, expanded with synonyms.

@@ -100,6 +100,7 @@ function header(ctx, active) {
     { href: paths.help(), key: 'nav.help' },
     { href: paths.guides(), key: 'nav.guides' },
     { href: paths.near(), key: 'nav.near' },
+    { href: paths.carry(), key: 'nav.checklists' },
     { href: paths.emergency(), key: 'nav.emergency' },
     { href: paths.about(), key: 'nav.about' },
   ];
@@ -145,6 +146,7 @@ function footer(ctx) {
         <li><a href="${paths.glossary()}">${label(ui, 'nav.glossary')}</a></li>
         <li><a href="${paths.deadlines()}">${label(ui, 'nav.deadlines')}</a></li>
         <li><a href="${paths.near()}">${label(ui, 'nav.near')}</a></li>
+        <li><a href="${paths.carry()}">${label(ui, 'nav.checklists')}</a></li>
         <li><a href="${paths.trust()}">${label(ui, 'nav.trust')}</a></li>
         <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
         <li><a href="${paths.about()}">${label(ui, 'nav.about')}</a></li>
@@ -548,6 +550,37 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function carryPage(ctx, { data }) {
+  const { ui } = ctx;
+  const lists = data.lists
+    .map((l) => `<div class="letter-box carry-box">
+      <div class="letter-head">
+        <span class="lh-ta" lang="ta">${l.emoji} ${esc(l.title.ta)}</span>
+        <button class="btn btn-sm btn-ghost" type="button" data-print>\uD83D\uDDA8\uFE0F ${esc(t(ui, 'en', 'templates.print'))}</button>
+      </div>
+      <p class="carry-en" lang="en">${esc(l.title.en)}</p>
+      <ul class="carry-items">${(l.items.ta || [])
+        .map((t, i) => `<li><span class="ta" lang="ta">${esc(t)}</span>${l.items.en && l.items.en[i] ? `<span class="en" lang="en">${esc(l.items.en[i])}</span>` : ''}</li>`)
+        .join('')}</ul>
+      ${l.note ? `<p class="carry-note">${pair(l.note.ta, l.note.en)}</p>` : ''}
+    </div>`)
+    .join('');
+  const content = `<div class="wrap page">
+    <h1 class="pair-h1">${data.emoji} ${pair(data.title.ta, data.title.en)}</h1>
+    <div class="pair summary">${pair(data.subtitle.ta, data.subtitle.en)}</div>
+    <div class="carry-grid">${lists}</div>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${data.title.en} | ${t(ui, 'en', 'brand.name')}`,
+    description: data.subtitle.en,
+    canonical: paths.carry(),
+    bodyClass: 'page-carry',
+    active: 'nav.checklists',
     content,
   });
 }

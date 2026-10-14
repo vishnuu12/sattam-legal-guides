@@ -1,0 +1,264 @@
+{
+  "slug": "carry",
+  "emoji": "📋",
+  "title": {
+    "en": "What to carry",
+    "ta": "என்ன எடுத்துப் போகணும்"
+  },
+  "subtitle": {
+    "en": "Print the list, tick the items, and carry it with you. Keep photocopies; give copies, never your originals.",
+    "ta": "பட்டியலை அச்சிட்டு, பொருட்களை tick செய்து, உங்களுடன் எடுத்துச் செல்லுங்கள். நகல்களை வைத்திருங்கள்; நகல்களை மட்டுமே கொடுங்கள், அசலை ஒருபோதும் அல்ல."
+  },
+  "lists": [
+    {
+      "emoji": "🚔",
+      "title": {
+        "en": "Filing a complaint at a police station",
+        "ta": "காவல் நிலையத்தில் புகார் அளிக்க"
+      },
+      "items": {
+        "en": [
+          "Any photo ID (Aadhaar, voter ID, driving licence)",
+          "Your complaint written out, in two copies",
+          "Photos, videos or screenshots of what happened",
+          "Medical report or doctor's note, if you were hurt",
+          "Names and phone numbers of any witnesses",
+          "A list of what was lost or damaged, with bills if you have them",
+          "Copies of any earlier complaint"
+        ],
+        "ta": [
+          "ஏதேனும் புகைப்பட அடையாளச் சான்று (Aadhaar, வாக்காளர் அடையாள அட்டை, ஓட்டுநர் உரிமம்)",
+          "உங்கள் புகாரை எழுதி, இரண்டு நகல்களில்",
+          "நடந்ததற்கான புகைப்படங்கள், வீடியோக்கள் அல்லது screenshot-கள்",
+          "காயம் இருந்தால் மருத்துவ அறிக்கை அல்லது மருத்துவரின் குறிப்பு",
+          "சாட்சிகள் இருந்தால் அவர்களின் பெயர் மற்றும் தொலைபேசி எண்",
+          "இழந்த அல்லது சேதமான பொருட்களின் பட்டியல், பில் இருந்தால் இணைக்கவும்",
+          "முன்பு அளித்த புகாரின் நகல்கள்"
+        ]
+      },
+      "note": {
+        "en": "Get the FIR number and a free copy before you leave.",
+        "ta": "வெளியேறும் முன் FIR எண்ணையும் ஒரு இலவச நகலையும் வாங்குங்கள்."
+      }
+    },
+    {
+      "emoji": "🏛️",
+      "title": {
+        "en": "Going to court for a hearing",
+        "ta": "நீதிமன்ற விசாரணைக்குச் செல்ல"
+      },
+      "items": {
+        "en": [
+          "The summons, notice or court order you received",
+          "Any photo ID",
+          "All original documents connected to the case",
+          "One photocopy set for the court",
+          "Any earlier orders in the same case",
+          "Your lawyer's name and phone number",
+          "A pen and a small notebook"
+        ],
+        "ta": [
+          "உங்களுக்கு வந்த சம்மன், நோட்டீஸ் அல்லது நீதிமன்ற உத்தரவு",
+          "ஏதேனும் புகைப்பட அடையாளச் சான்று",
+          "வழக்கு தொடர்பான எல்லா அசல் ஆவணங்களும்",
+          "நீதிமன்றத்திற்கு ஒரு நகல் தொகுப்பு",
+          "அதே வழக்கில் முன்பு வந்த உத்தரவுகள்",
+          "உங்கள் வழக்கறிஞரின் பெயர் மற்றும் தொலைபேசி எண்",
+          "ஒரு பேனா மற்றும் ஒரு சிறிய நோட்டுப் புத்தகம்"
+        ]
+      },
+      "note": {
+        "en": "Never hand over an original document. Give a copy and keep the original.",
+        "ta": "அசல் ஆவணத்தை ஒருபோதும் கொடுக்க வேண்டாம். நகலைக் கொடுத்து அசலை வைத்திருங்கள்."
+      }
+    },
+    {
+      "emoji": "🗂️",
+      "title": {
+        "en": "Getting a certificate (e-Sevai or Taluk office)",
+        "ta": "சான்றிதழ் பெற (e-Sevai அல்லது தாலுக்கா அலுவலகம்)"
+      },
+      "items": {
+        "en": [
+          "Aadhaar card",
+          "Ration card",
+          "Address proof (electricity bill, gas bill)",
+          "Passport-size photographs",
+          "A copy of any earlier certificate",
+          "School certificate, for a nativity or residence certificate",
+          "Parents' documents, for a community certificate",
+          "The application fee"
+        ],
+        "ta": [
+          "Aadhaar அட்டை",
+          "குடும்ப அட்டை",
+          "முகவரிச் சான்று (மின்சார பில், gas பில்)",
+          "பாஸ்போர்ட் அளவு புகைப்படங்கள்",
+          "முன்பு பெற்ற சான்றிதழின் நகல்",
+          "இருப்பிடச் சான்றிதழுக்கு பள்ளிச் சான்றிதழ்",
+          "சாதிச் சான்றிதழுக்கு பெற்றோரின் ஆவணங்கள்",
+          "விண்ணப்பக் கட்டணம்"
+        ]
+      },
+      "note": {
+        "en": "Always collect the acknowledgement number and keep it safe.",
+        "ta": "ஒப்புகை எண்ணை எப்போதும் வாங்கி பாதுகாப்பாக வைத்திருங்கள்."
+      }
+    },
+    {
+      "emoji": "🛒",
+      "title": {
+        "en": "Filing a consumer complaint",
+        "ta": "நுகர்வோர் புகார் அளிக்க"
+      },
+      "items": {
+        "en": [
+          "The bill or invoice",
+          "The order ID and screenshots of the order",
+          "The warranty card or guarantee",
+          "Your chats, emails or call records with the seller",
+          "The complaint number the seller gave you",
+          "A bank statement or payment proof",
+          "Photos of the defective product"
+        ],
+        "ta": [
+          "பில் அல்லது invoice",
+          "ஆர்டர் ID மற்றும் ஆர்டரின் screenshot-கள்",
+          "உத்தரவாத அட்டை அல்லது guarantee",
+          "விற்பனையாளருடனான உங்கள் அரட்டைகள், மின்னஞ்சல்கள் அல்லது அழைப்புப் பதிவுகள்",
+          "விற்பனையாளர் தந்த புகார் எண்",
+          "வங்கிக் கணக்கு அறிக்கை அல்லது பணம் செலுத்தியதற்கான ஆதாரம்",
+          "குறைபாடுள்ள பொருளின் புகைப்படங்கள்"
+        ]
+      },
+      "note": {
+        "en": "You can file within two years of the problem.",
+        "ta": "பிரச்சினை ஏற்பட்ட இரண்டு ஆண்டுகளுக்குள் புகார் அளிக்கலாம்."
+      }
+    },
+    {
+      "emoji": "🏦",
+      "title": {
+        "en": "Complaining about a bank transaction or a fraud",
+        "ta": "வங்கிப் பரிவர்த்தனை அல்லது மோசடி புகார்"
+      },
+      "items": {
+        "en": [
+          "Your bank statement",
+          "The transaction SMS or email",
+          "The complaint number the bank gave you",
+          "A copy of the FIR, if you filed one",
+          "Any photo ID",
+          "Your card or account details",
+          "Screenshots of the fake call, message or link"
+        ],
+        "ta": [
+          "உங்கள் வங்கிக் கணக்கு அறிக்கை",
+          "பரிவர்த்தனைக்கான SMS அல்லது மின்னஞ்சல்",
+          "வங்கி தந்த புகார் எண்",
+          "நீங்கள் FIR அளித்திருந்தால் அதன் நகல்",
+          "ஏதேனும் புகைப்பட அடையாளச் சான்று",
+          "உங்கள் card அல்லது கணக்கு விவரங்கள்",
+          "போலி அழைப்பு, செய்தி அல்லது இணைப்பின் screenshot-கள்"
+        ]
+      },
+      "note": {
+        "en": "Report within 3 working days for zero liability; also call 1930.",
+        "ta": "பூஜ்ய பொறுப்புக்கு 3 வேலை நாட்களுக்குள் புகார் அளியுங்கள்; 1930-ஐயும் அழையுங்கள்."
+      }
+    },
+    {
+      "emoji": "🔑",
+      "title": {
+        "en": "A rent or security deposit dispute",
+        "ta": "வாடகை அல்லது முன்பணத் தகராறு"
+      },
+      "items": {
+        "en": [
+          "The signed rent agreement",
+          "Rent receipts or bank transfer proof",
+          "Proof of the deposit you paid",
+          "A copy of the notice you sent",
+          "Photos of the property when you took it and when you left",
+          "Electricity and water meter readings",
+          "Any messages with the landlord or tenant"
+        ],
+        "ta": [
+          "கையொப்பமிட்ட வாடகை ஒப்பந்தம்",
+          "வாடகை ரசீதுகள் அல்லது வங்கிப் பரிமாற்ற ஆதாரம்",
+          "நீங்கள் செலுத்திய முன்பணத்திற்கான ஆதாரம்",
+          "நீங்கள் அனுப்பிய நோட்டீஸின் நகல்",
+          "எடுத்தபோதும் காலி செய்தபோதும் எடுத்த சொத்தின் புகைப்படங்கள்",
+          "மின்சாரம் மற்றும் தண்ணீர் meter அளவீடுகள்",
+          "வீட்டு உரிமையாளர் அல்லது வாடகைதாரருடனான செய்திகள்"
+        ]
+      },
+      "note": {
+        "en": "Papers settle most rent disputes. Keep every receipt.",
+        "ta": "பெரும்பாலான வாடகைத் தகராறுகளை ஆவணங்களே தீர்க்கும். ஒவ்வொரு ரசீதையும் வைத்திருங்கள்."
+      }
+    },
+    {
+      "emoji": "🏥",
+      "title": {
+        "en": "An accident or a medical insurance claim",
+        "ta": "விபத்து அல்லது மருத்துவக் காப்பீட்டுக் கோரிக்கை"
+      },
+      "items": {
+        "en": [
+          "A copy of the FIR",
+          "Hospital bills and the discharge summary",
+          "The doctor's certificate and prescriptions",
+          "Your insurance policy and card",
+          "The vehicle RC, driving licence and policy",
+          "Photos of the damage or the injury",
+          "The estimate from the repair shop"
+        ],
+        "ta": [
+          "FIR-இன் நகல்",
+          "மருத்துவமனை பில்கள் மற்றும் discharge summary",
+          "மருத்துவரின் சான்றிதழ் மற்றும் மருந்துச் சீட்டுகள்",
+          "உங்கள் காப்பீட்டு policy மற்றும் அட்டை",
+          "வாகனத்தின் RC, ஓட்டுநர் உரிமம் மற்றும் policy",
+          "சேதம் அல்லது காயத்தின் புகைப்படங்கள்",
+          "பழுது பார்க்கும் கடையின் மதிப்பீடு"
+        ]
+      },
+      "note": {
+        "en": "Inform the insurance company early; many policies have a time limit.",
+        "ta": "காப்பீட்டு நிறுவனத்திற்கு விரைவில் தெரிவியுங்கள்; பல policy-களில் கால வரம்பு உண்டு."
+      }
+    },
+    {
+      "emoji": "💼",
+      "title": {
+        "en": "A salary or workplace complaint",
+        "ta": "சம்பளம் அல்லது வேலைத் தொடர்பான புகார்"
+      },
+      "items": {
+        "en": [
+          "Your appointment letter",
+          "Salary slips for the months in question",
+          "Your bank statement",
+          "Proof of attendance or work done",
+          "The resignation or termination letter, if any",
+          "Your PF or ESI details",
+          "Any written messages about your pay"
+        ],
+        "ta": [
+          "உங்கள் நியமனக் கடிதம்",
+          "சம்பந்தப்பட்ட மாதங்களின் சம்பளச் சீட்டுகள்",
+          "உங்கள் வங்கிக் கணக்கு அறிக்கை",
+          "வேலைக்கு வந்ததற்கான அல்லது வேலை செய்ததற்கான ஆதாரம்",
+          "இருந்தால் ராஜினாமா அல்லது பணிநீக்கக் கடிதம்",
+          "உங்கள் PF அல்லது ESI விவரங்கள்",
+          "உங்கள் சம்பளம் பற்றிய எழுத்துப்பூர்வ செய்திகள்"
+        ]
+      },
+      "note": {
+        "en": "Send a written demand first; then complain to the Labour Commissioner.",
+        "ta": "முதலில் எழுத்துப்பூர்வ கோரிக்கை அனுப்புங்கள்; பிறகு தொழிலாளர் ஆணையரிடம் புகார் அளியுங்கள்."
+      }
+    }
+  ]
+}
