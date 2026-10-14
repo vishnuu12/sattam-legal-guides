@@ -83,6 +83,7 @@ export const paths = {
   trust: () => withBase('/trust/'),
   carry: () => withBase('/checklists/'),
   share: () => withBase('/share/'),
+  lite: () => withBase('/lite/'),
 };
 
 // Searchable text for a paired article, in both languages, expanded with synonyms.

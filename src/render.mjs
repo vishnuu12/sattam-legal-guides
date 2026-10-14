@@ -149,6 +149,7 @@ function footer(ctx) {
         <li><a href="${paths.near()}">${label(ui, 'nav.near')}</a></li>
         <li><a href="${paths.carry()}">${label(ui, 'nav.checklists')}</a></li>
         <li><a href="${paths.share()}">${label(ui, 'nav.share')}</a></li>
+        <li><a href="${paths.lite()}">${label(ui, 'nav.lite')}</a></li>
         <li><a href="${paths.trust()}">${label(ui, 'nav.trust')}</a></li>
         <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
         <li><a href="${paths.about()}">${label(ui, 'nav.about')}</a></li>
@@ -581,6 +582,62 @@ export function templatePage(ctx, { tpl }) {
     active: 'nav.templates',
     content,
   });
+}
+
+// A tiny, single-request page for slow 2G connections: no web fonts, no images,
+// no JavaScript, no external stylesheet.
+export function litePage(ctx, { pairs }) {
+  const { ui, taxonomy, helplines } = ctx;
+  const nums = (helplines.numbers || [])
+    .map((n) => `<li><a href="tel:${esc(n.num)}">${esc(n.num)}</a> <span class="e">${esc(n.en)}</span></li>`)
+    .join('');
+  const cats = taxonomy.categories
+    .map((c) => {
+      const inCat = (pairs || []).filter((p) => (p.ta || p.en).category === c.slug);
+      if (!inCat.length) return '';
+      const items = inCat
+        .map((p) => {
+          const a = p.ta || p.en;
+          const en = p.en || p.ta;
+          return `<li><a href="${paths.article(a.slug)}">${esc(a.title)}<br><span class="e">${esc(en.title)}</span></a></li>`;
+        })
+        .join('');
+      return `<h2>${c.emoji} ${esc(c.ta.name)}</h2><ul>${items}</ul>`;
+    })
+    .join('');
+  const css = `body{max-width:44rem;margin:0 auto;padding:1rem;font:17px/1.65 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:#12211c;background:#fff}
+*{box-sizing:border-box}
+h1{font-size:1.5rem;color:#0e4d3a;border-bottom:3px solid #c9761b;padding-bottom:.4rem;margin:.4rem 0 1rem}
+h1 small{font-weight:400;color:#5d6c66;font-size:.8rem;display:block}
+h2{font-size:1.15rem;margin:1.5rem 0 .4rem;color:#0e4d3a}
+ul{list-style:none;padding:0;margin:0}
+li{margin:.5rem 0}
+a{color:#17795a;text-decoration:none;display:block}
+a:active,a:hover{text-decoration:underline}
+.e{color:#5d6c66;font-size:.84rem}
+.tel li{border-bottom:1px solid #e6e3d8;padding:.5rem 0}
+.tel a{font-weight:700;font-size:1.15rem}
+.lead{background:#fdf4e4;border-left:4px solid #c9761b;padding:.7rem .9rem;margin:1rem 0}
+.lead a{display:inline}
+.foot{color:#5d6c66;font-size:.85rem;margin-top:2rem;border-top:1px solid #e6e3d8;padding-top:.9rem}`;
+  return `<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(t(ui, 'ta', 'brand.name'))} \u2014 ${esc(t(ui, 'en', 'brand.name'))} Lite</title>
+<meta name="description" content="${esc(t(ui, 'en', 'sharepage.subtitle'))}">
+<style>${css}</style>
+</head>
+<body>
+<h1>\u2696\uFE0F ${esc(t(ui, 'ta', 'brand.name'))}<small>Sattam \u00b7 Lite \u00b7 \u0bae\u0bbf\u0b95 \u0bb5\u0bc7\u0b95\u0bae\u0bbe\u0ba9 \u0baa\u0ba4\u0bbf\u0baa\u0bcd\u0baa\u0bc1</small></h1>
+<p class="lead">\u0b87\u0ba4\u0bc1 \u0b95\u0bc1\u0bb1\u0bc8\u0ba8\u0bcd\u0ba4 data \u0baa\u0ba4\u0bbf\u0baa\u0bcd\u0baa\u0bc1: font, \u0baa\u0b9f\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b87\u0bb2\u0bcd\u0bb2\u0bc8. \u0bae\u0bc1\u0bb4\u0bc1 \u0ba4\u0bb3\u0bae\u0bcd: <a href="${paths.home()}">\u0bae\u0bc1\u0ba4\u0bb1\u0bcd\u0baa\u0b95\u0bcd\u0b95\u0bae\u0bcd</a>.</p>
+<h2>\uD83C\uDD98 \u0b85\u0bb5\u0b9a\u0bb0 \u0b8e\u0ba3\u0bcd\u0b95\u0bb3\u0bcd</h2>
+<ul class="tel">${nums}</ul>
+${cats}
+<p class="foot">\u2696\uFE0F \u0baa\u0bca\u0ba4\u0bc1\u0bb5\u0bbe\u0ba9 \u0b9a\u0b9f\u0bcd\u0b9f\u0ba4\u0bcd \u0ba4\u0b95\u0bb5\u0bb2\u0bcd; \u0b9a\u0b9f\u0bcd\u0b9f \u0b86\u0bb2\u0bcb\u0b9a\u0ba9\u0bc8 \u0b85\u0bb2\u0bcd\u0bb2. \u00b7 General legal information, not legal advice.</p>
+</body>
+</html>`;
 }
 
 export function sharePage(ctx) {
