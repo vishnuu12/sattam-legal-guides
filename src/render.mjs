@@ -149,6 +149,8 @@ export function doc(ctx, page) {
 <meta name="theme-color" content="#0b3d2e">
 <meta name="site-base" content="${BASE}">
 <link rel="icon" href="${FAVICON}">
+<link rel="manifest" href="${BASE}/manifest.webmanifest">
+<link rel="apple-touch-icon" href="${BASE}/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Baloo+Thambi+2:wght@600;700;800&display=swap">
@@ -224,6 +226,7 @@ export function articlePage(ctx, { pair: ap, related }) {
   <h1 class="pair-h1">${catEmoji} <span class="ta" lang="ta">${esc(ta ? ta.title : en.title)}</span><span class="en" lang="en">${esc(en ? en.title : ta.title)}</span></h1>
   <div class="pair summary">${pair(ta && ta.summary, en && en.summary)}</div>
   ${reviewPanel(ctx, a)}
+  <p class="share"><a class="btn btn-ghost btn-sm" href="https://wa.me/?text=${encodeURIComponent(`${(ta ? ta.title : en.title)} — ${taxonomy.siteUrl}${paths.article(a.slug)}`)}" target="_blank" rel="noopener noreferrer">🟢 ${label(ui, 'share.whatsapp')}</a></p>
   <p class="notice">\u26A0\uFE0F ${label(ui, 'status.unverifiedNotice')}</p>
   <div class="article-grid">
     ${tocHtml}

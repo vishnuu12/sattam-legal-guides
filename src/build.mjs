@@ -28,6 +28,11 @@ function main() {
   // ---------- static assets ----------
   writeFile(path.join(OUT, 'assets/style.css'), fs.readFileSync(path.join(ROOT, 'src/styles/main.css'), 'utf8'));
   writeFile(path.join(OUT, 'assets/app.js'), fs.readFileSync(path.join(ROOT, 'src/client/app.js'), 'utf8'));
+  // app icons (PWA)
+  const iconDir = path.join(ROOT, 'src/assets/icons');
+  if (fs.existsSync(iconDir)) {
+    for (const ic of fs.readdirSync(iconDir)) fs.copyFileSync(path.join(iconDir, ic), path.join(OUT, ic));
+  }
 
   // ---------- search index (both languages) ----------
   const index = pairs.map((p) => {
@@ -106,6 +111,49 @@ function main() {
     .join('\n')}\n</urlset>`;
   writeFile(path.join(OUT, 'sitemap.xml'), sitemap);
   writeFile(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${siteUrl}${BASE}/sitemap.xml\n`);
+
+  // ---------- PWA: manifest + service worker ----------
+  const manifest = {
+    name: 'Sattam \u2014 Everyday law in Tamil & English',
+    short_name: 'Sattam',
+    description: 'Everyday Indian law, line by line in Tamil and English.',
+    start_url: BASE + '/',
+    scope: BASE + '/',
+    display: 'standalone',
+    background_color: '#f7f6f1',
+    theme_color: '#0e4d3a',
+    lang: 'ta',
+    icons: [
+      { src: BASE + '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { src: BASE + '/icon-512.png', sizes: '512x512', type: 'image/png' },
+      { src: BASE + '/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+    ],
+  };
+  writeFile(path.join(OUT, 'manifest.webmanifest'), JSON.stringify(manifest, null, 2));
+
+  const precache = [BASE + '/', ...urls, BASE + '/assets/style.css', BASE + '/assets/app.js',
+    BASE + '/assets/search-index.json', BASE + '/manifest.webmanifest'];
+  const sw = `/* Sattam service worker - offline support */
+const CACHE = 'sattam-v1';
+const BASE = ${JSON.stringify(BASE)};
+const ASSETS = ${JSON.stringify(precache)};
+self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting())); });
+self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
+self.addEventListener('fetch', (e) => {
+  const req = e.request;
+  if (req.method !== 'GET') return;
+  const u = new URL(req.url);
+  if (u.origin !== self.location.origin) return;
+  e.respondWith(
+    caches.match(req).then((hit) => hit || fetch(req).then((res) => {
+      const copy = res.clone();
+      caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+      return res;
+    }).catch(() => caches.match(BASE + '/')))
+  );
+});
+`;
+  writeFile(path.join(OUT, 'sw.js'), sw);
 
   console.log(`\u2713 Built static site: ${pairs.length} guides, ${urls.length} pages -> site/`);
 }

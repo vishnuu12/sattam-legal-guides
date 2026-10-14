@@ -135,6 +135,10 @@
       "print": "Print this",
       "backToList": "All templates"
     },
+    "share": {
+      "whatsapp": "Share on WhatsApp",
+      "label": "Share this guide"
+    },
     "disclaimer": {
       "short": "General legal information, not legal advice.",
       "full": "Sattam provides general legal information for education only. It is not legal advice and does not create a lawyer-client relationship. Laws change and vary by state. For your specific situation, consult a qualified lawyer or your nearest free legal aid centre."
@@ -319,6 +323,10 @@
       "tips": "குறிப்புகள்",
       "print": "இதை அச்சிடுங்கள்",
       "backToList": "எல்லா மாதிரிகளும்"
+    },
+    "share": {
+      "whatsapp": "WhatsApp-இல் பகிரவும்",
+      "label": "இந்த வழிகாட்டியைப் பகிரவும்"
     },
     "disclaimer": {
       "short": "பொதுவான சட்டத் தகவல்; சட்ட ஆலோசனை அல்ல.",
