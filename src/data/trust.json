@@ -1,0 +1,135 @@
+{
+  "slug": "trust",
+  "emoji": "🛡️",
+  "title": {
+    "en": "How this site is made, and your privacy",
+    "ta": "இந்தத் தளம் எப்படி உருவாகிறது, உங்கள் தனியுரிமை"
+  },
+  "subtitle": {
+    "en": "Who writes this, how it is checked, what we do not collect, and how to report a mistake.",
+    "ta": "இதை யார் எழுதுகிறார், எப்படிச் சரிபார்க்கப்படுகிறது, நாங்கள் எதைச் சேகரிக்கவில்லை, தவறை எப்படித் தெரிவிப்பது."
+  },
+  "sections": [
+    {
+      "emoji": "🧑‍💻",
+      "heading": {
+        "en": "How this content is made",
+        "ta": "இந்த உள்ளடக்கம் எப்படி உருவாகிறது"
+      },
+      "paras": {
+        "en": [
+          "Every guide is written twice: once in simple Tamil and once in simple English, and both are shown together, line by line.",
+          "Figures, section numbers and time limits are checked against official sources such as India Code and government websites.",
+          "Software tools are used to help write and translate. A person then checks that the Tamil and the English say the same thing."
+        ],
+        "ta": [
+          "ஒவ்வொரு வழிகாட்டியும் இரண்டு முறை எழுதப்படுகிறது: எளிய தமிழில் ஒரு முறை, எளிய ஆங்கிலத்தில் ஒரு முறை; இரண்டும் வரிக்கு வரி சேர்த்துக் காட்டப்படுகின்றன.",
+          "எண்கள், சட்டப் பிரிவுகள் மற்றும் கால வரம்புகள் India Code மற்றும் அரசு இணையதளங்கள் போன்ற அதிகாரப்பூர்வ ஆதாரங்களுடன் சரிபார்க்கப்படுகின்றன.",
+          "எழுதவும் மொழிபெயர்க்கவும் மென்பொருள் கருவிகள் உதவுகின்றன. பிறகு ஒரு நபர், தமிழும் ஆங்கிலமும் ஒரே விஷயத்தைச் சொல்கிறதா எனப் பார்க்கிறார்."
+        ]
+      }
+    },
+    {
+      "emoji": "✅",
+      "heading": {
+        "en": "What \"Review pending\" means",
+        "ta": "\"மதிப்பாய்வு நிலுவையில்\" என்பதன் அர்த்தம்"
+      },
+      "paras": {
+        "en": [
+          "Right now every guide shows \"Review pending\". That is honest: a qualified lawyer has not checked them yet.",
+          "When a lawyer reviews a guide, that guide will be marked \"Reviewed\", and the reviewer's name and the date of the review will appear on it."
+        ],
+        "ta": [
+          "இப்போது ஒவ்வொரு வழிகாட்டியும் \"மதிப்பாய்வு நிலுவையில்\" என்று காட்டுகிறது. அது நேர்மையானது: தகுதியான வழக்கறிஞர் இன்னும் அவற்றைச் சரிபார்க்கவில்லை.",
+          "ஒரு வழக்கறிஞர் ஒரு வழிகாட்டியை மதிப்பாய்வு செய்தபின், அது \"மதிப்பாய்வு செய்யப்பட்டது\" எனக் குறிக்கப்படும்; அதில் மதிப்பாய்வாளரின் பெயரும் மதிப்பாய்வு தேதியும் தெரியும்."
+        ]
+      },
+      "list": {
+        "en": [
+          "Translation review checks that the Tamil and English match.",
+          "Legal review checks the law, the figures and the advice.",
+          "Until both are done, use these guides as general information, not as legal advice."
+        ],
+        "ta": [
+          "மொழிபெயர்ப்பு மதிப்பாய்வு, தமிழும் ஆங்கிலமும் பொருந்துகிறதா எனப் பார்க்கிறது.",
+          "சட்ட மதிப்பாய்வு, சட்டம், எண்கள் மற்றும் ஆலோசனையைப் பார்க்கிறது.",
+          "இரண்டும் முடியும் வரை, இவற்றைப் பொதுவான தகவலாகப் பயன்படுத்துங்கள்; சட்ட ஆலோசனையாக அல்ல."
+        ]
+      }
+    },
+    {
+      "emoji": "🔒",
+      "heading": {
+        "en": "Your privacy",
+        "ta": "உங்கள் தனியுரிமை"
+      },
+      "paras": {
+        "en": [
+          "You do not need to sign in, and we do not collect your name, phone number, address or location.",
+          "There are no advertising cookies and no tracking on this site."
+        ],
+        "ta": [
+          "நீங்கள் உள்நுழைய வேண்டியதில்லை; உங்கள் பெயர், தொலைபேசி எண், முகவரி அல்லது இருப்பிடத்தை நாங்கள் சேகரிக்கவில்லை.",
+          "இந்தத் தளத்தில் விளம்பரக் குக்கீகளோ கண்காணிப்போ இல்லை."
+        ]
+      },
+      "list": {
+        "en": [
+          "The search box runs inside your browser. Your question is not sent to us.",
+          "Voice search uses your phone's own speech service; your voice is handled by your browser or device, not by us.",
+          "Save offline stores the page on your own device.",
+          "This site is a set of plain files hosted on GitHub Pages, so the host keeps ordinary web-server logs, like almost every website.",
+          "Nothing you type here is sold or shared by us."
+        ],
+        "ta": [
+          "தேடல் பெட்டி உங்கள் browser-க்குள்ளேயே இயங்குகிறது. உங்கள் கேள்வி எங்களுக்கு அனுப்பப்படுவதில்லை.",
+          "குரல் தேடல் உங்கள் மொபைலின் சொந்தப் பேச்சுச் சேவையைப் பயன்படுத்துகிறது; உங்கள் குரலை உங்கள் browser அல்லது சாதனம் கையாளுகிறது, நாங்கள் அல்ல.",
+          "offline-ல் சேமி என்பது பக்கத்தை உங்கள் சொந்தச் சாதனத்தில் சேமிக்கிறது.",
+          "இந்தத் தளம் GitHub Pages-ல் host செய்யப்பட்ட எளிய கோப்புகள்; எனவே கிட்டத்தட்ட எல்லா இணையதளங்களையும் போல host சாதாரண server log-களை வைத்திருக்கும்.",
+          "இங்கே நீங்கள் type செய்வது எதுவும் எங்களால் விற்கப்படுவதில்லை, பகிரப்படுவதில்லை."
+        ]
+      }
+    },
+    {
+      "emoji": "✉️",
+      "heading": {
+        "en": "Found a mistake?",
+        "ta": "ஒரு தவறு கண்டீர்களா?"
+      },
+      "paras": {
+        "en": [
+          "If a figure, a phone number or a rule is wrong or out of date, please tell us. Corrections are the fastest way to make this site better.",
+          "You can send a correction on the project's public page."
+        ],
+        "ta": [
+          "ஒரு எண், தொலைபேசி எண் அல்லது விதி தவறாகவோ பழையதாகவோ இருந்தால், எங்களிடம் சொல்லுங்கள். திருத்தங்களே இந்தத் தளத்தை மேம்படுத்தும் வேகமான வழி.",
+          "திட்டத்தின் பொது பக்கத்தில் ஒரு திருத்தத்தை அனுப்பலாம்."
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "label": {
+        "en": "Report a correction (public page)",
+        "ta": "திருத்தத்தைத் தெரிவிக்க (பொது பக்கம்)"
+      },
+      "url": "https://github.com/vishnuu12/sattam-legal-guides/issues"
+    },
+    {
+      "label": {
+        "en": "India Code - all central laws",
+        "ta": "India Code - மத்திய சட்டங்கள்"
+      },
+      "url": "https://www.indiacode.nic.in/"
+    },
+    {
+      "label": {
+        "en": "Tamil Nadu State Legal Services Authority",
+        "ta": "தமிழ்நாடு மாநில சட்ட சேவைகள் ஆணையம்"
+      },
+      "url": "https://www.tnlegalservices.tn.gov.in/"
+    }
+  ]
+}

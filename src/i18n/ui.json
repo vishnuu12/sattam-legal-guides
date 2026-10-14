@@ -13,6 +13,7 @@
       "templates": "Templates",
       "help": "What happened?",
       "near": "Help near you",
+      "trust": "Trust & privacy",
       "glossary": "Glossary",
       "deadlines": "Deadlines",
       "emergency": "Emergency Help",
@@ -150,6 +151,10 @@
       "share": "Share",
       "linkCopied": "Link copied"
     },
+    "trust": {
+      "howWeCheck": "How we check this",
+      "privacy": "Your privacy"
+    },
     "near": {
       "stateTitle": "Numbers that work anywhere in Tamil Nadu",
       "districtTitle": "Free legal aid in your district",
@@ -229,6 +234,7 @@
       "templates": "மாதிரி கடிதங்கள்",
       "help": "என்ன ஆச்சு?",
       "near": "அருகில் உதவி",
+      "trust": "நம்பிக்கை & தனியுரிமை",
       "glossary": "சட்டச் சொற்கள்",
       "deadlines": "கால வரம்புகள்",
       "emergency": "அவசர உதவி",
@@ -364,6 +370,10 @@
       "saved": "offline-ல் சேமிக்கப்பட்டது",
       "share": "பகிர்",
       "linkCopied": "இணைப்பு நகலெடுக்கப்பட்டது"
+    },
+    "trust": {
+      "howWeCheck": "இதை எப்படிச் சரிபார்க்கிறோம்",
+      "privacy": "உங்கள் தனியுரிமை"
     },
     "near": {
       "stateTitle": "தமிழ்நாட்டில் எங்கிருந்தும் வேலை செய்யும் உதவி எண்கள்",

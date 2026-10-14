@@ -145,6 +145,7 @@ function footer(ctx) {
         <li><a href="${paths.glossary()}">${label(ui, 'nav.glossary')}</a></li>
         <li><a href="${paths.deadlines()}">${label(ui, 'nav.deadlines')}</a></li>
         <li><a href="${paths.near()}">${label(ui, 'nav.near')}</a></li>
+        <li><a href="${paths.trust()}">${label(ui, 'nav.trust')}</a></li>
         <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
         <li><a href="${paths.about()}">${label(ui, 'nav.about')}</a></li>
       </ul>
@@ -205,6 +206,7 @@ function reviewPanel(ctx, a) {
     <div><span class="rv-l">${label(ui, 'article.translationStatus')}</span>${badge}</div>
     <div><span class="rv-l">${label(ui, 'article.legalStatus')}</span>${badge}</div>
     <div><span class="rv-l">🕒 ${label(ui, 'article.lastUpdated')}</span><time datetime="${esc(a.lastUpdated)}">${esc(a.lastUpdated)}</time></div>
+    <div class="rv-link"><a href="${paths.trust()}">🛡️ ${label(ui, 'trust.howWeCheck')}</a></div>
   </div>`;
 }
 
@@ -539,6 +541,35 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function trustPage(ctx, { data }) {
+  const { ui } = ctx;
+  const secs = data.sections
+    .map((s) => `<section class="blk">
+      <h2 class="pair-h">${s.emoji} ${pair(s.heading.ta, s.heading.en)}</h2>
+      ${(s.paras.ta || []).map((t, i) => pPair(t, (s.paras.en || [])[i])).join('')}
+      ${s.list && s.list.ta && s.list.ta.length ? biList(s.list.ta, s.list.en) : ''}
+    </section>`)
+    .join('');
+  const links = (data.links || [])
+    .map((l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${pair(l.label.ta, l.label.en)} <span class="ext" aria-hidden="true">\u2197</span></a></li>`)
+    .join('');
+  const content = `<div class="wrap page prose">
+    <h1 class="pair-h1">${data.emoji} ${pair(data.title.ta, data.title.en)}</h1>
+    <div class="pair summary">${pair(data.subtitle.ta, data.subtitle.en)}</div>
+    ${secs}
+    ${links ? `<ul class="src-list">${links}</ul>` : ''}
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${data.title.en} | ${t(ui, 'en', 'brand.name')}`,
+    description: data.subtitle.en,
+    canonical: paths.trust(),
+    bodyClass: 'page-trust',
+    active: 'nav.trust',
     content,
   });
 }

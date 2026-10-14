@@ -40,6 +40,7 @@ export function loadAll() {
     deadlines: readJSON(path.join(ROOT, 'src/data/deadlines.json')),
     wizard: readJSON(path.join(ROOT, 'src/data/wizard.json')),
     districts: readJSON(path.join(ROOT, 'src/data/districts.json')),
+    trust: readJSON(path.join(ROOT, 'src/data/trust.json')),
     articles: loadArticles(),
   };
 }
@@ -78,6 +79,7 @@ export const paths = {
   deadlines: () => withBase('/deadlines/'),
   help: () => withBase('/help/'),
   near: () => withBase('/near-me/'),
+  trust: () => withBase('/trust/'),
 };
 
 // Searchable text for a paired article, in both languages, expanded with synonyms.
