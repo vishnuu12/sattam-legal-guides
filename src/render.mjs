@@ -99,9 +99,7 @@ function header(ctx, active) {
     { href: paths.home(), key: 'nav.home' },
     { href: paths.help(), key: 'nav.help' },
     { href: paths.guides(), key: 'nav.guides' },
-    { href: paths.templates(), key: 'nav.templates' },
-    { href: paths.glossary(), key: 'nav.glossary' },
-    { href: paths.deadlines(), key: 'nav.deadlines' },
+    { href: paths.near(), key: 'nav.near' },
     { href: paths.emergency(), key: 'nav.emergency' },
     { href: paths.about(), key: 'nav.about' },
   ];
@@ -143,6 +141,10 @@ function footer(ctx) {
       <h2 class="foot-h">🔗 ${label(ui, 'footer.quickLinks')}</h2>
       <ul>
         <li><a href="${paths.guides()}">${label(ui, 'nav.guides')}</a></li>
+        <li><a href="${paths.templates()}">${label(ui, 'nav.templates')}</a></li>
+        <li><a href="${paths.glossary()}">${label(ui, 'nav.glossary')}</a></li>
+        <li><a href="${paths.deadlines()}">${label(ui, 'nav.deadlines')}</a></li>
+        <li><a href="${paths.near()}">${label(ui, 'nav.near')}</a></li>
         <li><a href="${paths.emergency()}">${label(ui, 'nav.emergency')}</a></li>
         <li><a href="${paths.about()}">${label(ui, 'nav.about')}</a></li>
       </ul>
@@ -535,6 +537,40 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function nearPage(ctx, { data }) {
+  const { ui } = ctx;
+  const state = data.stateContacts
+    .map((c) => `<li class="nm-line"><span class="nm-lab">${pair(c.label.ta, c.label.en)}</span><a class="nm-tel" href="tel:${esc(c.tel)}">\u260E\uFE0F ${esc(c.value)}</a></li>`)
+    .join('');
+  const cards = data.districts
+    .map((d) => `<div class="nm-card" data-name="${esc((d.en + ' ' + d.ta).toLowerCase())}">
+      <p class="nm-name">${pair(d.ta, d.en)}</p>
+      <a class="nm-link" href="${esc(d.site)}" target="_blank" rel="noopener noreferrer">\uD83C\uDFDB ${label(ui, 'near.site')}</a>
+      <a class="nm-link nm-tel" href="tel:${esc(d.dlsa.replace(/[^0-9+]/g, ''))}">\u2696\uFE0F ${label(ui, 'near.legalAid')}: ${esc(d.dlsa)}</a>
+    </div>`)
+    .join('');
+  const content = `<div class="wrap page">
+    <h1 class="pair-h1">${data.emoji} ${pair(data.title.ta, data.title.en)}</h1>
+    <div class="pair summary">${pair(data.subtitle.ta, data.subtitle.en)}</div>
+    <section class="blk"><h2 class="pair-h">\uD83C\uDD98 ${label(ui, 'near.stateTitle')}</h2><ul class="nm-state">${state}</ul></section>
+    <section class="blk"><h2 class="pair-h">\uD83D\uDCCD ${label(ui, 'near.districtTitle')}</h2>
+      <input id="nmq" class="nm-filter" type="search" placeholder="${esc(t(ui, 'en', 'near.filterPlaceholder'))}" aria-label="${esc(t(ui, 'en', 'near.filterPlaceholder'))}" autocomplete="off">
+      <p class="nm-none" id="nmnone" hidden>${label(ui, 'near.noMatch')}</p>
+      <div class="nm-grid" id="nmgrid">${cards}</div>
+    </section>
+    <p class="notice">\u26A0\uFE0F ${pair(data.note.ta, data.note.en)}</p>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${data.title.en} | ${t(ui, 'en', 'brand.name')}`,
+    description: data.subtitle.en,
+    canonical: paths.near(),
+    bodyClass: 'page-near',
+    active: 'nav.near',
     content,
   });
 }

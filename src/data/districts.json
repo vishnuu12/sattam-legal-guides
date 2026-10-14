@@ -1,0 +1,312 @@
+{
+  "slug": "near-me",
+  "emoji": "📍",
+  "title": {
+    "en": "Help near you",
+    "ta": "உங்கள் அருகில் உதவி"
+  },
+  "subtitle": {
+    "en": "The numbers that work anywhere, and the free legal aid office in your own district.",
+    "ta": "எங்கிருந்தும் வேலை செய்யும் எண்கள், மற்றும் உங்கள் மாவட்டத்தின் இலவச சட்ட உதவி அலுவலகம்."
+  },
+  "note": {
+    "en": "District legal aid numbers are taken from the Tamil Nadu State Legal Services Authority list. Phone numbers and office bearers change - please confirm on the official page before you rely on them.",
+    "ta": "மாவட்ட சட்ட உதவி எண்கள் தமிழ்நாடு மாநில சட்ட சேவைகள் ஆணையத்தின் பட்டியலிலிருந்து எடுக்கப்பட்டவை. தொலைபேசி எண்களும் அதிகாரிகளும் மாறலாம் - நம்புவதற்கு முன் அதிகாரப்பூர்வ பக்கத்தில் உறுதிப்படுத்துங்கள்."
+  },
+  "stateContacts": [
+    {
+      "label": {
+        "en": "Emergency - police, fire, ambulance",
+        "ta": "அவசரம் - காவல், தீயணைப்பு, ஆம்புலன்ஸ்"
+      },
+      "value": "112",
+      "tel": "112"
+    },
+    {
+      "label": {
+        "en": "Free legal aid (NALSA / TNSLSA)",
+        "ta": "இலவச சட்ட உதவி (NALSA / TNSLSA)"
+      },
+      "value": "15100",
+      "tel": "15100"
+    },
+    {
+      "label": {
+        "en": "Women's helpline",
+        "ta": "மகளிர் உதவி எண்"
+      },
+      "value": "181",
+      "tel": "181"
+    },
+    {
+      "label": {
+        "en": "Childline",
+        "ta": "குழந்தைகள் உதவி எண்"
+      },
+      "value": "1098",
+      "tel": "1098"
+    },
+    {
+      "label": {
+        "en": "Cybercrime and financial fraud",
+        "ta": "இணையக் குற்றம் மற்றும் நிதி மோசடி"
+      },
+      "value": "1930",
+      "tel": "1930"
+    },
+    {
+      "label": {
+        "en": "Consumer helpline",
+        "ta": "நுகர்வோர் உதவி எண்"
+      },
+      "value": "1915",
+      "tel": "1915"
+    },
+    {
+      "label": {
+        "en": "Senior citizens",
+        "ta": "மூத்த குடிமக்கள்"
+      },
+      "value": "14567",
+      "tel": "14567"
+    },
+    {
+      "label": {
+        "en": "TNSLSA, Chennai - state legal aid office",
+        "ta": "TNSLSA, சென்னை - மாநில சட்ட உதவி அலுவலகம்"
+      },
+      "value": "044-25342834",
+      "tel": "04425342834"
+    }
+  ],
+  "districts": [
+    {
+      "en": "Ariyalur",
+      "ta": "அரியலூர்",
+      "site": "https://ariyalur.nic.in/",
+      "dlsa": "04329-223333"
+    },
+    {
+      "en": "Chengalpattu",
+      "ta": "செங்கல்பட்டு",
+      "site": "https://chengalpattu.nic.in/",
+      "dlsa": "044-27428840"
+    },
+    {
+      "en": "Chennai",
+      "ta": "சென்னை",
+      "site": "https://chennai.nic.in/",
+      "dlsa": "044-25332412"
+    },
+    {
+      "en": "Coimbatore",
+      "ta": "கோயம்புத்தூர்",
+      "site": "https://coimbatore.nic.in/",
+      "dlsa": "0422-2200009"
+    },
+    {
+      "en": "Cuddalore",
+      "ta": "கடலூர்",
+      "site": "https://cuddalore.nic.in/",
+      "dlsa": "04142-212660"
+    },
+    {
+      "en": "Dharmapuri",
+      "ta": "தர்மபுரி",
+      "site": "https://dharmapuri.nic.in/",
+      "dlsa": "04342-233781"
+    },
+    {
+      "en": "Dindigul",
+      "ta": "திண்டுக்கல்",
+      "site": "https://dindigul.nic.in/",
+      "dlsa": "0451-2460107"
+    },
+    {
+      "en": "Erode",
+      "ta": "ஈரோடு",
+      "site": "https://erode.nic.in/",
+      "dlsa": "0424-2214282"
+    },
+    {
+      "en": "Kallakurichi",
+      "ta": "கள்ளக்குறிச்சி",
+      "site": "https://kallakurichi.nic.in/",
+      "dlsa": "04151-226730"
+    },
+    {
+      "en": "Kancheepuram",
+      "ta": "காஞ்சிபுரம்",
+      "site": "https://kancheepuram.nic.in/",
+      "dlsa": "044-27222975"
+    },
+    {
+      "en": "Kanyakumari",
+      "ta": "கன்னியாகுமரி",
+      "site": "https://kanniyakumari.nic.in/",
+      "dlsa": "04652-291744"
+    },
+    {
+      "en": "Karur",
+      "ta": "கரூர்",
+      "site": "https://karur.nic.in/",
+      "dlsa": "04324-296570"
+    },
+    {
+      "en": "Krishnagiri",
+      "ta": "கிருஷ்ணகிரி",
+      "site": "https://krishnagiri.nic.in/",
+      "dlsa": "04343-225069"
+    },
+    {
+      "en": "Madurai",
+      "ta": "மதுரை",
+      "site": "https://madurai.nic.in/",
+      "dlsa": "0452-2535067"
+    },
+    {
+      "en": "Mayiladuthurai",
+      "ta": "மயிலாடுதுறை",
+      "site": "https://mayiladuthurai.nic.in/",
+      "dlsa": "04364-242834"
+    },
+    {
+      "en": "Nagapattinam",
+      "ta": "நாகப்பட்டினம்",
+      "site": "https://nagapattinam.nic.in/",
+      "dlsa": "04365-248121"
+    },
+    {
+      "en": "Namakkal",
+      "ta": "நாமக்கல்",
+      "site": "https://namakkal.nic.in/",
+      "dlsa": "04286-299855"
+    },
+    {
+      "en": "The Nilgiris",
+      "ta": "நீலகிரி",
+      "site": "https://nilgiris.nic.in/",
+      "dlsa": "0423-2444277"
+    },
+    {
+      "en": "Perambalur",
+      "ta": "பெரம்பலூர்",
+      "site": "https://perambalur.nic.in/",
+      "dlsa": "04328-296206"
+    },
+    {
+      "en": "Pudukkottai",
+      "ta": "புதுக்கோட்டை",
+      "site": "https://pudukkottai.nic.in/",
+      "dlsa": "04322-220585"
+    },
+    {
+      "en": "Ramanathapuram",
+      "ta": "இராமநாதபுரம்",
+      "site": "https://ramanathapuram.nic.in/",
+      "dlsa": "04567-230444"
+    },
+    {
+      "en": "Ranipet",
+      "ta": "இராணிப்பேட்டை",
+      "site": "https://ranipet.nic.in/",
+      "dlsa": "04172-226477"
+    },
+    {
+      "en": "Salem",
+      "ta": "சேலம்",
+      "site": "https://salem.nic.in/",
+      "dlsa": "0427-2420011"
+    },
+    {
+      "en": "Sivaganga",
+      "ta": "சிவகங்கை",
+      "site": "https://sivaganga.nic.in/",
+      "dlsa": "04575-242561"
+    },
+    {
+      "en": "Tenkasi",
+      "ta": "தென்காசி",
+      "site": "https://tenkasi.nic.in/",
+      "dlsa": "04633-221175"
+    },
+    {
+      "en": "Thanjavur",
+      "ta": "தஞ்சாவூர்",
+      "site": "https://thanjavur.nic.in/",
+      "dlsa": "04362-230776"
+    },
+    {
+      "en": "Theni",
+      "ta": "தேனி",
+      "site": "https://theni.nic.in/",
+      "dlsa": "04546-291566"
+    },
+    {
+      "en": "Thoothukudi",
+      "ta": "தூத்துக்குடி",
+      "site": "https://thoothukudi.nic.in/",
+      "dlsa": "0461-2335111"
+    },
+    {
+      "en": "Tiruchirappalli",
+      "ta": "திருச்சிராப்பள்ளி",
+      "site": "https://tiruchirappalli.nic.in/",
+      "dlsa": "0431-2460125"
+    },
+    {
+      "en": "Tirunelveli",
+      "ta": "திருநெல்வேலி",
+      "site": "https://tirunelveli.nic.in/",
+      "dlsa": "0462-2572689"
+    },
+    {
+      "en": "Tirupathur",
+      "ta": "திருப்பத்தூர்",
+      "site": "https://tirupathur.nic.in/",
+      "dlsa": "04179-222077"
+    },
+    {
+      "en": "Tiruppur",
+      "ta": "திருப்பூர்",
+      "site": "https://tiruppur.nic.in/",
+      "dlsa": "0421-2230123"
+    },
+    {
+      "en": "Tiruvallur",
+      "ta": "திருவள்ளூர்",
+      "site": "https://tiruvallur.nic.in/",
+      "dlsa": "044-27660120"
+    },
+    {
+      "en": "Tiruvannamalai",
+      "ta": "திருவண்ணாமலை",
+      "site": "https://tiruvannamalai.nic.in/",
+      "dlsa": "04175-232845"
+    },
+    {
+      "en": "Tiruvarur",
+      "ta": "திருவாரூர்",
+      "site": "https://tiruvarur.nic.in/",
+      "dlsa": "04366-226767"
+    },
+    {
+      "en": "Vellore",
+      "ta": "வேலூர்",
+      "site": "https://vellore.nic.in/",
+      "dlsa": "0416-2255599"
+    },
+    {
+      "en": "Viluppuram",
+      "ta": "விழுப்புரம்",
+      "site": "https://viluppuram.nic.in/",
+      "dlsa": "04146-228000"
+    },
+    {
+      "en": "Virudhunagar",
+      "ta": "விருதுநகர்",
+      "site": "https://virudhunagar.nic.in/",
+      "dlsa": "04563-260310"
+    }
+  ]
+}

@@ -87,6 +87,7 @@ function main() {
 
   // ---------- reference pages (glossary, deadlines) ----------
   writeFile(path.join(OUT, 'help', 'index.html'), R.wizardPage(ctx, { wizard: all.wizard }));
+  writeFile(path.join(OUT, 'near-me', 'index.html'), R.nearPage(ctx, { data: all.districts }));
   writeFile(path.join(OUT, 'glossary', 'index.html'), R.referencePage(ctx, { page: all.glossary }));
   writeFile(path.join(OUT, 'deadlines', 'index.html'), R.referencePage(ctx, { page: all.deadlines }));
 
@@ -107,7 +108,7 @@ function main() {
   writeFile(path.join(OUT, '404.html'), R.notFoundPage(ctx));
 
   // ---------- sitemap + robots ----------
-  const urls = [paths.home(), paths.help(), paths.guides(), paths.templates(), paths.glossary(), paths.deadlines(), paths.emergency(), paths.about(),
+  const urls = [paths.home(), paths.help(), paths.near(), paths.guides(), paths.templates(), paths.glossary(), paths.deadlines(), paths.emergency(), paths.about(),
     ...templates.map((tp) => paths.template(tp.slug)),
     ...taxonomy.categories.map((c) => paths.topic(c.slug)),
     ...pairs.map((p) => paths.article((p.ta || p.en).slug))];

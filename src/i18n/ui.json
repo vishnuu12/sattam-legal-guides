@@ -12,6 +12,7 @@
       "categories": "Topics",
       "templates": "Templates",
       "help": "What happened?",
+      "near": "Help near you",
       "glossary": "Glossary",
       "deadlines": "Deadlines",
       "emergency": "Emergency Help",
@@ -143,6 +144,14 @@
     "wizard": {
       "readGuide": "Read the full guide"
     },
+    "near": {
+      "stateTitle": "Numbers that work anywhere in Tamil Nadu",
+      "districtTitle": "Free legal aid in your district",
+      "filterPlaceholder": "Type your district name...",
+      "site": "District website",
+      "legalAid": "Free legal aid",
+      "noMatch": "No district matched your spelling. Try fewer letters."
+    },
     "read": {
       "listen": "Listen",
       "stop": "Stop"
@@ -213,6 +222,7 @@
       "categories": "தலைப்புகள்",
       "templates": "மாதிரி கடிதங்கள்",
       "help": "என்ன ஆச்சு?",
+      "near": "அருகில் உதவி",
       "glossary": "சட்டச் சொற்கள்",
       "deadlines": "கால வரம்புகள்",
       "emergency": "அவசர உதவி",
@@ -342,6 +352,14 @@
     },
     "wizard": {
       "readGuide": "முழு வழிகாட்டியைப் படிக்க"
+    },
+    "near": {
+      "stateTitle": "தமிழ்நாட்டில் எங்கிருந்தும் வேலை செய்யும் உதவி எண்கள்",
+      "districtTitle": "உங்கள் மாவட்டத்தில் இலவச சட்ட உதவி",
+      "filterPlaceholder": "உங்கள் மாவட்டப் பெயரை type செய்யுங்கள்...",
+      "site": "மாவட்ட இணையதளம்",
+      "legalAid": "இலவச சட்ட உதவி",
+      "noMatch": "எந்த மாவட்டமும் பொருந்தவில்லை. குறைவான எழுத்துகளில் முயற்சி செய்யுங்கள்."
     },
     "read": {
       "listen": "கேட்க",
