@@ -150,6 +150,9 @@
     "article": {
       "keyPoints": "The most important things",
       "shareImage": "Share as image",
+      "forwardText": "Copy a message to forward",
+      "forwardPrefix": "Free legal guide",
+      "forwardTail": "Free legal guides in Tamil and English. You can listen to them, and they work without internet.",
       "saveOffline": "Save offline",
       "saved": "Saved for offline",
       "share": "Share",
@@ -394,6 +397,9 @@
     "article": {
       "keyPoints": "மிக முக்கியமானவை",
       "shareImage": "படமாகப் பகிர்",
+      "forwardText": "அனுப்ப ஒரு செய்தியை நகலெடு",
+      "forwardPrefix": "இலவச சட்ட வழிகாட்டி",
+      "forwardTail": "இலவச சட்ட வழிகாட்டிகள், தமிழ் மற்றும் ஆங்கிலத்தில். கேட்கவும் முடியும்; internet இல்லாமலும் வேலை செய்யும்.",
       "saveOffline": "offline-ல் சேமி",
       "saved": "offline-ல் சேமிக்கப்பட்டது",
       "share": "பகிர்",

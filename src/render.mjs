@@ -232,6 +232,13 @@ export function articlePage(ctx, { pair: ap, related }) {
 
   const { html: bodyHtml, toc } = renderBody(ui, ta && ta.body, en && en.body);
   const readAll = [taTextOf((ta && ta.body) || [], 0, ((ta && ta.body) || []).length), ...((ta && ta.practicalSteps) || []), ...(((ta && ta.faqs) || []).map((f) => `${f.q} ${f.a}`))].join('. ');
+  const forwardMsg = [
+    (ta ? ta.title : en.title),
+    ((ta && ta.keyPoints) || [])[0] || (ta ? ta.summary : en.summary) || '',
+    '',
+    '\uD83D\uDC49 ' + t(ui, 'ta', 'article.forwardPrefix') + ': ' + taxonomy.siteUrl + paths.article(a.slug),
+    t(ui, 'ta', 'article.forwardTail'),
+  ].join('\n');
   const SENSITIVE = ['family-law'];
   const safetyBanner = SENSITIVE.indexOf(a.slug) !== -1
     ? `<aside class="safety-banner">
@@ -295,6 +302,7 @@ export function articlePage(ctx, { pair: ap, related }) {
     <button class="btn btn-sm btn-ghost" type="button" data-share="${taxonomy.siteUrl}${paths.article(a.slug)}" data-share-text="${esc(ta ? ta.title : en.title)}">\uD83D\uDCE4 ${label(ui, 'article.share')}</button>
     <button class="btn btn-sm btn-ghost" type="button" data-save>\uD83D\uDCE5 ${label(ui, 'article.saveOffline')}</button>
     <button class="btn btn-sm btn-ghost" type="button" data-share-image data-ta="${esc(ta ? ta.title : en.title)}" data-en="${esc(en ? en.title : ta.title)}" data-point="${esc(((ta && ta.keyPoints) || [])[0] || '')}" data-url="${taxonomy.siteUrl}${paths.article(a.slug)}">\uD83D\uDCF7 ${label(ui, 'article.shareImage')}</button>
+    <button class="btn btn-sm btn-ghost" type="button" data-copy="${esc(forwardMsg)}">\uD83D\uDCF2 ${label(ui, 'article.forwardText')}</button>
   </div>
   <p class="notice">\u26A0\uFE0F ${label(ui, 'status.unverifiedNotice')}</p>
   <div class="article-grid">
