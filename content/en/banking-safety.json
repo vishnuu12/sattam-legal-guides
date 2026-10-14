@@ -5,6 +5,13 @@
   "category": "banking-safety",
   "title": "Banking, Loans and Keeping Your Money Safe",
   "summary": "UPI and OTP fraud, loans and interest, CIBIL, recovery agents, credit cards and the basics of income tax.",
+  "keyPoints": [
+    "Never share your OTP, PIN, CVV or password; no bank or official will ever ask for them.",
+    "To receive money you never need your PIN; entering a PIN sends money out.",
+    "If money leaves your account without your permission, tell your bank at once and call 1930.",
+    "Report an unauthorised transaction within 3 working days for zero liability under RBI rules.",
+    "A recovery agent cannot threaten or harass you; complain to your bank and the RBI Ombudsman."
+  ],
   "tags": [
     "UPI",
     "bank fraud",
