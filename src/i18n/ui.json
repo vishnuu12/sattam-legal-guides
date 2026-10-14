@@ -182,6 +182,9 @@
       "link": "Link to share",
       "copy": "Copy",
       "copied": "Copied",
+      "reachPack": "Running a helpline or a channel?",
+      "reachPackText": "A free pack of ready-to-use scripts: an IVR phone menu, SMS templates, WhatsApp messages and three short video scripts, in Tamil and English. It also lists honestly what each channel needs - a number, DLT registration, or a Business account.",
+      "reachPackDownload": "Download the Reach Pack (Word)",
       "where": "Where to put it",
       "whereList": "School and college notice boards, ration shops, primary health centres, the panchayat office, the e-Sevai centre, a police station counter, buses and auto stands, and the workplace canteen.",
       "howToPrint": "Printing: open the poster, choose Print, and pick A4. Black and white is fine."
@@ -440,6 +443,9 @@
       "link": "பகிர வேண்டிய இணைப்பு",
       "copy": "நகலெடு",
       "copied": "நகலெடுக்கப்பட்டது",
+      "reachPack": "ஒரு helpline அல்லது channel நடத்துகிறீர்களா?",
+      "reachPackText": "உடனே பயன்படுத்தக்கூடிய script-களின் இலவச தொகுப்பு: IVR phone menu, SMS மாதிரிகள், WhatsApp செய்திகள், மூன்று குறுவீடியோ script-கள் - தமிழ் மற்றும் ஆங்கிலத்தில். ஒவ்வொரு channel-க்கும் என்ன தேவை (எண், DLT registration, அல்லது Business account) என்பதையும் நேர்மையாகச் சொல்கிறது.",
+      "reachPackDownload": "Reach Pack-ஐ பதிவிறக்கு (Word)",
       "where": "எங்கே ஒட்டலாம்",
       "whereList": "பள்ளி மற்றும் கல்லூரி அறிவிப்புப் பலகைகள், குடும்ப அட்டைக் கடைகள், ஆரம்ப சுகாதார நிலையங்கள், ஊராட்சி அலுவலகம், e-Sevai மையம், காவல் நிலைய கவுன்டர், பஸ் மற்றும் ஆட்டோ நிலையங்கள், வேலையிட உணவகம்.",
       "howToPrint": "அச்சிட: poster-ஐத் திறந்து, Print-ஐத் தேர்ந்தெடுத்து, A4-ஐத் தேர்ந்தெடுங்கள். கருப்பு-வெள்ளையில் இருந்தாலும் தெளிவாக இருக்கும்."

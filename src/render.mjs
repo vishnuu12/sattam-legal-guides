@@ -683,6 +683,7 @@ export function sharePage(ctx) {
       </div>
     </div>
     <section class="blk"><h2 class="pair-h">\uD83D\uDCCD ${label(ui, 'sharepage.where')}</h2>${pPair(t(ui, 'ta', 'sharepage.whereList'), t(ui, 'en', 'sharepage.whereList'))}</section>
+    <section class="blk"><h2 class="pair-h">\uD83D\uDCE6 ${label(ui, 'sharepage.reachPack')}</h2>${pPair(t(ui, 'ta', 'sharepage.reachPackText'), t(ui, 'en', 'sharepage.reachPackText'))}<p><a class="btn btn-sm" href="${BASE}/assets/downloads/Sattam_Reach_Pack.docx" download>\u2B07\uFE0F ${esc(t(ui, 'en', 'sharepage.reachPackDownload'))}</a></p></section>
     <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
   </div>`;
   return doc(ctx, {

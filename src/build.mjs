@@ -45,6 +45,12 @@ function main() {
     fs.mkdirSync(path.join(OUT, 'assets/posters'), { recursive: true });
     for (const im of fs.readdirSync(posterDir)) fs.copyFileSync(path.join(posterDir, im), path.join(OUT, 'assets/posters', im));
   }
+  // downloadable documents
+  const dlDir = path.join(ROOT, 'src/assets/downloads');
+  if (fs.existsSync(dlDir)) {
+    fs.mkdirSync(path.join(OUT, 'assets/downloads'), { recursive: true });
+    for (const f of fs.readdirSync(dlDir)) fs.copyFileSync(path.join(dlDir, f), path.join(OUT, 'assets/downloads', f));
+  }
 
   // ---------- search index (both languages) ----------
   const index = pairs.map((p) => {
