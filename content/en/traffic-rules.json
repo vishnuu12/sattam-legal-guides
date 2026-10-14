@@ -60,7 +60,8 @@
         "Do not cross the speed limit set for the road. Slow down near schools, hospitals and pedestrian crossings.",
         "Never drive on the wrong side. Never overtake (go past another vehicle) from the left.",
         "Do not use a mobile phone while driving. Use a hands-free device only where it is safe and allowed by law.",
-        "Wear a helmet (head cover) on a two-wheeler. Wear a seat belt in a car, including in the rear seat."
+        "Wear a helmet (head cover) on a two-wheeler. Wear a seat belt in a car, including in the rear seat.",
+        "Never drive after drinking alcohol; it is illegal. The legal limit is a Blood Alcohol Concentration (BAC) of 0.03% (30 mg per 100 ml of blood)."
       ]
     },
     {
@@ -99,6 +100,80 @@
       "type": "callout",
       "kind": "remember",
       "text": "A police officer cannot take away your vehicle or keys for a routine paper check. They can take it only for certain offences listed in the law, and then you must get a receipt."
+    },
+    {
+      "type": "h2",
+      "text": "What traffic rules are"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Traffic rules are standard legal guidelines. They keep people safe, control the flow of vehicles, and protect pedestrians (people walking on the road).",
+        "In India, these rules come mainly from the Motor Vehicles Act, 1988."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which side to drive on and how to overtake"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Keep to the LEFT. Oncoming traffic (vehicles coming towards you) passes on your right.",
+        "Overtake (go past another vehicle) only from the RIGHT, and only after signalling.",
+        "Never overtake on bends, hills or bridges."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Speed limits"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Obey the posted speed limit (the maximum speed allowed on that road).",
+        "Slow down to about 25 km/h near schools, road workers and public processions."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Traffic signals: what each colour means"
+    },
+    {
+      "type": "list",
+      "items": [
+        "RED: stop completely.",
+        "YELLOW: slow down safely.",
+        "GREEN: you may go."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Safety rules for seat belts, helmets and phones"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Seat belts are mandatory for all occupants (everyone travelling in the car).",
+        "Helmets are compulsory for both the rider and the pillion (the person sitting behind the rider).",
+        "Do not use a mobile phone or any hand-held device while driving.",
+        "Give free passage to ambulances and fire vehicles.",
+        "Pedestrians have the right of way at zebra crossings (the white stripes where people cross the road)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fines under the Motor Vehicles (Amendment) Act, 2019"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Driving without a licence: about Rs 5,000.",
+        "Drunk driving: about Rs 10,000 and/or up to 6 months in jail.",
+        "Riding without a helmet: about Rs 1,000 plus a 3-month licence disqualification.",
+        "Not wearing a seat belt: about Rs 1,000.",
+        "Over-speeding: about Rs 1,000 to Rs 2,000 for a light motor vehicle."
+      ]
     }
   ],
   "practicalSteps": [

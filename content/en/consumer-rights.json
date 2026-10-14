@@ -41,7 +41,8 @@
         "The right to know about the quality, quantity and price.",
         "The right to choose.",
         "The right to be heard and to get a solution.",
-        "The right to ask for compensation (money back) for unfair trade practices (dishonest ways of selling)."
+        "The right to ask for compensation (money back) for unfair trade practices (dishonest ways of selling).",
+        "The right to consumer education (the right to learn about your rights)."
       ]
     },
     {
@@ -95,6 +96,30 @@
       "type": "callout",
       "kind": "action",
       "text": "You can file online on the e-Daakhil website. You can also call the National Consumer Helpline 1915 for help."
+    },
+    {
+      "type": "h2",
+      "text": "Mediation: a faster way to settle"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Act also allows mediation (a neutral person helps both sides agree) between you and the seller.",
+        "Mediation is meant to be a faster option than a full case.",
+        "If mediation does not work, your complaint can still go before the Commission."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Product liability: who pays when something goes wrong"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Product liability (the duty to answer for harm) means a manufacturer or a seller can be held responsible for a defective product.",
+        "It also covers a deficient service (a service that was not done properly).",
+        "So both the maker and the seller can be answerable for the harm."
+      ]
     }
   ],
   "practicalSteps": [

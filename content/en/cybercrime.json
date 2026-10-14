@@ -99,6 +99,81 @@
       "type": "callout",
       "kind": "remember",
       "text": "You can file a complaint online even if you are not sure it is a crime. Reporting helps you and protects others."
+    },
+    {
+      "type": "h2",
+      "text": "Report at once: helpline 1930 and cybercrime.gov.in"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Report at once. Call the cyber helpline 1930 and use the portal cybercrime.gov.in.",
+        "Reporting in the first hour (the 'golden hour') gives the best chance of freezing the money."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The laws that cover cybercrime"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under the Information Technology Act, 2000: section 66C is identity theft, section 66D is cheating by personation (pretending to be someone else), section 66E is a privacy violation, and section 67 covers obscene material.",
+        "Under the Bharatiya Nyaya Sanhita, 2023: cheating is section 318, criminal intimidation is section 351, stalking is section 78, and defamation is section 356."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "RBI rule: report within 3 working days"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under RBI rules, if you report an unauthorised electronic transaction within 3 working days, your liability is zero."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Never share your OTP, PIN, CVV or password"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Never share an OTP, PIN, CVV or password with anyone.",
+        "A UPI PIN sends money out. It never receives money."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Use only RBI-regulated lending apps"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use only digital lending apps that the RBI regulates.",
+        "Unregulated loan apps can misuse your contacts and photos."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Sharing private images without consent"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sharing someone's private images without their consent is an offence.",
+        "A woman in distress can call 181."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Escalate to the RBI Ombudsman"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If your bank complaint is not resolved, escalate it to the RBI Ombudsman (the officer who handles complaints against banks)."
+      ]
     }
   ],
   "practicalSteps": [

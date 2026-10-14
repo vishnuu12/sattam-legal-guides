@@ -100,6 +100,108 @@
       "type": "callout",
       "kind": "remember",
       "text": "For a bailable offence, you have the right to be released on bail. The police should tell you this."
+    },
+    {
+      "type": "h2",
+      "text": "The BNSS, 2023 replaced the CrPC"
+    },
+    {
+      "type": "list",
+      "items": [
+        "From 1 July 2024, the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) replaced the Code of Criminal Procedure (CrPC).",
+        "Sections 35 to 38 of the BNSS deal with arrest, and with your right to meet an advocate during interrogation (questioning)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Grounds of arrest and the 24-hour rule"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The grounds of arrest (the reason for the arrest) must be given to you (Constitution Article 22(1); BNSS section 47).",
+        "You must be produced before a magistrate within 24 hours of arrest. The journey time is not counted (Article 22(2); BNSS section 58)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Your right to a lawyer and free legal aid"
+    },
+    {
+      "type": "list",
+      "items": [
+        "You may consult a lawyer of your choice.",
+        "Free legal aid is available. You can call the NALSA helpline 15100, or approach the District Legal Services Authority (DLSA)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Zero FIR"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A serious offence can be reported at ANY police station. This is called a Zero FIR (BNSS section 173(1) proviso).",
+        "The police station then sends it to the station that should handle it."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bail: bailable and non-bailable offences"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For a bailable offence, bail is a right.",
+        "For a non-bailable offence, the court decides."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Protection under Article 20"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Article 20(1): you cannot be punished for an act that was not an offence when you did it.",
+        "Article 20(2): you cannot be punished twice for the same offence.",
+        "Article 20(3): you cannot be forced to be a witness against yourself."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "D.K. Basu guidelines for arrest"
+    },
+    {
+      "type": "list",
+      "items": [
+        "D.K. Basu v. State of West Bengal (1997) laid down rules the police must follow.",
+        "The police must keep an arrest memo (a written note of the arrest) signed by a witness.",
+        "They must inform a family member.",
+        "They must arrange a medical examination."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Arrest of a woman"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A woman cannot normally be arrested after sunset and before sunrise.",
+        "Exception: only with a magistrate's permission and in the presence of a woman officer (BNSS section 43(5))."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A free copy of the FIR, and what to do if the police refuse"
+    },
+    {
+      "type": "list",
+      "items": [
+        "You are entitled to a free copy of the FIR.",
+        "If the police refuse to register it, you can go to the Superintendent of Police or the Magistrate."
+      ]
     }
   ],
   "practicalSteps": [
