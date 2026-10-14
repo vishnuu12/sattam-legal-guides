@@ -1,0 +1,224 @@
+{
+  "slug": "deadlines",
+  "emoji": "⏳",
+  "title": {
+    "en": "Deadlines you must not miss",
+    "ta": "தவறவிடக் கூடாத கால வரம்புகள்"
+  },
+  "subtitle": {
+    "en": "Most rights are lost by waiting. These are the time limits that matter most.",
+    "ta": "பெரும்பாலான உரிமைகள் காத்திருப்பதால் இழக்கப்படுகின்றன. மிக முக்கியமான கால வரம்புகள் இங்கே."
+  },
+  "columns": [
+    {
+      "en": "What you must do",
+      "ta": "நீங்கள் செய்ய வேண்டியது"
+    },
+    {
+      "en": "Time limit",
+      "ta": "கால வரம்பு"
+    },
+    {
+      "en": "Where / law",
+      "ta": "எங்கே / சட்டம்"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "en": "Produce an arrested person before a magistrate",
+        "ta": "கைது செய்யப்பட்டவரை நீதிபதி முன் ஆஜர்படுத்துதல்"
+      },
+      {
+        "en": "Within 24 hours, excluding journey time",
+        "ta": "24 மணி நேரத்திற்குள், பயண நேரத்தைத் தவிர்த்து"
+      },
+      {
+        "en": "Police duty - Article 22(2), BNSS 2023",
+        "ta": "காவல்துறைக் கடமை - Article 22(2), BNSS 2023"
+      }
+    ],
+    [
+      {
+        "en": "Report an unauthorised bank transaction to get zero liability",
+        "ta": "அனுமதியற்ற வங்கிப் பரிவர்த்தனையைப் புகார் அளித்து பூஜ்ய பொறுப்பு பெறுதல்"
+      },
+      {
+        "en": "Within 3 working days",
+        "ta": "3 வேலை நாட்களுக்குள்"
+      },
+      {
+        "en": "Your bank - RBI rules",
+        "ta": "உங்கள் வங்கி - RBI விதிகள்"
+      }
+    ],
+    [
+      {
+        "en": "File a consumer complaint",
+        "ta": "நுகர்வோர் புகார் அளித்தல்"
+      },
+      {
+        "en": "Within 2 years of the problem",
+        "ta": "பிரச்சினை ஏற்பட்ட 2 ஆண்டுகளுக்குள்"
+      },
+      {
+        "en": "e-Daakhil / Consumer Commission",
+        "ta": "e-Daakhil / நுகர்வோர் ஆணையம்"
+      }
+    ],
+    [
+      {
+        "en": "Send notice after a cheque bounces",
+        "ta": "காசோலை திரும்பியபின் நோட்டீஸ் அனுப்புதல்"
+      },
+      {
+        "en": "Within 30 days of the cheque being returned",
+        "ta": "காசோலை திரும்பிய 30 நாட்களுக்குள்"
+      },
+      {
+        "en": "To the drawer - Section 138, NI Act",
+        "ta": "காசோலை எழுதியவருக்கு - Section 138, NI Act"
+      }
+    ],
+    [
+      {
+        "en": "Reply to a cheque bounce notice",
+        "ta": "காசோலை நோட்டீஸுக்குப் பதிலளித்தல்"
+      },
+      {
+        "en": "15 days to pay",
+        "ta": "பணம் செலுத்த 15 நாட்கள்"
+      },
+      {
+        "en": "The drawer of the cheque",
+        "ta": "காசோலை எழுதியவர்"
+      }
+    ],
+    [
+      {
+        "en": "File a cheque bounce case",
+        "ta": "காசோலை வழக்கு தாக்கல் செய்தல்"
+      },
+      {
+        "en": "Within 1 month after the 15-day period ends",
+        "ta": "15 நாள் காலம் முடிந்த 1 மாதத்திற்குள்"
+      },
+      {
+        "en": "Magistrate court",
+        "ta": "நீதிபதி நீதிமன்றம்"
+      }
+    ],
+    [
+      {
+        "en": "Get a reply to your RTI application",
+        "ta": "உங்கள் RTI விண்ணப்பத்திற்குப் பதில் பெறுதல்"
+      },
+      {
+        "en": "Within 30 days",
+        "ta": "30 நாட்களுக்குள்"
+      },
+      {
+        "en": "Public Information Officer - RTI Act 2005",
+        "ta": "பொது தகவல் அதிகாரி - RTI Act 2005"
+      }
+    ],
+    [
+      {
+        "en": "File a first appeal (RTI)",
+        "ta": "முதல் மேல்முறையீடு (RTI) அளித்தல்"
+      },
+      {
+        "en": "Within 30 days of the reply or the deadline",
+        "ta": "பதில் வந்த அல்லது காலம் முடிந்த 30 நாட்களுக்குள்"
+      },
+      {
+        "en": "First Appellate Authority",
+        "ta": "First Appellate Authority"
+      }
+    ],
+    [
+      {
+        "en": "File a second appeal (RTI)",
+        "ta": "இரண்டாம் மேல்முறையீடு (RTI) அளித்தல்"
+      },
+      {
+        "en": "Within 90 days of the first appeal decision",
+        "ta": "முதல் மேல்முறையீட்டு முடிவின் 90 நாட்களுக்குள்"
+      },
+      {
+        "en": "Information Commission",
+        "ta": "தகவல் ஆணையம்"
+      }
+    ],
+    [
+      {
+        "en": "Escalate an unresolved bank complaint",
+        "ta": "தீர்க்கப்படாத வங்கிப் புகாரை மேல்முறையீடு செய்தல்"
+      },
+      {
+        "en": "After 30 days with the bank",
+        "ta": "வங்கியிடம் 30 நாட்களுக்குப் பிறகு"
+      },
+      {
+        "en": "RBI Ombudsman 2021",
+        "ta": "RBI குறைதீர் அதிகாரி 2021"
+      }
+    ],
+    [
+      {
+        "en": "File your income tax return (most people)",
+        "ta": "வருமான வரி அறிக்கை தாக்கல் (பெரும்பாலானோர்)"
+      },
+      {
+        "en": "By 31 July",
+        "ta": "ஜூலை 31-க்குள்"
+      },
+      {
+        "en": "Income Tax Department",
+        "ta": "வருமான வரித் துறை"
+      }
+    ],
+    [
+      {
+        "en": "Give notice to end a tenancy",
+        "ta": "வாடகையை முடிக்க நோட்டீஸ் அளித்தல்"
+      },
+      {
+        "en": "Commonly 15 days or 1 month, as agreed",
+        "ta": "ஒப்புக்கொண்டபடி பொதுவாக 15 நாட்கள் அல்லது 1 மாதம்"
+      },
+      {
+        "en": "Transfer of Property Act, 1882 (s.106)",
+        "ta": "Transfer of Property Act, 1882 (s.106)"
+      }
+    ],
+    [
+      {
+        "en": "Get your security deposit back",
+        "ta": "உங்கள் முன்பணத்தைத் திரும்பப் பெறுதல்"
+      },
+      {
+        "en": "Within 1 month of vacating",
+        "ta": "காலி செய்த 1 மாதத்திற்குள்"
+      },
+      {
+        "en": "Model Tenancy Act, 2021",
+        "ta": "Model Tenancy Act, 2021"
+      }
+    ],
+    [
+      {
+        "en": "Receive your gratuity",
+        "ta": "உங்கள் gratuity பெறுதல்"
+      },
+      {
+        "en": "Within 30 days of it becoming payable",
+        "ta": "செலுத்த வேண்டிய நாளிலிருந்து 30 நாட்களுக்குள்"
+      },
+      {
+        "en": "Payment of Gratuity Act, 1972",
+        "ta": "Payment of Gratuity Act, 1972"
+      }
+    ]
+  ]
+}

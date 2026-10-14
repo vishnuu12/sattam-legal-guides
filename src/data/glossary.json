@@ -1,0 +1,294 @@
+{
+  "slug": "glossary",
+  "emoji": "📖",
+  "title": {
+    "en": "Legal words, in plain language",
+    "ta": "சட்டச் சொற்கள், எளிய மொழியில்"
+  },
+  "subtitle": {
+    "en": "The words you hear in a police station, a court or a notice - and what each one really means.",
+    "ta": "காவல் நிலையத்திலோ, நீதிமன்றத்திலோ, ஒரு நோட்டீஸிலோ கேட்கும் சொற்கள் - ஒவ்வொன்றின் உண்மையான அர்த்தம்."
+  },
+  "columns": [
+    {
+      "en": "The word",
+      "ta": "சொல்"
+    },
+    {
+      "en": "What it means",
+      "ta": "அர்த்தம்"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "en": "FIR",
+        "ta": "FIR (முதல் தகவல் அறிக்கை)"
+      },
+      {
+        "en": "First Information Report - the written record the police make when a serious offence is reported.",
+        "ta": "ஒரு தீவிர குற்றம் தெரிவிக்கப்படும்போது காவல்துறை எழுதும் முதல் பதிவு."
+      }
+    ],
+    [
+      {
+        "en": "Cognisable offence",
+        "ta": "Cognisable offence (அறியக்கூடிய குற்றம்)"
+      },
+      {
+        "en": "A serious offence where the police can register an FIR and investigate on their own.",
+        "ta": "காவல்துறை தாமாகவே FIR பதிவு செய்து விசாரிக்கக்கூடிய தீவிர குற்றம்."
+      }
+    ],
+    [
+      {
+        "en": "Non-cognisable offence",
+        "ta": "Non-cognisable offence (அறியமுடியாத குற்றம்)"
+      },
+      {
+        "en": "A minor offence; the police note it in a register and a magistrate's order may be needed to investigate.",
+        "ta": "சிறிய குற்றம்; காவல்துறை ஒரு பதிவேட்டில் குறிப்பெடுக்கும்; விசாரிக்க நீதிபதியின் உத்தரவு தேவைப்படலாம்."
+      }
+    ],
+    [
+      {
+        "en": "Bailable offence",
+        "ta": "Bailable offence (ஜாமீன் பெறக்கூடிய குற்றம்)"
+      },
+      {
+        "en": "An offence in which bail is a right, not a favour.",
+        "ta": "ஜாமீன் என்பது ஒரு உரிமையாக இருக்கும் குற்றம்; உபகாரம் அல்ல."
+      }
+    ],
+    [
+      {
+        "en": "Non-bailable offence",
+        "ta": "Non-bailable offence (ஜாமீன் பெற முடியாத குற்றம்)"
+      },
+      {
+        "en": "A serious offence in which only a court can decide whether to grant bail.",
+        "ta": "ஜாமீன் தருவதா என்பதை நீதிமன்றம் மட்டுமே முடிவு செய்யும் தீவிர குற்றம்."
+      }
+    ],
+    [
+      {
+        "en": "Bail",
+        "ta": "ஜாமீன் (Bail)"
+      },
+      {
+        "en": "Release of an arrested person, usually on a promise to appear or with a surety.",
+        "ta": "கைது செய்யப்பட்டவரை, ஆஜராகும் வாக்குறுதி அல்லது ஒரு பிணையுடன் விடுதலை செய்வது."
+      }
+    ],
+    [
+      {
+        "en": "Anticipatory bail",
+        "ta": "Anticipatory bail (முன்ஜாமீன்)"
+      },
+      {
+        "en": "Bail applied for in advance, before an arrest is made.",
+        "ta": "கைது நடப்பதற்கு முன்பே முன்கூட்டியே கேட்கப்படும் ஜாமீன்."
+      }
+    ],
+    [
+      {
+        "en": "Remand",
+        "ta": "Remand (நீதிமன்றக் காவல்)"
+      },
+      {
+        "en": "Sending an accused to custody while the case continues.",
+        "ta": "வழக்கு தொடரும் காலத்தில் குற்றம் சாட்டப்பட்டவரைக் காவலில் வைப்பது."
+      }
+    ],
+    [
+      {
+        "en": "Charge sheet",
+        "ta": "Charge sheet (குற்றப்பத்திரிகை)"
+      },
+      {
+        "en": "The final report the police file in court after investigating.",
+        "ta": "விசாரணைக்குப் பின் காவல்துறை நீதிமன்றத்தில் தாக்கல் செய்யும் இறுதி அறிக்கை."
+      }
+    ],
+    [
+      {
+        "en": "Summons",
+        "ta": "Summons (சம்மன்)"
+      },
+      {
+        "en": "A court order asking a person to appear on a given date.",
+        "ta": "ஒரு குறிப்பிட்ட தேதியில் ஆஜராகுமாறு நீதிமன்றம் பிறப்பிக்கும் உத்தரவு."
+      }
+    ],
+    [
+      {
+        "en": "Affidavit",
+        "ta": "Affidavit (பிரமாணப் பத்திரம்)"
+      },
+      {
+        "en": "A written statement that a person swears is true.",
+        "ta": "உண்மை என்று ஒருவர் சத்தியம் செய்து தரும் எழுத்துப்பூர்வ அறிக்கை."
+      }
+    ],
+    [
+      {
+        "en": "Plaint",
+        "ta": "Plaint (வழக்கின் விண்ணப்பம்)"
+      },
+      {
+        "en": "The document that starts a civil suit.",
+        "ta": "ஒரு சிவில் வழக்கைத் தொடங்கும் ஆவணம்."
+      }
+    ],
+    [
+      {
+        "en": "Plaintiff",
+        "ta": "Plaintiff (வாதி)"
+      },
+      {
+        "en": "The person who files a civil suit.",
+        "ta": "ஒரு சிவில் வழக்கைத் தாக்கல் செய்பவர்."
+      }
+    ],
+    [
+      {
+        "en": "Defendant",
+        "ta": "Defendant (பிரதிவாதி)"
+      },
+      {
+        "en": "The person against whom a suit is filed.",
+        "ta": "எதிராக வழக்கு தொடரப்படுபவர்."
+      }
+    ],
+    [
+      {
+        "en": "Complainant",
+        "ta": "Complainant (புகார்தாரர்)"
+      },
+      {
+        "en": "The person who makes a complaint.",
+        "ta": "புகார் அளிப்பவர்."
+      }
+    ],
+    [
+      {
+        "en": "Accused",
+        "ta": "Accused (குற்றம் சாட்டப்பட்டவர்)"
+      },
+      {
+        "en": "The person accused of an offence.",
+        "ta": "ஒரு குற்றம் சாட்டப்பட்ட நபர்."
+      }
+    ],
+    [
+      {
+        "en": "Evidence",
+        "ta": "Evidence (ஆதாரம்)"
+      },
+      {
+        "en": "The proof - documents, witnesses or things - placed before a court.",
+        "ta": "நீதிமன்றம் முன் வைக்கப்படும் ஆதாரம் - ஆவணங்கள், சாட்சிகள் அல்லது பொருட்கள்."
+      }
+    ],
+    [
+      {
+        "en": "Interim order",
+        "ta": "Interim order (இடைக்கால உத்தரவு)"
+      },
+      {
+        "en": "A temporary order passed while the case is still going on.",
+        "ta": "வழக்கு தொடர்ந்திருக்கும் போது பிறப்பிக்கப்படும் தற்காலிக உத்தரவு."
+      }
+    ],
+    [
+      {
+        "en": "Ex parte order",
+        "ta": "Ex parte order (எதிர்தரப்பு இல்லாத உத்தரவு)"
+      },
+      {
+        "en": "An order passed without the other side being present.",
+        "ta": "எதிர்த் தரப்பு இல்லாமல் பிறப்பிக்கப்படும் உத்தரவு."
+      }
+    ],
+    [
+      {
+        "en": "Limitation",
+        "ta": "Limitation (காலவரம்பு)"
+      },
+      {
+        "en": "The time within which a case must be filed.",
+        "ta": "ஒரு வழக்கைத் தாக்கல் செய்ய வேண்டிய கால வரம்பு."
+      }
+    ],
+    [
+      {
+        "en": "Jurisdiction",
+        "ta": "Jurisdiction (அதிகார வரம்பு)"
+      },
+      {
+        "en": "The power of a particular court or office to hear a matter.",
+        "ta": "ஒரு குறிப்பிட்ட நீதிமன்றம் அல்லது அலுவலகத்திற்கு ஒரு விஷயத்தை விசாரிக்க உள்ள அதிகாரம்."
+      }
+    ],
+    [
+      {
+        "en": "Compensation",
+        "ta": "Compensation (இழப்பீடு)"
+      },
+      {
+        "en": "Money awarded to make good a loss.",
+        "ta": "ஏற்பட்ட இழப்பை ஈடுசெய்ய வழங்கப்படும் பணம்."
+      }
+    ],
+    [
+      {
+        "en": "Notice",
+        "ta": "Notice (நோட்டீஸ்)"
+      },
+      {
+        "en": "A formal written communication, often before legal action.",
+        "ta": "ஒரு முறையான எழுத்துப்பூர்வ தகவல்; பெரும்பாலும் சட்ட நடவடிக்கைக்கு முன்."
+      }
+    ],
+    [
+      {
+        "en": "Power of attorney",
+        "ta": "Power of attorney (பிரதிநிதி அதிகாரம்)"
+      },
+      {
+        "en": "Authority given to one person to act for another.",
+        "ta": "மற்றொருவருக்காகச் செயல்பட ஒருவருக்கு அளிக்கப்படும் அதிகாரம்."
+      }
+    ],
+    [
+      {
+        "en": "Lok Adalat",
+        "ta": "Lok Adalat (லோக் அதாலத்)"
+      },
+      {
+        "en": "A people's court that settles disputes by agreement; its award is final.",
+        "ta": "ஒப்புதலின் மூலம் தகராறுகளைத் தீர்க்கும் மக்கள் நீதிமன்றம்; அதன் தீர்ப்பு இறுதியானது."
+      }
+    ],
+    [
+      {
+        "en": "Ombudsman",
+        "ta": "Ombudsman (குறைதீர் அதிகாரி)"
+      },
+      {
+        "en": "An official who investigates complaints against a bank or a service provider.",
+        "ta": "ஒரு வங்கி அல்லது சேவை வழங்குநருக்கு எதிரான புகார்களை விசாரிக்கும் அதிகாரி."
+      }
+    ],
+    [
+      {
+        "en": "Acquittal",
+        "ta": "Acquittal (விடுதலை)"
+      },
+      {
+        "en": "A finding by a court that the accused is not guilty.",
+        "ta": "குற்றம் சாட்டப்பட்டவர் குற்றவாளி அல்ல என்று நீதிமன்றம் தீர்ப்பளிப்பது."
+      }
+    ]
+  ]
+}

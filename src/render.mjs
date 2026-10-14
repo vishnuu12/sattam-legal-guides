@@ -79,6 +79,8 @@ function header(ctx, active) {
     { href: paths.home(), key: 'nav.home' },
     { href: paths.guides(), key: 'nav.guides' },
     { href: paths.templates(), key: 'nav.templates' },
+    { href: paths.glossary(), key: 'nav.glossary' },
+    { href: paths.deadlines(), key: 'nav.deadlines' },
     { href: paths.emergency(), key: 'nav.emergency' },
     { href: paths.about(), key: 'nav.about' },
   ];
@@ -498,6 +500,32 @@ export function templatePage(ctx, { tpl }) {
     canonical: paths.template(tpl.slug),
     bodyClass: 'page-template',
     active: 'nav.templates',
+    content,
+  });
+}
+
+export function referencePage(ctx, { page }) {
+  const { ui } = ctx;
+  const canon = page.slug === 'glossary' ? paths.glossary() : paths.deadlines();
+  const head = page.columns
+    .map((c) => `<th><span class="ta" lang="ta">${esc(c.ta)}</span><span class="en" lang="en">${esc(c.en)}</span></th>`)
+    .join('');
+  const rows = page.rows
+    .map((r) => `<tr>${r.map((cell) => `<td><span class="ta" lang="ta">${esc(cell.ta)}</span><span class="en" lang="en">${esc(cell.en)}</span></td>`).join('')}</tr>`)
+    .join('');
+  const content = `<div class="wrap page">
+    <nav class="crumb"><a href="${paths.home()}">🏠 ${label(ui, 'nav.home')}</a><span>/</span><span>${page.emoji} ${pair(page.title.ta, page.title.en)}</span></nav>
+    <h1 class="pair-h1">${page.emoji} ${pair(page.title.ta, page.title.en)}</h1>
+    <div class="pair summary">${pair(page.subtitle.ta, page.subtitle.en)}</div>
+    <div class="ref-wrap"><table class="ref-table"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="disclaimer">⚖️ ${label(ui, 'disclaimer.full')}</p>
+  </div>`;
+  return doc(ctx, {
+    title: `${page.title.en} | ${t(ui, 'en', 'brand.name')}`,
+    description: page.subtitle.en,
+    canonical: canon,
+    bodyClass: 'page-reference',
+    active: page.slug === 'glossary' ? 'nav.glossary' : 'nav.deadlines',
     content,
   });
 }
