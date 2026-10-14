@@ -36,6 +36,7 @@
       "placeholder": "Search a legal question...",
       "label": "Search legal guides",
       "button": "Search",
+      "micLabel": "Speak your search",
       "clear": "Clear search",
       "resultsTitle": "Search results",
       "resultCount": "{n} result(s)",
@@ -137,6 +138,10 @@
       "print": "Print this",
       "backToList": "All templates"
     },
+    "read": {
+      "listen": "Listen",
+      "stop": "Stop"
+    },
     "share": {
       "whatsapp": "Share on WhatsApp",
       "label": "Share this guide"
@@ -227,6 +232,7 @@
       "placeholder": "சட்டம் தொடர்பான உங்கள் கேள்வியைத் தேடுங்கள்...",
       "label": "சட்ட வழிகாட்டிகளைத் தேடுங்கள்",
       "button": "தேடு",
+      "micLabel": "பேசித் தேடுங்கள்",
       "clear": "தேடலை அழிக்கவும்",
       "resultsTitle": "தேடல் முடிவுகள்",
       "resultCount": "{n} முடிவுகள்",
@@ -327,6 +333,10 @@
       "tips": "குறிப்புகள்",
       "print": "இதை அச்சிடுங்கள்",
       "backToList": "எல்லா மாதிரிகளும்"
+    },
+    "read": {
+      "listen": "கேட்க",
+      "stop": "நிறுத்து"
     },
     "share": {
       "whatsapp": "WhatsApp-இல் பகிரவும்",

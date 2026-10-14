@@ -56,8 +56,25 @@ function blockPair(ui, taB, enB) {
   return { html: pPair(taText, enText), toc: null };
 }
 
+// Plain Tamil text of a run of blocks, used for the read-aloud button.
+export function taTextOf(blocks, from, to) {
+  const parts = [];
+  for (let i = from; i < to; i++) {
+    const b = (blocks || [])[i];
+    if (!b) continue;
+    if (b.text) parts.push(b.text);
+    if (b.items) b.items.forEach((x) => parts.push(x));
+  }
+  return parts.join('. ');
+}
+
 function renderBody(ui, taBody, enBody) {
   const n = Math.max((taBody || []).length, (enBody || []).length);
+  const heads = [];
+  for (let i = 0; i < n; i++) {
+    const b = (taBody || [])[i] || (enBody || [])[i];
+    if (b && b.type === 'h2') heads.push(i);
+  }
   const toc = [];
   let idx = 0;
   const html = Array.from({ length: n }, (_, i) => {
@@ -65,7 +82,10 @@ function renderBody(ui, taBody, enBody) {
     if (r.toc) {
       idx += 1;
       toc.push({ id: `sec-${idx}`, text: r.toc });
-      return r.html.replace('<h2 ', `<h2 id="sec-${idx}" `);
+      const nextHead = heads.find((h) => h > i);
+      const end = nextHead === undefined ? n : nextHead;
+      const readBtn = `<button class="read-btn" type="button" data-speak="${esc(taTextOf(taBody || [], i, end))}" aria-label="Read this section aloud" title="Read aloud">\uD83D\uDD0A</button>`;
+      return r.html.replace('<h2 ', `<h2 id="sec-${idx}" `).replace('</h2>', `${readBtn}</h2>`);
     }
     return r.html;
   }).join('\n');
@@ -195,6 +215,7 @@ export function articlePage(ctx, { pair: ap, related }) {
   const catName = cat ? pair(cat.ta.name, cat.en.name) : a.category;
 
   const { html: bodyHtml, toc } = renderBody(ui, ta && ta.body, en && en.body);
+  const readAll = [taTextOf((ta && ta.body) || [], 0, ((ta && ta.body) || []).length), ...((ta && ta.practicalSteps) || []), ...(((ta && ta.faqs) || []).map((f) => `${f.q} ${f.a}`))].join('. ');
 
   const tocHtml = toc.length
     ? `<nav class="toc" aria-label="${esc(t(ui, 'en', 'article.onThisPage'))}"><p class="toc-h">📑 ${label(ui, 'article.onThisPage')}</p><ol>${toc
@@ -234,7 +255,11 @@ export function articlePage(ctx, { pair: ap, related }) {
   <h1 class="pair-h1">${catEmoji} <span class="ta" lang="ta">${esc(ta ? ta.title : en.title)}</span><span class="en" lang="en">${esc(en ? en.title : ta.title)}</span></h1>
   <div class="pair summary">${pair(ta && ta.summary, en && en.summary)}</div>
   ${reviewPanel(ctx, a)}
-  <p class="share"><a class="btn btn-ghost btn-sm" href="https://wa.me/?text=${encodeURIComponent(`${(ta ? ta.title : en.title)} — ${taxonomy.siteUrl}${paths.article(a.slug)}`)}" target="_blank" rel="noopener noreferrer">🟢 ${label(ui, 'share.whatsapp')}</a></p>
+  <div class="article-tools">
+    <button class="btn btn-sm" type="button" data-speak="${esc(readAll)}">\uD83D\uDD0A ${label(ui, 'read.listen')}</button>
+    <button class="btn btn-sm btn-ghost" type="button" data-stop>\u23F9 ${label(ui, 'read.stop')}</button>
+    <a class="btn btn-ghost btn-sm" href="https://wa.me/?text=${encodeURIComponent(`${(ta ? ta.title : en.title)} — ${taxonomy.siteUrl}${paths.article(a.slug)}`)}" target="_blank" rel="noopener noreferrer">🟢 ${label(ui, 'share.whatsapp')}</a>
+  </div>
   <p class="notice">\u26A0\uFE0F ${label(ui, 'status.unverifiedNotice')}</p>
   <div class="article-grid">
     ${tocHtml}
@@ -312,6 +337,7 @@ export function homePage(ctx, { pairs, featured, situations, popular }) {
       <form class="hero-search" role="search" action="${paths.guides()}" method="get">
         <label class="sr-only" for="q">${esc(t(ui, 'en', 'search.label'))}</label>
         <input id="q" type="search" name="q" placeholder="${esc(t(ui, 'en', 'search.placeholder'))}" autocomplete="off">
+        <button type="button" class="btn btn-mic" data-mic="q" aria-label="${esc(t(ui, 'en', 'search.micLabel'))}" title="${esc(t(ui, 'en', 'search.micLabel'))}">\uD83C\uDFA4</button>
         <button type="submit" class="btn">\uD83D\uDD0D ${esc(t(ui, 'en', 'search.button'))}</button>
       </form>
       <div class="hero-actions">
@@ -361,6 +387,7 @@ export function guidesPage(ctx, { pairs }) {
     <form class="filters" id="filters">
       <div class="f f-grow"><label for="fq">${label(ui, 'search.label')}</label><input id="fq" type="search" name="q" placeholder="${esc(t(ui, 'en', 'search.placeholder'))}" autocomplete="off"></div>
       <div class="f"><label for="fc">${label(ui, 'search.filterCategory')}</label><select id="fc" name="category"><option value="">${esc(t(ui, 'en', 'search.allCategories'))}</option>${cats}</select></div>
+      <button type="button" class="btn btn-mic btn-sm" data-mic="fq" aria-label="${esc(t(ui, 'en', 'search.micLabel'))}" title="${esc(t(ui, 'en', 'search.micLabel'))}">\uD83C\uDFA4</button>
       <button type="button" class="btn btn-ghost btn-sm" id="freset">${label(ui, 'search.reset')}</button>
     </form>
     <p class="rc" id="rc" aria-live="polite"></p>
