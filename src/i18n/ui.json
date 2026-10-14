@@ -146,6 +146,7 @@
       "readGuide": "Read the full guide"
     },
     "article": {
+      "keyPoints": "The most important things",
       "saveOffline": "Save offline",
       "saved": "Saved for offline",
       "share": "Share",
@@ -366,6 +367,7 @@
       "readGuide": "முழு வழிகாட்டியைப் படிக்க"
     },
     "article": {
+      "keyPoints": "மிக முக்கியமானவை",
       "saveOffline": "offline-ல் சேமி",
       "saved": "offline-ல் சேமிக்கப்பட்டது",
       "share": "பகிர்",

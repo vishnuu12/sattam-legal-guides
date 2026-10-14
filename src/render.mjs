@@ -221,6 +221,12 @@ export function articlePage(ctx, { pair: ap, related }) {
 
   const { html: bodyHtml, toc } = renderBody(ui, ta && ta.body, en && en.body);
   const readAll = [taTextOf((ta && ta.body) || [], 0, ((ta && ta.body) || []).length), ...((ta && ta.practicalSteps) || []), ...(((ta && ta.faqs) || []).map((f) => `${f.q} ${f.a}`))].join('. ');
+  const keyBox = (ta && ta.keyPoints) || (en && en.keyPoints)
+    ? `<aside class="keybox">
+    <p class="keybox-h">\uD83D\uDCCC ${label(ui, 'article.keyPoints')}</p>
+    ${biList((ta && ta.keyPoints) || [], (en && en.keyPoints) || [])}
+  </aside>`
+    : '';
 
   const tocHtml = toc.length
     ? `<nav class="toc" aria-label="${esc(t(ui, 'en', 'article.onThisPage'))}"><p class="toc-h">📑 ${label(ui, 'article.onThisPage')}</p><ol>${toc
@@ -259,6 +265,7 @@ export function articlePage(ctx, { pair: ap, related }) {
   <nav class="crumb"><a href="${paths.home()}">🏠 ${label(ui, 'nav.home')}</a><span>/</span><a href="${paths.topic(a.category)}">${catEmoji} ${catName}</a></nav>
   <h1 class="pair-h1">${catEmoji} <span class="ta" lang="ta">${esc(ta ? ta.title : en.title)}</span><span class="en" lang="en">${esc(en ? en.title : ta.title)}</span></h1>
   <div class="pair summary">${pair(ta && ta.summary, en && en.summary)}</div>
+  ${keyBox}
   ${reviewPanel(ctx, a)}
   <div class="article-tools">
     <button class="btn btn-sm" type="button" data-speak="${esc(readAll)}">\uD83D\uDD0A ${label(ui, 'read.listen')}</button>
