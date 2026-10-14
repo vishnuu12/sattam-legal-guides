@@ -115,6 +115,7 @@ function header(ctx, active) {
       <span class="brand-text"><span class="ta" lang="ta">${esc(t(ui, 'ta', 'brand.name'))}</span><span class="en" lang="en">${esc(t(ui, 'en', 'brand.name'))}</span></span>
     </a>
     <div class="tools">
+      <button class="tool-btn tool-exit" type="button" data-quick-exit aria-label="${esc(t(ui, 'en', 'safety.quickExit'))}" title="${esc(t(ui, 'en', 'safety.quickExit'))}">\uD83D\uDEAA</button>
       <button class="tool-btn" type="button" data-font="-1" aria-label="Smaller text" title="Smaller text">A\u2212</button>
       <button class="tool-btn" type="button" data-font="1" aria-label="Larger text" title="Larger text">A+</button>
       <button class="tool-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme" title="Light / dark">\uD83C\uDF19</button>
@@ -230,6 +231,15 @@ export function articlePage(ctx, { pair: ap, related }) {
 
   const { html: bodyHtml, toc } = renderBody(ui, ta && ta.body, en && en.body);
   const readAll = [taTextOf((ta && ta.body) || [], 0, ((ta && ta.body) || []).length), ...((ta && ta.practicalSteps) || []), ...(((ta && ta.faqs) || []).map((f) => `${f.q} ${f.a}`))].join('. ');
+  const SENSITIVE = ['family-law'];
+  const safetyBanner = SENSITIVE.indexOf(a.slug) !== -1
+    ? `<aside class="safety-banner">
+    <p class="sb-h">\uD83D\uDEAA ${label(ui, 'safety.bannerTitle')}</p>
+    ${pPair(t(ui, 'ta', 'safety.bannerText'), t(ui, 'en', 'safety.bannerText'))}
+    <p class="sb-actions"><button class="btn btn-sm btn-danger" type="button" data-quick-exit>\uD83D\uDEAA ${label(ui, 'safety.leaveNow')}</button></p>
+    <p class="sb-note">\uD83D\uDD12 ${label(ui, 'safety.note')}</p>
+  </aside>`
+    : '';
   const keyBox = (ta && ta.keyPoints) || (en && en.keyPoints)
     ? `<aside class="keybox">
     <p class="keybox-h">\uD83D\uDCCC ${label(ui, 'article.keyPoints')}</p>
@@ -275,6 +285,7 @@ export function articlePage(ctx, { pair: ap, related }) {
   <h1 class="pair-h1">${catEmoji} <span class="ta" lang="ta">${esc(ta ? ta.title : en.title)}</span><span class="en" lang="en">${esc(en ? en.title : ta.title)}</span></h1>
   <div class="pair summary">${pair(ta && ta.summary, en && en.summary)}</div>
   ${keyBox}
+  ${safetyBanner}
   ${reviewPanel(ctx, a)}
   <div class="article-tools">
     <button class="btn btn-sm" type="button" data-speak="${esc(readAll)}">\uD83D\uDD0A ${label(ui, 'read.listen')}</button>

@@ -158,6 +158,13 @@
       "howWeCheck": "How we check this",
       "privacy": "Your privacy"
     },
+    "safety": {
+      "quickExit": "Quick exit",
+      "leaveNow": "Leave this site now",
+      "bannerTitle": "Need to leave quickly?",
+      "bannerText": "If someone may see this screen, tap the button below. It goes straight to a weather page and this page will not stay in your back history.",
+      "note": "Reading this is private: there is no account, no history and no data kept about you."
+    },
     "near": {
       "stateTitle": "Numbers that work anywhere in Tamil Nadu",
       "districtTitle": "Free legal aid in your district",
@@ -380,6 +387,13 @@
     "trust": {
       "howWeCheck": "இதை எப்படிச் சரிபார்க்கிறோம்",
       "privacy": "உங்கள் தனியுரிமை"
+    },
+    "safety": {
+      "quickExit": "விரைவாக வெளியேறு",
+      "leaveNow": "இந்தத் தளத்தை உடனே விட்டு வெளியேறு",
+      "bannerTitle": "விரைவாக வெளியேற வேண்டுமா?",
+      "bannerText": "இந்தத் திரையை யாராவது பார்க்கக் கூடும் என்றால், கீழே உள்ள button-ஐ tap செய்யுங்கள். அது நேரடியாக ஒரு வானிலைப் பக்கத்திற்குச் செல்லும்; இந்தப் பக்கம் உங்கள் back history-ல் இருக்காது.",
+      "note": "இதைப் படிப்பது தனிப்பட்டது: உங்களைப் பற்றி எந்தக் கணக்கும், வரலாறும், தரவும் வைக்கப்படவில்லை."
     },
     "near": {
       "stateTitle": "தமிழ்நாட்டில் எங்கிருந்தும் வேலை செய்யும் உதவி எண்கள்",
