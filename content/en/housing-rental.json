@@ -91,7 +91,8 @@
       "type": "list",
       "items": [
         "The security deposit should be returned as agreed. Money can be cut only for real unpaid dues or for damage beyond normal wear and tear.",
-        "Repairs are usually shared. Big structural repairs are the landlord's. Small daily repairs are the tenant's."
+        "Repairs are usually shared. Big structural repairs are the landlord's. Small daily repairs are the tenant's.",
+        "Under the Model Tenancy Act, 2021, the security deposit is capped at 2 months' rent for residential premises and 6 months for commercial premises."
       ]
     },
     {
@@ -108,6 +109,50 @@
       "type": "callout",
       "kind": "remember",
       "text": "Always keep a signed copy of the agreement and receipts for the rent and the deposit."
+    },
+    {
+      "type": "h2",
+      "text": "Security deposit: the Model Tenancy Act, 2021"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Model Tenancy Act, 2021 caps the deposit at 2 months' rent for residential premises and 6 months for commercial premises.",
+        "Under the Model Act the deposit must be refunded within 1 month of the tenant vacating, after lawful deductions."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which law applies in Tamil Nadu"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tamil Nadu follows the Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017.",
+        "The Model Tenancy Act, 2021 applies only in states that have adopted it."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ending a tenancy: the notice to quit"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Transfer of Property Act, 1882 (section 106): a tenancy is ended by a proper written notice to quit.",
+        "The notice is commonly 15 days or one month, depending on the tenancy."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where disputes go"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Disputes go to the Rent Authority (under the Model Act) or the civil court.",
+        "A landlord cannot lock a tenant out or cut water or electricity to force an exit; that is unlawful."
+      ]
     }
   ],
   "practicalSteps": [

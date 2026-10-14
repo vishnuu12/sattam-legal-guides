@@ -77,7 +77,7 @@
       "type": "list",
       "items": [
         "Leave is decided by your contract and the labour law that applies to you.",
-        "Sexual harassment at work is not allowed. Workplaces with enough staff must have an Internal Committee (a group that looks into such complaints).",
+        "Sexual harassment at work is not allowed. Under the POSH Act, 2013, every workplace with 10 or more employees must have an Internal Committee (a group that looks into such complaints).",
         "You can complain to the Internal Committee. In small workplaces, you can complain to the Local Committee."
       ]
     },
@@ -90,7 +90,10 @@
       "items": [
         "Provident Fund (PF) is a savings fund for your retirement. In covered workplaces, your employer must pay into it.",
         "Gratuity (a lump sum your employer pays you) is usually paid after five years of continuous service, in covered cases.",
-        "ESI (medical cover) and other benefits apply where your workplace is covered."
+        "ESI (medical cover) and other benefits apply where your workplace is covered.",
+        "Under the EPF scheme, the employee contributes 12% of wages and the employer contributes 12%.",
+        "Your UAN (Universal Account Number) links all your PF accounts.",
+        "Gratuity is about 15 days' wages for each completed year of service. The formula is (15/26) x last drawn monthly wage x number of years."
       ]
     },
     {
@@ -107,6 +110,60 @@
       "type": "callout",
       "kind": "action",
       "text": "If your salary is not paid, you can complain to the Labour Commissioner or apply to recover the money owed to you. For PF problems, complain to the EPFO."
+    },
+    {
+      "type": "h2",
+      "text": "Wages: the time limit for payment"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under the Payment of Wages Act, 1936, wages must be paid within 7 days after the end of the wage period in establishments with fewer than 1,000 workers.",
+        "In other establishments, wages must be paid within 10 days after the end of the wage period."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Working hours and overtime"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Normal working hours are about 48 hours a week.",
+        "Overtime (extra hours) is paid at twice the ordinary rate of wages."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Minimum wages"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Minimum wages are fixed by the State Government.",
+        "In Tamil Nadu, minimum wages are fixed for each scheduled employment (each listed type of work)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Maternity leave"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under the Maternity Benefit Act, eligible women get 26 weeks of paid maternity leave."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Recovering unpaid dues"
+    },
+    {
+      "type": "list",
+      "items": [
+        "To recover unpaid dues, you can apply under section 33C(2) of the Industrial Disputes Act, 1947.",
+        "You can also complain to the Labour Commissioner."
+      ]
     }
   ],
   "practicalSteps": [

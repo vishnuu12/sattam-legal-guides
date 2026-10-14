@@ -80,7 +80,8 @@
       "type": "list",
       "items": [
         "Your CIBIL score shows how well you have repaid loans in the past. It decides whether you get a loan, and at what interest rate.",
-        "Check your credit report often. Look for mistakes and for loans taken in your name by fraud."
+        "Check your credit report often for errors and for loans opened in your name.",
+        "The CIBIL score ranges from 300 to 900."
       ]
     },
     {
@@ -103,7 +104,9 @@
       "type": "list",
       "items": [
         "Check your statement for hidden charges, yearly fees and interest on money you have not paid.",
-        "Use only digital lending apps that the RBI controls. Apps that are not controlled can cheat you and misuse your data."
+        "Use only digital lending apps that the RBI controls. Apps that are not controlled can cheat you and misuse your data.",
+        "Interest is charged on the unpaid balance, and paying only the minimum keeps the debt growing.",
+        "Never pay into a personal account for a loan, tax or investment 'fee'."
       ]
     },
     {
@@ -115,7 +118,8 @@
       "items": [
         "Form 16 (from your employer), AIS and Form 26AS show your income and the TDS (tax already cut from your pay).",
         "If your income is above the basic exemption limit (the amount on which you pay no tax), you usually must file an income tax return.",
-        "File on the official portal incometax.gov.in. Never pay money to a 'tax agent' into a personal account."
+        "File on the official portal incometax.gov.in. Never pay money to a 'tax agent' into a personal account.",
+        "For most people, the income tax return is due by 31 July."
       ]
     },
     {
@@ -132,6 +136,52 @@
       "type": "callout",
       "kind": "remember",
       "text": "Keep the SMS, email and complaint reference numbers. They prove when you reported the problem."
+    },
+    {
+      "type": "h2",
+      "text": "Complaining to the RBI Ombudsman"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under the RBI Integrated Ombudsman Scheme, 2021, you must first complain to the bank.",
+        "If the bank does not resolve it within 30 days, you can go to the RBI Ombudsman."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Unauthorised transactions: zero liability if you report fast"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under RBI rules, you have ZERO liability for an unauthorised electronic transaction if you report it within 3 working days.",
+        "If you delay, your own share of the loss can increase."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Recovery agents: what the Fair Practices Code allows"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recovery agents must follow the RBI Fair Practices Code.",
+        "No threats or abuse.",
+        "No calling at unreasonable hours (broadly, not before 7 am or after 7 pm).",
+        "No contacting your family or neighbours about the loan."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Credit cards: why the minimum payment grows your debt"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Interest is charged on the unpaid balance.",
+        "Paying only the minimum keeps the debt growing."
+      ]
     }
   ],
   "practicalSteps": [

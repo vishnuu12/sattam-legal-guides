@@ -56,7 +56,8 @@
         "Ask a lawyer to do a title search for at least 30 years.",
         "Sign a written agreement. Pay by bank transfer. Keep the receipts.",
         "Register the sale deed at the sub-registrar office. Pay the stamp duty (a government tax on the sale).",
-        "Change the mutation (land records) and property tax records to your name."
+        "Change the mutation (land records) and property tax records to your name.",
+        "In Tamil Nadu, stamp duty is about 7% of the property value and the registration fee about 4% (check the current rates)."
       ]
     },
     {
@@ -86,6 +87,85 @@
       "type": "callout",
       "kind": "remember",
       "text": "Keep every original paper in a safe place. Keep certified copies in a different place."
+    },
+    {
+      "type": "h2",
+      "text": "Stamp duty and registration fee (Tamil Nadu)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In Tamil Nadu, stamp duty is about 7% of the property value.",
+        "The registration fee is about 4% of the property value.",
+        "These rates change. Always check the current rates."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Registration of the sale deed"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A sale deed for immovable property must be registered under the Registration Act, 1908.",
+        "An unregistered deed may not be accepted as proof of ownership."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Title check: the papers that matter"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Check the mother deed and the chain of title.",
+        "Get an encumbrance certificate (EC) from the sub-registrar.",
+        "Patta / chitta and property tax receipts should be in the seller's name.",
+        "Update the mutation records after purchase."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Builder projects: RERA"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For a builder project, check the RERA registration (Real Estate (Regulation and Development) Act, 2016).",
+        "Also check the approved plan."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Succession: who inherits, and wills"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The Hindu Succession Act, 1956 applies in many cases.",
+        "The Indian Succession Act, 1925 deals with wills.",
+        "A will must be signed by the testator and attested by 2 witnesses."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Sales through a power of attorney"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A sale through an unregistered power of attorney may not transfer valid title."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Agricultural land"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Buying agricultural land can have state-specific restrictions."
+      ]
     }
   ],
   "practicalSteps": [
