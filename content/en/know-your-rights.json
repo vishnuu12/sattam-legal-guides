@@ -78,7 +78,8 @@
       "items": [
         "Your District Legal Services Authority (DLSA) gives free legal help to people who qualify.",
         "You can call the NALSA helpline 15100 for guidance.",
-        "If a government action breaks a Fundamental Right, Article 32 lets you go straight to the Supreme Court, or Article 226 lets you go to a High Court."
+        "If a government action breaks a Fundamental Right, Article 32 lets you go straight to the Supreme Court, or Article 226 lets you go to a High Court.",
+        "Free legal aid is under the Legal Services Authorities Act, 1987."
       ]
     },
     {
@@ -90,6 +91,49 @@
       "type": "callout",
       "kind": "remember",
       "text": "If you are not sure, ask for the reason in writing. Keep a copy of everything."
+    },
+    {
+      "type": "h2",
+      "text": "Every article, in one line"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Article 14: equality before the law.",
+        "Article 15: no discrimination.",
+        "Article 16: equal opportunity in public employment.",
+        "Article 19: freedoms (speech, assembly, movement and more).",
+        "Article 21: life and personal liberty.",
+        "Article 21A: free education for ages 6 to 14.",
+        "Article 22: safeguards on arrest.",
+        "Article 23: no trafficking or forced labour.",
+        "Article 24: no child labour under 14.",
+        "Articles 25-28: religion.",
+        "Articles 29-30: cultural and educational rights.",
+        "Article 32: move the Supreme Court.",
+        "Article 226: move a High Court."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Who is each right for"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Some rights are for every person in India, citizen or not.",
+        "A few rights (Articles 15, 16, 19 and 29) are only for citizens."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fundamental Duties"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Article 51A lists the Fundamental Duties of citizens."
+      ]
     }
   ],
   "practicalSteps": [

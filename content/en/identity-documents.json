@@ -39,10 +39,10 @@
     {
       "type": "list",
       "items": [
-        "Aadhaar: a 12-digit number. It proves who you are. It does not prove you are an Indian citizen.",
-        "PAN: needed for income tax. Also needed for many money dealings above certain limits.",
-        "Voter ID (EPIC): proves you are registered to vote in your area.",
-        "Passport: proves who you are and that you are a citizen. Mainly used for travel.",
+        "Aadhaar: a 12-digit number under the Aadhaar Act, 2016. It proves who you are. It does not prove you are an Indian citizen.",
+        "PAN: issued under the Income-tax Act, 1961. Needed for income tax. Also needed for many money dealings above certain limits.",
+        "Voter ID (EPIC): proves you are registered to vote in your area (Representation of the People Act, 1950).",
+        "Passport: proves who you are and that you are a citizen. Mainly used for travel (Passports Act, 1967).",
         "Driving licence: proves you can drive a certain type of vehicle."
       ]
     },
@@ -80,7 +80,7 @@
       "items": [
         "Any citizen can ask a government office for information. This is done by filing an RTI application.",
         "The office must usually reply within 30 days.",
-        "If they refuse or ignore you, you can file a first appeal. After that, you can file a second appeal to the Information Commission."
+        "If they refuse or ignore you, you can file a first appeal within 30 days. After that, you can file a second appeal to the Information Commission."
       ]
     },
     {
@@ -97,6 +97,57 @@
       "type": "callout",
       "kind": "remember",
       "text": "Keep only the copies you need. Never post photos of your Aadhaar, PAN or passport on social media."
+    },
+    {
+      "type": "h2",
+      "text": "The law behind each document"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aadhaar is a 12-digit identity number under the Aadhaar Act, 2016. It proves identity, not citizenship.",
+        "PAN is issued under the Income-tax Act, 1961. It is needed for tax and for many financial transactions above set limits.",
+        "Voter ID (EPIC) proves your enrolment as a voter under the Representation of the People Act, 1950.",
+        "A passport is issued under the Passports Act, 1967."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where to apply or renew"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aadhaar: uidai.gov.in (UIDAI).",
+        "PAN: incometax.gov.in (Income Tax Department).",
+        "Voter ID: the Election Commission voter portal. Register or correct your details there.",
+        "Passport: passportindia.gov.in. Apply or renew there.",
+        "On the UIDAI website you can lock your Aadhaar biometrics (fingerprint and eye scan) and check your authentication history."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "RTI: steps and time limits"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A public authority must normally reply within 30 days.",
+        "If it refuses or ignores you, file a first appeal within 30 days.",
+        "If that does not help, file a second appeal to the Information Commission."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Staying safe from fake websites and misuse"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Genuine government websites end in .gov.in or .nic.in.",
+        "Never pay a 'fee' to a personal account.",
+        "If your identity is misused, file a police complaint and report online the same day."
+      ]
     }
   ],
   "practicalSteps": [
